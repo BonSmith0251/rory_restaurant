@@ -83,6 +83,41 @@ Scenes and prefabs are **generated**: change the builder, not the .unity file, t
 * Dropped features (leave them out): ads, GALib analytics, "more games", free coins / video ads, full-version
   unlock, leaderboards, cross promo, lost-context handling, asset loading queues (assets are referenced directly).
 
+## Shared systems you build on
+
+* **Day index**: `Session.currentPlayedLevel` is **0-based**, exactly like the original `TGlobalClass.currentPlayedLevel`
+  (index into `Db.levels.days`, `Player.daysEarning/goalAchieved/expertAchieved`, `Db.levelEvents.days`).
+  `Player.passedDays` is the next story day. `Session.SelectDay(day)` / `Session.CurrentDay` use the same index.
+* **In-game windows** (`Rory.Popups.Game.GameWindows`): pause, confirm kitchen/main menu, all level results
+  (story, hidden object, dessert, extras variants), expert-needed info, the day event windows
+  (`ShowBeginningWindows`, `ShowKitchenWindows`) and the small goal icon. Read the XML docs at the top of
+  `Scripts/Runtime/Popups/Game/GameWindows.cs` and the result structs in `GameResults.cs`; they list which
+  screen state became parameters and what every button does. Don't re-implement these windows.
+* **Tutorial** (`Rory.Tutorials.TutorialManager`): add it to your scene with `TutorialBuilder.AddTo(stage)` (after
+  your content), implement `ITutorialHost` in your controller and set `TutorialManager.Current.Host = this`, call
+  `CheckTut(...)` where the original called `tutorial.checkTut(...)`, `Trigger(action, ...)` where it dispatched
+  `TutorialEvent.TRIGGER_NEXT`, `CanClickThisButton(id)` / `IsButtonShowing` where it checked them, and react to
+  `OnTutorialCommand`. The header of `TutorialManager.cs` has the per-screen list of checkTut calls, trigger
+  actions, info keys and commands; ids are in `TutorialIds`, `TutorialButtons`, `TutorialActions`.
+* **Achievements**: `Achievements.Add(...)` + `AchievementNotifier.Current?.Show(...)`, notifier added with
+  `AchievementBuilder.AddNotifier(stage)`.
+* Opening the Achievements screen: set `Session.achievementsBackToMainMenu` first (false from the kitchen).
+
+## Localization (English, Simplified Chinese, Japanese, Korean)
+
+The key of every translation is the English text. Translations live in `Assets/Rory/Localization/Source/*.tsv`
+(edited by the localization owner, not by screen converters) and are imported into Unity Localization tables.
+* Texts created with `UIBuild.Text/TextCentered/TextButton/Button(label:)` are translated automatically (a
+  `Localize` component is added). Pass `localize: false` for player names, numbers, money and input fields.
+* Runtime code: wrap every user-visible English literal: `label.text = Loc.T("Select")`. Text with values:
+  one template per sentence, `Loc.F("Goal : serve {0} customer(s)", n)` — never concatenate translated
+  fragments. The extractor (`Rory > Localization > Extract Strings to TSV`) finds literals only inside
+  `Loc.T("...")` / `Loc.F("...")` calls, so the literal must be written directly in the call.
+* Data texts (dialogue, event windows) shown as-is are translated by `Localize`; if you build a string from
+  them, translate the data text first (`Loc.T(data.text)`) and then substitute.
+* Never compare displayed text in logic; compare ids or the source data.
+* Layout: translated text is often longer (or much shorter); keep `autoSize` on for labels in fixed boxes.
+
 ## Building and testing (batch mode, no editor window)
 
 Unity: `/c/Program Files/Unity 2023.2.22f1/Editor/Unity.exe` (never use any other Unity install).

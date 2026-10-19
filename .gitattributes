@@ -18,3 +18,4 @@
 *.spriteatlas text eol=lf
 *.asmdef text eol=lf
 *.json text eol=lf
+*.tsv text eol=lf
