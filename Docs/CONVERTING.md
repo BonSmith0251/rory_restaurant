@@ -126,6 +126,10 @@ positions and sizes are exact; `tree` gives precise coordinates.
   (new fields in a block commented with your area), `GameRules.cs` (new constants), `TestUtil.cs`
   (new helpers). Anything else shared (UIBuild, managers, popups base, data model): don't edit; work around
   it in your own code and list what you needed in your report.
-* Don't commit `Logs/`, `Library/`, `UserSettings/`. Do commit generated scenes/prefabs with their .meta files,
-  and `ProjectSettings/EditorBuildSettings.asset` as the build writes it.
+* Don't commit `Logs/`, `Library/`, `UserSettings/`. Do commit the scenes/prefabs your builders generate,
+  with their .meta files, and `ProjectSettings/EditorBuildSettings.asset` as the build writes it.
+* A build regenerates *every* scene and prefab (new file IDs) and TMP grows the dynamic font atlases. Before
+  committing, revert generated files you don't own, e.g.
+  `git checkout -- Assets/Rory/Scenes/MainMenu.unity Assets/Rory/Scenes/Splash.unity Assets/Rory/Prefabs/Popups Assets/Rory/Fonts Assets/Rory/Resources/GameDatabase.asset`
+  (`git status` must only show your files plus EditorBuildSettings).
 * Never run the legacy scene or modify `Assets/Game`, `Assets/Starlite`, `Assets/Resources/RR`.
