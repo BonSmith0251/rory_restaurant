@@ -28,6 +28,11 @@ is needed: the importer gives it a higher pixels-per-unit so it keeps its layout
 * **Backgrounds** (`Art/Backgrounds`, `Art/Branding`): always span the 600-unit height. A 16:9 image
   (e.g. 1920x1080 or 3840x2160) fills the whole 16:9 view; a 1024x600-shaped image gets the mirrored side strips.
   `title_BG.png` (1672x941) is already a 16:9 HD background.
+* New art with a different shape or padding (e.g. a square 1254x1254 picture of a dish):
+  `python Tools/native/fit_hd_art.py <new.png> kitchen/cheese.png kitchen/cheese_small.png game/keju.png`
+  fits it into the original's content area and aspect ratio at 2x (`--portrait` for customer busts: fills the
+  height, bottom aligned). The customers (`game/char_N`, `make_dessert/char_N`) and most ingredients and dishes
+  (`kitchen/*`, their `_small` versions and `game/*`) were replaced this way.
 * Recommended sizes: 2x for sprites (sharp at 1080p: 1 unit = 1.8 px), 1920x1080 (or larger) for backgrounds.
 * Texture size limit is 4096; sprite atlases pack HD sprites like the others.
 * After replacing art: `Rory > Build > All Prefabs and Scenes` (layouts that depend on image sizes are regenerated).
