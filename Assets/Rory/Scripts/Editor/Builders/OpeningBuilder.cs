@@ -21,11 +21,24 @@ namespace Rory.EditorTools
             var touch = StoryBuild.TouchArea(s);
             UIBuild.Image(s, "FirstSlide", UIBuild.Background("first_slide_opening"));
             var mask = Hidden(UIBuild.Image(s, "Mask", RoryAssets.Load<Sprite>($"{RoryPaths.Backgrounds}/mask.png")));
-            var smileSprite = O("smile");
-            float smileX = 1024 - smileSprite.LogicalSize().x;
-            var smile = Hidden(UIBuild.Image(s, "Smile", smileSprite, smileX, 0));
-            var cry = Hidden(UIBuild.Image(s, "Cry", O("cry"), smileX, 0));
-            var think = Hidden(UIBuild.Image(s, "Think", O("think"), smileX, 0));
+            // The three portraits cross-fade on top of each other, so their circles must coincide: each is placed
+            // with its pivot at its circle's centre and scaled to the circle width of "cry" (the reference, at the
+            // top-right corner where the original put the faces). Measured from the images, so HD art aligns too.
+            var refSprite = O("cry");
+            var refCircle = PortraitCircle(refSprite);
+            float smileX = 1024 - refSprite.LogicalSize().x;
+            var faceCentre = new Vector2(smileX + refCircle.center.x, refCircle.center.y);
+            Image Face(string name, Sprite sprite)
+            {
+                var circle = PortraitCircle(sprite);
+                var img = UIBuild.Image(s, name, sprite, faceCentre.x, faceCentre.y, circle.center.x, circle.center.y);
+                float k = refCircle.width / circle.width;
+                img.rectTransform.localScale = new Vector3(k, k, 1);
+                return Hidden(img);
+            }
+            var smile = Face("Smile", O("smile"));
+            var cry = Face("Cry", refSprite);
+            var think = Face("Think", O("think"));
             var studentLoan = Hidden(UIBuild.Image(s, "StudentLoan", O("student_loan"), 10, 10));
             var brosur = Hidden(UIBuild.Image(s, "Brosur", O("brosur"), 0, 10));
             var lastSlide = Hidden(UIBuild.Image(s, "LastSlide", UIBuild.Background("last_slide_opening")));
@@ -33,7 +46,7 @@ namespace Rory.EditorTools
             var text = StoryBuild.TextBox(s, 30, 10, 0, 1004);
 
             // bubble at (cry.x + 100, cry.y + cry.height - 50)
-            float cryH = cry.sprite.LogicalSize().y;
+            float cryH = refSprite.LogicalSize().y;
             var bubble = StoryBuild.Bubble(s, O("bubble_text"), smileX + 100, cryH - 50, 25);
 
             var c = new GameObject("OpeningController").AddComponent<OpeningController>();
@@ -50,6 +63,43 @@ namespace Rory.EditorTools
             UIBuild.SetField(c, "bubble", bubble);
 
             UIBuild.SaveScene("Opening");
+        }
+
+        /// <summary>
+        /// The portrait circle of a face image, in layout units from its top-left: the bounds of the rows whose
+        /// longest opaque run is at least 15% of the width (ignores sparkles and other small bits outside the circle).
+        /// </summary>
+        public static Rect PortraitCircle(Sprite sprite)
+        {
+            var tex = new Texture2D(2, 2);
+            tex.LoadImage(System.IO.File.ReadAllBytes(AssetDatabase.GetAssetPath(sprite)));
+            int w = tex.width, h = tex.height;
+            var px = tex.GetPixels32();
+            Object.DestroyImmediate(tex);
+            int minX = int.MaxValue, maxX = -1, minY = int.MaxValue, maxY = -1;
+            for (int row = 0; row < h; row++)
+            {
+                int y = h - 1 - row; // Unity rows start at the bottom
+                int best = 0, bestFrom = 0, bestTo = -1, run = -1;
+                for (int x = 0; x <= w; x++)
+                {
+                    bool opaque = x < w && px[y * w + x].a > 200;
+                    if (opaque && run < 0) run = x;
+                    if (!opaque && run >= 0)
+                    {
+                        if (x - run > best) { best = x - run; bestFrom = run; bestTo = x - 1; }
+                        run = -1;
+                    }
+                }
+                if (best < w * 0.15f) continue;
+                minX = Mathf.Min(minX, bestFrom);
+                maxX = Mathf.Max(maxX, bestTo);
+                minY = Mathf.Min(minY, row);
+                maxY = Mathf.Max(maxY, row);
+            }
+            if (maxX < 0) return new Rect(Vector2.zero, sprite.LogicalSize());
+            float unit = 1 / sprite.Scale(); // image pixels -> layout units (HD art)
+            return new Rect(minX * unit, minY * unit, (maxX - minX + 1) * unit, (maxY - minY + 1) * unit);
         }
 
         static Image Hidden(Image img)

@@ -31,8 +31,13 @@ namespace Rory.Screens.Opening
         /// <summary>False while a slide animates (taps are ignored).</summary>
         public bool CanProceed { get; private set; }
 
+        /// <summary>The smile slides in from 476 units right of its place (the original's x 1200 -> 724).</summary>
+        const float SmileSlide = 476;
+        float smileRestX;
+
         void Start()
         {
+            smileRestX = smile.rectTransform.anchoredPosition.x; // aligned with cry / think by the builder
             touchArea.onClick.AddListener(NextStory);
             textField.text = "One early morning, our sweet Rory is checking up on her mails..";
             CurrentStory = 0;
@@ -49,9 +54,9 @@ namespace Rory.Screens.Opening
             {
                 case 1:
                     textField.text = "She just received her Chef Certificate after graduating from Culinary School.";
-                    smile.rectTransform.SetStagePosition(1200, Y(smile));
+                    smile.rectTransform.SetStagePosition(smileRestX + SmileSlide, Y(smile));
                     smile.gameObject.SetActive(true);
-                    smile.rectTransform.TweenAnchoredX(1024 - W(smile), 0.6f).SetEase(Ease.Linear).OnComplete(Proceed);
+                    smile.rectTransform.TweenAnchoredX(smileRestX, 0.6f).SetEase(Ease.Linear).OnComplete(Proceed);
                     break;
                 case 2:
                     textField.text = "But wait, what is that small note attached below?";

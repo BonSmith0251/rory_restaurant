@@ -67,7 +67,9 @@ namespace Rory.Tests
                 switch (story)
                 {
                     case 1:
-                        Assert.AreEqual(1024 - TestUtil.Find<UnityEngine.UI.Image>("Smile").sprite.LogicalSize().x, TestUtil.Find<RectTransform>("Smile").anchoredPosition.x, 0.01f);
+                        // the three portraits share one circle centre (pivot) and circle width
+                        Assert.AreEqual(TestUtil.Find<RectTransform>("Cry", true).anchoredPosition, TestUtil.Find<RectTransform>("Smile").anchoredPosition);
+                        Assert.AreEqual(TestUtil.Find<RectTransform>("Think", true).anchoredPosition, TestUtil.Find<RectTransform>("Smile").anchoredPosition);
                         break;
                     case 3:
                         Assert.IsFalse(Active("Smile"));
