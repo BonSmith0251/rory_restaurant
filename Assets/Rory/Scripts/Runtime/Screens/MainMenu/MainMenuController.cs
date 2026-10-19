@@ -1,3 +1,4 @@
+using Rory.Localization;
 using Rory.Popups;
 using TMPro;
 using UnityEngine;
@@ -25,12 +26,14 @@ namespace Rory.Screens.MainMenu
         [SerializeField] GameObject musicMuteIcon;
         [SerializeField] Button fullScreenButton;
         [SerializeField] TextMeshProUGUI fullScreenLabel;
+        [SerializeField] Button languageButton;
 
         [Header("Popups (inactive children of the Popups layer)")]
         [SerializeField] PlayerSelectPopup playerSelect;
         [SerializeField] WindowPopup extrasMenu;
         [SerializeField] WindowPopup quitConfirm;
         [SerializeField] Popup credits;
+        [SerializeField] LanguagePopup languagePopup;
 
         [Header("Cheat (tap Deluxe 4x and Rory 3x as player OrIgAmInglOl)")]
         [SerializeField] Button roryLogo;
@@ -64,6 +67,14 @@ namespace Rory.Screens.MainMenu
 
             credits.GetComponent<Button>().onClick.AddListener(credits.Close);
 
+            // Language (not in the original): switching reloads the menu so every text is shown in the new language.
+            languageButton.onClick.AddListener(() => PopupManager.Current.ShowExisting(languagePopup));
+            languagePopup.LanguageChosen += code =>
+            {
+                Loc.SetLanguage(code);
+                GoTo(GameScene.MainMenu);
+            };
+
             playerSelect.PlayerChanged += RefreshPlayer;
             roryLogo.onClick.AddListener(() => Cheat(ref roryClicks, 3));
             deluxeLogo.onClick.AddListener(() => Cheat(ref deluxeClicks, 4));
@@ -92,13 +103,13 @@ namespace Rory.Screens.MainMenu
             GoTo(scene);
         }
 
-        void RefreshPlayer() => playerNameText.text = Player != null ? Player.name : "Guest";
+        void RefreshPlayer() => playerNameText.text = Player != null ? Player.name : Loc.T("Guest");
 
         void RefreshToggles()
         {
             soundMuteIcon.SetActive(Sound.MuteSound);
             musicMuteIcon.SetActive(Sound.MuteMusic);
-            fullScreenLabel.text = Screen.fullScreen ? "Windowed" : "Full Screen";
+            fullScreenLabel.text = Loc.T(Screen.fullScreen ? "Windowed" : "Full Screen");
         }
 
         void ToggleFullScreen()
@@ -107,7 +118,7 @@ namespace Rory.Screens.MainMenu
             Screen.fullScreen = full;
             Game.Saves.Settings.fullScreen = full;
             Game.Saves.SaveSettings();
-            fullScreenLabel.text = full ? "Windowed" : "Full Screen";
+            fullScreenLabel.text = Loc.T(full ? "Windowed" : "Full Screen");
         }
 
         void Cheat(ref int counter, int needed)

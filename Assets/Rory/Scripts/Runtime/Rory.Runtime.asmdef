@@ -1,7 +1,12 @@
 {
     "name": "Rory.Runtime",
     "rootNamespace": "Rory",
-    "references": [ "Unity.TextMeshPro", "UnityEngine.UI" ],
+    "references": [
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Unity.Localization",
+        "Unity.ResourceManager"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

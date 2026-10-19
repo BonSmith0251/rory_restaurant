@@ -10,7 +10,7 @@ namespace Rory.UI
     /// </summary>
     [RequireComponent(typeof(Button))]
     [DisallowMultipleComponent]
-    public class RoryButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
+    public class RoryButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler
     {
         [Tooltip("Scale while hovered (1.05; 1.2 for the kitchen arrows)")]
         public float hoverScale = 1.05f;
@@ -27,10 +27,6 @@ namespace Rory.UI
         {
             button = GetComponent<Button>();
             baseScale = transform.localScale;
-            button.onClick.AddListener(() =>
-            {
-                if (!string.IsNullOrEmpty(clickSound) && GameManager.Instance != null) GameManager.Instance.Audio.PlaySfx(clickSound);
-            });
         }
 
         void OnDisable()
@@ -67,6 +63,14 @@ namespace Rory.UI
         public void OnPointerExit(PointerEventData e) { hover = false; pressed = false; Apply(); }
         public void OnPointerDown(PointerEventData e) { pressed = true; Apply(); }
         public void OnPointerUp(PointerEventData e) { pressed = false; Apply(); }
+
+        // The sound is played from the pointer event, not from onClick, so code that resets the button's
+        // onClick listeners (RemoveAllListeners) keeps it.
+        public void OnPointerClick(PointerEventData e)
+        {
+            if (e.button != PointerEventData.InputButton.Left || button == null || !button.IsInteractable()) return;
+            if (!string.IsNullOrEmpty(clickSound) && GameManager.Instance != null) GameManager.Instance.Audio.PlaySfx(clickSound);
+        }
 
         void Apply()
         {

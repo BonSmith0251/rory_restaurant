@@ -1,0 +1,32 @@
+en	zh-Hans	ja	ko	context
+You've served 1000 perfectly happy customers\n(80% patience or above)!				achievement 0 info
+Big Business				achievement 1 title
+You've earned $100.000!				achievement 1 info
+You've earned $VALUE/$100.000				achievement 1 progress (VALUE = number)
+Western Recipes Book				achievement 2 title
+You've bought all Western recipe!				achievement 2 info
+You've bought VALUE/6 Western recipe!				achievement 2 progress (VALUE = number)
+Asian Recipes Book				achievement 3 title
+You've bought all Asian recipe!				achievement 3 info
+You've bought VALUE/6 Asian recipe!				achievement 3 progress (VALUE = number)
+Middle East Recipes Book				achievement 4 title
+You've bought all Middle Eastern recipe!				achievement 4 info
+You've bought VALUE/6 Middle Eastern recipe!				achievement 4 progress (VALUE = number)
+Secret Ingredient				achievement 5 title
+You've upgraded 1 ingredient to MAX Level				achievement 5 info
+You've upgraded an ingredient to VALUE/10 level!				achievement 5 progress (VALUE = number)
+Hawk Eye				achievement 6 title
+You've found 200 Hidden Objects!				achievement 6 info
+You've found VALUE/200 Hidden Objects!				achievement 6 progress (VALUE = number)
+Froyo Master				achievement 7 title
+You've made 200 Frozen Yogurts!				achievement 7 info
+You've made VALUE/200 Frozen Yogurts!				achievement 7 progress (VALUE = number)
+Qualified Chef				achievement 8 title
+You've finished 91 levels in Story Mode!				achievement 8 info
+You've completed VALUE/91 levels in Story Mode!				achievement 8 progress (VALUE = number)
+International Chef				achievement 9 title
+You've achieved Expert scores in 91 levels in Story Mode!				achievement 9 info
+You've achieved Expert scores in VALUE/91 levels in Story Mode!				achievement 9 progress (VALUE = number)
+Day {0}				Loc.cs:99
+Guest				MainMenuController.cs:106
+Empty				PlayerSelectPopup.cs:77

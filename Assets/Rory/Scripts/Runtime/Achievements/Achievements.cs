@@ -64,7 +64,7 @@ namespace Rory.Achievements
         };
 
         public static string ProgressText(PlayerProfile p, int id) =>
-            InfoProgress[id].Replace("VALUE", GameRules.AddCommas(p.achievementCounter[id]));
+            Localization.Loc.T(InfoProgress[id]).Replace("VALUE", GameRules.AddCommas(p.achievementCounter[id]));
 
         public enum Result { None, Progress, Unlocked }
 

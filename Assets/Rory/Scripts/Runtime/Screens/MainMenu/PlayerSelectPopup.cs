@@ -1,4 +1,5 @@
 using System;
+using Rory.Localization;
 using Rory.Popups;
 using Rory.UI;
 using TMPro;
@@ -73,7 +74,7 @@ namespace Rory.Screens.MainMenu
             for (int i = 0; i < GameRules.SaveSlots; i++)
             {
                 var p = Saves.GetSlot(i);
-                slotNames[i].text = p != null ? p.name : "Empty";
+                slotNames[i].text = p != null ? p.name : Loc.T("Empty");
                 slotNames[i].color = Normal;
                 if (p != null) used++;
             }

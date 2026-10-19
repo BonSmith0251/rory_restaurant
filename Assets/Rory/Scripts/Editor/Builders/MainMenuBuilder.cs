@@ -52,11 +52,15 @@ namespace Rory.EditorTools
             var musicMute = UIBuild.Image(s, "MusicMuteIcon", T("mute_icon"), 940, -7);
 
             var changePlayer = UIBuild.Button(s, "ChangePlayerButton", T("change_player"), 425, 475, topLeft: true);
-            var playerName = UIBuild.Text(s, "PlayerName", "Guest", UIBuild.Fonts.JennaSue, 45, UIBuild.Hex(255), 430, 540, 250, 50);
+            var playerName = UIBuild.Text(s, "PlayerName", "Guest", UIBuild.Fonts.JennaSue, 45, UIBuild.Hex(255), 430, 540, 250, 50, localize: false);
             playerName.rectTransform.localEulerAngles = new Vector3(0, 0, 5);
 
             var fullScreen = UIBuild.Button(s, "FullScreenButton", UIBuild.Sprite("window", "small_btn_green"), 900, 560,
                 label: "Full Screen", font: UIBuild.Fonts.Bromine, fontSize: 25, labelColor: Color.black);
+
+            // Language button (new): where the original put its unused "Full Version" button.
+            var language = UIBuild.Button(s, "LanguageButton", UIBuild.Sprite("window", "small_btn_green"), 900, 490,
+                label: "Language", font: UIBuild.Fonts.Bromine, fontSize: 25, labelColor: Color.black);
 
             // ---------------------------------------------------------------- popups
             var p = popups.transform;
@@ -64,6 +68,7 @@ namespace Rory.EditorTools
             var extrasMenu = BuildExtras(p);
             var quit = BuildQuit(p);
             var creditsPopup = BuildCredits(p);
+            var languagePopup = BuildLanguage(p);
 
             var controller = new GameObject("MainMenuController").AddComponent<MainMenuController>();
             UIBuild.SetField(controller, "storyButton", story);
@@ -82,6 +87,8 @@ namespace Rory.EditorTools
             UIBuild.SetField(controller, "extrasMenu", extrasMenu);
             UIBuild.SetField(controller, "quitConfirm", quit);
             UIBuild.SetField(controller, "credits", creditsPopup);
+            UIBuild.SetField(controller, "languageButton", language);
+            UIBuild.SetField(controller, "languagePopup", languagePopup);
             UIBuild.SetField(controller, "roryLogo", roryButton);
             UIBuild.SetField(controller, "deluxeLogo", deluxeButton);
 
@@ -113,7 +120,8 @@ namespace Rory.EditorTools
             for (int i = 0; i < GameRules.SaveSlots; i++)
             {
                 float y = i * 70 + 145 - 300; // stage y of the row, relative to the window centre
-                var name = UIBuild.TextCentered(w.transform, $"Slot{i}", "Empty", UIBuild.Fonts.JennaSue, 30, Color.black, 0, y, 380, 70);
+                var name = UIBuild.TextCentered(w.transform, $"Slot{i}", "Empty", UIBuild.Fonts.JennaSue, 30, Color.black, 0, y, 380, 70,
+                    localize: false);
                 name.raycastTarget = true;
                 var b = name.gameObject.AddComponent<Button>();
                 b.transition = Selectable.Transition.None;
@@ -162,9 +170,9 @@ namespace Rory.EditorTools
             UIBuild.Quad(field.transform, "BorderRight", 368, 0, 1, 40, Color.black);
             var area = UIBuild.Layer(field.transform, "Text Area");
             area.gameObject.AddComponent<RectMask2D>();
-            var text = UIBuild.Text(area, "Text", "", UIBuild.Fonts.JennaSue, 30, Color.black, 0, 0, 0, 0);
+            var text = UIBuild.Text(area, "Text", "", UIBuild.Fonts.JennaSue, 30, Color.black, 0, 0, 0, 0, localize: false);
             UIBuild.Stretch(text.rectTransform);
-            var placeholder = UIBuild.Text(area, "Placeholder", "", UIBuild.Fonts.JennaSue, 30, new Color(0, 0, 0, 0.4f), 0, 0, 0, 0);
+            var placeholder = UIBuild.Text(area, "Placeholder", "", UIBuild.Fonts.JennaSue, 30, new Color(0, 0, 0, 0.4f), 0, 0, 0, 0, localize: false);
             UIBuild.Stretch(placeholder.rectTransform);
             var input = field.gameObject.AddComponent<TMP_InputField>();
             input.textViewport = area;
@@ -216,6 +224,33 @@ namespace Rory.EditorTools
             WindowBuilder.Move(w.rightButton, 105, 15);
             w.leftButton.transform.localScale = w.rightButton.transform.localScale = new Vector3(0.8f, 0.8f, 1);
             w.uniButton.gameObject.SetActive(false);
+            return ScenePopup(w);
+        }
+
+        static LanguagePopup BuildLanguage(Transform layer)
+        {
+            var w = WindowBuilder.BuildWindow<LanguagePopup>(layer, false, "LanguagePicker");
+            w.title.text = "Language";
+            w.info.gameObject.SetActive(false);
+            w.leftButton.gameObject.SetActive(false);
+            w.rightButton.gameObject.SetActive(false);
+            WindowBuilder.Label(w.uniButton, "Cancel");
+            var langs = Rory.Localization.Loc.Languages;
+            w.languageButtons = new Button[langs.Length];
+            w.codes = new string[langs.Length];
+            for (int i = 0; i < langs.Length; i++)
+            {
+                var (code, nativeName) = langs[i];
+                var b = UIBuild.Button(w.transform, "Language_" + code, UIBuild.Sprite("window", "small_btn_green"), 0, -120 + i * 75);
+                // Each language's name is written in that language, with its own font, and never translated.
+                var font = Rory.Localization.LanguageFonts.FontFor(code) ?? UIBuild.Fonts.Bromine;
+                var t = UIBuild.Text(b.transform, "Label", nativeName, font, 26, Color.black, 0, 0, 207, 58, autoSize: true, localize: false);
+                t.rectTransform.anchorMin = t.rectTransform.anchorMax = t.rectTransform.pivot = new Vector2(0.5f, 0.5f);
+                t.rectTransform.anchoredPosition = Vector2.zero;
+                w.languageButtons[i] = b;
+                w.codes[i] = code;
+            }
+            w.uniButton.transform.SetAsLastSibling();
             return ScenePopup(w);
         }
 

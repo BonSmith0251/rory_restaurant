@@ -1,8 +1,17 @@
 {
     "name": "Rory.Editor",
     "rootNamespace": "Rory.EditorTools",
-    "references": [ "Rory.Runtime", "Unity.TextMeshPro", "UnityEngine.UI" ],
-    "includePlatforms": [ "Editor" ],
+    "references": [
+        "Rory.Runtime",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Unity.Localization",
+        "Unity.Localization.Editor",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "autoReferenced": true,

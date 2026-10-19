@@ -1,0 +1,128 @@
+en	zh-Hans	ja	ko	context
+Finally, the days of my culinary school are over!				dialogue 0 line 0
+Now I have all day to focus on my work as certified chef!				dialogue 0 line 1
+I have been thinking of opening a shop since the first day at culinary school. I’m so excited the time has come!				dialogue 0 line 2
+I will need someone to accompany me. Will you help me out?				dialogue 0 line 3
+Of course!				dialogue 0 line 3 button
+That’s the spirit! Now, let’s start our first day!				dialogue 0 line 4
+Welcome to my kitchen! Let me give you a tour!				dialogue 1 line 0
+OK!				dialogue 1 line 0 button
+Your objective is to earn enough money by cooking delicious food. This is the amount of customers you need to serve today.				dialogue 1 line 1
+A customer has come! Here is the list of ingredients you need to complete the dish.				dialogue 1 line 2
+Swap and make a match of at least 3 ingredients.				dialogue 1 line 3
+Great! Now continue to match more ingredients to complete the dish.				dialogue 1 line 4
+Congratulations! You have finished your first dish! Now click on the Money to collect it.				dialogue 1 line 5
+Please keep in mind to check out each customer’s patient meter. They will leave more tips for you when they are happier!				dialogue 1 line 6
+Ok				dialogue 1 line 6 button
+One more thing I need to tell you: When you have more than 1 customer at a time, click on their plate to change priority.				dialogue 1 line 7
+I think we’re all set! Let’s keep our customers coming and serve them well!				dialogue 1 line 8
+No problem!				dialogue 1 line 8 button
+Great job, (player)! I must say that we did really great yesterday!				dialogue 2 line 0
+I can't wait to cook already! Let's start now!				dialogue 2 line 1
+Good news! Do you know Emma, that famous girl in the Home Makeover games? Well, she just came into town to set up a book store!				dialogue 3 line 0
+Cool!				dialogue 3 line 0 button
+Now we can buy new recipes and upgrade our old ones! Click here to open our recipe book!				dialogue 3 line 1
+Why don’t we try to buy the Deluxe Chicken Croissant recipe?				dialogue 3 line 2
+Click here to see the next recipe in the list.				dialogue 3 line 3
+Click this button to buy it!				dialogue 3 line 4
+Awesome! We just bought a new recipe! Keep buying better ones to increase our restaurant reputation!				dialogue 3 line 5
+Great!				dialogue 3 line 5 button
+Also, upgrading recipes will increase value of the dish. The more expensive it gets, the more money we will earn!				dialogue 3 line 6
+Remember to visit the Shops anytime you have enough money!				dialogue 3 line 7
+Look at this incredible mess! Who would have thought that we cooked our delicious dishes here in this very kitchen?				dialogue 4 line 0
+No one				dialogue 4 line 0 button
+You know what they say about always try to have your kitchen clean and tidy, right? Well, that’s quite true because you can’t cook in this mess.				dialogue 4 line 1
+I know you like cooking as much as I do but we still need to clean this up first! The sooner we get this done, the better. Let’s start!				dialogue 4 line 2
+We need to remove most of these items from the kitchen. I have provided the list of items so this will be easy!				dialogue 4 line 3
+There it is, the first item on top of the list. Just click to grab it.				dialogue 4 line 4
+Great! Now, let’s try to use a hint for the second item. Click here to use a hint.				dialogue 4 line 5
+Hints will refill slowly so you can use it over and over again. Very thoughtful, isn’t it?				dialogue 4 line 6
+Yes!				dialogue 4 line 6 button
+Last tip: you can zoom in and out by dragging your mouse while holding down CTRL key.				dialogue 4 line 7
+Now try to find the rest of the items by yourself. Good luck!				dialogue 4 line 8
+Different customer has different personalities.				dialogue 5 line 0
+Some are more patient but will tip less, while others may get upset faster while queuing but will tip more.				dialogue 5 line 1
+Set your priorities to get maximum profit out of your day.				dialogue 5 line 2
+(player), I have been told that a food critic will visit us today! Oh my gosh!				dialogue 6 line 0
+I heard food critics are the worst kind of customer! They usually order a restaurant’s best dish and demand it to be done quick!				dialogue 6 line 1
+We must make sure everything goes very well today! Let’s do our best!				dialogue 6 line 2
+There he is! The notorious, sour-looking food critic!				dialogue 6 line 3
+He just ordered our most expensive dish with extra add-ons of everything!				dialogue 6 line 4
+We really need a good review from him so let’s work hard to serve whatever he wants!				dialogue 6 line 5
+And remember: Click the food critic’s plate to make his order the top priority.				dialogue 6 line 6
+Very nice job today! I’m so delighted!				dialogue 7 line 0
+Do you want to hear more good news? Guess what, I just found an old recipe for cooking a Chinese menu! Pretty awesome, huh?				dialogue 7 line 1
+I know you can’t wait to try it out, so let’s hit the kitchen when you’re ready!				dialogue 7 line 2
+Congratulations, now you have access to a set of wonderful Chinese delicacies!				dialogue 8 line 0
+Remember that you can always buy new recipes and upgrade ingredients at the shop!				dialogue 8 line 1
+Hey, guess who just opened an Organic Market! It’s Emma again!				dialogue 9 line 0
+Really?				dialogue 9 line 0 button
+This means we can now upgrade our ingredients, enhancing the taste of our dishes! That also means we can raise the prices of our menu.				dialogue 9 line 1
+Let’s check out her store!				dialogue 9 line 2
+Wow look at all these fresh vegetables! This is heaven for cooks!				dialogue 9 line 3
+Let me give you a tour around here...				dialogue 9 line 4
+This shows the name of the ingredient on display.				dialogue 9 line 5
+You can see more information below, like the Ingredient level, upgrade price and its effect upon purchase.				dialogue 9 line 6
+You can upgrade an ingredient up to 10 levels. I’d recommend to first upgrade the one you use the most.				dialogue 9 line 7
+Let’s try to upgrade this ingredient now. Click the Upgrade button.				dialogue 9 line 8
+Awesome! Now you know how to get the better ingredients for your dishes!				dialogue 9 line 9
+Last tip: Come back here to upgrade regularly to make sure we always serve the best quality to our customers!				dialogue 9 line 10
+Did you know that I am also very good at making frozen yogurt? I just made lots of it!				dialogue 10 line 0
+I’d like to serve my specialty’s frozen yogurt for today and let everyone enjoy it!				dialogue 10 line 1
+So for today, our business is nothing else but froyo!				dialogue 10 line 2
+Come, I’ll walk you through this!				dialogue 10 line 3
+I have prepared everything from cups to yogurts so we’re all set to start!				dialogue 10 line 4
+A customer just came in! Perfect timing!				dialogue 10 line 5
+You can see the kind of froyo he wants here.				dialogue 10 line 6
+Preparing it is very easy. First, select a cup.				dialogue 10 line 7
+Then select the yogurt he wants.				dialogue 10 line 8
+He wants Pomegranate syrup to go with it.				dialogue 10 line 9
+Add some Kiwi.				dialogue 10 line 10
+And finally 1 beverage!				dialogue 10 line 11
+We did it! We just sold our first yogurt ever! That wasn’t so hard, was it?				dialogue 10 line 12
+Just remember that you need to work on it from top to bottom, and from left to right.				dialogue 10 line 13
+And don’t forget to keep an eye of his patience bar. He’ll leave if he waits too long!				dialogue 10 line 14
+You see that sweet baby in the corner? That is our brand new beverage machine! Here, let me show you how it works.				dialogue 11 line 1
+Currently the machine is (juice percentage) complete. It works as we prepare our dishes.				dialogue 11 line 2
+Let’s match this.				dialogue 11 line 3
+Great, a beverage is now ready!				dialogue 11 line 4
+Click the machine and drag to a customer to offer him/her a beverage.				dialogue 11 line 5
+Offering a beverage will increase customer satisfaction which means more earnings for us!				dialogue 11 line 6
+When possible, try to hold off from collecting money right away.				dialogue 12 line 0
+You’ll be rewarded with Chain Bonus if you collect money from all 3 customers at the same time.				dialogue 12 line 1
+Even a small amount will be very helpful to help you reach EXPERT SCORE.				dialogue 12 line 2
+That food critic guy is back to check on us! Let’s show him what we’re made of!				dialogue 13 line 0
+Matching more than 4 ingredients will give you instant bonus money.				dialogue 14 line 0
+As a general rule of thumb, always try to find the longest match as fast as you can.				dialogue 14 line 1
+The faster you match, the shorter time it will take to prepare a dish, which eventually means earning more tips.				dialogue 14 line 2
+(player), I just installed a new French Fries machine on the counter. Now we can serve delicious fries!				dialogue 15 line 1
+It works exactly like the beverage machine, but just in case you forgot, let’s go over it again.				dialogue 15 line 2
+Let’s complete the fries by matching this.				dialogue 15 line 3
+The fries is now ready!				dialogue 15 line 4
+Click the machine and drag to a customer to offer him/her a french fries.				dialogue 15 line 5
+Offering a side dish or drink will increase customer satisfaction, leading to a higher tip!				dialogue 15 line 6
+It’s time to clean our kitchen again!				dialogue 16 line 0
+It’s still hard to believe we made all this mess just in a few days! Let’s work hard to make this place spotless.				dialogue 16 line 1
+There are 10 challenging achievements for you to earn. You should always try to achieve all of them.				dialogue 17 line 0
+Uhoh, the food critic is back. Let’s show him what we got!				dialogue 18 line 0
+Congratulations, now you have access to a set of spicy and exotic Middle Eastern dishes!				dialogue 19 line 0
+It’s time to serve our specialty’s frozen yogurt again! Remember to serve each customer with the right combination as fast as you can to earn more money!				dialogue 20 line 0
+Oh no, our fridge malfunctioned last night and froze some of our fresh ingredients!				dialogue 21 line 1
+No problem, we can manage this.				dialogue 21 line 2
+For each frozen tile, we need an extra step to defrost it. Very simple actually. Try swapping this one.				dialogue 21 line 3
+Now that ingredient has returned back to normal. Problem solved!				dialogue 21 line 4
+I just bought a very helpful tool to help us cook faster and also defrost ingredients easier!				dialogue 22 line 1
+There it is, a chef’s torch! To use it, just swap it to any direction you want. Let’s swap it upwards now.				dialogue 22 line 2
+Very handy, isn’t it?				dialogue 22 line 3
+The chef’s torch will appear in our cooking board from time to time, so keep an eye out for it!				dialogue 22 line 4
+I see a sour-looking face. Must be that food critic again. Let’s see if we can make him smile!				dialogue 23 line 0
+I have good stuff that can keep customers happy for a while: free cookies!				dialogue 24 line 1
+Each time you match 5 or more ingredients, a Cookie will appear. Click on it to boost a customer’s patience.				dialogue 24 line 2
+Customers with the least patience left will accept your generous present and feel a bit happier!				dialogue 24 line 3
+One last thing, you can upgrade its effects from the Shop. Good luck!				dialogue 24 line 4
+It’s time to clean up our kitchen again! Roll up your sleeves and grab your rubber gloves. Let’s get started!				dialogue 25 line 0
+Player, I figure that our tools need a little upgrade.				dialogue 26 line 0
+Agree				dialogue 26 line 0 button
+Let’s visit a nearby store and see what they have in stock!				dialogue 26 line 1
+Ah, player, look at that shiny French Fries Machine! Don’t you think that would be the best investment to make our restaurant service even better?				dialogue 26 line 2
+But I’ll leave it up for you to decide. If you want to upgrade it, you know now where to go!				dialogue 26 line 3

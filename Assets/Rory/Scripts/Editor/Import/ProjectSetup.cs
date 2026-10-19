@@ -20,6 +20,8 @@ namespace Rory.EditorTools
             CatalogBuilder.BuildAudio();
             CatalogBuilder.BuildParticles();
             GameDataImporter.ImportAll();
+            LocalizationSetup.Setup();
+            LocalizationTsv.Import();
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
             Debug.Log("[Rory] Project setup complete");

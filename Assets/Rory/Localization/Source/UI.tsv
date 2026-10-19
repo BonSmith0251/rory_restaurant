@@ -1,0 +1,75 @@
+en	zh-Hans	ja	ko	context
+Service Excellence				Achievements: Title
+You've served VALUE/1000 perfectly happy customers\n(80% patience or above)!				Achievements: Info
+AAAAA				Ending: BubbleText
+Day\n1				LevelSelect: Day1Transform/Day1
+Day\n2				LevelSelect: Day2Transform/Day2
+Day\n3				LevelSelect: Day3Transform/Day3
+Day\n4				LevelSelect: Day4Transform/Day4
+Day\n5				LevelSelect: Day5Transform/Day5
+Day\n6				LevelSelect: Day6Transform/Day6
+Day\n7				LevelSelect: Day7Transform/Day7
+PLAY				LevelSelect: PlayButton/Label
+Back				LevelSelect: BackButton/Label
+Story				MainMenu: StoryButton
+Extras				MainMenu: ExtrasButton
+Credits				MainMenu: CreditsButton
+Exit				MainMenu: ExitButton
+Full Screen				MainMenu: FullScreenButton/Label
+Language				MainMenu: LanguageButton/Label
+Select Player				MainMenu: Popups/PlayerSelect/Title
+Delete				MainMenu: Popups/PlayerSelect/LeftButton/Label
+Create				MainMenu: Popups/PlayerSelect/RightButton/Label
+Close				MainMenu: Popups/PlayerSelect/UniButton/Label
+Create Player				MainMenu: Popups/CreatePlayer/Title
+Enter Your Name :				MainMenu: Popups/CreatePlayer/Info
+Cancel				MainMenu: Popups/CreatePlayer/LeftButton/Label
+Done				MainMenu: Popups/CreatePlayer/RightButton/Label
+OK				MainMenu: Popups/CreatePlayer/UniButton/Label
+Try Again!				MainMenu: Popups/SameNameWarning/Title
+Oops, the name you entered is already exist. Please try again!				MainMenu: Popups/SameNameWarning/Info
+Left				MainMenu: Popups/SameNameWarning/LeftButton/Label
+Right				MainMenu: Popups/SameNameWarning/RightButton/Label
+Delete Player?				MainMenu: Popups/DeletePlayerConfirm/Title
+Are you sure want to delete this player? This process can't be undone.				MainMenu: Popups/DeletePlayerConfirm/Info
+Select Game				MainMenu: Popups/ExtrasMenu/Title
+Hidden Object				MainMenu: Popups/ExtrasMenu/LeftButton/Label
+Dessert Making				MainMenu: Popups/ExtrasMenu/RightButton/Label
+Exit?				MainMenu: Popups/QuitConfirm/Title
+Are you sure you want to quit game?				MainMenu: Popups/QuitConfirm/Info
+No				MainMenu: Popups/QuitConfirm/LeftButton/Label
+Yes				MainMenu: Popups/QuitConfirm/RightButton/Label
+CREDITS				MainMenu: Popups/Credits/Content/Title
+PRODUCERS				MainMenu: Popups/Credits/Content/ProducersTitle
+Andre Yu\nRobert YKG				MainMenu: Popups/Credits/Content/Producers
+All rights reserved. Origaming Media (c) 2015				MainMenu: Popups/Credits/Content/Copyright
+GAME CONCEPT				MainMenu: Popups/Credits/Content/GameConceptTitle
+Andre Yu				MainMenu: Popups/Credits/Content/GameConcept
+LEAD ARTIST				MainMenu: Popups/Credits/Content/LeadArtistTitle
+Robert YKG				MainMenu: Popups/Credits/Content/LeadArtist
+PROGRAMMERS				MainMenu: Popups/Credits/Content/ProgrammersTitle
+Wilson\nSherson Watson\nAndri				MainMenu: Popups/Credits/Content/Programmers
+GRAPHIC ARTIST				MainMenu: Popups/Credits/Content/GraphicArtistTitle
+Alfa Lui\nHandrison				MainMenu: Popups/Credits/Content/GraphicArtists
+Rory's Restaurant  v. 1.0.2				MainMenu: Popups/Credits/Content/Version
+SUMMARY				BigWindow: BigWindow/Title
+Go to kitchen?				GameConfirm: GameConfirm/Title
+Are you sure want to exit to the Kitchen? Your progress in this level will not be saved.				GameConfirm: GameConfirm/Info
+New Customer!				GameEventBig: GameEventBig/Title
+Continue				GameEventBig: GameEventBig/UniButton/Label
+Title				GameEventSmall: GameEventSmall/Title
+Locked!				GameInfo: GameInfo/Title
+To unlock this recipe, you need to collect 5 expert badges.\nCurrent Expert Badges: 0				GameInfo: GameInfo/Info
+Paused				GamePause: GamePause/Title
+Goal : serve 5 customer(s)\nExpert : earn $220				GamePause: GamePause/Info
+Kitchen				GamePause: GamePause/LeftButton/Label
+Resume				GamePause: GamePause/RightButton/Label
+SOUND :				GamePause: GamePause/SoundText
+ON				GamePause: GamePause/SoundButton/Label
+MUSIC : 				GamePause: GamePause/MusicText
+FULL SCREEN : 				GamePause: GamePause/FullScreenText
+Congratulations!				GameResult: GameResult/Title
+You've reached today's goal!				GameResult: GameResult/Info
+Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\n\nToday's Earnings\t\t :\nTotal Coins\t\t\t :				GameResult: GameResult/SummaryText
+Well done! Try to reach Expert target to earn even more coins!				GameResult: GameResult/SummaryTips
+Next				Tutorial: Tutorial/NextButton/Label

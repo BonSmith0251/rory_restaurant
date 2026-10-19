@@ -7,7 +7,10 @@ using UnityEngine;
 
 namespace Rory.Screens.MainMenu
 {
-    /// <summary>"Create Player" window (TWindowState.CREATE_PLAYER): name entry, max 12 letters and spaces.</summary>
+    /// <summary>
+    /// "Create Player" window (TWindowState.CREATE_PLAYER): name entry, max 12 letters and spaces. The original
+    /// allowed only a-z; letters of any script are accepted so Chinese, Japanese and Korean names work.
+    /// </summary>
     public class CreatePlayerPopup : WindowPopup
     {
         [Header("Create player")]
@@ -21,7 +24,7 @@ namespace Rory.Screens.MainMenu
         {
             nameInput.characterLimit = 12;
             nameInput.onValidateInput = (text, index, c) =>
-                char.IsLetter(c) && c < 128 || (c == ' ' && text.Length > 0) ? c : '\0';
+                char.IsLetter(c) || (c == ' ' && text.Length > 0) ? c : '\0';
             nameInput.onValueChanged.AddListener(_ => UpdateDone());
             nameInput.onSubmit.AddListener(_ => Submit());
             leftButton.onClick.AddListener(Close);

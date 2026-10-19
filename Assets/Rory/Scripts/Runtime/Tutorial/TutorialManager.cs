@@ -287,12 +287,12 @@ namespace Rory.Tutorials
         /// <summary>
         /// The one place that turns a line's text into what the bubble shows: "(player)" becomes the player's name and,
         /// on match-3 (<see cref="ITutorialHost.JuicePercentageText"/> not null), "(juice percentage)" the juicer
-        /// text; first occurrence only, like AS3 String.replace. Localization hooks in here (look the text up by
-        /// <paramref name="id"/>/<paramref name="line"/> before the substitutions).
+        /// text; first occurrence only, like AS3 String.replace. The text is translated (Loc.T) before the substitutions,
+        /// so translations keep the "(player)" / "(juice percentage)" placeholders.
         /// </summary>
         public string DisplayText(int id, int line, DialogueLine l)
         {
-            string body = l.text ?? "";
+            string body = Rory.Localization.Loc.T(l.text ?? "");
             body = ReplaceFirst(body, "(player)", GameManager.Player != null ? GameManager.Player.name : "");
             var juice = Host?.JuicePercentageText;
             if (juice != null) body = ReplaceFirst(body, "(juice percentage)", juice);
@@ -300,7 +300,7 @@ namespace Rory.Tutorials
         }
 
         /// <summary>The one place that turns a line's buttonText into the Next button label (localization hook).</summary>
-        public string ButtonLabel(int id, int line, DialogueLine l) => l.buttonText ?? "";
+        public string ButtonLabel(int id, int line, DialogueLine l) => Rory.Localization.Loc.T(l.buttonText ?? "");
 
         /// <summary>nextTutorial: next line, or ends the dialogue (CurrentDialogueId = -1) after the last one.</summary>
         public void Next()

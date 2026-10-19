@@ -201,10 +201,13 @@ namespace Rory.EditorTools
         /// <summary>
         /// Text box of the original TextField size. Alignment defaults to centred like TextField.
         /// <paramref name="autoSize"/> shrinks the font to fit (TextField.autoScale).
+        /// The text gets a <see cref="Rory.Localization.Localize"/> component (English text = translation key)
+        /// unless <paramref name="localize"/> is false (names, numbers, input fields).
         /// </summary>
         public static TextMeshProUGUI Text(Transform parent, string name, string text, TMP_FontAsset font, float size, Color color,
             float x, float y, float width, float height, float pivotX = 0, float pivotY = 0,
-            TextAlignmentOptions align = TextAlignmentOptions.Center, bool autoSize = false, bool raycast = false)
+            TextAlignmentOptions align = TextAlignmentOptions.Center, bool autoSize = false, bool raycast = false,
+            bool localize = true)
         {
             var rt = Rect(parent, name, typeof(CanvasRenderer), typeof(TextMeshProUGUI));
             var t = rt.GetComponent<TextMeshProUGUI>();
@@ -224,13 +227,15 @@ namespace Rory.EditorTools
                 t.fontSizeMin = Mathf.Max(4, size * 0.3f);
             }
             StageLayout.Place(rt, x, y, width, height, pivotX, pivotY);
+            if (localize) rt.gameObject.AddComponent<Rory.Localization.Localize>();
             return t;
         }
 
         /// <summary>Text with its pivot centred at (x, y) (TextField + alignPivot()).</summary>
         public static TextMeshProUGUI TextCentered(Transform parent, string name, string text, TMP_FontAsset font, float size, Color color,
-            float x, float y, float width, float height, bool autoSize = false)
-            => Text(parent, name, text, font, size, color, x, y, width, height, width / 2, height / 2, TextAlignmentOptions.Center, autoSize);
+            float x, float y, float width, float height, bool autoSize = false, bool localize = true)
+            => Text(parent, name, text, font, size, color, x, y, width, height, width / 2, height / 2, TextAlignmentOptions.Center, autoSize,
+                localize: localize);
 
         /// <summary>
         /// Image button (TNonStateButton). The pivot is centred like the original after alignPivot(), so (x, y) is
@@ -280,6 +285,10 @@ namespace Rory.EditorTools
         public static UIParticleEmitter Particles(Transform parent, string name, Data.ParticleConfig config, float x, float y)
         {
             var rt = Rect(parent, name, typeof(CanvasRenderer), typeof(UIParticleEmitter));
+            // A big rect around the emitter: RectMask2D culls graphics by their rect, and a zero-size rect at the
+            // stage edge would be culled although its particles fly into view.
+            rt.sizeDelta = new Vector2(2048, 2048);
+            rt.pivot = new Vector2(0.5f, 0.5f);
             rt.anchoredPosition = new Vector2(x, -y);
             var e = rt.GetComponent<UIParticleEmitter>();
             e.config = config;
