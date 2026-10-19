@@ -81,7 +81,7 @@ namespace Rory.Tests
         static Vector2 RoomToStage(Vector2 room) => Ho.Zoom.RoomToStage(room);
 
         /// <summary>A stage point where a click hits <paramref name="item"/> itself (its opaque, uncovered pixels).</summary>
-        static bool TryFindHitPoint(HiddenObjectItem item, out Vector2 point)
+        internal static bool TryFindHitPoint(HiddenObjectItem item, out Vector2 point)
         {
             var c = item.Rect.parent == Ho.Zoom.transform ? RoomToStage(item.Rect.anchoredPosition * new Vector2(1, -1)) : item.Rect.anchoredPosition * new Vector2(1, -1);
             var size = item.Size;

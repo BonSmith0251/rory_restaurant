@@ -359,6 +359,18 @@ MonoBehaviour:
     m_Key: MASTER
     m_Metadata:
       m_Items: []
+  - m_Id: 12307177398272
+    m_Key: HINT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12307223535616
+    m_Key: READY!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12307223535617
+    m_Key: NO POSSIBLE MOVES!
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

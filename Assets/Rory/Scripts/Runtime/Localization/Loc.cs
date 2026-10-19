@@ -20,6 +20,9 @@ namespace Rory.Localization
 
         public const string English = "en";
 
+        /// <summary>PlayerPrefs key of the chosen language (the one PlayerPrefLocaleSelector reads at startup).</summary>
+        public const string PlayerPrefsKey = "selected-locale";
+
         /// <summary>Supported languages: locale code and the language's own name.</summary>
         public static readonly (string code, string name)[] Languages =
         {
@@ -128,6 +131,10 @@ namespace Rory.Localization
                 return;
             }
             LocalizationSettings.SelectedLocale = locale;
+            // Remember the choice now (the package's PlayerPrefLocaleSelector only records it when its async
+            // re-initialisation finishes, which a quick quit can miss).
+            PlayerPrefs.SetString(PlayerPrefsKey, code);
+            PlayerPrefs.Save();
             // The package's SelectedLocaleChanged event comes later (after async loads); rebuild now so code
             // that runs right after the switch (e.g. the next scene's Start) already sees the new language.
             Rebuild();

@@ -42,6 +42,11 @@ namespace Rory
             rt.offsetMin = rt.offsetMax = Vector2.zero;
 
             if (Enum.TryParse(SceneManager.GetActiveScene().name, out GameScene s)) Current = s;
+            // Also track scenes loaded without Go (editor Play on a scene, tests).
+            SceneManager.sceneLoaded += (scene, mode) =>
+            {
+                if (mode == LoadSceneMode.Single) Current = Enum.TryParse(scene.name, out GameScene g) ? g : (GameScene?)null;
+            };
         }
 
         /// <summary>Fades out, loads <paramref name="scene"/> and fades in. Ignored while a transition runs.</summary>

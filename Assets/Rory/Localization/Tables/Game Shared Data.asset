@@ -673,6 +673,494 @@ MonoBehaviour:
     m_Key: 'LEVEL: {0}'
     m_Metadata:
       m_Items: []
+  - m_Id: 12306523086848
+    m_Key: HO1_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641280
+    m_Key: HO1_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641281
+    m_Key: HO1_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641282
+    m_Key: HO2_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641283
+    m_Key: HO2_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641284
+    m_Key: HO2_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641285
+    m_Key: Label_
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641286
+    m_Key: ' Of '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641287
+    m_Key: ' of '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641288
+    m_Key: ' And '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641289
+    m_Key: ' and '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641290
+    m_Key: SFX_gameplay_click_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641291
+    m_Key: 'Exp.: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641292
+    m_Key: 'Goal: {0}/{1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641293
+    m_Key: 'tile#{id}(type {type} at {col},{row}{(removed ? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641294
+    m_Key: ')}{(frozen ? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641295
+    m_Key: Tile{t.id}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641296
+    m_Key: FrozenTile{i}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641297
+    m_Key: Fire{i}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641298
+    m_Key: Smoke{i}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641299
+    m_Key: Star{i}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641300
+    m_Key: FlyingTile{i}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641301
+    m_Key: 0 / 1 food critic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641302
+    m_Key: 'Expert:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641303
+    m_Key: 'Goal   : {0}
+
+      Expert : {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641304
+    m_Key: '${0}
+
+      + ${1} Juice Bonus!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641305
+    m_Key: '${0}
+
+      + ${1} Fries Bonus!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641306
+    m_Key: '${0}
+
+      + ${1} Juice + Fries Bonus!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641307
+    m_Key: Chain Bonus ${0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641308
+    m_Key: Drag to Customer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641309
+    m_Key: Good!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641310
+    m_Key: Nice!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641311
+    m_Key: Great!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641312
+    m_Key: Awesome!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641313
+    m_Key: WOW!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641314
+    m_Key: Strawberry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641315
+    m_Key: Pineapple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641316
+    m_Key: Apple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641317
+    m_Key: Shoes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641318
+    m_Key: Cauliflower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641319
+    m_Key: Watermelon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641320
+    m_Key: Muffin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641321
+    m_Key: Lemon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641322
+    m_Key: Egg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641323
+    m_Key: Fortune Cookie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641324
+    m_Key: Alarm Clock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641325
+    m_Key: Chocolate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641326
+    m_Key: Dragonfruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641327
+    m_Key: Pear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641328
+    m_Key: Ink Bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641329
+    m_Key: Teabag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641330
+    m_Key: Baguette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641331
+    m_Key: Mousetrap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641332
+    m_Key: Beer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641333
+    m_Key: Bottle Cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641334
+    m_Key: Plastic Bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641335
+    m_Key: Chilli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641336
+    m_Key: Ice Tea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641337
+    m_Key: Sandwich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641338
+    m_Key: Broccoli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641339
+    m_Key: Hamburger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641340
+    m_Key: Meat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641341
+    m_Key: Thermometer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641342
+    m_Key: Smoking Pipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641343
+    m_Key: Stamp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641344
+    m_Key: Thread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641345
+    m_Key: Scroll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641346
+    m_Key: Biscuit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641347
+    m_Key: Drumsticks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641348
+    m_Key: Coconut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641349
+    m_Key: Ring
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641350
+    m_Key: Sausage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641351
+    m_Key: Carrot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641352
+    m_Key: Cake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641353
+    m_Key: Pizza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641354
+    m_Key: Milk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641355
+    m_Key: Honey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641356
+    m_Key: Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641357
+    m_Key: Ice Cream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641358
+    m_Key: Papaya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641359
+    m_Key: Books
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641360
+    m_Key: Teacup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641361
+    m_Key: Sushi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641362
+    m_Key: Mallet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641363
+    m_Key: Basket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641364
+    m_Key: Towels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641365
+    m_Key: Butterfly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641366
+    m_Key: Cone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641367
+    m_Key: Rubik's Cube
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641368
+    m_Key: Whisk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641369
+    m_Key: Tuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641370
+    m_Key: Telephone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641371
+    m_Key: Globe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641372
+    m_Key: Arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641373
+    m_Key: Salt and Pepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641374
+    m_Key: Candy Cane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641375
+    m_Key: Blackberry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641376
+    m_Key: Cinnamon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641377
+    m_Key: Garlic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641378
+    m_Key: Bell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641379
+    m_Key: Candelabra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641380
+    m_Key: Cashew
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641381
+    m_Key: Pocket Watch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641382
+    m_Key: Popcorn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641383
+    m_Key: Rose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641384
+    m_Key: Snail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641385
+    m_Key: Wasp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641386
+    m_Key: Cupcake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641387
+    m_Key: Donut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641388
+    m_Key: Brush
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641389
+    m_Key: Letter B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641390
+    m_Key: Pie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641391
+    m_Key: B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641392
+    m_Key: Light Bulb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641393
+    m_Key: Crab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641394
+    m_Key: Dice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641395
+    m_Key: Ladybug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641396
+    m_Key: Padlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641397
+    m_Key: C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12306556641398
+    m_Key: Mortar and Pestle
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

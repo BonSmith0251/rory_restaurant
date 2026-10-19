@@ -133,10 +133,6 @@ MonoBehaviour:
       our restaurant reputation!
     m_Metadata:
       m_Items: []
-  - m_Id: 3882406109210
-    m_Key: Great!
-    m_Metadata:
-      m_Items: []
   - m_Id: 3882406109211
     m_Key: Also, upgrading recipes will increase value of the dish. The more expensive
       it gets, the more money we will earn!

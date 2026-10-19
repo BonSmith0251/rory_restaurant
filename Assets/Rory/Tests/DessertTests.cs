@@ -78,7 +78,7 @@ namespace Rory.Tests
         }
 
         /// <summary>Presses ingredient station <paramref name="id"/> like a touch (pointer down on its quad).</summary>
-        static void Press(int id)
+        internal static void Press(int id)
         {
             var tile = TestUtil.Find("Tile" + id);
             Assert.IsNotNull(tile, "Tile" + id);

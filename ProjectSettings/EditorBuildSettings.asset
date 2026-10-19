@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Rory/Scenes/Kitchen.unity
     guid: 181dc39e238c6b444802a4772dd5af0c
   - enabled: 1
+    path: Assets/Rory/Scenes/Match3.unity
+    guid: 1381a19d24901db44917b89e455937cb
+  - enabled: 1
     path: Assets/Rory/Scenes/HiddenObject.unity
     guid: efea03c253e203b49b98702f8fd291eb
   - enabled: 1

@@ -40,6 +40,15 @@ namespace Rory
         /// <summary>Customer indices already used this day (TGlobalClass.tempCustUse).</summary>
         public List<int> tempCustUse = new List<int>();
 
+        // ---- Match-3 (rework/match3)
+        /// <summary>
+        /// TGlobalClass.dishRegionWestern / dishRegionChinese / dishRegionMidEast: today's dishes per region as global dish
+        /// indices (one entry per recipe level). Null until the match-3 screen first fills them with every dish of the
+        /// region (Dish.dishLoadComplete); GameScreen.checkDishPriceAndAvaiblity then narrows them and keeps them across
+        /// days, like the original statics (it skips the update while a list already has the wanted length).
+        /// </summary>
+        public List<int> dishRegionWestern, dishRegionChinese, dishRegionMidEast;
+
         // ---- Achievements screen
         /// <summary>Back on the achievements screen goes to the main menu (true) or the kitchen (false)
         /// (AchievementScreen.backToMainMenu: the main menu sets it to true before opening the screen, the kitchen to false).</summary>

@@ -156,6 +156,27 @@ Middle East Cuisine	中东料理	中東料理	중동 요리	LevelSelectControlle
 Guest	游客	ゲスト	게스트	MainMenuController.cs:106
 Windowed	窗口模式	ウィンドウ	창 모드	MainMenuController.cs:112
 Empty	空	空き	비어 있음	PlayerSelectPopup.cs:77
+tile#{id}(type {type} at {col},{row}{(removed ? 	tile#{id}(type {type} at {col},{row}{(removed ? 	tile#{id}(type {type} at {col},{row}{(removed ? 	tile#{id}(type {type} at {col},{row}{(removed ? 	BoardTile.cs:46
+)}{(frozen ? 	)}{(frozen ? 	)}{(frozen ? 	)}{(frozen ? 	BoardTile.cs:46
+Tile{t.id}	Tile{t.id}	Tile{t.id}	Tile{t.id}	BoardView.cs:44
+FrozenTile{i}	FrozenTile{i}	FrozenTile{i}	FrozenTile{i}	BoardView.cs:51
+Fire{i}	Fire{i}	Fire{i}	Fire{i}	BoardView.cs:58
+Smoke{i}	Smoke{i}	Smoke{i}	Smoke{i}	BoardView.cs:59
+Star{i}	Star{i}	Star{i}	Star{i}	BoardView.cs:60
+FlyingTile{i}	FlyingTile{i}	FlyingTile{i}	FlyingTile{i}	FlyingTiles.cs:28
+0 / 1 food critic	0 / 1 位美食评论家	料理評論家 0 / 1	음식 평론가 0 / 1	Match3Controller.cs:205
+Expert:	专家：	エキスパート：	전문가:	Match3Controller.cs:228
+Goal   : {0}\nExpert : {1}	目标：{0}\n专家：{1}	目標：{0}\nエキスパート：{1}	목표: {0}\n전문가: {1}	Match3Controller.cs:255
+${0}\n+ ${1} Juice Bonus!	${0}\n+ ${1} 饮料奖励！	${0}\n+ ${1} ジュースボーナス！	${0}\n+ ${1} 주스 보너스!	Match3Controller.cs:568
+${0}\n+ ${1} Fries Bonus!	${0}\n+ ${1} 薯条奖励！	${0}\n+ ${1} ポテトボーナス！	${0}\n+ ${1} 감자튀김 보너스!	Match3Controller.cs:574
+${0}\n+ ${1} Juice + Fries Bonus!	${0}\n+ ${1} 饮料+薯条奖励！	${0}\n+ ${1} ジュース＋ポテトボーナス！	${0}\n+ ${1} 주스+감자튀김 보너스!	Match3Controller.cs:577
+Chain Bonus ${0}	连锁奖励 ${0}	チェーンボーナス ${0}	연쇄 보너스 ${0}	Match3Controller.cs:594
+Drag to Customer	拖给顾客	お客さんへドラッグ	손님에게 드래그	Match3Controller.cs:861
+Good!	不错！	いいね！	좋아요!	Match3Controller.cs:974
+Nice!	漂亮！	ナイス！	멋져요!	Match3Controller.cs:974
+Great!	太棒了！	すごい！	훌륭해요!	Match3Controller.cs:974
+Awesome!	超赞！	最高！	대단해요!	Match3Controller.cs:974
+WOW!	哇！	ワオ！	와우!	Match3Controller.cs:974
 One early morning, our sweet Rory is checking up on her mails..	一个清晨，可爱的罗莉正在查看她的信件……	ある朝早く、かわいいロリーは郵便物をチェックしていました…	어느 이른 아침, 사랑스러운 로리가 우편물을 확인하고 있어요...	OpeningController.cs:37
 She just received her Chef Certificate after graduating from Culinary School.	她刚从烹饪学校毕业，拿到了厨师证书。	料理学校を卒業して、シェフの資格証が届いたのです。	요리 학교를 졸업하고 막 셰프 자격증을 받았거든요.	OpeningController.cs:51
 But wait, what is that small note attached below?	等等，下面附着的那张小纸条是什么？	あれ、下についている小さなメモは何でしょう？	어라, 아래에 붙어 있는 작은 쪽지는 뭘까요?	OpeningController.cs:57

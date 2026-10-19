@@ -58,6 +58,8 @@ Wilson\nSherson Watson\nAndri	Wilson\nSherson Watson\nAndri	Wilson\nSherson Wats
 GRAPHIC ARTIST	美术设计	グラフィックアーティスト	그래픽 아티스트	MainMenu: Popups/Credits/Content/GraphicArtistTitle
 Alfa Lui\nHandrison	Alfa Lui\nHandrison	Alfa Lui\nHandrison	Alfa Lui\nHandrison	MainMenu: Popups/Credits/Content/GraphicArtists
 Rory's Restaurant  v. 1.0.2	罗莉的餐厅  v. 1.0.2	ロリーのレストラン  v. 1.0.2	로리의 레스토랑  v. 1.0.2	MainMenu: Popups/Credits/Content/Version
+READY!	好了！	できた！	완성!	Match3: Customer0/Ready
+NO POSSIBLE MOVES!	没有可移动的了！	動かせる場所がない！	움직일 수 없어요!	Match3: NoPossibleMoves
 SUMMARY	总结	まとめ	요약	BigWindow: BigWindow/Title
 Go to kitchen?	回到厨房？	キッチンに戻りますか？	주방으로 갈까요?	GameConfirm: GameConfirm/Title
 Are you sure want to exit to the Kitchen? Your progress in this level will not be saved.	确定要回到厨房吗？本关的进度将不会保存。	キッチンに戻りますか？このレベルの進行状況は保存されません。	정말 주방으로 나갈까요? 이 레벨의 진행 상황은 저장되지 않아요.	GameConfirm: GameConfirm/Info

@@ -362,6 +362,18 @@ MonoBehaviour:
     m_Localized: MASTER
     m_Metadata:
       m_Items: []
+  - m_Id: 12307177398272
+    m_Localized: HINT!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12307223535616
+    m_Localized: READY!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12307223535617
+    m_Localized: NO POSSIBLE MOVES!
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
