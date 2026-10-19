@@ -1,0 +1,63 @@
+sec 12
+clicktext Story
+sec 2
+type Tester
+clicktext Done
+sec 3
+clicktext Select
+sec 3
+clicktext Story
+sec 3
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+tryclicktext Next
+sec 2
+shot n01
+tryclicktext Next
+sec 2
+shot n02
+tryclicktext Next
+sec 2
+shot n03
+tryclicktext Next
+sec 2
+shot n04
+tryclicktext Next
+sec 2
+shot n05
+tryclicktext Next
+sec 2
+shot n06
+tryclicktext Next
+sec 2
+shot n07
+tryclicktext Next
+sec 2
+shot n08
+tryclicktext Next
+sec 2
+shot n09
+tryclicktext Next
+sec 2
+shot n10
+tryclicktext Next
+sec 2
+shot n11
+tryclicktext Next
+sec 2
+shot n12
+tree 3

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<customer name="Little Boy" textureName="char_1" patience="4" tipsBonus="3"></customer>
+	<customer name="Actor" textureName="char_2" patience="2" tipsBonus="5"></customer>
+	<customer name="Business Woman" textureName="char_3" patience="4" tipsBonus="3"></customer>
+	<customer name="Business Man" textureName="char_4" patience="3" tipsBonus="4"></customer>
+	<customer name="Grandma" textureName="char_5" patience="3" tipsBonus="4"></customer>
+	<customer name="Korean" textureName="char_6" patience="2" tipsBonus="4"></customer>
+	<customer name="Little Girl" textureName="char_7" patience="4" tipsBonus="3"></customer>
+	<customer name="African" textureName="char_8" patience="2" tipsBonus="4"></customer>
+	<customer name="Rich Woman" textureName="char_9" patience="2" tipsBonus="4"></customer>
+	<customer name="Grandpa" textureName="char_10" patience="3" tipsBonus="4"></customer>
+	<customer name="Nurse" textureName="char_11" patience="5" tipsBonus="2"></customer>
+	<customer name="Sports Man" textureName="char_12" patience="2" tipsBonus="4"></customer>
+	<customer name="Food Critics" textureName="char_13" patience="3" tipsBonus="4"></customer>
+</data>

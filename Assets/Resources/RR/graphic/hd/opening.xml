@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:bc9acbfeb60cde5e3496f1627fb539b7:1/1$ -->
+<TextureAtlas imagePath="opening.png">
+    <SubTexture name="brosur" x="490" y="451" width="486" height="486"/>
+    <SubTexture name="bubble_text" x="527" y="2" width="390" height="148"/>
+    <SubTexture name="cry" x="302" y="152" width="298" height="296"/>
+    <SubTexture name="lightbulb" x="397" y="2" width="128" height="140"/>
+    <SubTexture name="smile" x="602" y="152" width="300" height="297"/>
+    <SubTexture name="student_loan" x="2" y="450" width="486" height="486"/>
+    <SubTexture name="textbox" x="2" y="2" width="393" height="128"/>
+    <SubTexture name="think" x="2" y="132" width="298" height="296"/>
+</TextureAtlas>

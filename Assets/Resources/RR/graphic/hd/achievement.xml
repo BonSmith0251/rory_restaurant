@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:eb9c5c674054c99c70a9834fb24746b8:1/1$ -->
+<TextureAtlas imagePath="achievement.png">
+    <SubTexture name="arrow" x="883" y="2" width="71" height="55"/>
+    <SubTexture name="big_business" x="311" y="275" width="263" height="246"/>
+    <SubTexture name="big_business_locked" x="769" y="783" width="242" height="230"/>
+    <SubTexture name="chinese_recipe" x="260" y="523" width="256" height="243"/>
+    <SubTexture name="froyo_master" x="2" y="2" width="307" height="272"/>
+    <SubTexture name="froyo_master_locked" x="599" y="2" width="282" height="270"/>
+    <SubTexture name="hawkeye" x="518" y="547" width="249" height="238"/>
+    <SubTexture name="hawkeye_locked" x="769" y="547" width="244" height="234"/>
+    <SubTexture name="international_chef" x="702" y="1015" width="195" height="272"/>
+    <SubTexture name="international_chef_locked" x="2" y="1256" width="195" height="272"/>
+    <SubTexture name="middle_east_recipe" x="2" y="521" width="256" height="243"/>
+    <SubTexture name="middle_east_recipe_locked" x="479" y="787" width="221" height="237"/>
+    <SubTexture name="qualified_chef" x="256" y="1011" width="209" height="278"/>
+    <SubTexture name="qualified_chef_locked" x="2" y="1013" width="209" height="241"/>
+    <SubTexture name="scroll_bar" x="989" y="2" width="16" height="429"/>
+    <SubTexture name="scroller" x="956" y="2" width="31" height="40"/>
+    <SubTexture name="secret_ingredient" x="311" y="2" width="286" height="271"/>
+    <SubTexture name="secret_ingredient_locked" x="599" y="274" width="281" height="271"/>
+    <SubTexture name="service_exellence" x="2" y="766" width="252" height="245"/>
+    <SubTexture name="service_exellence_locked" x="256" y="768" width="221" height="241"/>
+    <SubTexture name="western_recipe" x="2" y="276" width="256" height="243"/>
+</TextureAtlas>

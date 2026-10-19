@@ -1,0 +1,53 @@
+sec 12
+clicktext Story
+sec 2
+type Tester
+clicktext Done
+sec 3
+clicktext Select
+sec 3
+day 10
+goto dessert
+sec 5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+tryclicktext Start
+sec 3
+sec 4
+tryclicktext OK
+tryclicktext Next
+sec 4
+click 512 410
+sec 1.5
+click 512 410
+sec 1.5
+click 512 410
+sec 1.5
+click 512 410
+sec 1.5
+click 512 410
+sec 1.5
+click 512 410
+sec 1.5
+click 512 410
+sec 1.5
+click 512 410
+sec 1.5
+shot dm_a
+click 132 426
+sec 1
+click 258 426
+sec 1
+click 384 426
+sec 1
+click 510 426
+sec 1
+click 636 426
+sec 1
+click 132 541
+sec 1
+sec 2
+shot dm_b
+sec 10
+shot dm_c

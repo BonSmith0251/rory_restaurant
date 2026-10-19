@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RRModKit Editor</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="logo">RR</span><div><b>RRModKit</b><small id="wsPath">Rory's Restaurant Deluxe asset editor</small></div></div>
+  <nav class="actions">
+    <button data-act="analyze" title="Validate assets and cross-references">Analyze</button>
+    <button data-act="code" title="Browse the game's ActionScript bytecode">Code</button>
+    <span class="sep"></span>
+    <button data-act="build" title="Convert changed files into build/">Build</button>
+    <button data-act="install" class="primary" title="Build and copy into the game folder (originals are backed up)">Install to game</button>
+    <button data-act="restore" title="Put all original game files back">Restore originals</button>
+    <button data-act="launch" title="Start RorysRestaurant.exe">&#9654; Play</button>
+  </nav>
+</header>
+<div class="layout">
+  <aside class="sidebar">
+    <input id="search" type="search" placeholder="Filter assets…" autocomplete="off">
+    <label class="chk"><input type="checkbox" id="onlyMod"> Only modified</label>
+    <div id="tree"><p class="hint" style="padding:0 10px">Loading assets…</p></div>
+  </aside>
+  <main id="main">
+    <div class="empty">
+      <h1>Rory's Restaurant ModKit</h1>
+      <p>Pick an asset on the left. Atlases show every sprite: click one to export or replace it.
+        Game data XML files open as editable tables.</p>
+      <ol>
+        <li>Edit assets here, or edit the files in the <code>workspace</code> folder with any image editor.</li>
+        <li><b>Build</b> writes converted game files into <code>modkit/build</code>.</li>
+        <li><b>Install to game</b> copies them into the game. Originals go to <code>modkit/backup</code> first.</li>
+        <li><b>Restore originals</b> undoes every install.</li>
+      </ol>
+    </div>
+  </main>
+</div>
+<div id="toast"></div>
+<dialog id="dlg"><form method="dialog"><h3 id="dlgTitle"></h3><pre id="dlgBody"></pre><menu><button value="ok">Close</button></menu></form></dialog>
+<input type="file" id="filePick" hidden>
+<script src="/static/app.js"></script>
+</body>
+</html>

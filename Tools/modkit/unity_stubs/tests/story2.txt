@@ -1,0 +1,41 @@
+sec 12
+clicktext Story
+sec 2
+type Tester
+clicktext Done
+sec 3
+clicktext Select
+sec 3
+clicktext Story
+sec 3
+click 512 300
+sec 2
+shot c01
+click 512 300
+sec 2
+shot c02
+click 512 300
+sec 2
+shot c03
+click 512 300
+sec 2
+shot c04
+click 512 300
+sec 2
+shot c05
+click 512 300
+sec 2
+shot c06
+click 512 300
+sec 2
+shot c07
+click 512 300
+sec 2
+shot c08
+click 512 300
+sec 2
+shot c09
+click 512 300
+sec 2
+shot c10
+tree 3

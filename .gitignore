@@ -1,0 +1,22 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.unityproj
+.vs/
+.vscode/
+*.tmp
+# per-machine marker written by ProjectSetup on first open
+Assets/Starlite/Editor/.setup_done*
+# Python tooling caches / generated output
+__pycache__/
+Tools/modkit/unity_stubs/out*/

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:ad0ef436a85df4c6f57bf5807c49bcbe:1/1$ -->
+<TextureAtlas imagePath="ending.png">
+    <SubTexture name="big_restaurant" x="671" y="282" width="124" height="183"/>
+    <SubTexture name="bubble" x="402" y="282" width="267" height="277"/>
+    <SubTexture name="bubble_text" x="630" y="2" width="390" height="148"/>
+    <SubTexture name="final" x="2" y="2" width="398" height="600"/>
+    <SubTexture name="happy" x="330" y="604" width="298" height="298"/>
+    <SubTexture name="higher_edu" x="402" y="2" width="186" height="162"/>
+    <SubTexture name="textbox" x="590" y="152" width="393" height="128"/>
+    <SubTexture name="to_french" x="797" y="282" width="108" height="187"/>
+    <SubTexture name="wonder" x="2" y="604" width="326" height="321"/>
+</TextureAtlas>

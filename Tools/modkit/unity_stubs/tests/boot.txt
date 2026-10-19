@@ -1,0 +1,8 @@
+# Boot to the main menu: splash screens -> main menu (first run asks for a player name)
+sec 2
+shot splash
+sec 8
+shot after_splash
+tree 3
+sec 3
+shot menu

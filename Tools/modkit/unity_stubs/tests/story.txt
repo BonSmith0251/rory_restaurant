@@ -1,0 +1,14 @@
+sec 12
+clicktext Story
+sec 2
+type Tester
+clicktext Done
+sec 3
+clicktext Select
+sec 3
+clicktext Story
+sec 3
+shot s1
+sec 3
+shot s2
+tree 4

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Legend: -->
+<!-- M3 = Match 3, HO = Hidden Object, DM = Dessert Making, M3S = Match 3 Special
+     time data is in seconds 
+     Region: W = Western, C = Chinese, ME = Middle East -->
+<!-- ------------------------------------------------------------------------- -->
+<data>
+	<!-- DAY 1 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>50</time>
+		<goal>4</goal>
+		<expert>210</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 2 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>60</time>
+		<goal>5</goal>
+		<expert>220</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 3 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>70</time>
+		<goal>6</goal>
+		<expert>310</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 4 -->
+	<day>
+		<gameType>HO</gameType>
+		<time>120</time>
+		<goal>15</goal>
+		<expert>21</expert>
+		<region></region>
+	</day>
+	<!-- DAY 5 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>70</time>
+		<goal>7</goal>
+		<expert>360</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 6 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>70</time>
+		<goal>7</goal>
+		<expert>360</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 7 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>90</time>
+		<goal>1</goal>
+		<expert>520</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 8 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>85</time>
+		<goal>7</goal>
+		<expert>280</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 9 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>85</time>
+		<goal>7</goal>
+		<expert>330</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 10 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>80</time>
+		<goal>7</goal>
+		<expert>360</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 11 -->
+	<day>
+		<gameType>DM</gameType>
+		<time>50</time>
+		<goal>60</goal>
+		<expert>90</expert>
+		<region></region>
+	</day>
+	<!-- DAY 12 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>90</time>
+		<goal>8</goal>
+		<expert>380</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 13 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>90</time>
+		<goal>8</goal>
+		<expert>480</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 14 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>100</time>
+		<goal>1</goal>
+		<expert>570</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 15 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>95</time>
+		<goal>8</goal>
+		<expert>480</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 16 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>95</time>
+		<goal>8</goal>
+		<expert>460</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 17 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>105</time>
+		<goal>9</goal>
+		<expert>510</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 18 -->
+	<day>
+		<gameType>HO</gameType>
+		<time>120</time>
+		<goal>18</goal>
+		<expert>24</expert>
+		<region></region>
+	</day>
+	<!-- DAY 19 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>105</time>
+		<goal>9</goal>
+		<expert>600</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 20 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>115</time>
+		<goal>10</goal>
+		<expert>670</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 21 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>125</time>
+		<goal>1</goal>
+		<expert>720</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 22 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>120</time>
+		<goal>10</goal>
+		<expert>400</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 23 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>120</time>
+		<goal>10</goal>
+		<expert>470</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 24 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>130</time>
+		<goal>11</goal>
+		<expert>600</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 25 -->
+	<day>
+		<gameType>DM</gameType>
+		<time>55</time>
+		<goal>70</goal>
+		<expert>100</expert>
+		<region></region>
+	</day>
+	<!-- DAY 26 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>130</time>
+		<goal>11</goal>
+		<expert>790</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 27 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>135</time>
+		<goal>12</goal>
+		<expert>810</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 28 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>140</time>
+		<goal>1</goal>
+		<expert>820</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 29 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>135</time>
+		<goal>12</goal>
+		<expert>810</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 30 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>145</time>
+		<goal>13</goal>
+		<expert>940</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 31 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>145</time>
+		<goal>13</goal>
+		<expert>910</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 32 -->
+	<day>
+		<gameType>HO</gameType>
+		<time>120</time>
+		<goal>20</goal>
+		<expert>27</expert>
+		<region></region>
+	</day>
+	<!-- DAY 33 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>145</time>
+		<goal>14</goal>
+		<expert>940</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 34 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>150</time>
+		<goal>15</goal>
+		<expert>1080</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 35 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>155</time>
+		<goal>1</goal>
+		<expert>1070</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 36 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>155</time>
+		<goal>15</goal>
+		<expert>1120</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 37 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>155</time>
+		<goal>15</goal>
+		<expert>1200</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 38 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>160</time>
+		<goal>16</goal>
+		<expert>1240</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 39 -->
+	<day>
+		<gameType>DM</gameType>
+		<time>60</time>
+		<goal>80</goal>
+		<expert>110</expert>
+		<region></region>
+	</day>
+	<!-- DAY 40 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>160</time>
+		<goal>16</goal>
+		<expert>1200</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 41 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>165</time>
+		<goal>17</goal>
+		<expert>1360</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 42 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>170</time>
+		<goal>1</goal>
+		<expert>1370</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 43 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>170</time>
+		<goal>17</goal>
+		<expert>1310</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 44 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>170</time>
+		<goal>17</goal>
+		<expert>1360</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 45 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>175</time>
+		<goal>18</goal>
+		<expert>1440</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 46 -->
+	<day>
+		<gameType>HO</gameType>
+		<time>120</time>
+		<goal>22</goal>
+		<expert>30</expert>
+		<region></region>
+	</day>
+	<!-- DAY 47 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>180</time>
+		<goal>18</goal>
+		<expert>1480</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 48 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>185</time>
+		<goal>19</goal>
+		<expert>1520</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 49 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>190</time>
+		<goal>1</goal>
+		<expert>1500</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 50 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>190</time>
+		<goal>19</goal>
+		<expert>1520</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 51 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>195</time>
+		<goal>18</goal>
+		<expert>1530</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 52 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>200</time>
+		<goal>19</goal>
+		<expert>1610</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 53 -->
+	<day>
+		<gameType>DM</gameType>
+		<time>70</time>
+		<goal>90</goal>
+		<expert>120</expert>
+		<region></region>
+	</day>
+	<!-- DAY 54 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>200</time>
+		<goal>19</goal>
+		<expert>1660</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 55 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>205</time>
+		<goal>19</goal>
+		<expert>1660</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 56 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>220</time>
+		<goal>1</goal>
+		<expert>1750</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 57 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>205</time>
+		<goal>19</goal>
+		<expert>1710</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 58 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>210</time>
+		<goal>20</goal>
+		<expert>1750</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 59 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>210</time>
+		<goal>20</goal>
+		<expert>1800</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 60 -->
+	<day>
+		<gameType>HO</gameType>
+		<time>120</time>
+		<goal>24</goal>
+		<expert>33</expert>
+		<region></region>
+	</day>
+	<!-- DAY 61 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>210</time>
+		<goal>20</goal>
+		<expert>1800</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 62 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>220</time>
+		<goal>21</goal>
+		<expert>1890</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 63 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>250</time>
+		<goal>1</goal>
+		<expert>2100</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 64 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>220</time>
+		<goal>21</goal>
+		<expert>1940</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 65 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>225</time>
+		<goal>21</goal>
+		<expert>1990</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 66 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>230</time>
+		<goal>22</goal>
+		<expert>2090</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 67 -->
+	<day>
+		<gameType>DM</gameType>
+		<time>85</time>
+		<goal>110</goal>
+		<expert>135</expert>
+		<region></region>
+	</day>
+	<!-- DAY 68 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>230</time>
+		<goal>22</goal>
+		<expert>2090</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 69 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>240</time>
+		<goal>23</goal>
+		<expert>2180</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 70 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>280</time>
+		<goal>1</goal>
+		<expert>2470</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 71 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>245</time>
+		<goal>23</goal>
+		<expert>2180</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 72 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>245</time>
+		<goal>23</goal>
+		<expert>2240</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 73 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>250</time>
+		<goal>23</goal>
+		<expert>2300</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 74 -->
+	<day>
+		<gameType>HO</gameType>
+		<time>120</time>
+		<goal>24</goal>
+		<expert>33</expert>
+		<region></region>
+	</day>
+	<!-- DAY 75 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>250</time>
+		<goal>24</goal>
+		<expert>2460</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 76 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>250</time>
+		<goal>24</goal>
+		<expert>2520</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 77 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>290</time>
+		<goal>1</goal>
+		<expert>2750</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 78 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>255</time>
+		<goal>24</goal>
+		<expert>2520</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 79 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>255</time>
+		<goal>24</goal>
+		<expert>2640</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 80 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>260</time>
+		<goal>25</goal>
+		<expert>2810</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 81 -->
+	<day>
+		<gameType>DM</gameType>
+		<time>90</time>
+		<goal>120</goal>
+		<expert>145</expert>
+		<region></region>
+	</day>
+	<!-- DAY 82 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>260</time>
+		<goal>25</goal>
+		<expert>2870</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 83 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>260</time>
+		<goal>25</goal>
+		<expert>2930</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 84 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>300</time>
+		<goal>1</goal>
+		<expert>3050</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 85 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>265</time>
+		<goal>25</goal>
+		<expert>2930</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 86 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>270</time>
+		<goal>25</goal>
+		<expert>3000</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 87 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>275</time>
+		<goal>26</goal>
+		<expert>3120</expert>
+		<region>W</region>
+	</day>
+	<!-- DAY 88 -->
+	<day>
+		<gameType>HO</gameType>
+		<time>120</time>
+		<goal>24</goal>
+		<expert>33</expert>
+		<region></region>
+	</day>
+	<!-- DAY 89 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>275</time>
+		<goal>26</goal>
+		<expert>3180</expert>
+		<region>ME</region>
+	</day>
+	<!-- DAY 90 -->
+	<day>
+		<gameType>M3</gameType>
+		<time>275</time>
+		<goal>26</goal>
+		<expert>3250</expert>
+		<region>C</region>
+	</day>
+	<!-- DAY 91 -->
+	<day>
+		<gameType>M3S</gameType>
+		<time>320</time>
+		<goal>1</goal>
+		<expert>3450</expert>
+		<region>W</region>
+	</day>
+	
+	
+	
+	
+	
+	
+	<!-- EXTRAS -->
+	
+	
+	<!-- DESSERT MAKING LEVEL 1-->
+	<dessert>
+		<goal>100</goal>
+		<time>120</time> <!-- time data fill in seconds -->
+	</dessert>
+	<!-- DESSERT MAKING LEVEL 2-->
+	<dessert>
+		<goal>120</goal>
+		<time>130</time> <!-- time data fill in seconds -->
+	</dessert>
+	<!-- DESSERT MAKING LEVEL 3-->
+	<dessert>
+		<goal>140</goal>
+		<time>140</time> <!-- time data fill in seconds -->
+	</dessert>
+	<!-- DESSERT MAKING LEVEL 4-->
+	<dessert>
+		<goal>160</goal>
+		<time>150</time> <!-- time data fill in seconds -->
+	</dessert>
+	<!-- DESSERT MAKING LEVEL 5-->
+	<dessert>
+		<goal>180</goal>
+		<time>160</time> <!-- time data fill in seconds -->
+	</dessert>
+</data>

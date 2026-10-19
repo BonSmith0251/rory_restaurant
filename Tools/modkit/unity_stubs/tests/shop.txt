@@ -1,0 +1,811 @@
+sec 12
+clicktext Story
+sec 2
+type Tester
+clicktext Done
+sec 3
+clicktext Select
+sec 3
+clicktext Story
+sec 3
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+log ===== day 1 =====
+click 539 415
+sec 3
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+tryclicktext PLAY
+sec 5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+autoswap?
+sec 1.2
+click 150 108
+click 150 228
+click 150 348
+tryclicktext Kitchen
+sec 3
+shot day1_end
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+sec 1.5
+shot day1_kitchen
+sec 2
+shot k_before
+click 297 167
+sec 3
+shot recipe1
+tree 3

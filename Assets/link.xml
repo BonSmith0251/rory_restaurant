@@ -1,0 +1,4 @@
+<linker>
+  <!-- TweenLite/Starlite tween game fields by name via reflection: keep the game assembly intact -->
+  <assembly fullname="Assembly-CSharp" preserve="all"/>
+</linker>

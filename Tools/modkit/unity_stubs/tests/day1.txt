@@ -1,0 +1,752 @@
+sec 12
+clicktext Story
+sec 2
+type Tester
+clicktext Done
+sec 3
+clicktext Select
+sec 3
+clicktext Story
+sec 3
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+click 512 300
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Next
+sec 2
+click 539 405
+sec 4
+sec 3
+tryclicktext Next
+sec 2
+tryclicktext OK
+sec 2
+tryclicktext Start
+sec 2
+clicktext PLAY
+sec 5
+tryclicktext Next
+sec 2
+tryclicktext OK
+sec 1
+tryclicktext Next
+sec 2
+tryclicktext OK
+sec 1
+tryclicktext Next
+sec 2
+tryclicktext OK
+sec 1
+tryclicktext Next
+sec 2
+tryclicktext OK
+sec 1
+tryclicktext Next
+sec 2
+tryclicktext OK
+sec 1
+tryclicktext Next
+sec 2
+tryclicktext OK
+sec 1
+tryclicktext Continue
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Continue
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Continue
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Continue
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Continue
+sec 2
+tryclicktext Next
+sec 2
+tryclicktext Continue
+sec 2
+tryclicktext Next
+sec 2
+sec 3
+sec 2
+sec 3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+shot day10
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+shot day20
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+shot day30
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+shot day40
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+shot day50
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+shot day60
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+autoswap
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+click 150 108
+click 150 228
+click 150 348
+sec 0.3
+shot day70
+sec 3
+shot end
+tree 2

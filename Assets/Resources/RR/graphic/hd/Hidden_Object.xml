@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2f253c3c7aaacfb26ca6a30c97b80d1b:1/1$ -->
+<TextureAtlas imagePath="Hidden_Object.png">
+    <SubTexture name="UI_bg" x="2" y="2" width="1024" height="137"/>
+    <SubTexture name="hint_bg" x="1028" y="2" width="142" height="118"/>
+    <SubTexture name="hint_fill" x="2" y="141" width="112" height="88"/>
+    <SubTexture name="mute" x="238" y="172" width="24" height="29"/>
+    <SubTexture name="pause_btn" x="177" y="141" width="59" height="59"/>
+    <SubTexture name="sound_btn" x="116" y="141" width="59" height="59"/>
+    <SubTexture name="timer_BG" x="264" y="172" width="448" height="28"/>
+    <SubTexture name="timer_fill" x="2" y="231" width="369" height="18"/>
+    <SubTexture name="timer_glass" x="238" y="141" width="399" height="29"/>
+</TextureAtlas>

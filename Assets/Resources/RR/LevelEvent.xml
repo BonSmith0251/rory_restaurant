@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- The offsetX and offsetY attribute is just an offset
+	the position of every component is RELATIVE to the position of the WINDOWS
+	
+	LEAVE texture node BLANK if no texture on the windows -->
+<data>
+	<!-- DAY 1 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="120">This cutie pie waits patiently in line and doesn’t ask much. The best kind of customer!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_7</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="120">Nothing beats seeing a cheerful, smiling boy queuing patiently at our restaurant!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_1</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="120">Business men have hectic schedules, so you can expect them to pay more for fast service.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_4</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 2 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 3 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">These career ladies are willing to wait in line a bit longer, but will tip less.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_3</texture>
+		</window>
+		
+		<!--<kitchen size="big">
+			<title visible="true" offsetX="0" offsetY="-220">Emma's Recipe</title>
+			<info visible="true" offsetX="0" offsetY="80">Emma's willing to provide some new recipe for us now! For a price though.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="190">Okay!</uniButton>
+			<texture></texture>
+		</kitchen>-->
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 4 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Hidden Object</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's tidy up this room.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 5 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 6 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">He is half-way to becoming world famous, hence his cocky attitude. He pays good money though, so we should serve him with a smile.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_8</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 7 --> <!-- SPECIAL M3 -->
+	<day alwaysShow="true">
+		<!--<kitchen size="big">
+			<title visible="true" offsetX="0" offsetY="-220">Milly's Market</title>
+			<info visible="true" offsetX="0" offsetY="80">Milly's Market has opened! Visit her to upgrade your ingredient. Better ingredient, better dish price!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="190">Okay!</uniButton>
+			<texture></texture>
+		</kitchen>-->
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">Special Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">International famous food critic! His reviews are usually harsh and he can really make or break a business. Loved by foodies, dreaded by restaurant managers.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_13</texture>
+		</window>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 8 -->
+	<day>
+		<!--<kitchen size="big">
+			<title visible="true" offsetX="0" offsetY="-220">Chinese Menu</title>
+			<info visible="true" offsetX="0" offsetY="80">Recalling what you've learned in school, now you can serve chinese dish! Now Emma has some chinese recipe to share too!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="190">Okay!</uniButton>
+			<texture></texture>
+		</kitchen>-->
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 9 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 10 --> 
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">Old, tired and full of interesting war stories. Listen to his stories as you serve him and you might get a generous tip.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_10</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 11 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Making Yogurt</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's make some froyo!!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 12 -->
+	<day>
+		<!--<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Hardware</title>
+			<info visible="true" offsetX="0" offsetY="90">This juicer will make your customer happy and pay more of course!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>juicer</texture>
+		</window>-->
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 13 -->
+	<day>
+		<!--<kitchen size="big">
+			<title visible="true" offsetX="0" offsetY="-220">Hardware Store</title>
+			<info visible="true" offsetX="0" offsetY="80">Now that you have a beverage machine, visit hardware store for some parts that'll help to serve drink faster!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="190">Okay!</uniButton>
+			<texture></texture>
+		</kitchen>-->
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 14 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 15 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">Fairly patient and always in a good mood. Love her and she will love you back by giving you a generous tip.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_5</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 16 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 17 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 18 -->
+	<day>
+		<!--<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Hardware</title>
+			<info visible="true" offsetX="0" offsetY="90">This deep fryer will make delicious fries and make your customer pay even more!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>fryer</texture>
+		</window>-->
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Hidden Object</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's tidy up this room.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 19 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 20 --> <!-- SPECIAL M3 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">Had training all her life to keep smiling no matter what happens, including when she has to queue very long. Does not tips as good, though.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_11</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 21 -->
+	<day alwaysShow="true">
+		<!--<kitchen size="big">
+			<title visible="true" offsetX="0" offsetY="-220">Middle East Menu</title>
+			<info visible="true" offsetX="0" offsetY="80">Emma said that she has some new Middle East recipe at disposal, she shared one to us to get started!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="190">Okay!</uniButton>
+			<texture></texture>
+		</kitchen>-->
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 22 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 23 -->
+	<day>
+		<!--<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">Coins</title>
+			<info visible="true" offsetX="0" offsetY="90">Match 5 or more will give you a coins on the board. Tap it to increase.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>coin</texture>
+		</window>-->
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 24 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">A very famous figure back in his country, so he gets impatient when being told to queue. Will tip pretty good.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_6</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 25 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Making Yogurt</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's make some froyo!!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 26 -->
+	<day>
+		<!--<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">Cookies</title>
+			<info visible="true" offsetX="0" offsetY="90">Match 5 or more will give you a cookies on the board. Tap it to increase the patience of the most angry customer.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>cookies</texture>
+		</window>-->
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 27 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 28 -->
+	<day>
+		<window size="big" alwaysShow="true">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 29 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">Has full schedule throughout each week, does not want to wait for long. Tips fairly good.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_12</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 30 --> <!-- SPECIAL M3 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 31 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 32 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Hidden Object</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's tidy up this room.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 33 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 34 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 35 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 36 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">Made big money by chasing bad guys in action movies, he’ll tip very good if treated exceptionally well.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_2</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 37 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 38 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 39 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Making Yogurt</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's make some froyo!!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 40 --> <!-- SPECIAL M3 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 41 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 42 -->
+	<day>
+		<window size="big" alwaysShow="true">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 43 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">New Customer!</title>
+			<info visible="true" offsetX="0" offsetY="90">Being one of the richest people in the world does pay! She’ll leave if not treated well, but will tip lots when her high standards are met.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture>char_9</texture>
+		</window>
+		
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 44 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 45 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 46 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Hidden Object</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's tidy up this room.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 47 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 48 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 49 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 50 --> <!-- SPECIAL M3 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 51 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 52 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 53 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Making Yogurt</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's make some froyo!!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 54 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 55 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 56 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 57 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 58 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 59 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 60 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Hidden Object</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's tidy up this room.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 61 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 62 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 63 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 64 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 65 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 66 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 67 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Making Yogurt</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's make some froyo!!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 68 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 69 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 70 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 71 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 72 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 73 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 74 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Hidden Object</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's tidy up this room.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 75 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 76 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 77 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 78 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 79 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 80 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 81 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Making Yogurt</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's make some froyo!!</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 82 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 83 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 84 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 85 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 86 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 87 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 88 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-100">Hidden Object</title>
+			<info visible="true" offsetX="0" offsetY="90">Let's tidy up this room.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 89 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 90 -->
+	<day>
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+	
+	<!-- DAY 91 -->
+	<day alwaysShow="true">
+		<window size="big">
+			<title visible="true" offsetX="0" offsetY="-145">General Tips</title>
+			<info visible="true" offsetX="0" offsetY="90">A random general tips.</info>
+			<leftButton visible="false" offsetX="0" offsetY="0"></leftButton>
+			<rightButton visible="false" offsetX="0" offsetY="0"></rightButton>
+			<uniButton visible="true" offsetX="0" offsetY="240">Continue</uniButton>
+			<texture></texture>
+		</window>
+	</day>
+</data>

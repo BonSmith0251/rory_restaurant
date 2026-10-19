@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?> 
+<Settings xmlns="http://origamingmedia.com"> 
+	<Product>
+		<!-- Specify Game Name -->
+		<Name>Rory's Restaurant</Name>
+		
+		<!-- Specify Game Version -->
+		<Version>1.0.2</Version>
+		
+		<!-- Specify Game PackageName -->
+		<PackageName>com.tamalaki.rorysrestaurant</PackageName>
+				
+		<!-- Specify Game Texture Size: 'sd', 'hd', 'all' ('ld' and 'xhd' will be added later)-->
+		<TextureSize>hd</TextureSize>
+		
+		<!-- Specify Game Embed Mode -->
+		<EmbedAssets>false</EmbedAssets>
+		
+		<!-- Specify Game Encrypt Assets -->
+		<EncryptAssets>false</EncryptAssets>
+		
+		<!-- Specify Game handling Deactivate Event (default = false)
+			Only add these events: Event.ACTIVATE and Event.DEACTIVATE 
+			when this is true -->
+		<handleDeactivateEvent>true</handleDeactivateEvent>
+	</Product>
+	
+	<Publishing>
+		<Platform>Desktop</Platform>
+		<Publisher>BFG</Publisher> 
+		<NetworkAds>NONE</NetworkAds>
+		<ExternalAds>NONE</ExternalAds>
+	</Publishing>
+	
+	<Debug>
+		<ShowStats>false</ShowStats>
+	</Debug>
+	
+	<Support>
+		<DevName>Origaming Media</DevName>
+		<DevWebsite>http://origamingmedia.com</DevWebsite>
+		<DevSupport>feedback@origamingmedia.com</DevSupport>
+	</Support>
+	
+	<!-- Below are just some notes about the game / dev -->
+	<!-- 
+		-->
+	
+		<!-- This file is to be placed inside the folder \data\ relative to SWF's PATH -->
+	
+		<!-- Please fill out game information below each time you create a new game
+			These values will need to be loaded at first App Startup
+			and passed to a static class called settings.as -->
+			
+</Settings>
+<!------------------------------------------------------------------------- 
+       Settings XML origamingmedia (c) 2013 
+       v0.1 Initial version --> 

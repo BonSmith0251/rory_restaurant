@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:93937011c407b62183e8e70d3cdd2a7d:1/1$ -->
+<TextureAtlas imagePath="HO1_C.png" cache="true">
+    <SubTexture name="alarm clock,nm" x="92" y="287" width="40" height="54"/>
+    <SubTexture name="beer,nm" x="134" y="304" width="40" height="51"/>
+    <SubTexture name="biscuit,nm" x="2" y="227" width="44" height="32"/>
+    <SubTexture name="bottle cap,nm" x="207" y="400" width="27" height="17"/>
+    <SubTexture name="broccoli,nm" x="2" y="401" width="38" height="39"/>
+    <SubTexture name="cake,nm" x="168" y="25" width="71" height="46"/>
+    <SubTexture name="carrot,bg2" x="2" y="389" width="39" height="10"/>
+    <SubTexture name="carrot,nm" x="160" y="73" width="68" height="36"/>
+    <SubTexture name="cauliflower,nm" x="2" y="122" width="59" height="55"/>
+    <SubTexture name="cheese,nm" x="134" y="357" width="35" height="26"/>
+    <SubTexture name="chilli,nm" x="67" y="115" width="61" height="28"/>
+    <SubTexture name="chocolate,nm" x="182" y="176" width="46" height="28"/>
+    <SubTexture name="coconut,bg" x="176" y="309" width="38" height="19"/>
+    <SubTexture name="coconut,nm" x="2" y="179" width="54" height="46"/>
+    <SubTexture name="cookies,nm" x="152" y="281" width="41" height="21"/>
+    <SubTexture name="croissant,nm" x="130" y="142" width="59" height="29"/>
+    <SubTexture name="dragonfruit,nm" x="124" y="173" width="56" height="31"/>
+    <SubTexture name="drumsticks,nm" x="230" y="198" width="22" height="98"/>
+    <SubTexture name="egg,bg" x="2" y="371" width="39" height="16"/>
+    <SubTexture name="egg,nm" x="42" y="408" width="34" height="32"/>
+    <SubTexture name="fortune cookie,bg" x="191" y="142" width="15" height="15"/>
+    <SubTexture name="fortune cookie,nm" x="92" y="343" width="40" height="32"/>
+    <SubTexture name="baguette,nm" x="2" y="2" width="86" height="24"/>
+    <SubTexture name="hamburger,nm" x="58" y="212" width="47" height="46"/>
+    <SubTexture name="honey,nm" x="173" y="206" width="50" height="73"/>
+    <SubTexture name="ice cream,nm" x="230" y="73" width="24" height="51"/>
+    <SubTexture name="ice tea,nm" x="38" y="455" width="29" height="46"/>
+    <SubTexture name="ink bottle,nm" x="215" y="362" width="35" height="36"/>
+    <SubTexture name="lemon,nm" x="2" y="302" width="41" height="34"/>
+    <SubTexture name="meat,nm" x="120" y="206" width="51" height="34"/>
+    <SubTexture name="milk,nm" x="2" y="455" width="34" height="49"/>
+    <SubTexture name="mousetrap,nm" x="88" y="50" width="70" height="26"/>
+    <SubTexture name="muffin,nm" x="2" y="261" width="41" height="39"/>
+    <SubTexture name="papaya,nm" x="107" y="242" width="43" height="43"/>
+    <SubTexture name="pasta,nm" x="63" y="175" width="55" height="35"/>
+    <SubTexture name="pear,bg2" x="230" y="126" width="24" height="30"/>
+    <SubTexture name="pear,nm" x="216" y="312" width="37" height="48"/>
+    <SubTexture name="pineapple,nm" x="48" y="260" width="42" height="96"/>
+    <SubTexture name="pizza,nm" x="90" y="2" width="76" height="46"/>
+    <SubTexture name="plastic bottle,bg2" x="230" y="158" width="23" height="38"/>
+    <SubTexture name="plastic bottle,nm" x="208" y="111" width="20" height="63"/>
+    <SubTexture name="ring,nm" x="176" y="330" width="37" height="32"/>
+    <SubTexture name="sandwich,nm" x="78" y="78" width="65" height="35"/>
+    <SubTexture name="sausage,bg" x="78" y="28" width="8" height="23"/>
+    <SubTexture name="sausage,nm" x="145" y="111" width="61" height="29"/>
+    <SubTexture name="scroll,nm" x="171" y="364" width="34" height="77"/>
+    <SubTexture name="shoes,nm" x="2" y="28" width="74" height="60"/>
+    <SubTexture name="smoking pipe,nm" x="86" y="377" width="34" height="76"/>
+    <SubTexture name="stamp,nm" x="195" y="281" width="31" height="26"/>
+    <SubTexture name="strawberry,nm" x="2" y="338" width="41" height="31"/>
+    <SubTexture name="teabag,nm" x="45" y="358" width="39" height="48"/>
+    <SubTexture name="thermometer,bg" x="228" y="298" width="22" height="12"/>
+    <SubTexture name="thermometer,nm" x="168" y="2" width="74" height="21"/>
+    <SubTexture name="thread,nm" x="152" y="242" width="19" height="37"/>
+    <SubTexture name="watermelon,bg2" x="2" y="90" width="63" height="30"/>
+    <SubTexture name="watermelon,nm" x="63" y="145" width="59" height="28"/>
+</TextureAtlas>

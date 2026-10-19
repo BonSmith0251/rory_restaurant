@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:cfe6f4d4467a3de54f67cb8c609cb757:1/1$ -->
+<TextureAtlas imagePath="window.png">
+    <SubTexture name="arrow" x="882" y="210" width="71" height="55"/>
+    <SubTexture name="check_mark" x="882" y="152" width="73" height="56"/>
+    <SubTexture name="coin" x="957" y="152" width="65" height="66"/>
+    <SubTexture name="expert" x="651" y="362" width="175" height="196"/>
+    <SubTexture name="expert_blink" x="473" y="710" width="178" height="94"/>
+    <SubTexture name="goal" x="828" y="362" width="173" height="196"/>
+    <SubTexture name="music_icon" x="882" y="267" width="59" height="59"/>
+    <SubTexture name="rory" x="882" y="2" width="116" height="148"/>
+    <SubTexture name="small_btn_blue" x="651" y="302" width="207" height="58"/>
+    <SubTexture name="small_btn_blue_dark" x="651" y="242" width="207" height="58"/>
+    <SubTexture name="small_btn_green" x="651" y="182" width="207" height="58"/>
+    <SubTexture name="small_btn_green_dark" x="651" y="122" width="207" height="58"/>
+    <SubTexture name="small_btn_red" x="651" y="62" width="207" height="58"/>
+    <SubTexture name="small_btn_red_dark" x="651" y="2" width="207" height="58"/>
+    <SubTexture name="small_widget_BG" x="2" y="562" width="469" height="429"/>
+    <SubTexture name="star" x="955" y="220" width="64" height="63"/>
+    <SubTexture name="star_empty" x="943" y="285" width="57" height="56"/>
+    <SubTexture name="textbox" x="473" y="562" width="407" height="146"/>
+    <SubTexture name="widget_BG" x="2" y="2" width="647" height="558"/>
+</TextureAtlas>

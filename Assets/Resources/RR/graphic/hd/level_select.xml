@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:034e194511f32778387675788aad0610:1/1$ -->
+<TextureAtlas imagePath="level_select.png">
+    <SubTexture name="arrow_button" x="2" y="233" width="82" height="96"/>
+    <SubTexture name="big_blue" x="2" y="156" width="291" height="75"/>
+    <SubTexture name="big_green" x="2" y="79" width="291" height="75"/>
+    <SubTexture name="big_red" x="2" y="2" width="291" height="75"/>
+    <SubTexture name="small_blue" x="295" y="156" width="161" height="75"/>
+    <SubTexture name="small_green" x="295" y="79" width="162" height="75"/>
+    <SubTexture name="small_red" x="295" y="2" width="162" height="75"/>
+</TextureAtlas>

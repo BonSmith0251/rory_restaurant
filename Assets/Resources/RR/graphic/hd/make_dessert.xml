@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7babada9d8a7e02462ff8c6dfc74db84:1/1$ -->
+<TextureAtlas imagePath="make_dessert.png">
+    <SubTexture name="black_tile" x="358" y="876" width="106" height="99"/>
+    <SubTexture name="blue_tile" x="497" y="812" width="106" height="99"/>
+    <SubTexture name="char_1" x="733" y="774" width="138" height="166"/>
+    <SubTexture name="char_10" x="649" y="118" width="169" height="186"/>
+    <SubTexture name="char_11" x="873" y="302" width="120" height="172"/>
+    <SubTexture name="char_12" x="376" y="421" width="158" height="190"/>
+    <SubTexture name="char_2" x="712" y="306" width="159" height="197"/>
+    <SubTexture name="char_3" x="213" y="700" width="144" height="163"/>
+    <SubTexture name="char_4" x="733" y="598" width="132" height="174" frameX="0" frameY="-4" frameWidth="132" frameHeight="178"/>
+    <SubTexture name="char_5" x="820" y="114" width="157" height="186"/>
+    <SubTexture name="char_6" x="359" y="700" width="136" height="174"/>
+    <SubTexture name="char_7" x="867" y="598" width="131" height="157"/>
+    <SubTexture name="char_8" x="476" y="133" width="171" height="173"/>
+    <SubTexture name="char_9" x="536" y="599" width="195" height="211"/>
+    <SubTexture name="cup_paper" x="2" y="421" width="226" height="225"/>
+    <SubTexture name="cup_paper_preview" x="466" y="913" width="93" height="93"/>
+    <SubTexture name="cup_pineapple" x="536" y="308" width="174" height="289"/>
+    <SubTexture name="cup_pineapple_preview" x="605" y="812" width="60" height="99"/>
+    <SubTexture name="cust_bar_BG" x="301" y="133" width="173" height="46"/>
+    <SubTexture name="cust_fill" x="751" y="2" width="118" height="18"/>
+    <SubTexture name="cust_glass" x="702" y="32" width="121" height="20"/>
+    <SubTexture name="heart_cust" x="156" y="806" width="41" height="35"/>
+    <SubTexture name="mute_icon" x="445" y="181" width="24" height="29"/>
+    <SubTexture name="pan" x="2" y="309" width="532" height="110"/>
+    <SubTexture name="pause_button" x="561" y="913" width="59" height="59"/>
+    <SubTexture name="preview_list" x="2" y="2" width="297" height="305"/>
+    <SubTexture name="score_board" x="301" y="83" width="289" height="48"/>
+    <SubTexture name="smoothie_1" x="230" y="421" width="144" height="277"/>
+    <SubTexture name="smoothie_1_preview" x="156" y="648" width="55" height="105"/>
+    <SubTexture name="smoothie_2" x="2" y="648" width="152" height="235"/>
+    <SubTexture name="smoothie_2_preview" x="667" y="812" width="59" height="90"/>
+    <SubTexture name="sound_button" x="667" y="904" width="59" height="59"/>
+    <SubTexture name="syrup_maple" x="862" y="505" width="148" height="91"/>
+    <SubTexture name="syrup_maple_preview" x="300" y="865" width="56" height="53"/>
+    <SubTexture name="syrup_orange" x="712" y="505" width="148" height="91"/>
+    <SubTexture name="syrup_orange_preview" x="156" y="755" width="50" height="49"/>
+    <SubTexture name="syrup_pomegranate" x="871" y="2" width="148" height="91"/>
+    <SubTexture name="syrup_pomegranate_preview" x="300" y="920" width="56" height="52"/>
+    <SubTexture name="timer_BG" x="301" y="2" width="448" height="28"/>
+    <SubTexture name="timer_fill" x="301" y="63" width="369" height="18"/>
+    <SubTexture name="timer_glass" x="301" y="32" width="399" height="29"/>
+    <SubTexture name="topping_banana" x="728" y="942" width="86" height="50"/>
+    <SubTexture name="topping_banana_preview" x="445" y="269" width="25" height="24"/>
+    <SubTexture name="topping_blackberry" x="592" y="83" width="122" height="33"/>
+    <SubTexture name="topping_blackberry_preview" x="702" y="54" width="22" height="21"/>
+    <SubTexture name="topping_kiwi" x="376" y="613" width="131" height="71"/>
+    <SubTexture name="topping_kiwi_preview" x="445" y="212" width="28" height="27"/>
+    <SubTexture name="topping_strawberry" x="726" y="54" width="102" height="58"/>
+    <SubTexture name="topping_strawberry_preview" x="445" y="241" width="26" height="26"/>
+    <SubTexture name="yogurt_blueberry" x="2" y="885" width="142" height="113"/>
+    <SubTexture name="yogurt_blueberry_preview" x="622" y="965" width="64" height="50"/>
+    <SubTexture name="yogurt_mango" x="156" y="865" width="142" height="113"/>
+    <SubTexture name="yogurt_mango_preview" x="816" y="942" width="59" height="47"/>
+    <SubTexture name="yogurt_plain" x="301" y="181" width="142" height="113"/>
+    <SubTexture name="yogurt_plain_preview" x="561" y="974" width="59" height="47"/>
+</TextureAtlas>

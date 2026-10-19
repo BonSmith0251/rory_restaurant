@@ -1,0 +1,106 @@
+sec 12
+clicktext Story
+sec 2
+type Tester
+clicktext Done
+sec 3
+clicktext Select
+sec 3
+day 3
+goto ho
+sec 5
+shot ho1
+tryclicktext OK
+tryclicktext Next
+tryclicktext Continue
+tryclicktext Start
+sec 3
+shot ho2
+tryclicktext No one
+sec 2
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+shot hof05
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+shot hof10
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+shot hof15
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+tryclicktext OK
+tryclicktext Next
+hofind
+sec 1.5
+shot hof20
+sec 3
+shot hoend

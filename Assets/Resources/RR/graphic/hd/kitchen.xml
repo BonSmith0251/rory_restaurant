@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e1e1ddd57de9487e0318113e8f1df7a6:1/1$ -->
+<TextureAtlas imagePath="kitchen.png">
+    <SubTexture name="achievementGlow" x="677" y="246" width="75" height="71"/>
+    <SubTexture name="achievement_bubble" x="406" y="427" width="242" height="67"/>
+    <SubTexture name="arrow" x="807" y="1450" width="64" height="100"/>
+    <SubTexture name="bacon" x="191" y="1315" width="175" height="145"/>
+    <SubTexture name="bacon_small" x="938" y="1450" width="62" height="50"/>
+    <SubTexture name="beef" x="822" y="919" width="196" height="211"/>
+    <SubTexture name="beef_small" x="873" y="1490" width="61" height="63"/>
+    <SubTexture name="bookGlow" x="2" y="1388" width="175" height="63"/>
+    <SubTexture name="cheese" x="830" y="737" width="192" height="180"/>
+    <SubTexture name="cheese_small" x="923" y="508" width="68" height="66"/>
+    <SubTexture name="chicken" x="219" y="970" width="182" height="194"/>
+    <SubTexture name="chicken_small" x="936" y="1502" width="61" height="58"/>
+    <SubTexture name="coin_BG" x="404" y="496" width="220" height="67"/>
+    <SubTexture name="convenience_bubble" x="421" y="2" width="400" height="67"/>
+    <SubTexture name="cookies" x="564" y="1352" width="171" height="168"/>
+    <SubTexture name="croissant" x="612" y="1000" width="206" height="181"/>
+    <SubTexture name="croissant_small" x="737" y="1415" width="68" height="59"/>
+    <SubTexture name="asian_fried_rice" x="230" y="632" width="172" height="167"/>
+    <SubTexture name="chinese_pork_special" x="403" y="1047" width="206" height="151"/>
+    <SubTexture name="deluxe_BBQ_combo" x="2" y="845" width="215" height="135"/>
+    <SubTexture name="fine_imperial_cuisine" x="677" y="384" width="244" height="179"/>
+    <SubTexture name="kalasan_fried_chicken" x="820" y="1132" width="202" height="157"/>
+    <SubTexture name="thai_fried_rice" x="2" y="303" width="244" height="195"/>
+    <SubTexture name="baklava" x="192" y="1166" width="187" height="147"/>
+    <SubTexture name="crown_lamb_roast" x="2" y="1453" width="174" height="189"/>
+    <SubTexture name="doner_kebab" x="2" y="500" width="226" height="164"/>
+    <SubTexture name="gyro_style" x="381" y="1200" width="181" height="157"/>
+    <SubTexture name="tomato_domas" x="818" y="1291" width="190" height="157"/>
+    <SubTexture name="tuscan_humus" x="621" y="565" width="208" height="137"/>
+    <SubTexture name="beef_steak" x="831" y="576" width="191" height="159"/>
+    <SubTexture name="deluxe_chicken_croissant" x="2" y="666" width="215" height="177"/>
+    <SubTexture name="french_BBQ_combo" x="421" y="71" width="268" height="155"/>
+    <SubTexture name="premium_salmon_steak" x="2" y="1108" width="188" height="150"/>
+    <SubTexture name="smokey_salmon" x="2" y="1260" width="187" height="126"/>
+    <SubTexture name="veggie_croissant" x="823" y="2" width="197" height="169"/>
+    <SubTexture name="emma" x="268" y="297" width="136" height="174"/>
+    <SubTexture name="fryer" x="2" y="96" width="264" height="205"/>
+    <SubTexture name="hardwareGlow" x="691" y="71" width="92" height="103"/>
+    <SubTexture name="juicer" x="404" y="565" width="215" height="240"/>
+    <SubTexture name="lamb" x="248" y="473" width="154" height="157"/>
+    <SubTexture name="lamb_small" x="178" y="1521" width="55" height="56"/>
+    <SubTexture name="marble_rock" x="2" y="2" width="417" height="92"/>
+    <SubTexture name="pita_bread" x="368" y="1359" width="157" height="136"/>
+    <SubTexture name="pita_bread_small" x="248" y="1462" width="66" height="57"/>
+    <SubTexture name="plate" x="413" y="228" width="262" height="197"/>
+    <SubTexture name="play_bubble" x="268" y="230" width="143" height="65"/>
+    <SubTexture name="recipeGlow" x="923" y="384" width="69" height="61"/>
+    <SubTexture name="recipe_bubble" x="268" y="96" width="144" height="65"/>
+    <SubTexture name="rice" x="611" y="1183" width="205" height="167"/>
+    <SubTexture name="rice_small" x="923" y="447" width="69" height="59"/>
+    <SubTexture name="salmon" x="219" y="801" width="183" height="167"/>
+    <SubTexture name="salmon_small" x="737" y="1352" width="68" height="61"/>
+    <SubTexture name="seafood" x="621" y="704" width="207" height="174" frameX="-2" frameY="0" frameWidth="209" frameHeight="174"/>
+    <SubTexture name="seafood_small" x="178" y="1462" width="68" height="57"/>
+    <SubTexture name="selada" x="785" y="173" width="228" height="209"/>
+    <SubTexture name="selada_small" x="677" y="319" width="69" height="63"/>
+    <SubTexture name="shopGlow" x="691" y="176" width="91" height="68"/>
+    <SubTexture name="shop_bubble" x="268" y="163" width="143" height="65"/>
+    <SubTexture name="small_btn_blue" x="403" y="987" width="207" height="58"/>
+    <SubTexture name="small_btn_blue_dark" x="613" y="940" width="207" height="58"/>
+    <SubTexture name="small_btn_green" x="404" y="927" width="207" height="58"/>
+    <SubTexture name="small_btn_green_dark" x="613" y="880" width="207" height="58"/>
+    <SubTexture name="small_btn_red" x="404" y="867" width="207" height="58"/>
+    <SubTexture name="small_btn_red_dark" x="404" y="807" width="207" height="58"/>
+    <SubTexture name="star" x="737" y="1476" width="64" height="63"/>
+    <SubTexture name="star_empty" x="316" y="1497" width="57" height="56"/>
+    <SubTexture name="tomato" x="2" y="982" width="205" height="124"/>
+    <SubTexture name="tomato_small" x="873" y="1450" width="63" height="38"/>
+</TextureAtlas>
