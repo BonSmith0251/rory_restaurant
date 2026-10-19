@@ -17,7 +17,335 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 6cd199a61a3c34b4781330791a628aeb, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 3883249164288
+    m_Localized: Service Excellence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883274330112
+    m_Localized: 'You''ve served VALUE/1000 perfectly happy customers
+
+      (80%
+      patience or above)!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524416
+    m_Localized: AAAAA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524417
+    m_Localized: 'Day
+
+      1'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524418
+    m_Localized: 'Day
+
+      2'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524419
+    m_Localized: 'Day
+
+      3'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524420
+    m_Localized: 'Day
+
+      4'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524421
+    m_Localized: 'Day
+
+      5'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524422
+    m_Localized: 'Day
+
+      6'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524423
+    m_Localized: 'Day
+
+      7'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524424
+    m_Localized: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524425
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524426
+    m_Localized: Story
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524427
+    m_Localized: Extras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524428
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524429
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524430
+    m_Localized: Full Screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524431
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524432
+    m_Localized: Select Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524433
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524434
+    m_Localized: Create
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524435
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524436
+    m_Localized: Create Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524437
+    m_Localized: 'Enter Your Name :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524438
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524439
+    m_Localized: Done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524440
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524441
+    m_Localized: Try Again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524442
+    m_Localized: Oops, the name you entered is already exist. Please try again!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524443
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524444
+    m_Localized: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524445
+    m_Localized: Delete Player?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524446
+    m_Localized: Are you sure want to delete this player? This process can't be undone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524447
+    m_Localized: Select Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524448
+    m_Localized: Hidden Object
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524449
+    m_Localized: Dessert Making
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524450
+    m_Localized: Exit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524451
+    m_Localized: Are you sure you want to quit game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524452
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524453
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524454
+    m_Localized: CREDITS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524455
+    m_Localized: PRODUCERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524456
+    m_Localized: 'Andre Yu
+
+      Robert YKG'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524457
+    m_Localized: All rights reserved. Origaming Media (c) 2015
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524458
+    m_Localized: GAME CONCEPT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524459
+    m_Localized: Andre Yu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524460
+    m_Localized: LEAD ARTIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524461
+    m_Localized: Robert YKG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524462
+    m_Localized: PROGRAMMERS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524463
+    m_Localized: 'Wilson
+
+      Sherson Watson
+
+      Andri'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524464
+    m_Localized: GRAPHIC ARTIST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524465
+    m_Localized: 'Alfa Lui
+
+      Handrison'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524466
+    m_Localized: Rory's Restaurant  v. 1.0.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524467
+    m_Localized: SUMMARY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524468
+    m_Localized: Go to kitchen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524469
+    m_Localized: Are you sure want to exit to the Kitchen? Your progress in this
+      level will not be saved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524470
+    m_Localized: New Customer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524471
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524472
+    m_Localized: Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524473
+    m_Localized: Locked!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524474
+    m_Localized: 'To unlock this recipe, you need to collect 5 expert badges.
+
+      Current
+      Expert Badges: 0'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524475
+    m_Localized: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524476
+    m_Localized: 'Goal : serve 5 customer(s)
+
+      Expert : earn $220'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524477
+    m_Localized: Kitchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524478
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524479
+    m_Localized: 'SOUND :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524480
+    m_Localized: ON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524481
+    m_Localized: 'MUSIC : '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524482
+    m_Localized: 'FULL SCREEN : '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524483
+    m_Localized: Congratulations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524484
+    m_Localized: You've reached today's goal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524485
+    m_Localized: "Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t
+      :\n\nToday's Earnings\t\t :\nTotal Coins\t\t\t :"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524486
+    m_Localized: Well done! Try to reach Expert target to earn even more coins!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3883278524487
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

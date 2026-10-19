@@ -14,7 +14,579 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Dialogue
   m_TableCollectionNameGuidString: 2cc0bd982a631b0419e7c882434b18de
-  m_Entries: []
+  m_Entries:
+  - m_Id: 3882393526272
+    m_Key: Finally, the days of my culinary school are over!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109184
+    m_Key: Now I have all day to focus on my work as certified chef!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109185
+    m_Key: "I have been thinking of opening a shop since the first day at culinary
+      school. I\u2019m so excited the time has come!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109186
+    m_Key: I will need someone to accompany me. Will you help me out?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109187
+    m_Key: Of course!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109188
+    m_Key: "That\u2019s the spirit! Now, let\u2019s start our first day!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109189
+    m_Key: Welcome to my kitchen! Let me give you a tour!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109190
+    m_Key: OK!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109191
+    m_Key: Your objective is to earn enough money by cooking delicious food. This
+      is the amount of customers you need to serve today.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109192
+    m_Key: A customer has come! Here is the list of ingredients you need to complete
+      the dish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109193
+    m_Key: Swap and make a match of at least 3 ingredients.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109194
+    m_Key: Great! Now continue to match more ingredients to complete the dish.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109195
+    m_Key: Congratulations! You have finished your first dish! Now click on the Money
+      to collect it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109196
+    m_Key: "Please keep in mind to check out each customer\u2019s patient meter.
+      They will leave more tips for you when they are happier!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109197
+    m_Key: Ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109198
+    m_Key: 'One more thing I need to tell you: When you have more than 1 customer
+      at a time, click on their plate to change priority.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109199
+    m_Key: "I think we\u2019re all set! Let\u2019s keep our customers coming and
+      serve them well!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109200
+    m_Key: No problem!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109201
+    m_Key: Great job, (player)! I must say that we did really great yesterday!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109202
+    m_Key: I can't wait to cook already! Let's start now!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109203
+    m_Key: Good news! Do you know Emma, that famous girl in the Home Makeover games?
+      Well, she just came into town to set up a book store!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109204
+    m_Key: Cool!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109205
+    m_Key: Now we can buy new recipes and upgrade our old ones! Click here to open
+      our recipe book!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109206
+    m_Key: "Why don\u2019t we try to buy the Deluxe Chicken Croissant recipe?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109207
+    m_Key: Click here to see the next recipe in the list.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109208
+    m_Key: Click this button to buy it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109209
+    m_Key: Awesome! We just bought a new recipe! Keep buying better ones to increase
+      our restaurant reputation!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109210
+    m_Key: Great!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109211
+    m_Key: Also, upgrading recipes will increase value of the dish. The more expensive
+      it gets, the more money we will earn!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109212
+    m_Key: Remember to visit the Shops anytime you have enough money!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109213
+    m_Key: Look at this incredible mess! Who would have thought that we cooked our
+      delicious dishes here in this very kitchen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109214
+    m_Key: No one
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109215
+    m_Key: "You know what they say about always try to have your kitchen clean and
+      tidy, right? Well, that\u2019s quite true because you can\u2019t cook in this
+      mess."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109216
+    m_Key: "I know you like cooking as much as I do but we still need to clean this
+      up first! The sooner we get this done, the better. Let\u2019s start!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109217
+    m_Key: We need to remove most of these items from the kitchen. I have provided
+      the list of items so this will be easy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109218
+    m_Key: There it is, the first item on top of the list. Just click to grab it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109219
+    m_Key: "Great! Now, let\u2019s try to use a hint for the second item. Click here
+      to use a hint."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109220
+    m_Key: "Hints will refill slowly so you can use it over and over again. Very
+      thoughtful, isn\u2019t it?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109221
+    m_Key: Yes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109222
+    m_Key: 'Last tip: you can zoom in and out by dragging your mouse while holding
+      down CTRL key.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109223
+    m_Key: Now try to find the rest of the items by yourself. Good luck!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109224
+    m_Key: Different customer has different personalities.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109225
+    m_Key: Some are more patient but will tip less, while others may get upset faster
+      while queuing but will tip more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109226
+    m_Key: Set your priorities to get maximum profit out of your day.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109227
+    m_Key: (player), I have been told that a food critic will visit us today! Oh
+      my gosh!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109228
+    m_Key: "I heard food critics are the worst kind of customer! They usually order
+      a restaurant\u2019s best dish and demand it to be done quick!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109229
+    m_Key: "We must make sure everything goes very well today! Let\u2019s do our
+      best!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109230
+    m_Key: There he is! The notorious, sour-looking food critic!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109231
+    m_Key: He just ordered our most expensive dish with extra add-ons of everything!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109232
+    m_Key: "We really need a good review from him so let\u2019s work hard to serve
+      whatever he wants!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109233
+    m_Key: "And remember: Click the food critic\u2019s plate to make his order the
+      top priority."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109234
+    m_Key: "Very nice job today! I\u2019m so delighted!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109235
+    m_Key: Do you want to hear more good news? Guess what, I just found an old recipe
+      for cooking a Chinese menu! Pretty awesome, huh?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109236
+    m_Key: "I know you can\u2019t wait to try it out, so let\u2019s hit the kitchen
+      when you\u2019re ready!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109237
+    m_Key: Congratulations, now you have access to a set of wonderful Chinese delicacies!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109238
+    m_Key: Remember that you can always buy new recipes and upgrade ingredients at
+      the shop!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109239
+    m_Key: "Hey, guess who just opened an Organic Market! It\u2019s Emma again!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109240
+    m_Key: Really?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109241
+    m_Key: This means we can now upgrade our ingredients, enhancing the taste of
+      our dishes! That also means we can raise the prices of our menu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109242
+    m_Key: "Let\u2019s check out her store!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109243
+    m_Key: Wow look at all these fresh vegetables! This is heaven for cooks!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109244
+    m_Key: Let me give you a tour around here...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109245
+    m_Key: This shows the name of the ingredient on display.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109246
+    m_Key: You can see more information below, like the Ingredient level, upgrade
+      price and its effect upon purchase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109247
+    m_Key: "You can upgrade an ingredient up to 10 levels. I\u2019d recommend to
+      first upgrade the one you use the most."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109248
+    m_Key: "Let\u2019s try to upgrade this ingredient now. Click the Upgrade button."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109249
+    m_Key: Awesome! Now you know how to get the better ingredients for your dishes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109250
+    m_Key: 'Last tip: Come back here to upgrade regularly to make sure we always
+      serve the best quality to our customers!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109251
+    m_Key: Did you know that I am also very good at making frozen yogurt? I just
+      made lots of it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109252
+    m_Key: "I\u2019d like to serve my specialty\u2019s frozen yogurt for today and
+      let everyone enjoy it!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109253
+    m_Key: So for today, our business is nothing else but froyo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109254
+    m_Key: "Come, I\u2019ll walk you through this!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109255
+    m_Key: "I have prepared everything from cups to yogurts so we\u2019re all set
+      to start!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109256
+    m_Key: A customer just came in! Perfect timing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109257
+    m_Key: You can see the kind of froyo he wants here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109258
+    m_Key: Preparing it is very easy. First, select a cup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109259
+    m_Key: Then select the yogurt he wants.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109260
+    m_Key: He wants Pomegranate syrup to go with it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109261
+    m_Key: Add some Kiwi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109262
+    m_Key: And finally 1 beverage!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109263
+    m_Key: "We did it! We just sold our first yogurt ever! That wasn\u2019t so hard,
+      was it?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109264
+    m_Key: Just remember that you need to work on it from top to bottom, and from
+      left to right.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109265
+    m_Key: "And don\u2019t forget to keep an eye of his patience bar. He\u2019ll
+      leave if he waits too long!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109266
+    m_Key: You see that sweet baby in the corner? That is our brand new beverage
+      machine! Here, let me show you how it works.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109267
+    m_Key: Currently the machine is (juice percentage) complete. It works as we prepare
+      our dishes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109268
+    m_Key: "Let\u2019s match this."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109269
+    m_Key: Great, a beverage is now ready!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109270
+    m_Key: Click the machine and drag to a customer to offer him/her a beverage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109271
+    m_Key: Offering a beverage will increase customer satisfaction which means more
+      earnings for us!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109272
+    m_Key: When possible, try to hold off from collecting money right away.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109273
+    m_Key: "You\u2019ll be rewarded with Chain Bonus if you collect money from all
+      3 customers at the same time."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109274
+    m_Key: Even a small amount will be very helpful to help you reach EXPERT SCORE.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109275
+    m_Key: "That food critic guy is back to check on us! Let\u2019s show him what
+      we\u2019re made of!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109276
+    m_Key: Matching more than 4 ingredients will give you instant bonus money.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109277
+    m_Key: As a general rule of thumb, always try to find the longest match as fast
+      as you can.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109278
+    m_Key: The faster you match, the shorter time it will take to prepare a dish,
+      which eventually means earning more tips.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109279
+    m_Key: (player), I just installed a new French Fries machine on the counter.
+      Now we can serve delicious fries!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109280
+    m_Key: "It works exactly like the beverage machine, but just in case you forgot,
+      let\u2019s go over it again."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109281
+    m_Key: "Let\u2019s complete the fries by matching this."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109282
+    m_Key: The fries is now ready!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109283
+    m_Key: Click the machine and drag to a customer to offer him/her a french fries.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109284
+    m_Key: Offering a side dish or drink will increase customer satisfaction, leading
+      to a higher tip!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109285
+    m_Key: "It\u2019s time to clean our kitchen again!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109286
+    m_Key: "It\u2019s still hard to believe we made all this mess just in a few days!
+      Let\u2019s work hard to make this place spotless."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109287
+    m_Key: There are 10 challenging achievements for you to earn. You should always
+      try to achieve all of them.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109288
+    m_Key: "Uhoh, the food critic is back. Let\u2019s show him what we got!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109289
+    m_Key: Congratulations, now you have access to a set of spicy and exotic Middle
+      Eastern dishes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109290
+    m_Key: "It\u2019s time to serve our specialty\u2019s frozen yogurt again! Remember
+      to serve each customer with the right combination as fast as you can to earn
+      more money!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109291
+    m_Key: Oh no, our fridge malfunctioned last night and froze some of our fresh
+      ingredients!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109292
+    m_Key: No problem, we can manage this.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109293
+    m_Key: For each frozen tile, we need an extra step to defrost it. Very simple
+      actually. Try swapping this one.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109294
+    m_Key: Now that ingredient has returned back to normal. Problem solved!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109295
+    m_Key: I just bought a very helpful tool to help us cook faster and also defrost
+      ingredients easier!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109296
+    m_Key: "There it is, a chef\u2019s torch! To use it, just swap it to any direction
+      you want. Let\u2019s swap it upwards now."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109297
+    m_Key: "Very handy, isn\u2019t it?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109298
+    m_Key: "The chef\u2019s torch will appear in our cooking board from time to time,
+      so keep an eye out for it!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109299
+    m_Key: "I see a sour-looking face. Must be that food critic again. Let\u2019s
+      see if we can make him smile!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109300
+    m_Key: 'I have good stuff that can keep customers happy for a while: free cookies!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109301
+    m_Key: "Each time you match 5 or more ingredients, a Cookie will appear. Click
+      on it to boost a customer\u2019s patience."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109302
+    m_Key: Customers with the least patience left will accept your generous present
+      and feel a bit happier!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109303
+    m_Key: One last thing, you can upgrade its effects from the Shop. Good luck!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109304
+    m_Key: "It\u2019s time to clean up our kitchen again! Roll up your sleeves and
+      grab your rubber gloves. Let\u2019s get started!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109305
+    m_Key: Player, I figure that our tools need a little upgrade.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109306
+    m_Key: Agree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109307
+    m_Key: "Let\u2019s visit a nearby store and see what they have in stock!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109308
+    m_Key: "Ah, player, look at that shiny French Fries Machine! Don\u2019t you think
+      that would be the best investment to make our restaurant service even better?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882406109309
+    m_Key: "But I\u2019ll leave it up for you to decide. If you want to upgrade it,
+      you know now where to go!"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -1,20 +1,19 @@
 en	zh-Hans	ja	ko	context
-This cutie pie waits patiently in line and doesn’t ask much. The best kind of customer!				day 0 window 0 info
-Nothing beats seeing a cheerful, smiling boy queuing patiently at our restaurant!				day 0 window 1 info
-Business men have hectic schedules, so you can expect them to pay more for fast service.				day 0 window 2 info
-General Tips				day 0 window 3 title
-A random general tips.				day 0 window 3 info
-These career ladies are willing to wait in line a bit longer, but will tip less.				day 2 window 0 info
-Let's tidy up this room.				day 3 window 0 info
-He is half-way to becoming world famous, hence his cocky attitude. He pays good money though, so we should serve him with a smile.				day 5 window 0 info
-Special Customer!				day 6 window 0 title
-International famous food critic! His reviews are usually harsh and he can really make or break a business. Loved by foodies, dreaded by restaurant managers.				day 6 window 0 info
-Old, tired and full of interesting war stories. Listen to his stories as you serve him and you might get a generous tip.				day 9 window 0 info
-Making Yogurt				day 10 window 0 title
-Let's make some froyo!!				day 10 window 0 info
-Fairly patient and always in a good mood. Love her and she will love you back by giving you a generous tip.				day 14 window 0 info
-Had training all her life to keep smiling no matter what happens, including when she has to queue very long. Does not tips as good, though.				day 19 window 0 info
-A very famous figure back in his country, so he gets impatient when being told to queue. Will tip pretty good.				day 23 window 0 info
-Has full schedule throughout each week, does not want to wait for long. Tips fairly good.				day 28 window 0 info
-Made big money by chasing bad guys in action movies, he’ll tip very good if treated exceptionally well.				day 35 window 0 info
-Being one of the richest people in the world does pay! She’ll leave if not treated well, but will tip lots when her high standards are met.				day 42 window 0 info
+This cutie pie waits patiently in line and doesn’t ask much. The best kind of customer!	这个小可爱会乖乖排队，要求也不多。是最棒的那种顾客！	このかわいい子は列に並んでおとなしく待ってくれて、注文も控えめ。最高のお客さんね！	이 귀여운 아이는 얌전히 줄을 서서 기다리고 바라는 것도 별로 없어요. 최고의 손님이죠!	day 0 window 0 info
+Nothing beats seeing a cheerful, smiling boy queuing patiently at our restaurant!	看到一个开朗爱笑的男孩在我们餐厅耐心排队，真是再好不过了！	明るくニコニコした男の子がお店で行儀よく並んでくれるなんて、最高よね！	밝게 웃는 소년이 우리 가게에서 얌전히 줄 서 있는 모습만큼 좋은 건 없죠!	day 0 window 1 info
+Business men have hectic schedules, so you can expect them to pay more for fast service.	商人们日程繁忙，所以上菜快的话，他们会愿意多付钱。	ビジネスマンは忙しいから、早く料理を出せばたくさん払ってくれるわ。	사업가는 일정이 바빠서 빨리 대접하면 돈을 더 많이 낼 거예요.	day 0 window 2 info
+A random general tips.	一条随机小提示。	ランダムなお役立ちヒント。	무작위 일반 팁.	day 0 window 3 info
+These career ladies are willing to wait in line a bit longer, but will tip less.	这些职业女性愿意多排一会儿队，但小费给得比较少。	このキャリアウーマンたちは少し長めに並んでくれるけど、チップは少なめよ。	이 직장인 여성들은 조금 더 오래 줄을 서 주지만 팁은 적게 줘요.	day 2 window 0 info
+Let's tidy up this room.	我们来收拾一下这个房间吧。	この部屋を片付けましょう。	이 방을 정리해 봐요.	day 3 window 0 info
+He is half-way to becoming world famous, hence his cocky attitude. He pays good money though, so we should serve him with a smile.	他离世界级名人只有一步之遥，所以有点自大。不过他出手大方，我们还是要笑脸相迎。	世界的スターまであと一歩だから、ちょっと生意気なの。でもお金はたっぷり払ってくれるから、笑顔でおもてなししましょう。	세계적인 스타가 되기 직전이라 좀 건방져요. 그래도 돈을 잘 내니까 웃으며 대접해야 해요.	day 5 window 0 info
+Special Customer!	特别顾客！	特別なお客さん！	특별한 손님!	day 6 window 0 title
+International famous food critic! His reviews are usually harsh and he can really make or break a business. Loved by foodies, dreaded by restaurant managers.	国际知名的美食评论家！他的评论通常很严厉，真的能决定一家店的成败。吃货们爱他，餐厅老板们怕他。	世界的に有名な料理評論家！レビューはたいてい辛口で、お店の運命を左右するほど。グルメには愛され、レストランの店長には恐れられているわ。	세계적으로 유명한 음식 평론가! 평가가 대체로 혹독해서 가게를 살리기도 망치기도 해요. 미식가들에겐 사랑받고 레스토랑 사장들에겐 두려운 존재죠.	day 6 window 0 info
+Old, tired and full of interesting war stories. Listen to his stories as you serve him and you might get a generous tip.	年迈、疲惫，满肚子有趣的战争故事。为他上菜时听听他的故事，也许能拿到丰厚的小费。	年をとって疲れているけど、おもしろい戦争の話をたくさん持っているの。料理を出しながら話を聞いてあげれば、たっぷりチップをくれるかも。	나이 들고 지쳤지만 재미있는 전쟁 이야기가 가득해요. 대접하면서 이야기를 들어 주면 팁을 넉넉히 줄지도 몰라요.	day 9 window 0 info
+Making Yogurt	制作酸奶	ヨーグルト作り	요거트 만들기	day 10 window 0 title
+Let's make some froyo!!	我们来做冻酸奶吧！！	フローズンヨーグルトを作りましょう！！	프로즌 요거트를 만들어 봐요!!	day 10 window 0 info
+Fairly patient and always in a good mood. Love her and she will love you back by giving you a generous tip.	相当有耐心，心情总是很好。好好对她，她也会给你丰厚的小费作为回报。	かなり我慢強くて、いつもご機嫌。大切にすれば、たっぷりチップを返してくれるわ。	꽤 참을성 있고 늘 기분이 좋아요. 잘해 주면 넉넉한 팁으로 보답할 거예요.	day 14 window 0 info
+Had training all her life to keep smiling no matter what happens, including when she has to queue very long. Does not tips as good, though.	她一辈子都在练习无论发生什么都保持微笑，包括排很久的队。不过小费给得不太多。	どんなときでも笑顔でいられるよう、ずっと訓練してきたの。長く並ばされてもね。でもチップはあまりくれないわ。	무슨 일이 있어도 웃도록 평생 훈련해 왔어요. 오래 줄을 서야 할 때도요. 하지만 팁은 그리 많이 주지 않아요.	day 19 window 0 info
+A very famous figure back in his country, so he gets impatient when being told to queue. Will tip pretty good.	他在自己国家是位大名人，所以被要求排队时会很不耐烦。小费给得相当不错。	母国ではとても有名な人だから、並ぶように言われるとイライラしちゃうの。チップはけっこういいわよ。	자기 나라에서는 아주 유명한 인물이라 줄을 서라고 하면 금방 짜증을 내요. 팁은 꽤 잘 줘요.	day 23 window 0 info
+Has full schedule throughout each week, does not want to wait for long. Tips fairly good.	每周的日程都排得满满的，不想等太久。小费给得还不错。	毎週予定がぎっしりで、長く待つのは嫌い。チップはまあまあいいわよ。	매주 일정이 꽉 차 있어서 오래 기다리기 싫어해요. 팁은 꽤 잘 줘요.	day 28 window 0 info
+Made big money by chasing bad guys in action movies, he’ll tip very good if treated exceptionally well.	他靠在动作片里追捕坏人赚了大钱，招待得特别好的话，他会给很多小费。	アクション映画で悪者を追いかけて大もうけした人。とびきりのおもてなしをすれば、すごくチップをはずんでくれるわ。	액션 영화에서 악당을 쫓아 큰돈을 번 배우예요. 아주 특별하게 대접하면 팁을 정말 많이 줄 거예요.	day 35 window 0 info
+Being one of the richest people in the world does pay! She’ll leave if not treated well, but will tip lots when her high standards are met.	身为世界首富之一果然很有好处！招待不好她就会离开，但满足了她的高标准，她会给很多小费。	世界有数のお金持ちってやっぱり得よね！おもてなしが悪いと帰っちゃうけど、高い基準を満たせばチップをたくさんくれるわ。	세계 최고 부자 중 한 명이라는 건 역시 좋은 일이죠! 대접이 별로면 떠나지만, 높은 기준을 만족시키면 팁을 듬뿍 줘요.	day 42 window 0 info

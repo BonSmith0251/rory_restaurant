@@ -1,128 +1,128 @@
 en	zh-Hans	ja	ko	context
-Finally, the days of my culinary school are over!				dialogue 0 line 0
-Now I have all day to focus on my work as certified chef!				dialogue 0 line 1
-I have been thinking of opening a shop since the first day at culinary school. I’m so excited the time has come!				dialogue 0 line 2
-I will need someone to accompany me. Will you help me out?				dialogue 0 line 3
-Of course!				dialogue 0 line 3 button
-That’s the spirit! Now, let’s start our first day!				dialogue 0 line 4
-Welcome to my kitchen! Let me give you a tour!				dialogue 1 line 0
-OK!				dialogue 1 line 0 button
-Your objective is to earn enough money by cooking delicious food. This is the amount of customers you need to serve today.				dialogue 1 line 1
-A customer has come! Here is the list of ingredients you need to complete the dish.				dialogue 1 line 2
-Swap and make a match of at least 3 ingredients.				dialogue 1 line 3
-Great! Now continue to match more ingredients to complete the dish.				dialogue 1 line 4
-Congratulations! You have finished your first dish! Now click on the Money to collect it.				dialogue 1 line 5
-Please keep in mind to check out each customer’s patient meter. They will leave more tips for you when they are happier!				dialogue 1 line 6
-Ok				dialogue 1 line 6 button
-One more thing I need to tell you: When you have more than 1 customer at a time, click on their plate to change priority.				dialogue 1 line 7
-I think we’re all set! Let’s keep our customers coming and serve them well!				dialogue 1 line 8
-No problem!				dialogue 1 line 8 button
-Great job, (player)! I must say that we did really great yesterday!				dialogue 2 line 0
-I can't wait to cook already! Let's start now!				dialogue 2 line 1
-Good news! Do you know Emma, that famous girl in the Home Makeover games? Well, she just came into town to set up a book store!				dialogue 3 line 0
-Cool!				dialogue 3 line 0 button
-Now we can buy new recipes and upgrade our old ones! Click here to open our recipe book!				dialogue 3 line 1
-Why don’t we try to buy the Deluxe Chicken Croissant recipe?				dialogue 3 line 2
-Click here to see the next recipe in the list.				dialogue 3 line 3
-Click this button to buy it!				dialogue 3 line 4
-Awesome! We just bought a new recipe! Keep buying better ones to increase our restaurant reputation!				dialogue 3 line 5
-Great!				dialogue 3 line 5 button
-Also, upgrading recipes will increase value of the dish. The more expensive it gets, the more money we will earn!				dialogue 3 line 6
-Remember to visit the Shops anytime you have enough money!				dialogue 3 line 7
-Look at this incredible mess! Who would have thought that we cooked our delicious dishes here in this very kitchen?				dialogue 4 line 0
-No one				dialogue 4 line 0 button
-You know what they say about always try to have your kitchen clean and tidy, right? Well, that’s quite true because you can’t cook in this mess.				dialogue 4 line 1
-I know you like cooking as much as I do but we still need to clean this up first! The sooner we get this done, the better. Let’s start!				dialogue 4 line 2
-We need to remove most of these items from the kitchen. I have provided the list of items so this will be easy!				dialogue 4 line 3
-There it is, the first item on top of the list. Just click to grab it.				dialogue 4 line 4
-Great! Now, let’s try to use a hint for the second item. Click here to use a hint.				dialogue 4 line 5
-Hints will refill slowly so you can use it over and over again. Very thoughtful, isn’t it?				dialogue 4 line 6
-Yes!				dialogue 4 line 6 button
-Last tip: you can zoom in and out by dragging your mouse while holding down CTRL key.				dialogue 4 line 7
-Now try to find the rest of the items by yourself. Good luck!				dialogue 4 line 8
-Different customer has different personalities.				dialogue 5 line 0
-Some are more patient but will tip less, while others may get upset faster while queuing but will tip more.				dialogue 5 line 1
-Set your priorities to get maximum profit out of your day.				dialogue 5 line 2
-(player), I have been told that a food critic will visit us today! Oh my gosh!				dialogue 6 line 0
-I heard food critics are the worst kind of customer! They usually order a restaurant’s best dish and demand it to be done quick!				dialogue 6 line 1
-We must make sure everything goes very well today! Let’s do our best!				dialogue 6 line 2
-There he is! The notorious, sour-looking food critic!				dialogue 6 line 3
-He just ordered our most expensive dish with extra add-ons of everything!				dialogue 6 line 4
-We really need a good review from him so let’s work hard to serve whatever he wants!				dialogue 6 line 5
-And remember: Click the food critic’s plate to make his order the top priority.				dialogue 6 line 6
-Very nice job today! I’m so delighted!				dialogue 7 line 0
-Do you want to hear more good news? Guess what, I just found an old recipe for cooking a Chinese menu! Pretty awesome, huh?				dialogue 7 line 1
-I know you can’t wait to try it out, so let’s hit the kitchen when you’re ready!				dialogue 7 line 2
-Congratulations, now you have access to a set of wonderful Chinese delicacies!				dialogue 8 line 0
-Remember that you can always buy new recipes and upgrade ingredients at the shop!				dialogue 8 line 1
-Hey, guess who just opened an Organic Market! It’s Emma again!				dialogue 9 line 0
-Really?				dialogue 9 line 0 button
-This means we can now upgrade our ingredients, enhancing the taste of our dishes! That also means we can raise the prices of our menu.				dialogue 9 line 1
-Let’s check out her store!				dialogue 9 line 2
-Wow look at all these fresh vegetables! This is heaven for cooks!				dialogue 9 line 3
-Let me give you a tour around here...				dialogue 9 line 4
-This shows the name of the ingredient on display.				dialogue 9 line 5
-You can see more information below, like the Ingredient level, upgrade price and its effect upon purchase.				dialogue 9 line 6
-You can upgrade an ingredient up to 10 levels. I’d recommend to first upgrade the one you use the most.				dialogue 9 line 7
-Let’s try to upgrade this ingredient now. Click the Upgrade button.				dialogue 9 line 8
-Awesome! Now you know how to get the better ingredients for your dishes!				dialogue 9 line 9
-Last tip: Come back here to upgrade regularly to make sure we always serve the best quality to our customers!				dialogue 9 line 10
-Did you know that I am also very good at making frozen yogurt? I just made lots of it!				dialogue 10 line 0
-I’d like to serve my specialty’s frozen yogurt for today and let everyone enjoy it!				dialogue 10 line 1
-So for today, our business is nothing else but froyo!				dialogue 10 line 2
-Come, I’ll walk you through this!				dialogue 10 line 3
-I have prepared everything from cups to yogurts so we’re all set to start!				dialogue 10 line 4
-A customer just came in! Perfect timing!				dialogue 10 line 5
-You can see the kind of froyo he wants here.				dialogue 10 line 6
-Preparing it is very easy. First, select a cup.				dialogue 10 line 7
-Then select the yogurt he wants.				dialogue 10 line 8
-He wants Pomegranate syrup to go with it.				dialogue 10 line 9
-Add some Kiwi.				dialogue 10 line 10
-And finally 1 beverage!				dialogue 10 line 11
-We did it! We just sold our first yogurt ever! That wasn’t so hard, was it?				dialogue 10 line 12
-Just remember that you need to work on it from top to bottom, and from left to right.				dialogue 10 line 13
-And don’t forget to keep an eye of his patience bar. He’ll leave if he waits too long!				dialogue 10 line 14
-You see that sweet baby in the corner? That is our brand new beverage machine! Here, let me show you how it works.				dialogue 11 line 1
-Currently the machine is (juice percentage) complete. It works as we prepare our dishes.				dialogue 11 line 2
-Let’s match this.				dialogue 11 line 3
-Great, a beverage is now ready!				dialogue 11 line 4
-Click the machine and drag to a customer to offer him/her a beverage.				dialogue 11 line 5
-Offering a beverage will increase customer satisfaction which means more earnings for us!				dialogue 11 line 6
-When possible, try to hold off from collecting money right away.				dialogue 12 line 0
-You’ll be rewarded with Chain Bonus if you collect money from all 3 customers at the same time.				dialogue 12 line 1
-Even a small amount will be very helpful to help you reach EXPERT SCORE.				dialogue 12 line 2
-That food critic guy is back to check on us! Let’s show him what we’re made of!				dialogue 13 line 0
-Matching more than 4 ingredients will give you instant bonus money.				dialogue 14 line 0
-As a general rule of thumb, always try to find the longest match as fast as you can.				dialogue 14 line 1
-The faster you match, the shorter time it will take to prepare a dish, which eventually means earning more tips.				dialogue 14 line 2
-(player), I just installed a new French Fries machine on the counter. Now we can serve delicious fries!				dialogue 15 line 1
-It works exactly like the beverage machine, but just in case you forgot, let’s go over it again.				dialogue 15 line 2
-Let’s complete the fries by matching this.				dialogue 15 line 3
-The fries is now ready!				dialogue 15 line 4
-Click the machine and drag to a customer to offer him/her a french fries.				dialogue 15 line 5
-Offering a side dish or drink will increase customer satisfaction, leading to a higher tip!				dialogue 15 line 6
-It’s time to clean our kitchen again!				dialogue 16 line 0
-It’s still hard to believe we made all this mess just in a few days! Let’s work hard to make this place spotless.				dialogue 16 line 1
-There are 10 challenging achievements for you to earn. You should always try to achieve all of them.				dialogue 17 line 0
-Uhoh, the food critic is back. Let’s show him what we got!				dialogue 18 line 0
-Congratulations, now you have access to a set of spicy and exotic Middle Eastern dishes!				dialogue 19 line 0
-It’s time to serve our specialty’s frozen yogurt again! Remember to serve each customer with the right combination as fast as you can to earn more money!				dialogue 20 line 0
-Oh no, our fridge malfunctioned last night and froze some of our fresh ingredients!				dialogue 21 line 1
-No problem, we can manage this.				dialogue 21 line 2
-For each frozen tile, we need an extra step to defrost it. Very simple actually. Try swapping this one.				dialogue 21 line 3
-Now that ingredient has returned back to normal. Problem solved!				dialogue 21 line 4
-I just bought a very helpful tool to help us cook faster and also defrost ingredients easier!				dialogue 22 line 1
-There it is, a chef’s torch! To use it, just swap it to any direction you want. Let’s swap it upwards now.				dialogue 22 line 2
-Very handy, isn’t it?				dialogue 22 line 3
-The chef’s torch will appear in our cooking board from time to time, so keep an eye out for it!				dialogue 22 line 4
-I see a sour-looking face. Must be that food critic again. Let’s see if we can make him smile!				dialogue 23 line 0
-I have good stuff that can keep customers happy for a while: free cookies!				dialogue 24 line 1
-Each time you match 5 or more ingredients, a Cookie will appear. Click on it to boost a customer’s patience.				dialogue 24 line 2
-Customers with the least patience left will accept your generous present and feel a bit happier!				dialogue 24 line 3
-One last thing, you can upgrade its effects from the Shop. Good luck!				dialogue 24 line 4
-It’s time to clean up our kitchen again! Roll up your sleeves and grab your rubber gloves. Let’s get started!				dialogue 25 line 0
-Player, I figure that our tools need a little upgrade.				dialogue 26 line 0
-Agree				dialogue 26 line 0 button
-Let’s visit a nearby store and see what they have in stock!				dialogue 26 line 1
-Ah, player, look at that shiny French Fries Machine! Don’t you think that would be the best investment to make our restaurant service even better?				dialogue 26 line 2
-But I’ll leave it up for you to decide. If you want to upgrade it, you know now where to go!				dialogue 26 line 3
+Finally, the days of my culinary school are over!	终于，烹饪学校的日子结束啦！	やっと料理学校の日々が終わったわ！	드디어 요리 학교 생활이 끝났어!	dialogue 0 line 0
+Now I have all day to focus on my work as certified chef!	现在我可以一整天专心当一名持证厨师了！	これからは一日中、資格を持ったシェフとして仕事に打ち込めるわ！	이제 하루 종일 자격증 있는 셰프로서 일에 집중할 수 있어!	dialogue 0 line 1
+I have been thinking of opening a shop since the first day at culinary school. I’m so excited the time has come!	从进烹饪学校的第一天起，我就想开一家店。这一天终于来了，我好激动！	料理学校に入った日から、ずっとお店を開きたいと思っていたの。ついにその時が来て、すごくワクワクしてる！	요리 학교 첫날부터 가게를 열 생각을 했어. 드디어 그때가 와서 너무 설레!	dialogue 0 line 2
+I will need someone to accompany me. Will you help me out?	我需要有人陪着我。你愿意帮帮我吗？	誰かに手伝ってもらいたいの。一緒に手伝ってくれる？	함께해 줄 사람이 필요해. 나를 도와줄래?	dialogue 0 line 3
+Of course!	当然！	もちろん！	물론이지!	dialogue 0 line 3 button
+That’s the spirit! Now, let’s start our first day!	这才对嘛！现在，开始我们的第一天吧！	その意気よ！さあ、最初の一日を始めましょう！	바로 그거야! 자, 첫날을 시작해 보자!	dialogue 0 line 4
+Welcome to my kitchen! Let me give you a tour!	欢迎来到我的厨房！我带你参观一下吧！	私のキッチンへようこそ！案内するわね！	내 주방에 온 걸 환영해! 내가 안내해 줄게!	dialogue 1 line 0
+OK!	好的！	OK！	좋아!	dialogue 1 line 0 button
+Your objective is to earn enough money by cooking delicious food. This is the amount of customers you need to serve today.	你的任务是做出美味的料理来赚够钱。这里显示的是今天需要服务的顾客数量。	目標はおいしい料理を作って、十分なお金を稼ぐこと。ここに表示されているのが、今日もてなすお客さんの人数よ。	목표는 맛있는 요리를 만들어 돈을 충분히 버는 거야. 여기 보이는 게 오늘 대접해야 할 손님 수야.	dialogue 1 line 1
+A customer has come! Here is the list of ingredients you need to complete the dish.	来客人了！这里是完成这道菜需要的食材清单。	お客さんが来たわ！これが料理を完成させるのに必要な食材のリストよ。	손님이 왔어! 여기 요리를 완성하는 데 필요한 재료 목록이 있어.	dialogue 1 line 2
+Swap and make a match of at least 3 ingredients.	交换食材，让至少 3 个相同的食材连成一线。	食材を入れ替えて、同じ食材を3つ以上そろえてね。	재료를 바꿔서 같은 재료를 3개 이상 맞춰 봐.	dialogue 1 line 3
+Great! Now continue to match more ingredients to complete the dish.	太好了！继续消除更多食材来完成这道菜吧。	いいわね！その調子で食材をそろえて、料理を完成させましょう。	좋아! 계속 재료를 맞춰서 요리를 완성하자.	dialogue 1 line 4
+Congratulations! You have finished your first dish! Now click on the Money to collect it.	恭喜！你完成了第一道菜！现在点击钱来收下吧。	おめでとう！最初の料理ができたわ！お金をクリックして受け取ってね。	축하해! 첫 요리를 완성했어! 이제 돈을 클릭해서 받아.	dialogue 1 line 5
+Please keep in mind to check out each customer’s patient meter. They will leave more tips for you when they are happier!	记得留意每位顾客的耐心条。他们越开心，给你的小费就越多！	お客さんそれぞれの忍耐ゲージに気をつけてね。満足しているほどチップをたくさんくれるわ！	손님마다 인내심 게이지를 잘 살펴봐. 기분이 좋을수록 팁을 더 많이 줄 거야!	dialogue 1 line 6
+Ok	好	OK	알겠어	dialogue 1 line 6 button
+One more thing I need to tell you: When you have more than 1 customer at a time, click on their plate to change priority.	还有一件事要告诉你：同时有多位顾客时，点击他们的盘子就能改变优先顺序。	もうひとつ大事なこと：お客さんが2人以上いるときは、お皿をクリックすると優先順位を変えられるわ。	하나 더 알려 줄게: 손님이 2명 이상일 때 접시를 클릭하면 우선순위를 바꿀 수 있어.	dialogue 1 line 7
+I think we’re all set! Let’s keep our customers coming and serve them well!	我想一切都准备好了！让顾客源源不断地来吧，好好招待他们！	準備は万端ね！どんどんお客さんを迎えて、しっかりおもてなししましょう！	준비는 다 된 것 같아! 손님들을 계속 맞이하고 잘 대접하자!	dialogue 1 line 8
+No problem!	没问题！	まかせて！	문제없어!	dialogue 1 line 8 button
+Great job, (player)! I must say that we did really great yesterday!	干得好，(player)！说真的，我们昨天表现得太棒了！	よくやったわ、(player)！昨日は本当に大成功だったわね！	잘했어, (player)! 어제 정말 대단했어!	dialogue 2 line 0
+I can't wait to cook already! Let's start now!	我已经等不及要下厨了！现在就开始吧！	早く料理したくてたまらないわ！さっそく始めましょう！	빨리 요리하고 싶어 못 참겠어! 지금 바로 시작하자!	dialogue 2 line 1
+Good news! Do you know Emma, that famous girl in the Home Makeover games? Well, she just came into town to set up a book store!	好消息！你知道《家居大改造》游戏里那位有名的女孩艾玛吗？她刚来到镇上开了一家书店！	いい知らせよ！「ホームメイクオーバー」のゲームで有名なエマって知ってる？町に本屋さんを開きに来たんだって！	좋은 소식이야! '홈 메이크오버' 게임에 나오는 유명한 엠마 알지? 서점을 열려고 마을에 왔대!	dialogue 3 line 0
+Cool!	太棒了！	すごい！	멋지다!	dialogue 3 line 0 button
+Now we can buy new recipes and upgrade our old ones! Click here to open our recipe book!	现在我们可以买新食谱、升级旧食谱了！点这里打开我们的食谱书！	これで新しいレシピを買ったり、今のレシピを強化したりできるわ！ここをクリックしてレシピ本を開いて！	이제 새 레시피를 사고 기존 레시피를 업그레이드할 수 있어! 여기를 클릭해서 레시피 책을 열어 봐!	dialogue 3 line 1
+Why don’t we try to buy the Deluxe Chicken Croissant recipe?	我们试着买下豪华鸡肉可颂的食谱吧？	デラックスチキンクロワッサンのレシピを買ってみない？	디럭스 치킨 크루아상 레시피를 사 보는 게 어때?	dialogue 3 line 2
+Click here to see the next recipe in the list.	点这里查看列表中的下一道食谱。	ここをクリックすると、リストの次のレシピが見られるわ。	여기를 클릭하면 목록의 다음 레시피를 볼 수 있어.	dialogue 3 line 3
+Click this button to buy it!	点这个按钮买下它！	このボタンをクリックして買いましょう！	이 버튼을 클릭해서 사자!	dialogue 3 line 4
+Awesome! We just bought a new recipe! Keep buying better ones to increase our restaurant reputation!	太棒了！我们买到了新食谱！继续买更好的食谱，提升餐厅的名气吧！	やったわ！新しいレシピを手に入れたわ！もっといいレシピを買って、お店の評判を上げましょう！	멋져! 새 레시피를 샀어! 더 좋은 레시피를 계속 사서 레스토랑의 명성을 높이자!	dialogue 3 line 5
+Great!	太好了！	やった！	좋아!	dialogue 3 line 5 button
+Also, upgrading recipes will increase value of the dish. The more expensive it gets, the more money we will earn!	另外，升级食谱会提高菜品的价值。菜越贵，我们赚得就越多！	それに、レシピを強化すると料理の価値が上がるの。値段が高くなるほど、たくさん稼げるわ！	그리고 레시피를 업그레이드하면 요리의 가치가 올라가. 비쌀수록 우리가 더 많이 벌 수 있어!	dialogue 3 line 6
+Remember to visit the Shops anytime you have enough money!	记得只要钱够了，随时都可以去商店逛逛！	お金がたまったら、いつでもお店に行くのを忘れないでね！	돈이 충분하면 언제든 상점에 들르는 거 잊지 마!	dialogue 3 line 7
+Look at this incredible mess! Who would have thought that we cooked our delicious dishes here in this very kitchen?	看看这乱七八糟的样子！谁能想到我们那些美味的菜就是在这个厨房里做出来的？	見て、このとんでもない散らかりよう！おいしい料理をこのキッチンで作ったなんて、誰が信じるかしら？	이 엄청난 난장판 좀 봐! 우리가 바로 이 주방에서 맛있는 요리를 만들었다고 누가 믿겠어?	dialogue 4 line 0
+No one	没人会信	誰も信じないね	아무도 안 믿을걸	dialogue 4 line 0 button
+You know what they say about always try to have your kitchen clean and tidy, right? Well, that’s quite true because you can’t cook in this mess.	大家都说厨房要随时保持干净整洁，对吧？这话一点没错，因为在这么乱的地方根本没法做饭。	キッチンはいつも清潔に、ってよく言うでしょ？本当にその通りよ。こんなに散らかっていたら料理なんてできないもの。	주방은 항상 깨끗하게 정리해야 한다는 말 알지? 정말 맞는 말이야. 이렇게 어질러져 있으면 요리를 할 수 없거든.	dialogue 4 line 1
+I know you like cooking as much as I do but we still need to clean this up first! The sooner we get this done, the better. Let’s start!	我知道你和我一样爱做饭，但我们得先把这里收拾干净！越早弄完越好。开始吧！	あなたも私と同じくらい料理が好きなのは知ってるけど、まずはここを片付けなきゃ！早く終わらせるほどいいわ。始めましょう！	너도 나만큼 요리를 좋아하는 거 알지만, 먼저 여기를 치워야 해! 빨리 끝낼수록 좋아. 시작하자!	dialogue 4 line 2
+We need to remove most of these items from the kitchen. I have provided the list of items so this will be easy!	我们得把厨房里的大部分东西都清理掉。我准备好了物品清单，这样就简单多了！	キッチンからほとんどの物を片付けないとね。アイテムのリストを用意したから簡単よ！	주방에서 물건 대부분을 치워야 해. 물건 목록을 준비해 뒀으니 쉬울 거야!	dialogue 4 line 3
+There it is, the first item on top of the list. Just click to grab it.	就是它，清单上的第一件物品。点击它就能拿走。	あったわ、リストの一番上のアイテムよ。クリックして取ってね。	저기 있다, 목록 맨 위의 물건이야. 클릭해서 집어 봐.	dialogue 4 line 4
+Great! Now, let’s try to use a hint for the second item. Click here to use a hint.	太好了！现在，试着用提示来找第二件物品吧。点这里使用提示。	いいわね！次は2つ目のアイテムでヒントを使ってみましょう。ここをクリックしてヒントを使ってね。	좋아! 이제 두 번째 물건은 힌트를 써 보자. 여기를 클릭해서 힌트를 사용해.	dialogue 4 line 5
+Hints will refill slowly so you can use it over and over again. Very thoughtful, isn’t it?	提示会慢慢恢复，所以你可以反复使用。很贴心吧？	ヒントはゆっくり回復するから、何度でも使えるの。気が利いてるでしょ？	힌트는 천천히 다시 차오르니까 계속 쓸 수 있어. 정말 친절하지?	dialogue 4 line 6
+Yes!	是的！	うん！	응!	dialogue 4 line 6 button
+Last tip: you can zoom in and out by dragging your mouse while holding down CTRL key.	最后一个小提示：按住 CTRL 键拖动鼠标，就可以放大和缩小画面。	最後のヒント：CTRLキーを押しながらマウスをドラッグすると、ズームイン・ズームアウトできるわ。	마지막 팁: CTRL 키를 누른 채로 마우스를 드래그하면 확대하고 축소할 수 있어.	dialogue 4 line 7
+Now try to find the rest of the items by yourself. Good luck!	现在试着自己找出剩下的物品吧。祝你好运！	じゃあ、残りのアイテムは自分で探してみてね。がんばって！	이제 남은 물건은 직접 찾아봐. 행운을 빌어!	dialogue 4 line 8
+Different customer has different personalities.	每位顾客的性格都不一样。	お客さんによって性格はいろいろよ。	손님마다 성격이 다 달라.	dialogue 5 line 0
+Some are more patient but will tip less, while others may get upset faster while queuing but will tip more.	有些人比较有耐心但小费给得少，有些人排队时容易不耐烦，但小费给得多。	我慢強いけどチップが少ない人もいれば、並んでいるとすぐイライラするけどチップをはずむ人もいるわ。	인내심은 많지만 팁을 적게 주는 손님도 있고, 줄 서면 금방 짜증 내지만 팁을 많이 주는 손님도 있어.	dialogue 5 line 1
+Set your priorities to get maximum profit out of your day.	合理安排优先顺序，让一天的利润最大化。	優先順位をうまく決めて、一日の利益を最大にしましょう。	우선순위를 잘 정해서 하루 수익을 최대로 올리자.	dialogue 5 line 2
+(player), I have been told that a food critic will visit us today! Oh my gosh!	(player)，听说今天有一位美食评论家要来！天哪！	(player)、今日は料理評論家が来るらしいの！どうしよう！	(player), 오늘 음식 평론가가 온대! 어떡해!	dialogue 6 line 0
+I heard food critics are the worst kind of customer! They usually order a restaurant’s best dish and demand it to be done quick!	听说美食评论家是最难伺候的顾客！他们通常会点餐厅最好的菜，还要求快点上！	料理評論家は一番手ごわいお客さんなんですって！たいていお店の一番いい料理を頼んで、しかも急いで出せって言うの！	음식 평론가는 최악의 손님이래! 보통 가게에서 제일 좋은 요리를 시키고 빨리 내오라고 한대!	dialogue 6 line 1
+We must make sure everything goes very well today! Let’s do our best!	今天一定要让一切顺顺利利！我们全力以赴吧！	今日は絶対に何もかもうまくいかせなきゃ！全力でがんばりましょう！	오늘은 모든 게 잘 되도록 해야 해! 최선을 다하자!	dialogue 6 line 2
+There he is! The notorious, sour-looking food critic!	他来了！那位出了名的、一脸不高兴的美食评论家！	来たわ！あの有名な、むっつり顔の料理評論家よ！	저기 왔다! 그 악명 높은, 시큰둥한 얼굴의 음식 평론가야!	dialogue 6 line 3
+He just ordered our most expensive dish with extra add-ons of everything!	他刚点了我们最贵的菜，还要每样配料都加量！	うちで一番高い料理を、トッピング全部増しで頼んだわ！	우리 가게에서 제일 비싼 요리를 모든 토핑 추가로 주문했어!	dialogue 6 line 4
+We really need a good review from him so let’s work hard to serve whatever he wants!	我们真的需要他给个好评，所以努力满足他的所有要求吧！	どうしてもいい評価をもらいたいから、注文には全部しっかり応えましょう！	좋은 평가를 꼭 받아야 하니까 원하는 건 다 열심히 해 주자!	dialogue 6 line 5
+And remember: Click the food critic’s plate to make his order the top priority.	记住：点击美食评论家的盘子，就能把他的订单设为最优先。	それと、料理評論家のお皿をクリックすると、彼の注文を最優先にできるわよ。	그리고 기억해: 음식 평론가의 접시를 클릭하면 그 주문을 최우선으로 할 수 있어.	dialogue 6 line 6
+Very nice job today! I’m so delighted!	今天干得真漂亮！我太开心了！	今日は本当によくやったわ！すごくうれしい！	오늘 정말 잘했어! 너무 기뻐!	dialogue 7 line 0
+Do you want to hear more good news? Guess what, I just found an old recipe for cooking a Chinese menu! Pretty awesome, huh?	还想听更多好消息吗？猜猜看，我刚找到一本中式菜谱的老食谱！很厉害吧？	もっといい知らせを聞きたい？なんと、中華料理の古いレシピを見つけたの！すごいでしょ？	좋은 소식 더 듣고 싶어? 글쎄, 중국 요리 옛날 레시피를 찾았어! 대단하지?	dialogue 7 line 1
+I know you can’t wait to try it out, so let’s hit the kitchen when you’re ready!	我知道你已经迫不及待想试试了，准备好了就去厨房吧！	早く試したくてうずうずしてるでしょ。準備ができたらキッチンへ行きましょう！	빨리 해 보고 싶어서 못 참겠지? 준비되면 주방으로 가자!	dialogue 7 line 2
+Congratulations, now you have access to a set of wonderful Chinese delicacies!	恭喜，现在你可以做一整套美味的中式佳肴了！	おめでとう、これで素敵な中華料理の数々が作れるようになったわ！	축하해, 이제 멋진 중국 요리들을 만들 수 있어!	dialogue 8 line 0
+Remember that you can always buy new recipes and upgrade ingredients at the shop!	记住，你随时可以在商店购买新食谱、升级食材！	お店ではいつでも新しいレシピを買ったり、食材を強化したりできるのを忘れないでね！	상점에서 언제든 새 레시피를 사고 재료를 업그레이드할 수 있다는 걸 기억해!	dialogue 8 line 1
+Hey, guess who just opened an Organic Market! It’s Emma again!	嘿，猜猜谁刚开了一家有机市场？又是艾玛！	ねえ、オーガニックマーケットを開いたのは誰だと思う？またエマよ！	있잖아, 유기농 마켓을 연 게 누군지 알아? 또 엠마야!	dialogue 9 line 0
+Really?	真的吗？	本当？	정말?	dialogue 9 line 0 button
+This means we can now upgrade our ingredients, enhancing the taste of our dishes! That also means we can raise the prices of our menu.	这意味着我们现在可以升级食材，让菜品更美味了！也就是说我们可以提高菜单的价格。	これで食材を強化して、料理をもっとおいしくできるわ！つまり、メニューの値段も上げられるってことね。	이제 재료를 업그레이드해서 요리를 더 맛있게 만들 수 있어! 메뉴 가격도 올릴 수 있다는 뜻이지.	dialogue 9 line 1
+Let’s check out her store!	去她的店看看吧！	彼女のお店に行ってみましょう！	엠마네 가게에 가 보자!	dialogue 9 line 2
+Wow look at all these fresh vegetables! This is heaven for cooks!	哇，看看这些新鲜的蔬菜！简直是厨师的天堂！	わあ、見て、この新鮮な野菜！料理人にとっては天国ね！	와, 이 신선한 채소들 좀 봐! 요리사에게는 천국이야!	dialogue 9 line 3
+Let me give you a tour around here...	我带你在这里转转……	ここを案内するわね…	여기를 구경시켜 줄게...	dialogue 9 line 4
+This shows the name of the ingredient on display.	这里显示的是展示中食材的名称。	ここには表示中の食材の名前が出ているわ。	여기에 진열된 재료 이름이 나와.	dialogue 9 line 5
+You can see more information below, like the Ingredient level, upgrade price and its effect upon purchase.	你可以在下面看到更多信息，比如食材等级、升级价格以及购买后的效果。	下にはもっと詳しい情報があるの。食材のレベル、強化の値段、購入したときの効果などよ。	아래에서 재료 레벨, 업그레이드 가격, 구매 효과 같은 정보를 더 볼 수 있어.	dialogue 9 line 6
+You can upgrade an ingredient up to 10 levels. I’d recommend to first upgrade the one you use the most.	每种食材最多可以升级 10 级。我建议先升级你用得最多的那种。	食材は10レベルまで強化できるわ。まずは一番よく使う食材から強化するのがおすすめよ。	재료는 10레벨까지 업그레이드할 수 있어. 가장 많이 쓰는 재료부터 업그레이드하는 걸 추천해.	dialogue 9 line 7
+Let’s try to upgrade this ingredient now. Click the Upgrade button.	现在试着升级这种食材吧。点击升级按钮。	さっそくこの食材を強化してみましょう。強化ボタンをクリックして。	이제 이 재료를 업그레이드해 보자. 업그레이드 버튼을 클릭해.	dialogue 9 line 8
+Awesome! Now you know how to get the better ingredients for your dishes!	太棒了！现在你知道怎么为菜品弄到更好的食材了！	すごい！これで料理のためにいい食材を手に入れる方法がわかったわね！	멋져! 이제 요리에 쓸 더 좋은 재료를 얻는 방법을 알게 됐어!	dialogue 9 line 9
+Last tip: Come back here to upgrade regularly to make sure we always serve the best quality to our customers!	最后一个小提示：记得常回来升级，确保我们一直为顾客提供最优质的菜品！	最後のヒント：定期的にここで強化して、いつもお客さんに最高の品質を出せるようにしましょう！	마지막 팁: 자주 와서 업그레이드해서 손님들에게 항상 최고의 품질을 대접하자!	dialogue 9 line 10
+Did you know that I am also very good at making frozen yogurt? I just made lots of it!	你知道吗？我做冻酸奶也很拿手哦！我刚做了好多！	知ってた？私、フローズンヨーグルト作りも得意なの！たくさん作ったところよ！	알고 있었어? 나 프로즌 요거트도 정말 잘 만들어! 방금 잔뜩 만들었어!	dialogue 10 line 0
+I’d like to serve my specialty’s frozen yogurt for today and let everyone enjoy it!	今天我想推出我的招牌冻酸奶，让大家都尝一尝！	今日は私の自慢のフローズンヨーグルトを出して、みんなに楽しんでもらいたいの！	오늘은 내 특제 프로즌 요거트를 팔아서 모두가 즐기게 하고 싶어!	dialogue 10 line 1
+So for today, our business is nothing else but froyo!	所以今天，我们只卖冻酸奶！	だから今日は、フローズンヨーグルトだけで勝負よ！	그러니까 오늘 장사는 오직 프로즌 요거트뿐이야!	dialogue 10 line 2
+Come, I’ll walk you through this!	来，我带你一步步做！	おいで、やり方を教えてあげる！	이리 와, 내가 하나씩 알려 줄게!	dialogue 10 line 3
+I have prepared everything from cups to yogurts so we’re all set to start!	从杯子到酸奶我都准备好了，随时可以开始！	カップからヨーグルトまで全部用意したから、すぐに始められるわ！	컵부터 요거트까지 다 준비해 뒀으니 바로 시작할 수 있어!	dialogue 10 line 4
+A customer just came in! Perfect timing!	来了一位客人！时机正好！	お客さんが来たわ！ちょうどいいタイミング！	손님이 왔어! 딱 좋은 타이밍이야!	dialogue 10 line 5
+You can see the kind of froyo he wants here.	这里可以看到他想要的冻酸奶。	ここで彼が欲しいフローズンヨーグルトがわかるわ。	여기서 손님이 원하는 프로즌 요거트를 볼 수 있어.	dialogue 10 line 6
+Preparing it is very easy. First, select a cup.	做起来很简单。首先，选一个杯子。	作り方はとっても簡単。まずはカップを選んで。	만드는 건 아주 쉬워. 먼저 컵을 골라.	dialogue 10 line 7
+Then select the yogurt he wants.	然后选他想要的酸奶。	次に、彼が欲しいヨーグルトを選んで。	그다음 손님이 원하는 요거트를 골라.	dialogue 10 line 8
+He wants Pomegranate syrup to go with it.	他想要配石榴糖浆。	ザクロシロップをかけてほしいそうよ。	석류 시럽을 곁들이고 싶대.	dialogue 10 line 9
+Add some Kiwi.	加点猕猴桃。	キウイをのせて。	키위를 올려.	dialogue 10 line 10
+And finally 1 beverage!	最后再来 1 杯饮料！	最後に飲み物を1つ！	마지막으로 음료 1잔!	dialogue 10 line 11
+We did it! We just sold our first yogurt ever! That wasn’t so hard, was it?	成功啦！我们卖出了第一份酸奶！没那么难吧？	やったわ！初めてのヨーグルトが売れたわ！そんなに難しくなかったでしょ？	해냈어! 첫 요거트를 팔았어! 별로 어렵지 않았지?	dialogue 10 line 12
+Just remember that you need to work on it from top to bottom, and from left to right.	只要记住，要从上到下、从左到右地制作。	上から下へ、左から右へ順番に作るのを忘れないでね。	위에서 아래로, 왼쪽에서 오른쪽으로 만들어야 한다는 것만 기억해.	dialogue 10 line 13
+And don’t forget to keep an eye of his patience bar. He’ll leave if he waits too long!	还有别忘了留意他的耐心条。等太久他就会离开！	それと、彼の忍耐ゲージから目を離さないで。待たせすぎると帰っちゃうわ！	그리고 손님의 인내심 게이지를 꼭 지켜봐. 너무 오래 기다리면 가 버려!	dialogue 10 line 14
+You see that sweet baby in the corner? That is our brand new beverage machine! Here, let me show you how it works.	看到角落里那个可爱的小家伙了吗？那是我们全新的饮料机！来，我演示给你看。	隅にあるかわいいあれ、見える？うちの新しいドリンクマシンよ！使い方を見せてあげる。	구석에 있는 저 귀여운 거 보여? 우리의 새 음료 기계야! 어떻게 쓰는지 보여 줄게.	dialogue 11 line 1
+Currently the machine is (juice percentage) complete. It works as we prepare our dishes.	目前机器的完成度是 (juice percentage)。我们做菜的同时它也会工作。	今、マシンは (juice percentage) まで進んでいるわ。料理を作っている間に動くのよ。	지금 기계는 (juice percentage) 완성됐어. 우리가 요리하는 동안 작동해.	dialogue 11 line 2
+Let’s match this.	消除这个吧。	これをそろえましょう。	이걸 맞춰 보자.	dialogue 11 line 3
+Great, a beverage is now ready!	太好了，饮料做好了！	いいわね、飲み物ができたわ！	좋아, 음료가 준비됐어!	dialogue 11 line 4
+Click the machine and drag to a customer to offer him/her a beverage.	点击机器，然后拖到顾客那里，就能给他/她送上饮料。	マシンをクリックしてお客さんまでドラッグすると、飲み物を出せるわ。	기계를 클릭해서 손님에게 드래그하면 음료를 줄 수 있어.	dialogue 11 line 5
+Offering a beverage will increase customer satisfaction which means more earnings for us!	送上饮料能提高顾客满意度，也就是说我们能赚得更多！	飲み物を出すとお客さんの満足度が上がって、売上もアップするわ！	음료를 주면 손님 만족도가 올라가서 우리 수입도 늘어나!	dialogue 11 line 6
+When possible, try to hold off from collecting money right away.	可以的话，尽量别马上收钱。	できるなら、すぐにはお金を受け取らないでおいてね。	가능하면 돈을 바로 받지 말고 기다려 봐.	dialogue 12 line 0
+You’ll be rewarded with Chain Bonus if you collect money from all 3 customers at the same time.	如果同时向 3 位顾客收钱，就能获得连锁奖励。	3人のお客さんから同時にお金を受け取ると、チェーンボーナスがもらえるわ。	손님 3명에게서 한꺼번에 돈을 받으면 연쇄 보너스를 받아.	dialogue 12 line 1
+Even a small amount will be very helpful to help you reach EXPERT SCORE.	哪怕只有一点点，也能帮你达到专家分数。	少しの額でも、エキスパートスコアに届くための大きな助けになるわ。	아주 적은 금액이라도 전문가 점수에 도달하는 데 큰 도움이 돼.	dialogue 12 line 2
+That food critic guy is back to check on us! Let’s show him what we’re made of!	那位美食评论家又来检查我们了！让他见识见识我们的实力！	あの料理評論家がまた様子を見に来たわ！私たちの実力を見せてあげましょう！	그 음식 평론가가 또 우리를 살피러 왔어! 우리 실력을 보여 주자!	dialogue 13 line 0
+Matching more than 4 ingredients will give you instant bonus money.	一次消除 4 个以上的食材，就能立刻获得奖励金。	食材を4つ以上そろえると、すぐにボーナスがもらえるわ。	재료를 4개 넘게 맞추면 바로 보너스 돈을 받아.	dialogue 14 line 0
+As a general rule of thumb, always try to find the longest match as fast as you can.	一般来说，要尽快找出最长的连线。	基本的には、できるだけ早く一番長い組み合わせを見つけるようにしてね。	기본적으로는 가장 긴 줄을 최대한 빨리 찾도록 해.	dialogue 14 line 1
+The faster you match, the shorter time it will take to prepare a dish, which eventually means earning more tips.	消除得越快，做菜的时间就越短，最终能赚到更多小费。	早くそろえるほど料理の時間が短くなって、結果的にチップも増えるわ。	빨리 맞출수록 요리 시간이 짧아져서 결국 팁을 더 많이 벌 수 있어.	dialogue 14 line 2
+(player), I just installed a new French Fries machine on the counter. Now we can serve delicious fries!	(player)，我刚在柜台装了一台新的薯条机。现在我们可以卖美味的薯条了！	(player)、カウンターに新しいフライドポテトマシンを置いたの。これでおいしいポテトが出せるわ！	(player), 카운터에 새 감자튀김 기계를 설치했어. 이제 맛있는 감자튀김을 팔 수 있어!	dialogue 15 line 1
+It works exactly like the beverage machine, but just in case you forgot, let’s go over it again.	它的用法和饮料机完全一样，不过以防你忘了，我们再复习一遍。	使い方はドリンクマシンとまったく同じだけど、忘れちゃったときのためにもう一度説明するわね。	음료 기계와 똑같이 작동하지만, 혹시 잊었을까 봐 다시 설명할게.	dialogue 15 line 2
+Let’s complete the fries by matching this.	消除这个来做好薯条吧。	これをそろえてポテトを完成させましょう。	이걸 맞춰서 감자튀김을 완성하자.	dialogue 15 line 3
+The fries is now ready!	薯条做好了！	ポテトができたわ！	감자튀김이 준비됐어!	dialogue 15 line 4
+Click the machine and drag to a customer to offer him/her a french fries.	点击机器，然后拖到顾客那里，就能给他/她送上薯条。	マシンをクリックしてお客さんまでドラッグすると、ポテトを出せるわ。	기계를 클릭해서 손님에게 드래그하면 감자튀김을 줄 수 있어.	dialogue 15 line 5
+Offering a side dish or drink will increase customer satisfaction, leading to a higher tip!	送上配菜或饮料能提高顾客满意度，小费也会更多！	サイドメニューや飲み物を出すと満足度が上がって、チップも増えるわ！	사이드 메뉴나 음료를 주면 손님 만족도가 올라가서 팁도 많아져!	dialogue 15 line 6
+It’s time to clean our kitchen again!	又到了打扫厨房的时候了！	またキッチンを掃除する時間よ！	또 주방을 청소할 시간이야!	dialogue 16 line 0
+It’s still hard to believe we made all this mess just in a few days! Let’s work hard to make this place spotless.	真不敢相信才几天就弄得这么乱！我们加把劲，把这里打扫得一尘不染吧。	ほんの数日でこんなに散らかしたなんて、まだ信じられない！がんばってピカピカにしましょう。	며칠 만에 이렇게 어질렀다니 아직도 믿기지 않아! 열심히 해서 여기를 반짝반짝하게 만들자.	dialogue 16 line 1
+There are 10 challenging achievements for you to earn. You should always try to achieve all of them.	一共有 10 个具有挑战性的成就等着你去获得。一定要努力全部达成哦。	挑戦しがいのある実績が10個あるわ。全部達成できるようにがんばってね。	도전적인 업적이 10개 있어. 모두 달성하도록 노력해 봐.	dialogue 17 line 0
+Uhoh, the food critic is back. Let’s show him what we got!	糟糕，美食评论家又来了。让他看看我们的本事！	あらら、料理評論家がまた来たわ。私たちの腕前を見せてあげましょう！	이런, 음식 평론가가 또 왔어. 우리 실력을 보여 주자!	dialogue 18 line 0
+Congratulations, now you have access to a set of spicy and exotic Middle Eastern dishes!	恭喜，现在你可以做一整套香辣又充满异国风情的中东菜了！	おめでとう、これでスパイシーでエキゾチックな中東料理が作れるようになったわ！	축하해, 이제 매콤하고 이국적인 중동 요리들을 만들 수 있어!	dialogue 19 line 0
+It’s time to serve our specialty’s frozen yogurt again! Remember to serve each customer with the right combination as fast as you can to earn more money!	又到了推出招牌冻酸奶的时候了！记得尽快为每位顾客做出正确的搭配，赚更多的钱！	また自慢のフローズンヨーグルトを出す時間よ！お客さんごとに正しい組み合わせをできるだけ早く出して、たくさん稼ぎましょう！	또 특제 프로즌 요거트를 팔 시간이야! 손님마다 올바른 조합을 최대한 빨리 만들어서 돈을 더 많이 벌자!	dialogue 20 line 0
+Oh no, our fridge malfunctioned last night and froze some of our fresh ingredients!	糟糕，我们的冰箱昨晚坏了，一些新鲜食材被冻住了！	大変、昨日の夜に冷蔵庫が故障して、新鮮な食材が凍っちゃったの！	이런, 어젯밤에 냉장고가 고장 나서 신선한 재료가 얼어 버렸어!	dialogue 21 line 1
+No problem, we can manage this.	没问题，我们能搞定。	大丈夫、なんとかなるわ。	괜찮아, 우리가 해결할 수 있어.	dialogue 21 line 2
+For each frozen tile, we need an extra step to defrost it. Very simple actually. Try swapping this one.	每个冰冻的格子都需要多一步来解冻。其实很简单，试着交换这一个。	凍ったマスは、解凍するのにもうひと手間かかるの。とっても簡単よ。これを入れ替えてみて。	얼어붙은 칸은 녹이는 데 한 단계가 더 필요해. 사실 아주 쉬워. 이걸 바꿔 봐.	dialogue 21 line 3
+Now that ingredient has returned back to normal. Problem solved!	现在那个食材恢复正常了。问题解决！	これでその食材は元に戻ったわ。問題解決！	이제 그 재료가 원래대로 돌아왔어. 문제 해결!	dialogue 21 line 4
+I just bought a very helpful tool to help us cook faster and also defrost ingredients easier!	我刚买了一个很实用的工具，能帮我们更快地做菜，也更容易解冻食材！	料理を早くして、食材の解凍も楽になる便利な道具を買ったの！	요리를 더 빨리 하고 재료도 더 쉽게 녹일 수 있는 아주 유용한 도구를 샀어!	dialogue 22 line 1
+There it is, a chef’s torch! To use it, just swap it to any direction you want. Let’s swap it upwards now.	就是它，厨师喷枪！使用时只要把它往任意方向交换就行。现在把它往上交换吧。	これがシェフのトーチよ！使うときは好きな方向に入れ替えるだけ。今は上に入れ替えてみて。	이게 셰프의 토치야! 쓰려면 원하는 방향으로 바꾸기만 하면 돼. 지금은 위로 바꿔 보자.	dialogue 22 line 2
+Very handy, isn’t it?	很好用吧？	便利でしょ？	정말 편리하지?	dialogue 22 line 3
+The chef’s torch will appear in our cooking board from time to time, so keep an eye out for it!	厨师喷枪会不时出现在烹饪台上，记得留意哦！	シェフのトーチはときどき調理ボードに現れるから、見逃さないでね！	셰프의 토치는 요리판에 가끔 나타나니까 잘 지켜봐!	dialogue 22 line 4
+I see a sour-looking face. Must be that food critic again. Let’s see if we can make him smile!	我看到一张臭脸，肯定又是那位美食评论家。看看我们能不能让他笑一笑！	むっつり顔が見えるわ。きっとまたあの料理評論家ね。笑顔にできるかしら！	시큰둥한 얼굴이 보여. 분명 그 음식 평론가일 거야. 웃게 만들 수 있을지 보자!	dialogue 23 line 0
+I have good stuff that can keep customers happy for a while: free cookies!	我有个好东西能让顾客开心一阵子：免费饼干！	お客さんをしばらくご機嫌にできるいいものがあるの。無料のクッキーよ！	손님을 한동안 기분 좋게 해 줄 좋은 게 있어: 공짜 쿠키!	dialogue 24 line 1
+Each time you match 5 or more ingredients, a Cookie will appear. Click on it to boost a customer’s patience.	每次消除 5 个或更多食材，就会出现一块饼干。点击它可以提升顾客的耐心。	食材を5つ以上そろえるたびにクッキーが出てくるわ。クリックするとお客さんの忍耐度が上がるの。	재료를 5개 이상 맞출 때마다 쿠키가 나타나. 클릭하면 손님의 인내심이 올라가.	dialogue 24 line 2
+Customers with the least patience left will accept your generous present and feel a bit happier!	耐心剩得最少的顾客会收下你慷慨的礼物，心情也会好一点！	一番忍耐度が残っていないお客さんが、あなたのプレゼントを受け取って少しご機嫌になるわ！	인내심이 가장 적게 남은 손님이 너의 선물을 받고 조금 더 기분이 좋아질 거야!	dialogue 24 line 3
+One last thing, you can upgrade its effects from the Shop. Good luck!	最后一件事，你可以在商店升级它的效果。祝你好运！	最後にもうひとつ、その効果はお店で強化できるわ。がんばってね！	마지막으로, 상점에서 그 효과를 업그레이드할 수 있어. 행운을 빌어!	dialogue 24 line 4
+It’s time to clean up our kitchen again! Roll up your sleeves and grab your rubber gloves. Let’s get started!	又到了打扫厨房的时候了！撸起袖子，戴上橡胶手套，开始吧！	またキッチンを掃除する時間よ！腕まくりしてゴム手袋をはめて、始めましょう！	또 주방을 청소할 시간이야! 소매를 걷고 고무장갑을 끼고 시작하자!	dialogue 25 line 0
+Player, I figure that our tools need a little upgrade.	玩家，我觉得我们的工具该升级一下了。	ねえ、そろそろ道具をちょっと新しくしたほうがいいと思うの。	있잖아, 우리 도구를 좀 업그레이드해야 할 것 같아.	dialogue 26 line 0
+Agree	同意	賛成	찬성	dialogue 26 line 0 button
+Let’s visit a nearby store and see what they have in stock!	去附近的商店看看他们有什么货吧！	近くのお店に行って、何があるか見てみましょう！	근처 가게에 가서 뭐가 있는지 보자!	dialogue 26 line 1
+Ah, player, look at that shiny French Fries Machine! Don’t you think that would be the best investment to make our restaurant service even better?	啊，看那台闪亮的薯条机！你不觉得这会是让餐厅服务更上一层楼的最佳投资吗？	ねえ、あのピカピカのフライドポテトマシンを見て！お店のサービスをもっとよくする最高の投資だと思わない？	아, 저 반짝이는 감자튀김 기계 좀 봐! 우리 레스토랑 서비스를 더 좋게 만들 최고의 투자 같지 않아?	dialogue 26 line 2
+But I’ll leave it up for you to decide. If you want to upgrade it, you know now where to go!	不过还是由你来决定。如果想升级它，你知道该去哪里了！	でも、決めるのはあなたよ。強化したくなったら、どこへ行けばいいかわかるわよね！	하지만 결정은 너에게 맡길게. 업그레이드하고 싶다면 어디로 가야 할지 알지?	dialogue 26 line 3

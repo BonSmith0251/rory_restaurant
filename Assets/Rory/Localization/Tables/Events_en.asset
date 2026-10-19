@@ -17,7 +17,93 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: c451a22b809da524bab65eb1e1fc7a66, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 3882234142720
+    m_Localized: "This cutie pie waits patiently in line and doesn\u2019t ask much.
+      The best kind of customer!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725632
+    m_Localized: Nothing beats seeing a cheerful, smiling boy queuing patiently at
+      our restaurant!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725633
+    m_Localized: Business men have hectic schedules, so you can expect them to pay
+      more for fast service.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725634
+    m_Localized: A random general tips.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725635
+    m_Localized: These career ladies are willing to wait in line a bit longer, but
+      will tip less.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725636
+    m_Localized: Let's tidy up this room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725637
+    m_Localized: He is half-way to becoming world famous, hence his cocky attitude.
+      He pays good money though, so we should serve him with a smile.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725638
+    m_Localized: Special Customer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725639
+    m_Localized: International famous food critic! His reviews are usually harsh
+      and he can really make or break a business. Loved by foodies, dreaded by restaurant
+      managers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725640
+    m_Localized: Old, tired and full of interesting war stories. Listen to his stories
+      as you serve him and you might get a generous tip.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725641
+    m_Localized: Making Yogurt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725642
+    m_Localized: Let's make some froyo!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725643
+    m_Localized: Fairly patient and always in a good mood. Love her and she will
+      love you back by giving you a generous tip.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725644
+    m_Localized: Had training all her life to keep smiling no matter what happens,
+      including when she has to queue very long. Does not tips as good, though.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725645
+    m_Localized: A very famous figure back in his country, so he gets impatient when
+      being told to queue. Will tip pretty good.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725646
+    m_Localized: Has full schedule throughout each week, does not want to wait for
+      long. Tips fairly good.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725647
+    m_Localized: "Made big money by chasing bad guys in action movies, he\u2019ll
+      tip very good if treated exceptionally well."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882246725648
+    m_Localized: "Being one of the richest people in the world does pay! She\u2019ll
+      leave if not treated well, but will tip lots when her high standards are met."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

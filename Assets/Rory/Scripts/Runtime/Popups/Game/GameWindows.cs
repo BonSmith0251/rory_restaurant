@@ -4,6 +4,7 @@ using Rory.Data;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Rory.Localization;
 
 namespace Rory.Popups.Game
 {
@@ -226,13 +227,13 @@ namespace Rory.Popups.Game
             if (r.specialLevel)
             {
                 labels = "Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\nVIP Rating Bonus\t\t :\n\nToday\u2019s Earnings\t\t :\nTotal Coins\t\t\t :";
-                stats = string.Format("{0}\n{1}\n{2}\n{3}\n\n${4}\n{5} (+{6})", r.servedCustomers, Dash(GameRules.Juicer, r.juiceServed),
+                stats = Loc.F("{0}\n{1}\n{2}\n{3}\n\n${4}\n{5} (+{6})", r.servedCustomers, Dash(GameRules.Juicer, r.juiceServed),
                     Dash(GameRules.Fryer, r.friesServed), r.vipBonus, r.earning, Money, r.coinsGot);
             }
             else
             {
                 labels = "Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\n\nToday's Earnings\t\t :\nTotal Coins\t\t\t :";
-                stats = string.Format("{0}\n{1}\n{2}\n\n${3}\n{4} (+{5})", r.servedCustomers, Dash(GameRules.Juicer, r.juiceServed),
+                stats = Loc.F("{0}\n{1}\n{2}\n\n${3}\n{4} (+{5})", r.servedCustomers, Dash(GameRules.Juicer, r.juiceServed),
                     Dash(GameRules.Fryer, r.friesServed), r.earning, Money, r.coinsGot);
             }
             var w = Result("Congratulations!", "You've reached today's goal!", -170, labels, stats, expert ? ExpertTip : GoalTip,
@@ -247,7 +248,7 @@ namespace Rory.Popups.Game
         public static ResultPopup ShowStoryLevelFailed(StoryDayResult r) =>
             Result("Level Failed!", "You've failed to meet today's goal!", -180,
                 "Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\n\nTotal Coins\t\t\t :",
-                string.Format("{0}\n{1}\n{2}\n\n{3} (+{4})", r.servedCustomers, Dash(GameRules.Juicer, r.juiceServed),
+                Loc.F("{0}\n{1}\n{2}\n\n{3} (+{4})", r.servedCustomers, Dash(GameRules.Juicer, r.juiceServed),
                     Dash(GameRules.Fryer, r.friesServed), Money, r.coinsGot),
                 FailTip, "Kitchen", GoToKitchen);
 
@@ -257,7 +258,7 @@ namespace Rory.Popups.Game
             bool expert = r.earning >= r.expertTarget;
             var w = Result("Congratulations!", "You've reached today's goal and finished all levels!", -165,
                 "Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\n\nToday's Earnings\t\t :\nTotal Coins\t\t\t :",
-                string.Format("{0}\n{1}\n{2}\n\n${3}\n{4} (+{5})", r.servedCustomers, Dash(GameRules.Juicer, r.juiceServed),
+                Loc.F("{0}\n{1}\n{2}\n\n${3}\n{4} (+{5})", r.servedCustomers, Dash(GameRules.Juicer, r.juiceServed),
                     Dash(GameRules.Fryer, r.friesServed), r.earning, Money, r.coinsGot),
                 null, "Huraay!!", () =>
                 {
@@ -276,7 +277,7 @@ namespace Rory.Popups.Game
             bool expert = r.itemsLeft == 0;
             var w = Result("Summary", "You've completed this level.", -180,
                 "Objects Found\t\t:\nToday's Earning\t:\n\nTotal Coins\t\t:",
-                string.Format("{0}\n${1}\n\n{2} (+{3})", r.itemsFound, r.earning, Money, r.coinsGot),
+                Loc.F("{0}\n${1}\n\n{2} (+{3})", r.itemsFound, r.earning, Money, r.coinsGot),
                 expert ? ExpertTip : GoalTip, "Kitchen", GoToKitchen);
             if (w == null) return null;
             w.ShowGoalIcon(expert);
@@ -289,7 +290,7 @@ namespace Rory.Popups.Game
         {
             var w = Result("Level Failed", "You've failed this level.", -180,
                 "Objects Found\t:\nToday's Earning\t:\n\nTotal Coins\t:",
-                string.Format("{0}\n${1}\n\n{2} (+{3})", r.itemsFound, r.earning, Money, r.coinsGot),
+                Loc.F("{0}\n${1}\n\n{2} (+{3})", r.itemsFound, r.earning, Money, r.coinsGot),
                 FailTip, "Kitchen", GoToKitchen);
             if (w != null) w.PlayCongrats();
             return w;
@@ -300,7 +301,7 @@ namespace Rory.Popups.Game
         public static ResultPopup ShowHOExtrasComplete(HiddenObjectResult r, Action onNextLevel)
         {
             var w = Result("Summary", "You've completed this level.", -180,
-                "Objects Found\t:\nScore\t\t:", string.Format("{0}\n{1}", r.itemsFound, r.earning), null, "Next Level", onNextLevel);
+                "Objects Found\t:\nScore\t\t:", Loc.F("{0}\n{1}", r.itemsFound, r.earning), null, "Next Level", onNextLevel);
             if (w != null) w.PlayCongrats();
             return w;
         }
@@ -308,13 +309,13 @@ namespace Rory.Popups.Game
         /// <summary>HO_LEVEL_FAILED_EXTRAS: extras hidden-object level failed. "Main Menu".</summary>
         public static ResultPopup ShowHOExtrasFailed(HiddenObjectResult r) =>
             Result("Level Failed!", "You've failed this level.", -180,
-                "Objects Found\t:\nScore\t\t:", string.Format("{0}\n{1}", r.itemsFound, r.earning), null, "Main Menu", () => MainMenuButton());
+                "Objects Found\t:\nScore\t\t:", Loc.F("{0}\n{1}", r.itemsFound, r.earning), null, "Main Menu", () => MainMenuButton());
 
         /// <summary>HO_LEVEL_COMPLETE_EXTRAS_ALL: the last extras hidden-object level was completed. "Main Menu".</summary>
         public static ResultPopup ShowHOExtrasCompleteAll(HiddenObjectResult r)
         {
             var w = Result("Congratulations!", "You've completed all levels.", -180,
-                "Objects Found\t:\nScore\t\t:", string.Format("{0}\n{1}", r.itemsFound, r.earning), null, "Main Menu", () => MainMenuButton());
+                "Objects Found\t:\nScore\t\t:", Loc.F("{0}\n{1}", r.itemsFound, r.earning), null, "Main Menu", () => MainMenuButton());
             if (w != null) w.PlayCongrats();
             return w;
         }
@@ -325,7 +326,7 @@ namespace Rory.Popups.Game
             bool expert = r.earning >= r.expertTarget;
             var w = Result("Level Complete!", "You've completed this level.", -180,
                 "Froyo Served\t\t:\nToday's Earning\t:\n\nTotal Coins\t\t:",
-                string.Format("{0}\n${1}\n\n{2} (+{3})", r.froyoServed, r.earning, Money, r.coinsGot),
+                Loc.F("{0}\n${1}\n\n{2} (+{3})", r.froyoServed, r.earning, Money, r.coinsGot),
                 expert ? ExpertTip : GoalTip, "Kitchen", GoToKitchen);
             if (w == null) return null;
             w.ShowGoalIcon(expert);
@@ -337,7 +338,7 @@ namespace Rory.Popups.Game
         public static ResultPopup ShowDessertLevelFailed(DessertResult r) =>
             Result("Level Failed!", "You've failed this level.", -180,
                 "Froyo Served\t:\nToday's Earning\t:\n\nTotal Coins\t:",
-                string.Format("{0}\n${1}\n\n{2} (+{3})", r.froyoServed, r.earning, Money, r.coinsGot),
+                Loc.F("{0}\n${1}\n\n{2} (+{3})", r.froyoServed, r.earning, Money, r.coinsGot),
                 FailTip, "Kitchen", GoToKitchen);
 
         /// <summary>DESSERT_LEVEL_COMPLETE_EXTRAS: extras dessert game won. "Main Menu".</summary>
@@ -367,7 +368,7 @@ namespace Rory.Popups.Game
             if (w == null) return null;
             int badges = Player != null ? Player.achievementCounter[Achievements.Achievements.InternationalChef] : 0;
             w.title.text = "Locked!";
-            w.info.text = string.Format("To unlock this recipe, you need to collect {0} expert badges.\nCurrent Expert Badges: {1}", expertNeeded, badges);
+            w.info.text = Loc.F("To unlock this recipe, you need to collect {0} expert badges.\nCurrent Expert Badges: {1}", expertNeeded, badges);
             Bind(w.leftButton, null, null);
             Bind(w.rightButton, null, null);
             Bind(w.uniButton, "OK", w.Close);
@@ -416,8 +417,8 @@ namespace Rory.Popups.Game
                 {
                     w.title.text = "Today's Preparation";
                     w.info.text = Session.isPlayingSpecialLevel
-                        ? string.Format("Goal : serve {0} food critic\nExpert : earn ${1}", o.goalTarget, o.expertTarget)
-                        : string.Format("Goal : serve {0} customer(s)\nExpert : earn ${1}", o.goalTarget, o.expertTarget);
+                        ? Loc.F("Goal : serve {0} food critic\nExpert : earn ${1}", o.goalTarget, o.expertTarget)
+                        : Loc.F("Goal : serve {0} customer(s)\nExpert : earn ${1}", o.goalTarget, o.expertTarget);
                     w.ShowDishes(DishPreviewSprites(o.todaysDishes));
                 }
             }

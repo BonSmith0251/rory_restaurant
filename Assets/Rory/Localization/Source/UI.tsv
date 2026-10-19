@@ -1,75 +1,75 @@
 en	zh-Hans	ja	ko	context
-Service Excellence				Achievements: Title
-You've served VALUE/1000 perfectly happy customers\n(80% patience or above)!				Achievements: Info
-AAAAA				Ending: BubbleText
-Day\n1				LevelSelect: Day1Transform/Day1
-Day\n2				LevelSelect: Day2Transform/Day2
-Day\n3				LevelSelect: Day3Transform/Day3
-Day\n4				LevelSelect: Day4Transform/Day4
-Day\n5				LevelSelect: Day5Transform/Day5
-Day\n6				LevelSelect: Day6Transform/Day6
-Day\n7				LevelSelect: Day7Transform/Day7
-PLAY				LevelSelect: PlayButton/Label
-Back				LevelSelect: BackButton/Label
-Story				MainMenu: StoryButton
-Extras				MainMenu: ExtrasButton
-Credits				MainMenu: CreditsButton
-Exit				MainMenu: ExitButton
-Full Screen				MainMenu: FullScreenButton/Label
-Language				MainMenu: LanguageButton/Label
-Select Player				MainMenu: Popups/PlayerSelect/Title
-Delete				MainMenu: Popups/PlayerSelect/LeftButton/Label
-Create				MainMenu: Popups/PlayerSelect/RightButton/Label
-Close				MainMenu: Popups/PlayerSelect/UniButton/Label
-Create Player				MainMenu: Popups/CreatePlayer/Title
-Enter Your Name :				MainMenu: Popups/CreatePlayer/Info
-Cancel				MainMenu: Popups/CreatePlayer/LeftButton/Label
-Done				MainMenu: Popups/CreatePlayer/RightButton/Label
-OK				MainMenu: Popups/CreatePlayer/UniButton/Label
-Try Again!				MainMenu: Popups/SameNameWarning/Title
-Oops, the name you entered is already exist. Please try again!				MainMenu: Popups/SameNameWarning/Info
-Left				MainMenu: Popups/SameNameWarning/LeftButton/Label
-Right				MainMenu: Popups/SameNameWarning/RightButton/Label
-Delete Player?				MainMenu: Popups/DeletePlayerConfirm/Title
-Are you sure want to delete this player? This process can't be undone.				MainMenu: Popups/DeletePlayerConfirm/Info
-Select Game				MainMenu: Popups/ExtrasMenu/Title
-Hidden Object				MainMenu: Popups/ExtrasMenu/LeftButton/Label
-Dessert Making				MainMenu: Popups/ExtrasMenu/RightButton/Label
-Exit?				MainMenu: Popups/QuitConfirm/Title
-Are you sure you want to quit game?				MainMenu: Popups/QuitConfirm/Info
-No				MainMenu: Popups/QuitConfirm/LeftButton/Label
-Yes				MainMenu: Popups/QuitConfirm/RightButton/Label
-CREDITS				MainMenu: Popups/Credits/Content/Title
-PRODUCERS				MainMenu: Popups/Credits/Content/ProducersTitle
-Andre Yu\nRobert YKG				MainMenu: Popups/Credits/Content/Producers
-All rights reserved. Origaming Media (c) 2015				MainMenu: Popups/Credits/Content/Copyright
-GAME CONCEPT				MainMenu: Popups/Credits/Content/GameConceptTitle
-Andre Yu				MainMenu: Popups/Credits/Content/GameConcept
-LEAD ARTIST				MainMenu: Popups/Credits/Content/LeadArtistTitle
-Robert YKG				MainMenu: Popups/Credits/Content/LeadArtist
-PROGRAMMERS				MainMenu: Popups/Credits/Content/ProgrammersTitle
-Wilson\nSherson Watson\nAndri				MainMenu: Popups/Credits/Content/Programmers
-GRAPHIC ARTIST				MainMenu: Popups/Credits/Content/GraphicArtistTitle
-Alfa Lui\nHandrison				MainMenu: Popups/Credits/Content/GraphicArtists
-Rory's Restaurant  v. 1.0.2				MainMenu: Popups/Credits/Content/Version
-SUMMARY				BigWindow: BigWindow/Title
-Go to kitchen?				GameConfirm: GameConfirm/Title
-Are you sure want to exit to the Kitchen? Your progress in this level will not be saved.				GameConfirm: GameConfirm/Info
-New Customer!				GameEventBig: GameEventBig/Title
-Continue				GameEventBig: GameEventBig/UniButton/Label
-Title				GameEventSmall: GameEventSmall/Title
-Locked!				GameInfo: GameInfo/Title
-To unlock this recipe, you need to collect 5 expert badges.\nCurrent Expert Badges: 0				GameInfo: GameInfo/Info
-Paused				GamePause: GamePause/Title
-Goal : serve 5 customer(s)\nExpert : earn $220				GamePause: GamePause/Info
-Kitchen				GamePause: GamePause/LeftButton/Label
-Resume				GamePause: GamePause/RightButton/Label
-SOUND :				GamePause: GamePause/SoundText
-ON				GamePause: GamePause/SoundButton/Label
-MUSIC : 				GamePause: GamePause/MusicText
-FULL SCREEN : 				GamePause: GamePause/FullScreenText
-Congratulations!				GameResult: GameResult/Title
-You've reached today's goal!				GameResult: GameResult/Info
-Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\n\nToday's Earnings\t\t :\nTotal Coins\t\t\t :				GameResult: GameResult/SummaryText
-Well done! Try to reach Expert target to earn even more coins!				GameResult: GameResult/SummaryTips
-Next				Tutorial: Tutorial/NextButton/Label
+Service Excellence	卓越服务	至高のサービス	최고의 서비스	Achievements: Title
+You've served VALUE/1000 perfectly happy customers\n(80% patience or above)!	你已服务了 VALUE/1000 位非常满意的顾客\n（耐心值 80% 以上）！	大満足のお客さんを VALUE/1000 人もてなしました\n（忍耐度80%以上）！	아주 만족한 손님을 VALUE/1000명 대접했어요\n(인내심 80% 이상)!	Achievements: Info
+AAAAA	AAAAA	AAAAA	AAAAA	Ending: BubbleText
+Day\n1	第\n1天	1\n日目	1\n일차	LevelSelect: Day1Transform/Day1
+Day\n2	第\n2天	2\n日目	2\n일차	LevelSelect: Day2Transform/Day2
+Day\n3	第\n3天	3\n日目	3\n일차	LevelSelect: Day3Transform/Day3
+Day\n4	第\n4天	4\n日目	4\n일차	LevelSelect: Day4Transform/Day4
+Day\n5	第\n5天	5\n日目	5\n일차	LevelSelect: Day5Transform/Day5
+Day\n6	第\n6天	6\n日目	6\n일차	LevelSelect: Day6Transform/Day6
+Day\n7	第\n7天	7\n日目	7\n일차	LevelSelect: Day7Transform/Day7
+PLAY	开始	プレイ	플레이	LevelSelect: PlayButton/Label
+Back	返回	戻る	뒤로	LevelSelect: BackButton/Label
+Story	故事	ストーリー	스토리	MainMenu: StoryButton
+Extras	额外	おまけ	보너스	MainMenu: ExtrasButton
+Credits	制作人员	クレジット	제작진	MainMenu: CreditsButton
+Exit	退出	終了	종료	MainMenu: ExitButton
+Full Screen	全屏	フルスクリーン	전체 화면	MainMenu: FullScreenButton/Label
+Language	语言	言語	언어	MainMenu: LanguageButton/Label
+Select Player	选择玩家	プレイヤー選択	플레이어 선택	MainMenu: Popups/PlayerSelect/Title
+Delete	删除	削除	삭제	MainMenu: Popups/PlayerSelect/LeftButton/Label
+Create	创建	作成	생성	MainMenu: Popups/PlayerSelect/RightButton/Label
+Close	关闭	閉じる	닫기	MainMenu: Popups/PlayerSelect/UniButton/Label
+Create Player	创建玩家	プレイヤー作成	플레이어 만들기	MainMenu: Popups/CreatePlayer/Title
+Enter Your Name :	请输入你的名字：	名前を入力してください：	이름을 입력하세요:	MainMenu: Popups/CreatePlayer/Info
+Cancel	取消	キャンセル	취소	MainMenu: Popups/CreatePlayer/LeftButton/Label
+Done	完成	決定	완료	MainMenu: Popups/CreatePlayer/RightButton/Label
+OK	确定	OK	확인	MainMenu: Popups/CreatePlayer/UniButton/Label
+Try Again!	请重试！	もう一度！	다시 해 보세요!	MainMenu: Popups/SameNameWarning/Title
+Oops, the name you entered is already exist. Please try again!	哎呀，这个名字已经存在了。请重新输入！	おっと、その名前はもう使われています。もう一度入力してください！	이런, 이미 있는 이름이에요. 다시 입력해 주세요!	MainMenu: Popups/SameNameWarning/Info
+Left	左	左	왼쪽	MainMenu: Popups/SameNameWarning/LeftButton/Label
+Right	右	右	오른쪽	MainMenu: Popups/SameNameWarning/RightButton/Label
+Delete Player?	删除玩家？	プレイヤーを削除しますか？	플레이어를 삭제할까요?	MainMenu: Popups/DeletePlayerConfirm/Title
+Are you sure want to delete this player? This process can't be undone.	确定要删除这个玩家吗？此操作无法撤销。	このプレイヤーを削除しますか？この操作は元に戻せません。	이 플레이어를 정말 삭제할까요? 되돌릴 수 없어요.	MainMenu: Popups/DeletePlayerConfirm/Info
+Select Game	选择游戏	ゲームを選択	게임 선택	MainMenu: Popups/ExtrasMenu/Title
+Hidden Object	寻物游戏	探し物	숨은 그림 찾기	MainMenu: Popups/ExtrasMenu/LeftButton/Label
+Dessert Making	制作甜点	デザート作り	디저트 만들기	MainMenu: Popups/ExtrasMenu/RightButton/Label
+Exit?	退出？	終了しますか？	종료할까요?	MainMenu: Popups/QuitConfirm/Title
+Are you sure you want to quit game?	确定要退出游戏吗？	ゲームを終了しますか？	정말 게임을 종료할까요?	MainMenu: Popups/QuitConfirm/Info
+No	否	いいえ	아니요	MainMenu: Popups/QuitConfirm/LeftButton/Label
+Yes	是	はい	예	MainMenu: Popups/QuitConfirm/RightButton/Label
+CREDITS	制作人员	クレジット	제작진	MainMenu: Popups/Credits/Content/Title
+PRODUCERS	制作人	プロデューサー	프로듀서	MainMenu: Popups/Credits/Content/ProducersTitle
+Andre Yu\nRobert YKG	Andre Yu\nRobert YKG	Andre Yu\nRobert YKG	Andre Yu\nRobert YKG	MainMenu: Popups/Credits/Content/Producers
+All rights reserved. Origaming Media (c) 2015	版权所有。Origaming Media (c) 2015	無断転載を禁じます。Origaming Media (c) 2015	모든 권리 보유. Origaming Media (c) 2015	MainMenu: Popups/Credits/Content/Copyright
+GAME CONCEPT	游戏策划	ゲームコンセプト	게임 기획	MainMenu: Popups/Credits/Content/GameConceptTitle
+Andre Yu	Andre Yu	Andre Yu	Andre Yu	MainMenu: Popups/Credits/Content/GameConcept
+LEAD ARTIST	首席美术	リードアーティスト	리드 아티스트	MainMenu: Popups/Credits/Content/LeadArtistTitle
+Robert YKG	Robert YKG	Robert YKG	Robert YKG	MainMenu: Popups/Credits/Content/LeadArtist
+PROGRAMMERS	程序员	プログラマー	프로그래머	MainMenu: Popups/Credits/Content/ProgrammersTitle
+Wilson\nSherson Watson\nAndri	Wilson\nSherson Watson\nAndri	Wilson\nSherson Watson\nAndri	Wilson\nSherson Watson\nAndri	MainMenu: Popups/Credits/Content/Programmers
+GRAPHIC ARTIST	美术设计	グラフィックアーティスト	그래픽 아티스트	MainMenu: Popups/Credits/Content/GraphicArtistTitle
+Alfa Lui\nHandrison	Alfa Lui\nHandrison	Alfa Lui\nHandrison	Alfa Lui\nHandrison	MainMenu: Popups/Credits/Content/GraphicArtists
+Rory's Restaurant  v. 1.0.2	罗莉的餐厅  v. 1.0.2	ロリーのレストラン  v. 1.0.2	로리의 레스토랑  v. 1.0.2	MainMenu: Popups/Credits/Content/Version
+SUMMARY	总结	まとめ	요약	BigWindow: BigWindow/Title
+Go to kitchen?	回到厨房？	キッチンに戻りますか？	주방으로 갈까요?	GameConfirm: GameConfirm/Title
+Are you sure want to exit to the Kitchen? Your progress in this level will not be saved.	确定要回到厨房吗？本关的进度将不会保存。	キッチンに戻りますか？このレベルの進行状況は保存されません。	정말 주방으로 나갈까요? 이 레벨의 진행 상황은 저장되지 않아요.	GameConfirm: GameConfirm/Info
+New Customer!	新顾客！	新しいお客さん！	새 손님!	GameEventBig: GameEventBig/Title
+Continue	继续	続ける	계속	GameEventBig: GameEventBig/UniButton/Label
+Title	标题	タイトル	제목	GameEventSmall: GameEventSmall/Title
+Locked!	未解锁！	ロック中！	잠겨 있어요!	GameInfo: GameInfo/Title
+To unlock this recipe, you need to collect 5 expert badges.\nCurrent Expert Badges: 0	要解锁这道食谱，你需要收集 5 枚专家徽章。\n当前专家徽章：0	このレシピを解放するには、エキスパートバッジが5個必要です。\n現在のエキスパートバッジ：0	이 레시피를 열려면 전문가 배지가 5개 필요해요.\n현재 전문가 배지: 0	GameInfo: GameInfo/Info
+Paused	暂停	一時停止	일시 정지	GamePause: GamePause/Title
+Goal : serve 5 customer(s)\nExpert : earn $220	目标：服务 5 位顾客\n专家：赚取 $220	目標：お客さん5人に料理を出す\nエキスパート：$220を稼ぐ	목표: 손님 5명 대접하기\n전문가: $220 벌기	GamePause: GamePause/Info
+Kitchen	厨房	キッチン	주방	GamePause: GamePause/LeftButton/Label
+Resume	继续游戏	再開	계속하기	GamePause: GamePause/RightButton/Label
+SOUND :	音效：	効果音：	효과음:	GamePause: GamePause/SoundText
+ON	开	オン	켜기	GamePause: GamePause/SoundButton/Label
+MUSIC : 	音乐：	音楽：	음악:	GamePause: GamePause/MusicText
+FULL SCREEN : 	全屏：	フルスクリーン：	전체 화면:	GamePause: GamePause/FullScreenText
+Congratulations!	恭喜！	おめでとう！	축하해요!	GameResult: GameResult/Title
+You've reached today's goal!	你达成了今天的目标！	今日の目標を達成しました！	오늘의 목표를 달성했어요!	GameResult: GameResult/Info
+Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\n\nToday's Earnings\t\t :\nTotal Coins\t\t\t :	服务顾客\t\t :\n饮品\t\t :\n薯条\t\t :\n\n今日收入\t\t :\n金币总数\t\t :	接客数\t\t :\n飲み物\t\t :\nフライドポテト\t :\n\n今日の売上\t\t :\nコイン合計\t\t :	대접한 손님\t\t :\n음료\t\t :\n감자튀김\t\t :\n\n오늘의 수입\t\t :\n총 코인\t\t :	GameResult: GameResult/SummaryText
+Well done! Try to reach Expert target to earn even more coins!	干得好！试着达成专家目标来赚取更多金币吧！	よくできました！エキスパート目標を達成して、もっとコインを稼ぎましょう！	잘했어요! 전문가 목표를 달성해서 코인을 더 많이 모아 보세요!	GameResult: GameResult/SummaryTips
+Next	下一步	次へ	다음	Tutorial: Tutorial/NextButton/Label

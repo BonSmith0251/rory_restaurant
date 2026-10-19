@@ -128,6 +128,9 @@ namespace Rory.Localization
                 return;
             }
             LocalizationSettings.SelectedLocale = locale;
+            // The package's SelectedLocaleChanged event comes later (after async loads); rebuild now so code
+            // that runs right after the switch (e.g. the next scene's Start) already sees the new language.
+            Rebuild();
         }
 
         /// <summary>The language's own name for a locale code.</summary>

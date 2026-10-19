@@ -14,7 +14,425 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Game
   m_TableCollectionNameGuidString: 9503be5cbcceb7e4cbd8615e103a45fa
-  m_Entries: []
+  m_Entries:
+  - m_Id: 3882573881344
+    m_Key: 'You''ve served 1000 perfectly happy customers
+
+      (80% patience or
+      above)!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464256
+    m_Key: Big Business
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464257
+    m_Key: You've earned $100.000!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464258
+    m_Key: You've earned $VALUE/$100.000
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464259
+    m_Key: Western Recipes Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464260
+    m_Key: You've bought all Western recipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464261
+    m_Key: You've bought VALUE/6 Western recipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464262
+    m_Key: Asian Recipes Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464263
+    m_Key: You've bought all Asian recipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464264
+    m_Key: You've bought VALUE/6 Asian recipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464265
+    m_Key: Middle East Recipes Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464266
+    m_Key: You've bought all Middle Eastern recipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464267
+    m_Key: You've bought VALUE/6 Middle Eastern recipe!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464268
+    m_Key: Secret Ingredient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464269
+    m_Key: You've upgraded 1 ingredient to MAX Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464270
+    m_Key: You've upgraded an ingredient to VALUE/10 level!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464271
+    m_Key: Hawk Eye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464272
+    m_Key: You've found 200 Hidden Objects!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464273
+    m_Key: You've found VALUE/200 Hidden Objects!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464274
+    m_Key: Froyo Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464275
+    m_Key: You've made 200 Frozen Yogurts!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464276
+    m_Key: You've made VALUE/200 Frozen Yogurts!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464277
+    m_Key: Qualified Chef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464278
+    m_Key: You've finished 91 levels in Story Mode!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464279
+    m_Key: You've completed VALUE/91 levels in Story Mode!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464280
+    m_Key: International Chef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464281
+    m_Key: You've achieved Expert scores in 91 levels in Story Mode!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464282
+    m_Key: You've achieved Expert scores in VALUE/91 levels in Story Mode!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464283
+    m_Key: VALUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464284
+    m_Key: General Tips
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464285
+    m_Key: Awesome! Couldn't have done it better myself!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464286
+    m_Key: If you reach the normal Daily Goal you will receive 3 coins, but when
+      you reach the Expert Goal you'll earn 6 coins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464287
+    m_Key: Main Menu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464288
+    m_Key: Are you sure want to exit to the Main Menu? Your progress in this level
+      will not be saved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464289
+    m_Key: "Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t
+      :\nVIP Rating Bonus\t\t :\n\nToday\u2019s Earnings\t\t :\nTotal Coins\t\t\t
+      :"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464290
+    m_Key: Level Failed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464291
+    m_Key: You've failed to meet today's goal!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464292
+    m_Key: "Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t
+      :\n\nTotal Coins\t\t\t :"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464293
+    m_Key: You've reached today's goal and finished all levels!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464294
+    m_Key: Huraay!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464295
+    m_Key: Summary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464296
+    m_Key: You've completed this level.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464297
+    m_Key: "Objects Found\t\t:\nToday's Earning\t:\n\nTotal Coins\t\t:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464298
+    m_Key: Level Failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464299
+    m_Key: You've failed this level.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464300
+    m_Key: "Objects Found\t:\nToday's Earning\t:\n\nTotal Coins\t:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464301
+    m_Key: "Objects Found\t:\nScore\t\t:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464302
+    m_Key: Next Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464303
+    m_Key: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464304
+    m_Key: You've completed all levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464305
+    m_Key: Level Complete!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464306
+    m_Key: "Froyo Served\t\t:\nToday's Earning\t:\n\nTotal Coins\t\t:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464307
+    m_Key: "Froyo Served\t:\nToday's Earning\t:\n\nTotal Coins\t:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464308
+    m_Key: You've completed this game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464309
+    m_Key: "Froyo Served\t\t:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464310
+    m_Key: You Failed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464311
+    m_Key: You've failed this game.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464312
+    m_Key: "Froyo Served\t:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464313
+    m_Key: 'To unlock this recipe, you need to collect {0} expert badges.
+
+      Current
+      Expert Badges: {1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464314
+    m_Key: Today's Preparation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464315
+    m_Key: 'Goal : serve {0} food critic
+
+      Expert : earn ${1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464316
+    m_Key: 'Goal : serve {0} customer(s)
+
+      Expert : earn ${1}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464317
+    m_Key: OFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464318
+    m_Key: "And there she goes, Rory\u2019s little restaurant gets more crowded day
+      by day."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464319
+    m_Key: One night, Rory is counting her profit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464320
+    m_Key: 50 thousand dollars and more! I have earned more than enough to pay off
+      my Student Loan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464321
+    m_Key: Thanks to you, now she has enough money to pay her debts!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464322
+    m_Key: But what goal will she pursue next? What does Rory dream of now?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464323
+    m_Key: Own a Grand restaurant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464324
+    m_Key: Maybe start a living in French.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464325
+    m_Key: Or pursue higher culinary education.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464326
+    m_Key: Anyway now she already owns a very successful restaurant, let's help her
+      grow it even bigger!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464327
+    m_Key: 'Day
+
+      {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464328
+    m_Key: '{0} (Match 3)
+
+      Goal: serve {1} customer(s)
+
+      Expert: earn
+      $ {2}
+
+      Your Best Score: {3}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464329
+    m_Key: '{0} (Match 3)
+
+      Goal: serve {1} food critic
+
+      Expert: earn
+      $ {2}
+
+      Your Best Score: {3}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464330
+    m_Key: 'Cleaning up (Hidden Objects)
+
+      Goal: find {0} items
+
+      Expert:
+      {1} items
+
+      Your Best Score: {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464331
+    m_Key: 'Froyo Business (Minigame)
+
+      Goal: earn ${0}
+
+      Expert: earn
+      ${1}
+
+      Your Best Score: {2}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464332
+    m_Key: Western Cuisine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464333
+    m_Key: Asian Cuisine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464334
+    m_Key: Middle East Cuisine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464335
+    m_Key: Guest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464336
+    m_Key: Windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464337
+    m_Key: Empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464338
+    m_Key: One early morning, our sweet Rory is checking up on her mails..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464339
+    m_Key: She just received her Chef Certificate after graduating from Culinary
+      School.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464340
+    m_Key: But wait, what is that small note attached below?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464341
+    m_Key: Ow, Rory has a huge debt from her Student Loan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464342
+    m_Key: "And what\u2019s this? A new restaurant just started out its business..
+      near Rory\u2019s place!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464343
+    m_Key: Seems like Rory has got an idea to solve her financial problem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464344
+    m_Key: HMM...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464345
+    m_Key: "I\u2019ll open a mini restaurant to pay off my debts!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3882586464346
+    m_Key: Genius idea! Rory now has a sound plan to pay back her debts!
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

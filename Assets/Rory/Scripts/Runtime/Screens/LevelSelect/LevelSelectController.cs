@@ -3,6 +3,7 @@ using Rory.Save;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Rory.Localization;
 
 namespace Rory.Screens.LevelSelect
 {
@@ -95,7 +96,7 @@ namespace Rory.Screens.LevelSelect
                 }
                 else
                 {
-                    dayTexts[i].text = string.Format(DayLabel, index + 1);
+                    dayTexts[i].text = Loc.F(DayLabel, index + 1);
                     dayIndex[i] = index;
                     SetTouchable(i, true);
                     SelectedDay = index;
@@ -163,10 +164,10 @@ namespace Rory.Screens.LevelSelect
             switch (day.gameType)
             {
                 case GameType.HiddenObject:
-                    text = string.Format(NoteHiddenObject, day.goal, day.expert, best);
+                    text = Loc.F(NoteHiddenObject, day.goal, day.expert, best);
                     break;
                 case GameType.DessertMaking:
-                    text = string.Format(NoteDessert, day.goal, day.expert, best);
+                    text = Loc.F(NoteDessert, day.goal, day.expert, best);
                     break;
                 default:
                     string region;
@@ -177,7 +178,7 @@ namespace Rory.Screens.LevelSelect
                         default: region = "Middle East Cuisine"; break;
                     }
                     // every 7th day is the food critic day
-                    text = string.Format((SelectedDay + 1) % 7 == 0 ? NoteFoodCritic : NoteMatch3, region, day.goal, day.expert, best);
+                    text = Loc.F((SelectedDay + 1) % 7 == 0 ? NoteFoodCritic : NoteMatch3, region, day.goal, day.expert, best);
                     break;
             }
             noteDescription.text = text;

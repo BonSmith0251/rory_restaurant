@@ -272,6 +272,9 @@ namespace Rory.EditorTools
         {
             var t = TextCentered(parent, name, text, font, size, color, x + width / 2, y + height / 2, width, height);
             t.raycastTarget = true;
+            // One line, centred on the box: translations (e.g. CJK) may be wider than the original word and must
+            // not wrap character by character.
+            t.textWrappingMode = TextWrappingModes.NoWrap;
             if (rotationDegrees != 0) t.rectTransform.localEulerAngles = new Vector3(0, 0, -rotationDegrees);
             var button = t.gameObject.AddComponent<Button>();
             button.transition = Selectable.Transition.None;

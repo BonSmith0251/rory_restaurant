@@ -4,6 +4,7 @@ using Rory.UI;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Rory.Localization;
 
 namespace Rory.Popups.Game
 {
@@ -48,7 +49,7 @@ namespace Rory.Popups.Game
             SetInfo(infoText);
             Offset(info, 0, infoOffsetY);
             Labels = labels;
-            summaryText.text = ExpandTabs(summaryText, labels);
+            summaryText.text = ExpandTabs(summaryText, Loc.T(labels)); // translate before the tabs become <pos> tags
             summaryStats.text = stats;
             summaryTips.text = tips ?? "";
             summaryTips.gameObject.SetActive(tips != null);

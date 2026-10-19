@@ -149,18 +149,67 @@ namespace Rory.EditorTools
         }
 
         static readonly Regex LiteralCall = new Regex(@"\bLoc\.[TF]\(\s*@?""((?:[^""\\]|\\.)*)""", RegexOptions.Compiled);
+        static readonly Regex ConstCall = new Regex(@"\bLoc\.[TF]\(\s*([A-Za-z_][A-Za-z0-9_]*)\s*[,)]", RegexOptions.Compiled);
+        static readonly Regex ConstDecl = new Regex(@"\bconst\s+string\s+([A-Za-z_][A-Za-z0-9_]*)\s*=\s*""((?:[^""\\]|\\.)*)""", RegexOptions.Compiled);
+        static readonly Regex AnyLiteral = new Regex(@"(?<!@)""((?:[^""\\]|\\.)*)""", RegexOptions.Compiled);
 
-        /// <summary>English literals passed to Loc.T(...) / Loc.F(...) in runtime scripts.</summary>
+        static readonly string[] HeuristicFolders = { "Screens", "Popups", "Achievements", "UI" };
+
+        // Lines whose literals are never player-visible text.
+        static readonly string[] IgnoredLineMarkers =
+        {
+            "Debug.Log", "Resources.Load", "PlaySfx(", "PlayMusic(", "StopSfx(", "IsPlayingMusic(", "sprites.Get(", "GetSequence(",
+            "Find(", "GetComponent", "Shader.Find", "PlayerPrefs", "SetTrigger", "Animator", "nameof(",
+        };
+
+        /// <summary>
+        /// English texts in runtime scripts: literals passed to Loc.T / Loc.F (also via a const), plus every other
+        /// literal that looks like player-visible text (has a space, starts upper-case or ends with ! ? .), since
+        /// texts assigned to a TextMeshPro with a Localize component are translated at runtime.
+        /// Identifier-like strings (sprite and sound names) are skipped; a few harmless extra rows are possible.
+        /// </summary>
         static IEnumerable<(string, string)> CodeLiterals()
         {
             foreach (var file in Directory.GetFiles(RoryPaths.Root + "/Scripts/Runtime", "*.cs", SearchOption.AllDirectories)
                          .OrderBy(f => f, StringComparer.Ordinal))
             {
+                var text = File.ReadAllText(file);
+                // Only UI-facing code is scanned for loose literals; core/data/tutorial code holds ids and tokens.
+                var rel = file.Replace('\\', '/');
+                bool heuristic = HeuristicFolders.Any(f => rel.Contains("/Scripts/Runtime/" + f + "/"));
+                var consts = new Dictionary<string, string>();
+                foreach (Match m in ConstDecl.Matches(text)) consts[m.Groups[1].Value] = Regex.Unescape(m.Groups[2].Value);
                 var lines = File.ReadAllLines(file);
                 for (int i = 0; i < lines.Length; i++)
-                foreach (Match m in LiteralCall.Matches(lines[i]))
-                    yield return (Regex.Unescape(m.Groups[1].Value), $"{Path.GetFileName(file)}:{i + 1}");
+                {
+                    var line = lines[i];
+                    var trimmed = line.TrimStart();
+                    if (trimmed.StartsWith("//") || trimmed.StartsWith("[")) continue;
+                    string ctx = $"{Path.GetFileName(file)}:{i + 1}";
+                    foreach (Match m in LiteralCall.Matches(line)) yield return (Regex.Unescape(m.Groups[1].Value), ctx);
+                    foreach (Match m in ConstCall.Matches(line))
+                        if (consts.TryGetValue(m.Groups[1].Value, out var c)) yield return (c, ctx);
+                    if (!heuristic || IgnoredLineMarkers.Any(line.Contains) || line.Contains("new GameObject(")) continue;
+                    var code = Regex.Replace(line, @"//.*$", "");
+                    foreach (Match m in AnyLiteral.Matches(code))
+                    {
+                        string s;
+                        try { s = Regex.Unescape(m.Groups[1].Value); }
+                        catch (ArgumentException) { continue; }
+                        if (LooksLikeText(s)) yield return (s, ctx);
+                    }
+                }
             }
+        }
+
+        static bool LooksLikeText(string s)
+        {
+            if (s.Length < 2 || !s.Any(char.IsLetter)) return false;
+            if (Regex.IsMatch(s, @"^[a-z0-9_\-\.]+$")) return false;        // sprite / sound / key names
+            if (Regex.IsMatch(s, @"^[A-Za-z0-9_]+\.[a-z]{2,4}$")) return false; // file names
+            if (s.Contains("/") && !s.Contains(" ")) return false;            // paths
+            if (s == "OrIgAmInglOl") return false;                             // the cheat player name
+            return s.Contains(" ") || char.IsUpper(s[0]) || "!?.".Contains(s[s.Length - 1]);
         }
 
         // ------------------------------------------------------------------ import
