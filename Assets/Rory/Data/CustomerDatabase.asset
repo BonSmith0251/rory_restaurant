@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb29cd072bf80a4d9c1030b38718c42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customers:
+  - name: Little Boy
+    textureName: char_1
+    patience: 4
+    tipsBonus: 3
+  - name: Actor
+    textureName: char_2
+    patience: 2
+    tipsBonus: 5
+  - name: Business Woman
+    textureName: char_3
+    patience: 4
+    tipsBonus: 3
+  - name: Business Man
+    textureName: char_4
+    patience: 3
+    tipsBonus: 4
+  - name: Grandma
+    textureName: char_5
+    patience: 3
+    tipsBonus: 4
+  - name: Korean
+    textureName: char_6
+    patience: 2
+    tipsBonus: 4
+  - name: Little Girl
+    textureName: char_7
+    patience: 4
+    tipsBonus: 3
+  - name: African
+    textureName: char_8
+    patience: 2
+    tipsBonus: 4
+  - name: Rich Woman
+    textureName: char_9
+    patience: 2
+    tipsBonus: 4
+  - name: Grandpa
+    textureName: char_10
+    patience: 3
+    tipsBonus: 4
+  - name: Nurse
+    textureName: char_11
+    patience: 5
+    tipsBonus: 2
+  - name: Sports Man
+    textureName: char_12
+    patience: 2
+    tipsBonus: 4
+  - name: Food Critics
+    textureName: char_13
+    patience: 3
+    tipsBonus: 4

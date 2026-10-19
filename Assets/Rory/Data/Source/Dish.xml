@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- INGREDIENT -->
+<!-- BREAD = 1-->
+<!-- SELADA = 2-->
+<!-- BEEF = 3-->
+<!-- AYAM = 4-->
+<!-- NASI = 5-->
+<!-- BACON = 6-->
+<!-- SALMON = 7-->
+<!-- SEAFOOD = 8-->
+<!-- KEJU = 9-->
+<!-- PITA_BREAD = 11 -->
+<!-- LAMB = 12 -->
+<!-- TOMATO = 13 -->
+
+<data>
+	<dish region="western" dishName="Veggie Croissant" defaultPrice="15" priceIncrease="3" defaultTarget="6,7" ingredient="1,2" upgradeCost="3,2,4,10,0" ></dish>
+	<dish region="western" dishName="Deluxe Chicken Croissant" defaultPrice="21" priceIncrease="5" defaultTarget="5,6,6" ingredient="1,9,4" upgradeCost="5,3,7,14,0" ></dish>
+	<dish region="western" dishName="France BBQ Combo" defaultPrice="26" priceIncrease="8" defaultTarget="4,4,6,6" ingredient="1,4,3,7" upgradeCost="11,8,16,26,0" ></dish>
+	<dish region="western" dishName="Beef Steak" defaultPrice="34" priceIncrease="10" defaultTarget="3,6,7,8" ingredient="1,2,9,3" upgradeCost="16,12,24,36,0" ></dish>
+	<dish region="western" dishName="Smoky Salmon" defaultPrice="46" priceIncrease="14" defaultTarget="5,6,6,5,9" ingredient="2,9,4,3,7" upgradeCost="22,16,33,48,0"></dish>
+	<dish region="western" dishName="Premium Combo Steak" defaultPrice="60" priceIncrease="18" defaultTarget="5,6,9,8,8" ingredient="2,9,4,3,7" upgradeCost="30,22,45,64,0" expertNeeded="30"></dish>
+	
+	<dish region="chinese" dishName="Asian Fried Rice" defaultPrice="13" priceIncrease="3" defaultTarget="3,8" ingredient="5,4" upgradeCost="3,2,4,10,0" ></dish>
+	<dish region="chinese" dishName="Thai Fried Rice" defaultPrice="19" priceIncrease="5" defaultTarget="3,7,5" ingredient="5,8,3" upgradeCost="4,3,6,12,0" ></dish>
+	<dish region="chinese" dishName="Kalasan Fried Chicken" defaultPrice="23" priceIncrease="8" defaultTarget="9,9" ingredient="2,4" upgradeCost="10,7,15,24,0" ></dish>
+	<dish region="chinese" dishName="Chinese Pork Special" defaultPrice="31" priceIncrease="10" defaultTarget="6,8,10" ingredient="5,2,6" upgradeCost="16,12,24,36,0" ></dish>
+	<dish region="chinese" dishName="Fine Imperial Cuisine" defaultPrice="44" priceIncrease="14" defaultTarget="6,8,8,8" ingredient="2,8,3,6" upgradeCost="22,16,33,48,0" ></dish>
+	<dish region="chinese" dishName="Deluxe BBQ Combo" defaultPrice="58" priceIncrease="18" defaultTarget="6,6,8,8,8" ingredient="2,8,4,3,6" upgradeCost="30,22,45,64,0" ></dish>
+	
+	<dish region="mid_east" dishName="Doner kebab" defaultPrice="14" priceIncrease="3" defaultTarget="3,5,4" ingredient="11,2,12" upgradeCost="4,3,6,12,0" ></dish>
+	<dish region="mid_east" dishName="Gyros Style" defaultPrice="21" priceIncrease="5" defaultTarget="4,4,5,4" ingredient="2,4,5,13" upgradeCost="6,4,9,16,0" ></dish>
+	<dish region="mid_east" dishName="Tomato Domas" defaultPrice="25" priceIncrease="8" defaultTarget="5,6,7" ingredient="12,5,13" upgradeCost="12,9,18,28,0" ></dish>
+	<dish region="mid_east" dishName="Tuscan Hummus" defaultPrice="36" priceIncrease="10" defaultTarget="5,3,7,4,7" ingredient="11,2,4,5,13" upgradeCost="18,13,27,40,0" ></dish>
+	<dish region="mid_east" dishName="Lamb Baklava" defaultPrice="49" priceIncrease="14" defaultTarget="6,6,9,7,3" ingredient="11,2,12,4,13" upgradeCost="25,18,37,54,0" ></dish>
+	<dish region="mid_east" dishName="Crown Lamb Roast" defaultPrice="64" priceIncrease="18" defaultTarget="5,8,10,6,6" ingredient="11,2,12,4,13" upgradeCost="33,24,49,70,0" ></dish>
+
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	<ingredient upgradeCost="0,1,2,3,4,5,6,7,8,9,10,0" priceIncrease="1"></ingredient>
+	
+	<hardware name="juicer" upgradeCost="0,10,20,30,40,50,0" defaultPrice="9" priceIncrease="2" startingTarget="50" Reduction="3"></hardware>
+	<hardware name="fryer" upgradeCost="0,10,20,30,40,50,0" defaultPrice="12" priceIncrease="2" startingTarget="80" Reduction="5"></hardware>
+	<hardware name="cookies" upgradeCost="0,10,20,30,40,50,0" defaultPrice="10" priceIncrease="10" startingTarget="35" Reduction="2"></hardware> <!-- defaultPrice and priceIncrease here indicate affected customer patience -->
+	
+</data>

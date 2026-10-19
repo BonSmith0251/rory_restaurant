@@ -1,0 +1,481 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5439c11f67cdc64e982bbba944b89fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  days:
+  - gameType: 0
+    time: 50
+    goal: 4
+    expert: 210
+    region: W
+  - gameType: 0
+    time: 60
+    goal: 5
+    expert: 220
+    region: W
+  - gameType: 0
+    time: 70
+    goal: 6
+    expert: 310
+    region: W
+  - gameType: 2
+    time: 120
+    goal: 15
+    expert: 21
+    region: 
+  - gameType: 0
+    time: 70
+    goal: 7
+    expert: 360
+    region: W
+  - gameType: 0
+    time: 70
+    goal: 7
+    expert: 360
+    region: W
+  - gameType: 1
+    time: 90
+    goal: 1
+    expert: 520
+    region: W
+  - gameType: 0
+    time: 85
+    goal: 7
+    expert: 280
+    region: C
+  - gameType: 0
+    time: 85
+    goal: 7
+    expert: 330
+    region: C
+  - gameType: 0
+    time: 80
+    goal: 7
+    expert: 360
+    region: W
+  - gameType: 3
+    time: 50
+    goal: 60
+    expert: 90
+    region: 
+  - gameType: 0
+    time: 90
+    goal: 8
+    expert: 380
+    region: C
+  - gameType: 0
+    time: 90
+    goal: 8
+    expert: 480
+    region: W
+  - gameType: 1
+    time: 100
+    goal: 1
+    expert: 570
+    region: C
+  - gameType: 0
+    time: 95
+    goal: 8
+    expert: 480
+    region: W
+  - gameType: 0
+    time: 95
+    goal: 8
+    expert: 460
+    region: C
+  - gameType: 0
+    time: 105
+    goal: 9
+    expert: 510
+    region: C
+  - gameType: 2
+    time: 120
+    goal: 18
+    expert: 24
+    region: 
+  - gameType: 0
+    time: 105
+    goal: 9
+    expert: 600
+    region: C
+  - gameType: 0
+    time: 115
+    goal: 10
+    expert: 670
+    region: W
+  - gameType: 1
+    time: 125
+    goal: 1
+    expert: 720
+    region: C
+  - gameType: 0
+    time: 120
+    goal: 10
+    expert: 400
+    region: ME
+  - gameType: 0
+    time: 120
+    goal: 10
+    expert: 470
+    region: ME
+  - gameType: 0
+    time: 130
+    goal: 11
+    expert: 600
+    region: ME
+  - gameType: 3
+    time: 55
+    goal: 70
+    expert: 100
+    region: 
+  - gameType: 0
+    time: 130
+    goal: 11
+    expert: 790
+    region: C
+  - gameType: 0
+    time: 135
+    goal: 12
+    expert: 810
+    region: W
+  - gameType: 1
+    time: 140
+    goal: 1
+    expert: 820
+    region: ME
+  - gameType: 0
+    time: 135
+    goal: 12
+    expert: 810
+    region: W
+  - gameType: 0
+    time: 145
+    goal: 13
+    expert: 940
+    region: C
+  - gameType: 0
+    time: 145
+    goal: 13
+    expert: 910
+    region: ME
+  - gameType: 2
+    time: 120
+    goal: 20
+    expert: 27
+    region: 
+  - gameType: 0
+    time: 145
+    goal: 14
+    expert: 940
+    region: ME
+  - gameType: 0
+    time: 150
+    goal: 15
+    expert: 1080
+    region: C
+  - gameType: 1
+    time: 155
+    goal: 1
+    expert: 1070
+    region: W
+  - gameType: 0
+    time: 155
+    goal: 15
+    expert: 1120
+    region: ME
+  - gameType: 0
+    time: 155
+    goal: 15
+    expert: 1200
+    region: C
+  - gameType: 0
+    time: 160
+    goal: 16
+    expert: 1240
+    region: ME
+  - gameType: 3
+    time: 60
+    goal: 80
+    expert: 110
+    region: 
+  - gameType: 0
+    time: 160
+    goal: 16
+    expert: 1200
+    region: W
+  - gameType: 0
+    time: 165
+    goal: 17
+    expert: 1360
+    region: ME
+  - gameType: 1
+    time: 170
+    goal: 1
+    expert: 1370
+    region: ME
+  - gameType: 0
+    time: 170
+    goal: 17
+    expert: 1310
+    region: ME
+  - gameType: 0
+    time: 170
+    goal: 17
+    expert: 1360
+    region: ME
+  - gameType: 0
+    time: 175
+    goal: 18
+    expert: 1440
+    region: C
+  - gameType: 2
+    time: 120
+    goal: 22
+    expert: 30
+    region: 
+  - gameType: 0
+    time: 180
+    goal: 18
+    expert: 1480
+    region: ME
+  - gameType: 0
+    time: 185
+    goal: 19
+    expert: 1520
+    region: C
+  - gameType: 1
+    time: 190
+    goal: 1
+    expert: 1500
+    region: W
+  - gameType: 0
+    time: 190
+    goal: 19
+    expert: 1520
+    region: ME
+  - gameType: 0
+    time: 195
+    goal: 18
+    expert: 1530
+    region: C
+  - gameType: 0
+    time: 200
+    goal: 19
+    expert: 1610
+    region: ME
+  - gameType: 3
+    time: 70
+    goal: 90
+    expert: 120
+    region: 
+  - gameType: 0
+    time: 200
+    goal: 19
+    expert: 1660
+    region: ME
+  - gameType: 0
+    time: 205
+    goal: 19
+    expert: 1660
+    region: W
+  - gameType: 1
+    time: 220
+    goal: 1
+    expert: 1750
+    region: C
+  - gameType: 0
+    time: 205
+    goal: 19
+    expert: 1710
+    region: W
+  - gameType: 0
+    time: 210
+    goal: 20
+    expert: 1750
+    region: C
+  - gameType: 0
+    time: 210
+    goal: 20
+    expert: 1800
+    region: W
+  - gameType: 2
+    time: 120
+    goal: 24
+    expert: 33
+    region: 
+  - gameType: 0
+    time: 210
+    goal: 20
+    expert: 1800
+    region: C
+  - gameType: 0
+    time: 220
+    goal: 21
+    expert: 1890
+    region: ME
+  - gameType: 1
+    time: 250
+    goal: 1
+    expert: 2100
+    region: ME
+  - gameType: 0
+    time: 220
+    goal: 21
+    expert: 1940
+    region: ME
+  - gameType: 0
+    time: 225
+    goal: 21
+    expert: 1990
+    region: C
+  - gameType: 0
+    time: 230
+    goal: 22
+    expert: 2090
+    region: W
+  - gameType: 3
+    time: 85
+    goal: 110
+    expert: 135
+    region: 
+  - gameType: 0
+    time: 230
+    goal: 22
+    expert: 2090
+    region: ME
+  - gameType: 0
+    time: 240
+    goal: 23
+    expert: 2180
+    region: W
+  - gameType: 1
+    time: 280
+    goal: 1
+    expert: 2470
+    region: C
+  - gameType: 0
+    time: 245
+    goal: 23
+    expert: 2180
+    region: ME
+  - gameType: 0
+    time: 245
+    goal: 23
+    expert: 2240
+    region: W
+  - gameType: 0
+    time: 250
+    goal: 23
+    expert: 2300
+    region: ME
+  - gameType: 2
+    time: 120
+    goal: 24
+    expert: 33
+    region: 
+  - gameType: 0
+    time: 250
+    goal: 24
+    expert: 2460
+    region: C
+  - gameType: 0
+    time: 250
+    goal: 24
+    expert: 2520
+    region: W
+  - gameType: 1
+    time: 290
+    goal: 1
+    expert: 2750
+    region: ME
+  - gameType: 0
+    time: 255
+    goal: 24
+    expert: 2520
+    region: W
+  - gameType: 0
+    time: 255
+    goal: 24
+    expert: 2640
+    region: C
+  - gameType: 0
+    time: 260
+    goal: 25
+    expert: 2810
+    region: ME
+  - gameType: 3
+    time: 90
+    goal: 120
+    expert: 145
+    region: 
+  - gameType: 0
+    time: 260
+    goal: 25
+    expert: 2870
+    region: C
+  - gameType: 0
+    time: 260
+    goal: 25
+    expert: 2930
+    region: W
+  - gameType: 1
+    time: 300
+    goal: 1
+    expert: 3050
+    region: C
+  - gameType: 0
+    time: 265
+    goal: 25
+    expert: 2930
+    region: ME
+  - gameType: 0
+    time: 270
+    goal: 25
+    expert: 3000
+    region: C
+  - gameType: 0
+    time: 275
+    goal: 26
+    expert: 3120
+    region: W
+  - gameType: 2
+    time: 120
+    goal: 24
+    expert: 33
+    region: 
+  - gameType: 0
+    time: 275
+    goal: 26
+    expert: 3180
+    region: ME
+  - gameType: 0
+    time: 275
+    goal: 26
+    expert: 3250
+    region: C
+  - gameType: 1
+    time: 320
+    goal: 1
+    expert: 3450
+    region: W
+  dessertLevels:
+  - goal: 100
+    time: 120
+  - goal: 120
+    time: 130
+  - goal: 140
+    time: 140
+  - goal: 160
+    time: 150
+  - goal: 180
+    time: 160

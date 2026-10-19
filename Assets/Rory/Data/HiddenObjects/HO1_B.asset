@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c193cecf9056d0c4faa626212481a362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: HO1_B
+  items:
+  - name: strawberry,nm
+    locX: 857
+    locY: 380
+  - name: pineapple,nm
+    locX: 48
+    locY: 320
+  - name: apple,nm
+    locX: 177
+    locY: 157
+  - name: shoes,nm
+    locX: 936
+    locY: 552
+  - name: cauliflower,nm
+    locX: 791
+    locY: 370
+  - name: cauliflower,bg
+    locX: 790
+    locY: 399
+  - name: watermelon,nm
+    locX: 652
+    locY: 419
+  - name: muffin,nm
+    locX: 815
+    locY: 549
+  - name: lemon,nm
+    locX: 895
+    locY: 475
+  - name: egg,nm
+    locX: 896
+    locY: 546
+  - name: fortune cookie,nm
+    locX: 473
+    locY: 372
+  - name: croissant,nm
+    locX: 126
+    locY: 475
+  - name: chocolate,nm
+    locX: 735
+    locY: 575
+  - name: dragonfruit,nm
+    locX: 291
+    locY: 434
+  - name: cookies,nm
+    locX: 195
+    locY: 392
+  - name: pear,nm
+    locX: 298
+    locY: 219
+  - name: pear,bg
+    locX: 297
+    locY: 238
+  - name: ink bottle,nm
+    locX: 385
+    locY: 433
+  - name: teabag,nm
+    locX: 790
+    locY: 269
+  - name: baguette,nm
+    locX: 611
+    locY: 504
+  - name: baguette,bg2
+    locX: 645
+    locY: 498
+  - name: plastic bottle,nm
+    locX: 266
+    locY: 341
+  - name: alarm clock,nm
+    locX: 897
+    locY: 311
+  - name: mousetrap,nm
+    locX: 712
+    locY: 455
+  - name: beer,nm
+    locX: 200
+    locY: 257
+  - name: bottle cap,nm
+    locX: 224
+    locY: 585
+  - name: chilli,nm
+    locX: 557
+    locY: 455
+  - name: ice tea,nm
+    locX: 531
+    locY: 391
+  - name: sandwich,nm
+    locX: 509
+    locY: 248
+  - name: broccoli,nm
+    locX: 6
+    locY: 495
+  - name: broccoli,bg
+    locX: 6
+    locY: 520
+  - name: hamburger,nm
+    locX: 10
+    locY: 552
+  - name: meat,nm
+    locX: 507
+    locY: 469
+  - name: thermometer,nm
+    locX: 376
+    locY: 243
+  - name: smoking pipe,nm
+    locX: 644
+    locY: 200
+  - name: stamp,nm
+    locX: 32
+    locY: 429
+  - name: thread,nm
+    locX: 182
+    locY: 229
+  - name: scroll,nm
+    locX: 562
+    locY: 538
+  - name: biscuit,nm
+    locX: 629
+    locY: 454
+  - name: drumsticks,nm
+    locX: 268
+    locY: 489
+  - name: coconut,nm
+    locX: 496
+    locY: 188
+  - name: coconut,bg
+    locX: 502
+    locY: 219
+  - name: ring,nm
+    locX: 453
+    locY: 460
+  - name: sausage,nm
+    locX: 559
+    locY: 410
+  - name: carrot,nm
+    locX: 937
+    locY: 398
+  - name: carrot,bg
+    locX: 971
+    locY: 425
+  - name: cake,nm
+    locX: 113
+    locY: 534

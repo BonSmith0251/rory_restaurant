@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a2370eb64950045982d1720a9056fc, type: 3}
+  m_Name: GameDatabase
+  m_EditorClassIdentifier: 
+  levels: {fileID: 11400000, guid: d5d8d04a6933c314db941323925bc5a5, type: 2}
+  dishes: {fileID: 11400000, guid: d51540ec4bebd24408f3f9499e139e9d, type: 2}
+  customers: {fileID: 11400000, guid: 1266623186cb6014bbc0bbc1caa4a823, type: 2}
+  levelEvents: {fileID: 11400000, guid: 193085a9859e9a74cb8e1b9cfff7629a, type: 2}
+  dialogues: {fileID: 11400000, guid: a71cccda485982d458bf312e26b69cd2, type: 2}
+  desserts: {fileID: 11400000, guid: 787953bd9a73a1349a4688358074ee56, type: 2}
+  hiddenObjectLayouts:
+  - {fileID: 11400000, guid: d350d576f4654c94eb16509aa0cdae78, type: 2}
+  - {fileID: 11400000, guid: 7b208dcf2f6675d4c8b8c128ec76f72d, type: 2}
+  - {fileID: 11400000, guid: 2739bbc2a77426c4286c8a4b10a2ab8f, type: 2}
+  - {fileID: 11400000, guid: 03ef55b84765c974fa5252d844c2794d, type: 2}
+  - {fileID: 11400000, guid: 14200f3c322a2454fb8889beb51337ec, type: 2}
+  - {fileID: 11400000, guid: 5967645ef2f6b34409b8f3ded00b73b4, type: 2}
+  sprites: {fileID: 11400000, guid: 3276c853be0fea0468bd642e00b88c91, type: 2}
+  audio: {fileID: 11400000, guid: b8a480bdc95199f409a03dcc08775440, type: 2}
+  bigWindow: {fileID: 8852543469254573120, guid: 8358f54eb963ce04e9280f40b4e9fc7d, type: 3}
+  smallWindow: {fileID: 4708512497847136738, guid: eb30e80c12f56c14590665e0a6aa60d6, type: 3}

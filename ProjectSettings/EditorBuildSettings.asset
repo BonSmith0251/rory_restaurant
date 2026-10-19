@@ -4,6 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Rory/Scenes/Splash.unity
+    guid: eefd852696888b14687be0a71833853a
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: d4dcbfcd61ce55a4fa0422c74137cc79
+  - enabled: 1
+    path: Assets/Rory/Scenes/MainMenu.unity
+    guid: 1d553f568e7b5b74998af6fa75f82f43
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

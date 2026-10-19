@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c193cecf9056d0c4faa626212481a362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: HO2_B
+  items:
+  - name: books,nm
+    locX: 769
+    locY: 411
+  - name: pie,nm
+    locX: 881
+    locY: 535
+  - name: pie,bg
+    locX: 927
+    locY: 534
+  - name: sushi,nm
+    locX: 511
+    locY: 354
+  - name: basket,nm
+    locX: 290
+    locY: 423
+  - name: thermometer,nm
+    locX: 570
+    locY: 531
+  - name: towels,nm
+    locX: 173
+    locY: 257
+  - name: towel,bg
+    locX: 169
+    locY: 255
+  - name: butterfly,nm
+    locX: 19
+    locY: 324
+  - name: cone,nm
+    locX: 219
+    locY: 509
+  - name: rubik_QUOTE_s cube,nm
+    locX: 937
+    locY: 387
+  - name: rubik_QUOTE_s cube,bg
+    locX: 951
+    locY: 384
+  - name: strawberry,nm
+    locX: 780
+    locY: 222
+  - name: strawberry,bg
+    locX: 778
+    locY: 247
+  - name: whisk,nm
+    locX: 626
+    locY: 217
+  - name: tuna,nm
+    locX: 598
+    locY: 411
+  - name: telephone,nm
+    locX: 718
+    locY: 531
+  - name: lemon,nm
+    locX: 792
+    locY: 363
+  - name: globe,nm
+    locX: 974
+    locY: 523
+  - name: arrow,nm
+    locX: 753
+    locY: 164
+  - name: salt and pepper,nm
+    locX: 149
+    locY: 155
+  - name: candy cane,nm
+    locX: 405
+    locY: 454
+  - name: blackberry,nm
+    locX: 962
+    locY: 439
+  - name: cinnamon,nm
+    locX: 882
+    locY: 479
+  - name: cinnamon,bg2
+    locX: 917
+    locY: 473
+  - name: garlic,nm
+    locX: 274
+    locY: 166
+  - name: bell,nm
+    locX: 939
+    locY: 113
+  - name: cashew,nm
+    locX: 799
+    locY: 524
+  - name: cashew,bg2
+    locX: 792
+    locY: 531
+  - name: ice cream,nm
+    locX: 119
+    locY: 231
+  - name: pocket watch,nm
+    locX: 79
+    locY: 369
+  - name: popcorn,nm
+    locX: 259
+    locY: 214
+  - name: popcorn,bg
+    locX: 258
+    locY: 213
+  - name: hamburger,nm
+    locX: 106
+    locY: 464
+  - name: rose,nm
+    locX: 531
+    locY: 391
+  - name: snail,nm
+    locX: 364
+    locY: 156
+  - name: wasp,nm
+    locX: 885
+    locY: 335
+  - name: cupcake,nm
+    locX: 810
+    locY: 232
+  - name: donut,nm
+    locX: 673
+    locY: 449
+  - name: watermelon,nm
+    locX: 441
+    locY: 400
+  - name: alarm clock,nm
+    locX: 826
+    locY: 154
+  - name: alarm clock,bg2
+    locX: 847
+    locY: 153
+  - name: brush,nm
+    locX: 102
+    locY: 522
+  - name: teabag,nm
+    locX: 347
+    locY: 204
+  - name: fortune cookie,nm
+    locX: 195
+    locY: 172
+  - name: fortune cookie,bg
+    locX: 148
+    locY: 187
+  - name: B,nm
+    locX: 533
+    locY: 189
+  - name: light bulb,nm
+    locX: 640
+    locY: 132
+  - name: light bulb,bg2
+    locX: 645
+    locY: 130
+  - name: crab,nm
+    locX: 493
+    locY: 480
+  - name: dice,nm
+    locX: 556
+    locY: 323
+  - name: dice,bg2
+    locX: 554
+    locY: 334
+  - name: pineapple,nm
+    locX: 549
+    locY: 443
+  - name: teacup,nm
+    locX: 372
+    locY: 410

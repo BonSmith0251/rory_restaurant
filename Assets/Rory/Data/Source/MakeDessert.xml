@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- TYPE DESCRIPTION -->
+<!-- 1 = CUP -->
+<!-- 2 = YOGURT -->
+<!-- 3 = SYRUP -->
+<!-- 4 = TOPPING -->
+<!-- 5 = BEVERAGE -->
+<data>
+	<item name="cup_paper" type="1" posX="511" posY="292.5" worth="0"></item>
+	<item name="yogurt_plain" type="2" posX="510" posY="186.5" worth="7"></item>
+	<item name="yogurt_blueberry" type="2" posX="510" posY="186.5" worth="7"></item>
+	<item name="syrup_pomegranate" type="3" posX="511" posY="196.5" worth="2"></item>
+	<item name="topping_kiwi" type="4" posX="515.5" posY="205.5" worth="3"></item>
+	<item name="topping_banana" type="4" posX="508" posY="213" worth="3"></item>
+	<item name="smoothie_1" type="5" posX="363" posY="212.5" worth="3"></item>
+	<item name="cup_pineapple" type="1" posX="511" posY="198.5" worth="3"></item>
+	<item name="yogurt_mango" type="2" posX="510" posY="186.5" worth="7"></item>
+	<item name="syrup_maple" type="3" posX="511" posY="196.5" worth="2"></item>
+	<item name="syrup_orange" type="3" posX="511" posY="196.5" worth="2"></item>
+	<item name="topping_strawberry" type="4" posX="503" posY="197" worth="3"></item>
+	<item name="topping_blackberry" type="4" posX="501" posY="222.5" worth="3"></item>
+	<item name="smoothie_2" type="5" posX="291" posY="240.5" worth="3"></item>
+	
+	<sets level="1" type="5"></sets>
+	<sets level="1" type="5,5"></sets>
+	<sets level="1" type="1,2"></sets>
+	<sets level="1" type="1,2,3"></sets>
+	<sets level="2" type="1,2,4"></sets>
+	<sets level="2" type="1,2,4,4"></sets>
+	<sets level="3" type="1,2,3,4"></sets>
+	<sets level="3" type="1,2,4,4,4"></sets>
+	<sets level="4" type="1,2,3,4,4"></sets>
+	<sets level="4" type="1,2,4,4,4,4"></sets>
+	<sets level="5" type="1,2,3,4,4,4"></sets>
+	<sets level="5" type="1,2,3,4,4,4,4"></sets>
+</data>

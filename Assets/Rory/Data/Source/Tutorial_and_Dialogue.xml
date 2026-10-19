@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- ARROW DEFAULT DIRECTION IS LEFT -->
+<data>
+	<!-- 0. OPENING STORY-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Finally, the days of my culinary school are over!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Now I have all day to focus on my work as certified chef!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I have been thinking of opening a shop since the first day at culinary school. I’m so excited the time has come!</text>
+		<text proceedType="button" buttonText="Of course!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I will need someone to accompany me. Will you help me out?</text>
+		<text proceedType="action" buttonText="" posX="512" posY="300" arrowX="450" arrowY="470" arrowDirection="1">That’s the spirit! Now, let’s start our first day!</text>
+	</dialogue>
+	<!-- 1. LEVEL #1 (match 3)-->
+	<dialogue>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Welcome to my kitchen! Let me give you a tour!</text>
+		<text proceedType="button" buttonText="Continue" posX="512" posY="300" arrowX="350" arrowY="20" arrowDirection="-1" blockNext="true">Your objective is to earn enough money by cooking delicious food. This is the amount of customers you need to serve today.</text>
+		<text proceedType="button" buttonText="Continue" posX="512" posY="300" arrowX="270" arrowY="110" arrowDirection="-1">A customer has come! Here is the list of ingredients you need to complete the dish.</text>
+		<text proceedType="action" buttonText="" posX="250" posY="480" arrowX="" arrowY="" arrowDirection="">Swap and make a match of at least 3 ingredients.</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="" blockNext="true">Great! Now continue to match more ingredients to complete the dish.</text>
+		<text proceedType="action" buttonText="" posX="512" posY="300" arrowX="270" arrowY="110" arrowDirection="-1">Congratulations! You have finished your first dish! Now click on the Money to collect it.</text>
+		<text proceedType="button" buttonText="Ok" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="" blockNext="true">Please keep in mind to check out each customer’s patient meter. They will leave more tips for you when they are happier!</text>
+		<text proceedType="action" buttonText="" posX="650" posY="400" arrowX="400" arrowY="240" arrowDirection="-1">One more thing I need to tell you: When you have more than 1 customer at a time, click on their plate to change priority.</text>
+		<text proceedType="button" buttonText="No problem!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I think we’re all set! Let’s keep our customers coming and serve them well!</text>
+	</dialogue>
+	<!-- 2. AFTER LEVEL #1 (match 3)-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Great job, (player)! I must say that we did really great yesterday!</text>
+		<text proceedType="action" buttonText="" posX="512" posY="200" arrowX="450" arrowY="470" arrowDirection="1">I can't wait to cook already! Let's start now!</text>
+		<!--<text proceedType="action" buttonText="" posX="512" posY="200" arrowX="450" arrowY="470" arrowDirection="1">When you are ready to start, tap here!</text>-->
+	</dialogue>
+	<!-- 3. AFTER LEVEL #2-->
+	<dialogue>
+		<text proceedType="button" buttonText="Cool!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Good news! Do you know Emma, that famous girl in the Home Makeover games? Well, she just came into town to set up a book store!</text>
+		<text proceedType="action" buttonText="" posX="650" posY="300" arrowX="250" arrowY="210" arrowDirection="1">Now we can buy new recipes and upgrade our old ones! Click here to open our recipe book!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="400" arrowX="660" arrowY="510" arrowDirection="-1">Why don’t we try to buy the Deluxe Chicken Croissant recipe?</text>
+		<text proceedType="action" buttonText="" posX="512" posY="450" arrowX="750" arrowY="300" arrowDirection="-1">Click here to see the next recipe in the list.</text>
+		<text proceedType="action" buttonText="" posX="512" posY="400" arrowX="540" arrowY="568" arrowDirection="1">Click this button to buy it!</text>
+		<text proceedType="button" buttonText="Great!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Awesome! We just bought a new recipe! Keep buying better ones to increase our restaurant reputation!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Also, upgrading recipes will increase value of the dish. The more expensive it gets, the more money we will earn!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Remember to visit the Shops anytime you have enough money!</text>
+	</dialogue>
+	<!-- 4. LEVEL #4 (hidden object)-->
+	<dialogue>
+		<text proceedType="button" buttonText="No one" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Look at this incredible mess! Who would have thought that we cooked our delicious dishes here in this very kitchen?</text>
+		<text proceedType="button" buttonText="Right" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">You know what they say about always try to have your kitchen clean and tidy, right? Well, that’s quite true because you can’t cook in this mess.</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I know you like cooking as much as I do but we still need to clean this up first! The sooner we get this done, the better. Let’s start!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">We need to remove most of these items from the kitchen. I have provided the list of items so this will be easy!</text>
+		<text proceedType="action" buttonText="" posX="512" posY="450" arrowX="HOITEMX" arrowY="HOITEMY" arrowDirection="1">There it is, the first item on top of the list. Just click to grab it.</text>
+		<text proceedType="action" buttonText="" posX="512" posY="300" arrowX="870" arrowY="70" arrowDirection="1">Great! Now, let’s try to use a hint for the second item. Click here to use a hint.</text>
+		<text proceedType="button" buttonText="Yes!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Hints will refill slowly so you can use it over and over again. Very thoughtful, isn’t it?</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Last tip: you can zoom in and out by dragging your mouse while holding down CTRL key.</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Now try to find the rest of the items by yourself. Good luck!</text>
+	</dialogue>
+	<!-- 5. LEVEL #5-->
+	<dialogue>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Different customer has different personalities.</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Some are more patient but will tip less, while others may get upset faster while queuing but will tip more.</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Set your priorities to get maximum profit out of your day.</text>
+	</dialogue>
+	<!-- 6. LEVEL #7-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">(player), I have been told that a food critic will visit us today! Oh my gosh!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I heard food critics are the worst kind of customer! They usually order a restaurant’s best dish and demand it to be done quick!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="" blockNext="true">We must make sure everything goes very well today! Let’s do our best!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="100" arrowY="SCUSTY" arrowDirection="-1">There he is! The notorious, sour-looking food critic!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">He just ordered our most expensive dish with extra add-ons of everything!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">We really need a good review from him so let’s work hard to serve whatever he wants!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">And remember: Click the food critic’s plate to make his order the top priority.</text>
+	</dialogue>
+	<!-- 7. AFTER LEVEL #7-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Very nice job today! I’m so delighted!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Do you want to hear more good news? Guess what, I just found an old recipe for cooking a Chinese menu! Pretty awesome, huh?</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I know you can’t wait to try it out, so let’s hit the kitchen when you’re ready!</text>
+	</dialogue>
+	<!-- 8. LEVEL #8-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Congratulations, now you have access to a set of wonderful Chinese delicacies!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Remember that you can always buy new recipes and upgrade ingredients at the shop!</text>
+	</dialogue>
+	<!-- 9. AFTER LEVEL #8-->
+	<dialogue>
+		<text proceedType="button" buttonText="Really?" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Hey, guess who just opened an Organic Market! It’s Emma again!</text>
+		<text proceedType="button" buttonText="Cool!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">This means we can now upgrade our ingredients, enhancing the taste of our dishes! That also means we can raise the prices of our menu.</text>
+		<text proceedType="action" buttonText="" posX="380" posY="350" arrowX="800" arrowY="400" arrowDirection="-1">Let’s check out her store!</text>
+		<text proceedType="button" buttonText="Next" posX="320" posY="300" arrowX="" arrowY="" arrowDirection="">Wow look at all these fresh vegetables! This is heaven for cooks!</text>
+		<text proceedType="button" buttonText="OK!" posX="320" posY="440" arrowX="" arrowY="" arrowDirection="">Let me give you a tour around here...</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="340" arrowY="120" arrowDirection="1">This shows the name of the ingredient on display.</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="200" arrowX="250" arrowY="470" arrowDirection="1">You can see more information below, like the Ingredient level, upgrade price and its effect upon purchase.  </text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="200" arrowX="170" arrowY="410" arrowDirection="1">You can upgrade an ingredient up to 10 levels. I’d recommend to first upgrade the one you use the most.</text>
+		<text proceedType="action" buttonText="" posX="512" posY="300" arrowX="540" arrowY="568" arrowDirection="1">Let’s try to upgrade this ingredient now. Click the Upgrade button.</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Awesome! Now you know how to get the better ingredients for your dishes!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Last tip: Come back here to upgrade regularly to make sure we always serve the best quality to our customers!</text>
+	</dialogue>
+	<!-- 10. LEVEL #11 (dessert making)-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Did you know that I am also very good at making frozen yogurt? I just made lots of it!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I’d like to serve my specialty’s frozen yogurt for today and let everyone enjoy it!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">So for today, our business is nothing else but froyo!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Come, I’ll walk you through this!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="" blockNext="true">I have prepared everything from cups to yogurts so we’re all set to start!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">A customer just came in! Perfect timing!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="400" arrowX="700" arrowY="220" arrowDirection="1">You can see the kind of froyo he wants here.</text>
+		<text proceedType="action" buttonText="" posX="512" posY="80" arrowX="195" arrowY="426" arrowDirection="-1">Preparing it is very easy. First, select a cup.</text>
+		<text proceedType="action" buttonText="" posX="512" posY="80" arrowX="321" arrowY="426" arrowDirection="-1">Then select the yogurt he wants.</text>
+		<text proceedType="action" buttonText="" posX="512" posY="80" arrowX="573" arrowY="426" arrowDirection="-1">He wants Pomegranate syrup to go with it.</text>
+		<text proceedType="action" buttonText="" posX="512" posY="80" arrowX="573" arrowY="426" arrowDirection="1">Add some Kiwi.</text>
+		<text proceedType="action" buttonText="" posX="512" posY="80" arrowX="825" arrowY="426" arrowDirection="1">And finally 1 beverage!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">We did it! We just sold our first yogurt ever! That wasn’t so hard, was it?</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Just remember that you need to work on it from top to bottom, and from left to right.</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">And don’t forget to keep an eye of his patience bar. He’ll leave if he waits too long!</text>
+	</dialogue>
+	<!-- 11. LEVEL #12-->
+	<dialogue>
+		<text proceedType="event" buttonText="" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">(start level)</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="200" arrowY="490" arrowDirection="-1">You see that sweet baby in the corner? That is our brand new beverage machine! Here, let me show you how it works.</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Currently the machine is (juice percentage) complete. It works as we prepare our dishes.</text>
+		<text proceedType="action" buttonText="" posX="250" posY="480" arrowX="TILEX" arrowY="TILEY" arrowDirection="">Let’s match this.</text>
+		<!--<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Then match this.</text>-->
+		<text proceedType="action" buttonText="" posX="712" posY="300" arrowX="200" arrowY="490" arrowDirection="-1">Great, a beverage is now ready!</text>
+		<!--<text proceedType="action" buttonText="" posX="712" posY="300" arrowX="200" arrowY="490" arrowDirection="-1">Great, a beverage is now ready! Tap the machine to pick it up.</text>-->
+		<text proceedType="action" buttonText="" posX="712" posY="300" arrowX="270" arrowY="110" arrowDirection="-1">Click the machine and drag to a customer to offer him/her a beverage.</text>
+		<!--<text proceedType="action" buttonText="" posX="712" posY="300" arrowX="270" arrowY="110" arrowDirection="-1">And tap on a customer to offer this beverage to.</text>-->
+		<text proceedType="button" buttonText="OK!" posX="712" posY="300" arrowX="" arrowY="" arrowDirection="">Offering a beverage will increase customer satisfaction which means more earnings for us!</text>
+	</dialogue>
+	<!-- 12. LEVEL #13-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">When possible, try to hold off from collecting money right away.</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">You’ll be rewarded with Chain Bonus if you collect money from all 3 customers at the same time.</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Even a small amount will be very helpful to help you reach EXPERT SCORE.</text>
+	</dialogue>
+	<!-- 13. LEVEL #14-->
+	<dialogue>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">That food critic guy is back to check on us! Let’s show him what we’re made of!</text>
+	</dialogue>
+	<!-- 14. LEVEL #16-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Matching more than 4 ingredients will give you instant bonus money.</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">As a general rule of thumb, always try to find the longest match as fast as you can.</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">The faster you match, the shorter time it will take to prepare a dish, which eventually means earning more tips.</text>
+	</dialogue>
+	<!-- 15. LEVEL #17-->
+	<dialogue>
+		<text proceedType="event" buttonText="" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">(start level)</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="400" arrowY="490" arrowDirection="-1">(player), I just installed a new French Fries machine on the counter. Now we can serve delicious fries!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">It works exactly like the beverage machine, but just in case you forgot, let’s go over it again.</text>
+		<text proceedType="action" buttonText="" posX="250" posY="480" arrowX="TILEX" arrowY="TILEY" arrowDirection="">Let’s complete the fries by matching this.</text>
+		<!--<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Then match this.</text>-->
+		<text proceedType="action" buttonText="" posX="712" posY="300" arrowX="400" arrowY="490" arrowDirection="-1">The fries is now ready!</text>
+		<!--<text proceedType="action" buttonText="" posX="712" posY="300" arrowX="400" arrowY="490" arrowDirection="-1">The fries are now ready! Tap the machine to pick them up.</text>-->
+		<text proceedType="action" buttonText="" posX="712" posY="300" arrowX="270" arrowY="110" arrowDirection="-1">Click the machine and drag to a customer to offer him/her a french fries.</text>
+		<!--<text proceedType="action" buttonText="" posX="712" posY="300" arrowX="270" arrowY="110" arrowDirection="-1">And tap on a customer to offer them. </text>-->
+		<text proceedType="button" buttonText="OK!" posX="712" posY="300" arrowX="" arrowY="" arrowDirection="">Offering a side dish or drink will increase customer satisfaction, leading to a higher tip!</text>
+	</dialogue>
+	<!-- 16. LEVEL #18-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">It’s time to clean our kitchen again!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">It’s still hard to believe we made all this mess just in a few days! Let’s work hard to make this place spotless.</text>
+	</dialogue>
+	<!-- 17. LEVEL #19-->
+	<dialogue>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">There are 10 challenging achievements for you to earn. You should always try to achieve all of them.</text>
+	</dialogue>
+	<!-- 18. LEVEL #21-->
+	<dialogue>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Uhoh, the food critic is back. Let’s show him what we got!</text>
+	</dialogue>
+	<!-- 19. LEVEL #22-->
+	<dialogue>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Congratulations, now you have access to a set of spicy and exotic Middle Eastern dishes!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Remember that you can always buy new recipes and upgrade ingredients at the shop!</text>
+	</dialogue>
+	<!-- 20. LEVEL #25-->
+	<dialogue>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">It’s time to serve our specialty’s frozen yogurt again! Remember to serve each customer with the right combination as fast as you can to earn more money!</text>
+	</dialogue>
+	<!-- 21. LEVEL #26-->
+	<dialogue>
+		<text proceedType="event" buttonText="" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">(start level)</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Oh no, our fridge malfunctioned last night and froze some of our fresh ingredients!</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">No problem, we can manage this.</text>
+		<text proceedType="action" buttonText="" posX="250" posY="480" arrowX="TILEX" arrowY="TILEY" arrowDirection="">For each frozen tile, we need an extra step to defrost it. Very simple actually. Try swapping this one.</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Now that ingredient has returned back to normal. Problem solved!</text>
+	</dialogue>
+	<!-- 22. LEVEL #27-->
+	<dialogue>
+		<text proceedType="event" buttonText="" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">(start level)</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I just bought a very helpful tool to help us cook faster and also defrost ingredients easier!</text>
+		<text proceedType="action" buttonText="" posX="512" posY="300" arrowX="TORCHX" arrowY="TORCHY" arrowDirection="-1">There it is, a chef’s torch! To use it, just swap it to any direction you want. Let’s swap it upwards now.</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Very handy, isn’t it?</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">The chef’s torch will appear in our cooking board from time to time, so keep an eye out for it!</text>
+	</dialogue>
+	<!-- 23. LEVEL #28-->
+	<dialogue>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I see a sour-looking face. Must be that food critic again. Let’s see if we can make him smile!</text>
+	</dialogue>
+	<!-- 24. LEVEL #31-->
+	<dialogue>
+		<text proceedType="event" buttonText="" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">(start level)</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">I have good stuff that can keep customers happy for a while: free cookies!</text>
+		<text proceedType="action" buttonText="" posX="512" posY="300" arrowX="COOKIEX" arrowY="COOKIEY" arrowDirection="-1">Each time you match 5 or more ingredients, a Cookie will appear. Click on it to boost a customer’s patience.</text>
+		<text proceedType="button" buttonText="Next" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Customers with the least patience left will accept your generous present and feel a bit happier!</text>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">One last thing, you can upgrade its effects from the Shop. Good luck!</text>
+	</dialogue>
+	<!-- 25. LEVEL #32-->
+	<dialogue>
+		<text proceedType="button" buttonText="OK!" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">It’s time to clean up our kitchen again! Roll up your sleeves and grab your rubber gloves. Let’s get started!</text>
+	</dialogue>
+	<!-- 26. AFTER LEVEL #34-->
+	<dialogue>
+		<text proceedType="button" buttonText="Agree" posX="512" posY="300" arrowX="" arrowY="" arrowDirection="">Player, I figure that our tools need a little upgrade.</text>
+		<text proceedType="action" buttonText="" posX="380" posY="180" arrowX="240" arrowY="385" arrowDirection="-1">Let’s visit a nearby store and see what they have in stock!</text>
+		<text proceedType="button" buttonText="Next" posX="320" posY="440" arrowX="" arrowY="" arrowDirection="">Ah, player, look at that shiny French Fries Machine! Don’t you think that would be the best investment to make our restaurant service even better?</text>
+		<text proceedType="button" buttonText="OK!" posX="320" posY="440" arrowX="" arrowY="" arrowDirection="">But I’ll leave it up for you to decide. If you want to upgrade it, you know now where to go!</text>
+	</dialogue>
+</data>

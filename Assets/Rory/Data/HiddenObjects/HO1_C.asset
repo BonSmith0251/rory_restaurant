@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c193cecf9056d0c4faa626212481a362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: HO1_C
+  items:
+  - name: strawberry,nm
+    locX: 657
+    locY: 416
+  - name: pineapple,nm
+    locX: 982
+    locY: 508
+  - name: cheese,nm
+    locX: 383
+    locY: 269
+  - name: shoes,nm
+    locX: 908
+    locY: 360
+  - name: cauliflower,nm
+    locX: 652
+    locY: 560
+  - name: alarm clock,nm
+    locX: 750
+    locY: 228
+  - name: watermelon,nm
+    locX: 528
+    locY: 229
+  - name: watermelon,bg2
+    locX: 525
+    locY: 228
+  - name: muffin,nm
+    locX: 724
+    locY: 427
+  - name: lemon,nm
+    locX: 0
+    locY: 516
+  - name: egg,nm
+    locX: 602
+    locY: 544
+  - name: egg,bg
+    locX: 600
+    locY: 563
+  - name: croissant,nm
+    locX: 324
+    locY: 446
+  - name: fortune cookie,nm
+    locX: 525
+    locY: 415
+  - name: fortune cookie,bg
+    locX: 525
+    locY: 429
+  - name: chocolate,nm
+    locX: 841
+    locY: 389
+  - name: dragonfruit,nm
+    locX: 600
+    locY: 443
+  - name: cookies,nm
+    locX: 187
+    locY: 284
+  - name: pear,nm
+    locX: 742
+    locY: 162
+  - name: pear,bg2
+    locX: 756
+    locY: 181
+  - name: ink bottle,nm
+    locX: 43
+    locY: 376
+  - name: teabag,nm
+    locX: 963
+    locY: 431
+  - name: baguette,nm
+    locX: 497
+    locY: 171
+  - name: beer,nm
+    locX: 46
+    locY: 550
+  - name: plastic bottle,nm
+    locX: 502
+    locY: 269
+  - name: plastic bottle,bg2
+    locX: 500
+    locY: 296
+  - name: mousetrap,nm
+    locX: 239
+    locY: 429
+  - name: bottle cap,nm
+    locX: 692
+    locY: 319
+  - name: chilli,nm
+    locX: 145
+    locY: 162
+  - name: ice tea,nm
+    locX: 130
+    locY: 260
+  - name: sandwich,nm
+    locX: 181
+    locY: 214
+  - name: broccoli,nm
+    locX: 570
+    locY: 381
+  - name: hamburger,nm
+    locX: 626
+    locY: 352
+  - name: meat,nm
+    locX: 150
+    locY: 535
+  - name: smoking pipe,nm
+    locX: 864
+    locY: 128
+  - name: thermometer,nm
+    locX: 358
+    locY: 214
+  - name: thermometer,bg
+    locX: 346
+    locY: 226
+  - name: stamp,nm
+    locX: 307
+    locY: 283
+  - name: thread,nm
+    locX: 267
+    locY: 547
+  - name: scroll,nm
+    locX: 899
+    locY: 538
+  - name: biscuit,nm
+    locX: 648
+    locY: 465
+  - name: drumsticks,nm
+    locX: 834
+    locY: 505
+  - name: coconut,nm
+    locX: 747
+    locY: 309
+  - name: coconut,bg
+    locX: 752
+    locY: 338
+  - name: ring,nm
+    locX: 550
+    locY: 568
+  - name: sausage,nm
+    locX: 867
+    locY: 472
+  - name: sausage,bg
+    locX: 867
+    locY: 473
+  - name: carrot,nm
+    locX: 275
+    locY: 153
+  - name: carrot,bg2
+    locX: 275
+    locY: 173
+  - name: pizza,nm
+    locX: 522
+    locY: 456
+  - name: cake,nm
+    locX: 130
+    locY: 461
+  - name: milk,nm
+    locX: 448
+    locY: 430
+  - name: honey,nm
+    locX: 782
+    locY: 371
+  - name: pasta,nm
+    locX: 410
+    locY: 462
+  - name: ice cream,nm
+    locX: 253
+    locY: 352
+  - name: papaya,nm
+    locX: 374
+    locY: 387

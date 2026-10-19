@@ -1,0 +1,58 @@
+<psd2xml xmlns= "http://origamingmedia.com"> 
+	<item name="books,nm" locX="868" locY="437"></item> 
+	<item name="books,bg" locX="863" locY="442"></item> 
+	<item name="pie,nm" locX="600" locY="540"></item> 
+	<item name="sushi,nm" locX="288" locY="178"></item> 
+	<item name="mallet,nm" locX="244" locY="124"></item> 
+	<item name="basket,nm" locX="140" locY="465"></item> 
+	<item name="thermometer,nm" locX="369" locY="357"></item> 
+	<item name="thermometer,bg" locX="361" locY="424"></item> 
+	<item name="ladybug,nm" locX="371" locY="494"></item> 
+	<item name="towels,nm" locX="437" locY="405"></item> 
+	<item name="butterfly,nm" locX="263" locY="294"></item> 
+	<item name="cone,nm" locX="603" locY="285"></item> 
+	<item name="rubik_QUOTE_s cube,nm" locX="42" locY="563"></item> 
+	<item name="whisk,nm" locX="553" locY="442"></item> 
+	<item name="tuna,nm" locX="378" locY="315"></item> 
+	<item name="light bulb,bg2" locX="369" locY="309"></item> 
+	<item name="telephone,nm" locX="-2" locY="418"></item> 
+	<item name="lemon,nm" locX="189" locY="219"></item> 
+	<item name="globe,nm" locX="701" locY="270"></item> 
+	<item name="arrow,nm" locX="129" locY="336"></item> 
+	<item name="salt and pepper,nm" locX="813" locY="173"></item> 
+	<item name="candy cane,nm" locX="582" locY="126"></item> 
+	<item name="blackberry,nm" locX="188" locY="276"></item> 
+	<item name="cinnamon,nm" locX="361" locY="439"></item> 
+	<item name="garlic,nm" locX="686" locY="429"></item> 
+	<item name="bell,nm" locX="898" locY="119"></item> 
+	<item name="candelabra,nm" locX="787" locY="327"></item> 
+	<item name="cashew,nm" locX="507" locY="475"></item> 
+	<item name="pocket watch,nm" locX="644" locY="217"></item> 
+	<item name="pocket watch,bg2" locX="661" locY="212"></item> 
+	<item name="popcorn,nm" locX="879" locY="518"></item> 
+	<item name="hamburger,nm" locX="297" locY="417"></item> 
+	<item name="padlock,nm" locX="773" locY="169"></item> 
+	<item name="padlock,bg" locX="750" locY="205"></item> 
+	<item name="rose,nm" locX="116" locY="233"></item> 
+	<item name="snail,nm" locX="106" locY="397"></item> 
+	<item name="wasp,nm" locX="474" locY="348"></item> 
+	<item name="cupcake,nm" locX="464" locY="453"></item> 
+	<item name="donut,nm" locX="536" locY="314"></item> 
+	<item name="watermelon,nm" locX="950" locY="565"></item> 
+	<item name="alarm clock,nm" locX="165" locY="138"></item> 
+	<item name="brush,nm" locX="742" locY="389"></item> 
+	<item name="crab,nm" locX="957" locY="437"></item> 
+	<item name="dice,nm" locX="818" locY="526"></item> 
+	<item name="C,nm" locX="864" locY="219"></item> 
+	<item name="mortar and pestle,nm" locX="212" locY="511"></item> 
+	<item name="plastic bottle,nm" locX="499" locY="231"></item> 
+	<item name="ice tea,nm" locX="310" locY="357"></item> 
+	<item name="meat,nm" locX="582" locY="474"></item> 
+	<item name="plastic bottle,bg2" locX="489" locY="224"></item> 
+	<item name="mortar and pestle,bg2" locX="242" locY="530"></item> 
+</psd2xml>
+<!------------------------------------------------------------------------- 
+       psd2xml tool origamingmedia (c) 2013 
+       use this tool to retrieve all item positions and export them from a PSD 
+       v1.2e - do not support group layers yet 
+              - now able to export XML and layers, with layer's alpha data --> 

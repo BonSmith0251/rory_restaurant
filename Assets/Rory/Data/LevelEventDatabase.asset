@@ -1,0 +1,3124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f1ab84785e7d14bbeb7ca6eef6f006, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  days:
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 120
+        text: "This cutie pie waits patiently in line and doesn\u2019t ask much.
+          The best kind of customer!"
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_7
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 120
+        text: Nothing beats seeing a cheerful, smiling boy queuing patiently at our
+          restaurant!
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_1
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 120
+        text: Business men have hectic schedules, so you can expect them to pay more
+          for fast service.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_4
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: These career ladies are willing to wait in line a bit longer, but will
+          tip less.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_3
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Hidden Object
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's tidy up this room.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: He is half-way to becoming world famous, hence his cocky attitude.
+          He pays good money though, so we should serve him with a smile.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_8
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: Special Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: International famous food critic! His reviews are usually harsh and
+          he can really make or break a business. Loved by foodies, dreaded by restaurant
+          managers.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_13
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Old, tired and full of interesting war stories. Listen to his stories
+          as you serve him and you might get a generous tip.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_10
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Making Yogurt
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's make some froyo!!
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Fairly patient and always in a good mood. Love her and she will love
+          you back by giving you a generous tip.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_5
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Hidden Object
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's tidy up this room.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Had training all her life to keep smiling no matter what happens, including
+          when she has to queue very long. Does not tips as good, though.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_11
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A very famous figure back in his country, so he gets impatient when
+          being told to queue. Will tip pretty good.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_6
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Making Yogurt
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's make some froyo!!
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 1
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Has full schedule throughout each week, does not want to wait for long.
+          Tips fairly good.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_12
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Hidden Object
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's tidy up this room.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: "Made big money by chasing bad guys in action movies, he\u2019ll tip
+          very good if treated exceptionally well."
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_2
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Making Yogurt
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's make some froyo!!
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 1
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: New Customer!
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: "Being one of the richest people in the world does pay! She\u2019ll
+          leave if not treated well, but will tip lots when her high standards are
+          met."
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: char_9
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Hidden Object
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's tidy up this room.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Making Yogurt
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's make some froyo!!
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Hidden Object
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's tidy up this room.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Making Yogurt
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's make some froyo!!
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Hidden Object
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's tidy up this room.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Making Yogurt
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's make some froyo!!
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -100
+        text: Hidden Object
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: Let's tidy up this room.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 0
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 
+  - alwaysShow: 1
+    windows:
+    - size: big
+      alwaysShow: 0
+      title:
+        visible: 1
+        offsetX: 0
+        offsetY: -145
+        text: General Tips
+      info:
+        visible: 1
+        offsetX: 0
+        offsetY: 90
+        text: A random general tips.
+      leftButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      rightButton:
+        visible: 0
+        offsetX: 0
+        offsetY: 0
+        text: 
+      uniButton:
+        visible: 1
+        offsetX: 0
+        offsetY: 240
+        text: Continue
+      texture: 

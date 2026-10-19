@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ab9596708f452499b54e78c28d0605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dishes:
+  - region: western
+    dishName: Veggie Croissant
+    defaultPrice: 15
+    priceIncrease: 3
+    defaultTarget: 0600000007000000
+    ingredients: 0100000002000000
+    upgradeCost: 0300000002000000040000000a00000000000000
+    expertNeeded: 0
+  - region: western
+    dishName: Deluxe Chicken Croissant
+    defaultPrice: 21
+    priceIncrease: 5
+    defaultTarget: 050000000600000006000000
+    ingredients: 010000000900000004000000
+    upgradeCost: 0500000003000000070000000e00000000000000
+    expertNeeded: 0
+  - region: western
+    dishName: France BBQ Combo
+    defaultPrice: 26
+    priceIncrease: 8
+    defaultTarget: 04000000040000000600000006000000
+    ingredients: 01000000040000000300000007000000
+    upgradeCost: 0b00000008000000100000001a00000000000000
+    expertNeeded: 0
+  - region: western
+    dishName: Beef Steak
+    defaultPrice: 34
+    priceIncrease: 10
+    defaultTarget: 03000000060000000700000008000000
+    ingredients: 01000000020000000900000003000000
+    upgradeCost: 100000000c000000180000002400000000000000
+    expertNeeded: 0
+  - region: western
+    dishName: Smoky Salmon
+    defaultPrice: 46
+    priceIncrease: 14
+    defaultTarget: 0500000006000000060000000500000009000000
+    ingredients: 0200000009000000040000000300000007000000
+    upgradeCost: 1600000010000000210000003000000000000000
+    expertNeeded: 0
+  - region: western
+    dishName: Premium Combo Steak
+    defaultPrice: 60
+    priceIncrease: 18
+    defaultTarget: 0500000006000000090000000800000008000000
+    ingredients: 0200000009000000040000000300000007000000
+    upgradeCost: 1e000000160000002d0000004000000000000000
+    expertNeeded: 30
+  - region: chinese
+    dishName: Asian Fried Rice
+    defaultPrice: 13
+    priceIncrease: 3
+    defaultTarget: 0300000008000000
+    ingredients: 0500000004000000
+    upgradeCost: 0300000002000000040000000a00000000000000
+    expertNeeded: 0
+  - region: chinese
+    dishName: Thai Fried Rice
+    defaultPrice: 19
+    priceIncrease: 5
+    defaultTarget: 030000000700000005000000
+    ingredients: 050000000800000003000000
+    upgradeCost: 0400000003000000060000000c00000000000000
+    expertNeeded: 0
+  - region: chinese
+    dishName: Kalasan Fried Chicken
+    defaultPrice: 23
+    priceIncrease: 8
+    defaultTarget: 0900000009000000
+    ingredients: 0200000004000000
+    upgradeCost: 0a000000070000000f0000001800000000000000
+    expertNeeded: 0
+  - region: chinese
+    dishName: Chinese Pork Special
+    defaultPrice: 31
+    priceIncrease: 10
+    defaultTarget: 06000000080000000a000000
+    ingredients: 050000000200000006000000
+    upgradeCost: 100000000c000000180000002400000000000000
+    expertNeeded: 0
+  - region: chinese
+    dishName: Fine Imperial Cuisine
+    defaultPrice: 44
+    priceIncrease: 14
+    defaultTarget: 06000000080000000800000008000000
+    ingredients: 02000000080000000300000006000000
+    upgradeCost: 1600000010000000210000003000000000000000
+    expertNeeded: 0
+  - region: chinese
+    dishName: Deluxe BBQ Combo
+    defaultPrice: 58
+    priceIncrease: 18
+    defaultTarget: 0600000006000000080000000800000008000000
+    ingredients: 0200000008000000040000000300000006000000
+    upgradeCost: 1e000000160000002d0000004000000000000000
+    expertNeeded: 0
+  - region: mid_east
+    dishName: Doner kebab
+    defaultPrice: 14
+    priceIncrease: 3
+    defaultTarget: 030000000500000004000000
+    ingredients: 0b000000020000000c000000
+    upgradeCost: 0400000003000000060000000c00000000000000
+    expertNeeded: 0
+  - region: mid_east
+    dishName: Gyros Style
+    defaultPrice: 21
+    priceIncrease: 5
+    defaultTarget: 04000000040000000500000004000000
+    ingredients: 0200000004000000050000000d000000
+    upgradeCost: 0600000004000000090000001000000000000000
+    expertNeeded: 0
+  - region: mid_east
+    dishName: Tomato Domas
+    defaultPrice: 25
+    priceIncrease: 8
+    defaultTarget: 050000000600000007000000
+    ingredients: 0c000000050000000d000000
+    upgradeCost: 0c00000009000000120000001c00000000000000
+    expertNeeded: 0
+  - region: mid_east
+    dishName: Tuscan Hummus
+    defaultPrice: 36
+    priceIncrease: 10
+    defaultTarget: 0500000003000000070000000400000007000000
+    ingredients: 0b0000000200000004000000050000000d000000
+    upgradeCost: 120000000d0000001b0000002800000000000000
+    expertNeeded: 0
+  - region: mid_east
+    dishName: Lamb Baklava
+    defaultPrice: 49
+    priceIncrease: 14
+    defaultTarget: 0600000006000000090000000700000003000000
+    ingredients: 0b000000020000000c000000040000000d000000
+    upgradeCost: 1900000012000000250000003600000000000000
+    expertNeeded: 0
+  - region: mid_east
+    dishName: Crown Lamb Roast
+    defaultPrice: 64
+    priceIncrease: 18
+    defaultTarget: 05000000080000000a0000000600000006000000
+    ingredients: 0b000000020000000c000000040000000d000000
+    upgradeCost: 2100000018000000310000004600000000000000
+    expertNeeded: 0
+  ingredients:
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  - upgradeCost: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a00000000000000
+    priceIncrease: 1
+  hardware:
+  - name: juicer
+    upgradeCost: 000000000a000000140000001e000000280000003200000000000000
+    defaultPrice: 9
+    priceIncrease: 2
+    startingTarget: 50
+    reduction: 3
+  - name: fryer
+    upgradeCost: 000000000a000000140000001e000000280000003200000000000000
+    defaultPrice: 12
+    priceIncrease: 2
+    startingTarget: 80
+    reduction: 5
+  - name: cookies
+    upgradeCost: 000000000a000000140000001e000000280000003200000000000000
+    defaultPrice: 10
+    priceIncrease: 10
+    startingTarget: 35
+    reduction: 2

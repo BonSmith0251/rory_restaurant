@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c193cecf9056d0c4faa626212481a362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: HO2_C
+  items:
+  - name: books,nm
+    locX: 868
+    locY: 437
+  - name: books,bg
+    locX: 863
+    locY: 442
+  - name: pie,nm
+    locX: 600
+    locY: 540
+  - name: sushi,nm
+    locX: 288
+    locY: 178
+  - name: mallet,nm
+    locX: 244
+    locY: 124
+  - name: basket,nm
+    locX: 140
+    locY: 465
+  - name: thermometer,nm
+    locX: 369
+    locY: 357
+  - name: thermometer,bg
+    locX: 361
+    locY: 424
+  - name: ladybug,nm
+    locX: 371
+    locY: 494
+  - name: towels,nm
+    locX: 437
+    locY: 405
+  - name: butterfly,nm
+    locX: 263
+    locY: 294
+  - name: cone,nm
+    locX: 603
+    locY: 285
+  - name: rubik_QUOTE_s cube,nm
+    locX: 42
+    locY: 563
+  - name: whisk,nm
+    locX: 553
+    locY: 442
+  - name: tuna,nm
+    locX: 378
+    locY: 315
+  - name: light bulb,bg2
+    locX: 369
+    locY: 309
+  - name: telephone,nm
+    locX: -2
+    locY: 418
+  - name: lemon,nm
+    locX: 189
+    locY: 219
+  - name: globe,nm
+    locX: 701
+    locY: 270
+  - name: arrow,nm
+    locX: 129
+    locY: 336
+  - name: salt and pepper,nm
+    locX: 813
+    locY: 173
+  - name: candy cane,nm
+    locX: 582
+    locY: 126
+  - name: blackberry,nm
+    locX: 188
+    locY: 276
+  - name: cinnamon,nm
+    locX: 361
+    locY: 439
+  - name: garlic,nm
+    locX: 686
+    locY: 429
+  - name: bell,nm
+    locX: 898
+    locY: 119
+  - name: candelabra,nm
+    locX: 787
+    locY: 327
+  - name: cashew,nm
+    locX: 507
+    locY: 475
+  - name: pocket watch,nm
+    locX: 644
+    locY: 217
+  - name: pocket watch,bg2
+    locX: 661
+    locY: 212
+  - name: popcorn,nm
+    locX: 879
+    locY: 518
+  - name: hamburger,nm
+    locX: 297
+    locY: 417
+  - name: padlock,nm
+    locX: 773
+    locY: 169
+  - name: padlock,bg
+    locX: 750
+    locY: 205
+  - name: rose,nm
+    locX: 116
+    locY: 233
+  - name: snail,nm
+    locX: 106
+    locY: 397
+  - name: wasp,nm
+    locX: 474
+    locY: 348
+  - name: cupcake,nm
+    locX: 464
+    locY: 453
+  - name: donut,nm
+    locX: 536
+    locY: 314
+  - name: watermelon,nm
+    locX: 950
+    locY: 565
+  - name: alarm clock,nm
+    locX: 165
+    locY: 138
+  - name: brush,nm
+    locX: 742
+    locY: 389
+  - name: crab,nm
+    locX: 957
+    locY: 437
+  - name: dice,nm
+    locX: 818
+    locY: 526
+  - name: C,nm
+    locX: 864
+    locY: 219
+  - name: mortar and pestle,nm
+    locX: 212
+    locY: 511
+  - name: plastic bottle,nm
+    locX: 499
+    locY: 231
+  - name: ice tea,nm
+    locX: 310
+    locY: 357
+  - name: meat,nm
+    locX: 582
+    locY: 474
+  - name: plastic bottle,bg2
+    locX: 489
+    locY: 224
+  - name: mortar and pestle,bg2
+    locX: 242
+    locY: 530

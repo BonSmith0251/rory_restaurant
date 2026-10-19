@@ -1,0 +1,10 @@
+{
+    "name": "Rory.Editor",
+    "rootNamespace": "Rory.EditorTools",
+    "references": [ "Rory.Runtime", "Unity.TextMeshPro", "UnityEngine.UI" ],
+    "includePlatforms": [ "Editor" ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "autoReferenced": true,
+    "noEngineReferences": false
+}
