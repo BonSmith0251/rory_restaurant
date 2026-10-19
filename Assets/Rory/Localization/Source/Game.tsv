@@ -1,273 +1,273 @@
-en	zh-Hans	ja	ko	context
-You've served 1000 perfectly happy customers\n(80% patience or above)!	你已服务了 1000 位非常满意的顾客\n（耐心值 80% 以上）！	大満足のお客さんを1000人もてなしました\n（忍耐度80%以上）！	아주 만족한 손님을 1000명 대접했어요\n(인내심 80% 이상)!	achievement 0 info
-Big Business	大生意	ビッグビジネス	큰 사업	achievement 1 title
-You've earned $100.000!	你已赚到 $100.000！	$100.000を稼ぎました！	$100.000을 벌었어요!	achievement 1 info
-You've earned $VALUE/$100.000	你已赚到 $VALUE/$100.000	$VALUE/$100.000 を稼ぎました	$VALUE/$100.000을 벌었어요	achievement 1 progress (VALUE = number)
-Western Recipes Book	西式食谱大全	洋食レシピ集	서양 요리 레시피북	achievement 2 title
-You've bought all Western recipe!	你已买下所有西式食谱！	洋食レシピをすべて購入しました！	서양 요리 레시피를 모두 샀어요!	achievement 2 info
-You've bought VALUE/6 Western recipe!	你已买下 VALUE/6 份西式食谱！	洋食レシピを VALUE/6 個購入しました！	서양 요리 레시피를 VALUE/6개 샀어요!	achievement 2 progress (VALUE = number)
-Asian Recipes Book	亚洲食谱大全	アジア料理レシピ集	아시아 요리 레시피북	achievement 3 title
-You've bought all Asian recipe!	你已买下所有亚洲食谱！	アジア料理レシピをすべて購入しました！	아시아 요리 레시피를 모두 샀어요!	achievement 3 info
-You've bought VALUE/6 Asian recipe!	你已买下 VALUE/6 份亚洲食谱！	アジア料理レシピを VALUE/6 個購入しました！	아시아 요리 레시피를 VALUE/6개 샀어요!	achievement 3 progress (VALUE = number)
-Middle East Recipes Book	中东食谱大全	中東料理レシピ集	중동 요리 레시피북	achievement 4 title
-You've bought all Middle Eastern recipe!	你已买下所有中东食谱！	中東料理レシピをすべて購入しました！	중동 요리 레시피를 모두 샀어요!	achievement 4 info
-You've bought VALUE/6 Middle Eastern recipe!	你已买下 VALUE/6 份中东食谱！	中東料理レシピを VALUE/6 個購入しました！	중동 요리 레시피를 VALUE/6개 샀어요!	achievement 4 progress (VALUE = number)
-Secret Ingredient	秘密食材	秘密の食材	비밀 재료	achievement 5 title
-You've upgraded 1 ingredient to MAX Level	你已将 1 种食材升到最高等级	食材を1つ最大レベルまで強化しました	재료 하나를 최대 레벨로 업그레이드했어요	achievement 5 info
-You've upgraded an ingredient to VALUE/10 level!	你已将一种食材升到 VALUE/10 级！	食材をレベル VALUE/10 まで強化しました！	재료를 VALUE/10 레벨까지 업그레이드했어요!	achievement 5 progress (VALUE = number)
-Hawk Eye	鹰眼	鷹の目	매의 눈	achievement 6 title
-You've found 200 Hidden Objects!	你已找到 200 件隐藏物品！	隠されたアイテムを200個見つけました！	숨은 물건을 200개 찾았어요!	achievement 6 info
-You've found VALUE/200 Hidden Objects!	你已找到 VALUE/200 件隐藏物品！	隠されたアイテムを VALUE/200 個見つけました！	숨은 물건을 VALUE/200개 찾았어요!	achievement 6 progress (VALUE = number)
-Froyo Master	冻酸奶大师	フローズンヨーグルト名人	프로즌 요거트 달인	achievement 7 title
-You've made 200 Frozen Yogurts!	你已制作了 200 份冻酸奶！	フローズンヨーグルトを200個作りました！	프로즌 요거트를 200개 만들었어요!	achievement 7 info
-You've made VALUE/200 Frozen Yogurts!	你已制作了 VALUE/200 份冻酸奶！	フローズンヨーグルトを VALUE/200 個作りました！	프로즌 요거트를 VALUE/200개 만들었어요!	achievement 7 progress (VALUE = number)
-Qualified Chef	合格厨师	一人前のシェフ	자격 있는 셰프	achievement 8 title
-You've finished 91 levels in Story Mode!	你已完成故事模式的全部 91 关！	ストーリーモードの91レベルをクリアしました！	스토리 모드 91레벨을 모두 마쳤어요!	achievement 8 info
-You've completed VALUE/91 levels in Story Mode!	你已完成故事模式 VALUE/91 关！	ストーリーモードを VALUE/91 レベルクリアしました！	스토리 모드를 VALUE/91레벨 마쳤어요!	achievement 8 progress (VALUE = number)
-International Chef	国际名厨	世界的シェフ	세계적인 셰프	achievement 9 title
-You've achieved Expert scores in 91 levels in Story Mode!	你已在故事模式全部 91 关中获得专家评分！	ストーリーモードの91レベルすべてでエキスパートを達成しました！	스토리 모드 91레벨 모두에서 전문가 점수를 받았어요!	achievement 9 info
-You've achieved Expert scores in VALUE/91 levels in Story Mode!	你已在故事模式 VALUE/91 关中获得专家评分！	ストーリーモードの VALUE/91 レベルでエキスパートを達成しました！	스토리 모드 VALUE/91레벨에서 전문가 점수를 받았어요!	achievement 9 progress (VALUE = number)
-VALUE	VALUE	VALUE	VALUE	Achievements.cs:67
-General Tips	小提示	お役立ちヒント	일반 팁	GameWindows.cs:117
-Awesome! Couldn't have done it better myself!	太棒了！我自己都做不了更好了！	すばらしい！私でもこれ以上はできないわ！	대단해요! 저라도 이보다 잘할 순 없었을 거예요!	GameWindows.cs:119
-If you reach the normal Daily Goal you will receive 3 coins, but when you reach the Expert Goal you'll earn 6 coins.	达成普通每日目标可获得 3 枚金币，达成专家目标则可获得 6 枚金币。	通常の目標を達成するとコイン3枚、エキスパート目標を達成するとコイン6枚がもらえます。	일일 목표를 달성하면 코인 3개, 전문가 목표를 달성하면 코인 6개를 받아요.	GameWindows.cs:121
-Main Menu?	回到主菜单？	メインメニューに戻りますか？	메인 메뉴로 갈까요?	GameWindows.cs:160
-Are you sure want to exit to the Main Menu? Your progress in this level will not be saved.	确定要回到主菜单吗？本关的进度将不会保存。	メインメニューに戻りますか？このレベルの進行状況は保存されません。	정말 메인 메뉴로 나갈까요? 이 레벨의 진행 상황은 저장되지 않아요.	GameWindows.cs:161
-Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\nVIP Rating Bonus\t\t :\n\nToday’s Earnings\t\t :\nTotal Coins\t\t\t :	服务顾客\t\t :\n饮品\t\t :\n薯条\t\t :\nVIP 评价奖励\t :\n\n今日收入\t\t :\n金币总数\t\t :	接客数\t\t :\n飲み物\t\t :\nフライドポテト\t :\nVIP評価ボーナス\t :\n\n今日の売上\t\t :\nコイン合計\t\t :	대접한 손님\t\t :\n음료\t\t :\n감자튀김\t\t :\nVIP 평가 보너스\t :\n\n오늘의 수입\t\t :\n총 코인\t\t :	GameWindows.cs:229
-Level Failed!	关卡失败！	レベル失敗！	레벨 실패!	GameWindows.cs:249
-You've failed to meet today's goal!	你没有达成今天的目标！	今日の目標を達成できませんでした！	오늘의 목표를 달성하지 못했어요!	GameWindows.cs:249
-Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\n\nTotal Coins\t\t\t :	服务顾客\t\t :\n饮品\t\t :\n薯条\t\t :\n\n金币总数\t\t :	接客数\t\t :\n飲み物\t\t :\nフライドポテト\t :\n\nコイン合計\t\t :	대접한 손님\t\t :\n음료\t\t :\n감자튀김\t\t :\n\n총 코인\t\t :	GameWindows.cs:250
-You've reached today's goal and finished all levels!	你达成了今天的目标，并完成了所有关卡！	今日の目標を達成し、全レベルをクリアしました！	오늘의 목표를 달성하고 모든 레벨을 마쳤어요!	GameWindows.cs:259
-Huraay!!	好耶！！	やったー！！	만세!!	GameWindows.cs:263
-Summary	总结	まとめ	요약	GameWindows.cs:278
-You've completed this level.	你完成了这一关。	このレベルをクリアしました。	이 레벨을 마쳤어요.	GameWindows.cs:278
-Objects Found\t\t:\nToday's Earning\t:\n\nTotal Coins\t\t:	找到物品\t\t:\n今日收入\t\t:\n\n金币总数\t\t:	見つけたアイテム\t:\n今日の売上\t\t:\n\nコイン合計\t\t:	찾은 물건\t\t:\n오늘의 수입\t\t:\n\n총 코인\t\t:	GameWindows.cs:279
-Level Failed	关卡失败	レベル失敗	레벨 실패	GameWindows.cs:291
-You've failed this level.	你没有完成这一关。	このレベルに失敗しました。	이 레벨을 실패했어요.	GameWindows.cs:291
-Objects Found\t:\nToday's Earning\t:\n\nTotal Coins\t:	找到物品\t:\n今日收入\t:\n\n金币总数\t:	見つけたアイテム\t:\n今日の売上\t:\n\nコイン合計\t:	찾은 물건\t:\n오늘의 수입\t:\n\n총 코인\t:	GameWindows.cs:292
-Objects Found\t:\nScore\t\t:	找到物品\t:\n得分\t\t:	見つけたアイテム\t:\nスコア\t\t:	찾은 물건\t:\n점수\t\t:	GameWindows.cs:304
-Next Level	下一关	次のレベル	다음 레벨	GameWindows.cs:304
-Main Menu	主菜单	メインメニュー	메인 메뉴	GameWindows.cs:312
-You've completed all levels.	你完成了所有关卡。	すべてのレベルをクリアしました。	모든 레벨을 마쳤어요.	GameWindows.cs:317
-Level Complete!	关卡完成！	レベルクリア！	레벨 완료!	GameWindows.cs:327
-Froyo Served\t\t:\nToday's Earning\t:\n\nTotal Coins\t\t:	售出冻酸奶\t\t:\n今日收入\t\t:\n\n金币总数\t\t:	フローズンヨーグルト\t:\n今日の売上\t\t:\n\nコイン合計\t\t:	판매한 요거트\t\t:\n오늘의 수입\t\t:\n\n총 코인\t\t:	GameWindows.cs:328
-Froyo Served\t:\nToday's Earning\t:\n\nTotal Coins\t:	售出冻酸奶\t:\n今日收入\t:\n\n金币总数\t:	フローズンヨーグルト\t:\n今日の売上\t:\n\nコイン合計\t:	판매한 요거트\t:\n오늘의 수입\t:\n\n총 코인\t:	GameWindows.cs:340
-You've completed this game.	你完成了这局游戏。	このゲームをクリアしました。	이 게임을 마쳤어요.	GameWindows.cs:347
-Froyo Served\t\t:	售出冻酸奶\t\t:	フローズンヨーグルト\t:	판매한 요거트\t\t:	GameWindows.cs:348
-You Failed!	你失败了！	失敗しました！	실패했어요!	GameWindows.cs:355
-You've failed this game.	你没有完成这局游戏。	このゲームに失敗しました。	이 게임을 실패했어요.	GameWindows.cs:355
-Froyo Served\t:	售出冻酸奶\t:	フローズンヨーグルト\t:	판매한 요거트\t:	GameWindows.cs:356
-To unlock this recipe, you need to collect {0} expert badges.\nCurrent Expert Badges: {1}	要解锁这道食谱，你需要收集 {0} 枚专家徽章。\n当前专家徽章：{1}	このレシピを解放するには、エキスパートバッジが{0}個必要です。\n現在のエキスパートバッジ：{1}	이 레시피를 열려면 전문가 배지가 {0}개 필요해요.\n현재 전문가 배지: {1}	GameWindows.cs:371
-Today's Preparation	今日准备	今日の準備	오늘의 준비	GameWindows.cs:418
-Goal : serve {0} food critic\nExpert : earn ${1}	目标：服务 {0} 位美食评论家\n专家：赚取 ${1}	目標：料理評論家{0}人に料理を出す\nエキスパート：${1}を稼ぐ	목표: 음식 평론가 {0}명 대접하기\n전문가: ${1} 벌기	GameWindows.cs:420
-Goal : serve {0} customer(s)\nExpert : earn ${1}	目标：服务 {0} 位顾客\n专家：赚取 ${1}	目標：お客さん{0}人に料理を出す\nエキスパート：${1}を稼ぐ	목표: 손님 {0}명 대접하기\n전문가: ${1} 벌기	GameWindows.cs:421
-OFF	关	オフ	끄기	PausePopup.cs:93
-(setChildIndex(obj, index of the black screen - 1))	(setChildIndex(obj, index of the black screen - 1))	(setChildIndex(obj, index of the black screen - 1))	(setChildIndex(obj, index of the black screen - 1))	DessertController.cs:92
-Goal:	目标：	目標：	목표:	DessertController.cs:240
-EXPERT:	专家：	エキスパート：	전문가:	DessertController.cs:245
-LIVES x{0}	生命 x{0}	ライフ x{0}	목숨 x{0}	DessertController.cs:252
-LEVEL: {0}	关卡：{0}	レベル：{0}	레벨: {0}	DessertController.cs:399
-And there she goes, Rory’s little restaurant gets more crowded day by day.	就这样，罗莉的小餐厅一天比一天热闹。	こうして、ロリーの小さなレストランは日に日ににぎわっていきました。	그렇게 로리의 작은 레스토랑은 날이 갈수록 붐볐어요.	EndingController.cs:41
-One night, Rory is counting her profit.	一天晚上，罗莉正在数她赚到的钱。	ある夜、ロリーは売上を数えていました。	어느 날 밤, 로리는 수익을 세고 있었어요.	EndingController.cs:57
-50 thousand dollars and more! I have earned more than enough to pay off my Student Loan!	五万美元还多！我赚的钱已经足够还清我的学生贷款了！	5万ドル以上！学生ローンを返しても余るくらい稼いだわ！	5만 달러가 넘어! 학자금 대출을 갚고도 남을 만큼 벌었어!	EndingController.cs:77
-Thanks to you, now she has enough money to pay her debts!	多亏了你，她现在有足够的钱还清债务了！	あなたのおかげで、ロリーは借金を返せるだけのお金を手に入れました！	당신 덕분에 로리는 이제 빚을 갚을 만큼 돈을 모았어요!	EndingController.cs:78
-But what goal will she pursue next? What does Rory dream of now?	可是她接下来会追求什么目标呢？罗莉现在的梦想是什么？	でも、次はどんな目標を目指すのでしょう？ロリーの今の夢は何でしょう？	하지만 다음엔 어떤 목표를 향해 갈까요? 로리의 지금 꿈은 뭘까요?	EndingController.cs:83
-Own a Grand restaurant.	开一家豪华大餐厅。	大きなレストランを持つこと。	멋진 대형 레스토랑을 갖는 것.	EndingController.cs:95
-Maybe start a living in French.	也许去法国开始新生活。	フランスで暮らしてみるのもいいかも。	어쩌면 프랑스에서 새 삶을 시작할지도.	EndingController.cs:103
-Or pursue higher culinary education.	或者继续深造厨艺。	それとも、料理をもっと深く学ぶこと。	아니면 요리를 더 깊이 공부하는 것.	EndingController.cs:112
-Anyway now she already owns a very successful restaurant, let's help her grow it even bigger!	总之，她现在已经拥有一家非常成功的餐厅了，让我们帮她把餐厅做得更大吧！	とにかく、ロリーはもう大成功のレストランのオーナー。もっと大きくするのを手伝いましょう！	어쨌든 로리는 이제 아주 성공한 레스토랑의 주인이에요. 더 크게 키울 수 있게 도와줘요!	EndingController.cs:123
-HO1_A	HO1_A	HO1_A	HO1_A	HiddenObjectController.cs:38
-HO1_B	HO1_B	HO1_B	HO1_B	HiddenObjectController.cs:38
-HO1_C	HO1_C	HO1_C	HO1_C	HiddenObjectController.cs:38
-HO2_A	HO2_A	HO2_A	HO2_A	HiddenObjectController.cs:38
-HO2_B	HO2_B	HO2_B	HO2_B	HiddenObjectController.cs:38
-HO2_C	HO2_C	HO2_C	HO2_C	HiddenObjectController.cs:38
-Label_	Label_	Label_	Label_	HiddenObjectController.cs:321
- Of 	 Of 	 Of 	 Of 	HiddenObjectController.cs:344
- of 	 of 	 of 	 of 	HiddenObjectController.cs:344
- And 	 And 	 And 	 And 	HiddenObjectController.cs:345
- and 	 and 	 and 	 and 	HiddenObjectController.cs:345
-SFX_gameplay_click_0	SFX_gameplay_click_0	SFX_gameplay_click_0	SFX_gameplay_click_0	HiddenObjectController.cs:559
-Exp.: {0}/{1}	专家：{0}/{1}	エキスパート：{0}/{1}	전문가: {0}/{1}	HiddenObjectController.cs:713
-Goal: {0}/{1}	目标：{0}/{1}	目標：{0}/{1}	목표: {0}/{1}	HiddenObjectController.cs:713
-Buy	购买	購入	구매	KitchenController.cs:520
-Upgrade	升级	強化	업그레이드	KitchenController.cs:521
-Can't Afford	钱不够	お金が足りない	돈이 부족해요	KitchenController.cs:522
-Maxed	已满级	最大	최대	KitchenController.cs:523
-Sold Out!	已售完！	売り切れ！	품절!	KitchenController.cs:524
-Info	详情	情報	정보	KitchenController.cs:525
-Cost : {0}	价格：{0}	価格：{0}	가격: {0}	KitchenController.cs:545
-MILLY'S INGREDIENT MARKET	米莉的食材市场	ミリーの食材マーケット	밀리의 식재료 마켓	KitchenController.cs:578
-Upgrading this will increase {0} dishes by $1	升级后，{0} 道菜的价格各提高 $1	強化すると、{0}品の料理の値段が$1上がります	업그레이드하면 요리 {0}개의 가격이 $1씩 올라요	KitchenController.cs:614
-Upgrading this will increase {0} dish by $1	升级后，{0} 道菜的价格提高 $1	強化すると、{0}品の料理の値段が$1上がります	업그레이드하면 요리 {0}개의 가격이 $1 올라요	KitchenController.cs:615
-You've maxed this ingredient quality.	这种食材的品质已经升到最高了。	この食材の品質は最大です。	이 재료의 품질은 이미 최대예요.	KitchenController.cs:636
-No recipe with this ingredient yet.	还没有用到这种食材的食谱。	この食材を使うレシピはまだありません。	이 재료를 쓰는 레시피가 아직 없어요.	KitchenController.cs:648
-EMMA'S RECIPES	艾玛的食谱	エマのレシピ	엠마의 레시피	KitchenController.cs:658
-Current price : ${0} (${1} increase)	当前价格：${0}（提高 ${1}）	現在の値段：${0}（${1}アップ）	현재 가격: ${0} (${1} 인상)	KitchenController.cs:723
-Dish price : ${0} (${1} ingredient bonus)	菜品价格：${0}（食材加成 ${1}）	料理の値段：${0}（食材ボーナス${1}）	요리 가격: ${0} (재료 보너스 ${1})	KitchenController.cs:730
-Dish price : ${0}	菜品价格：${0}	料理の値段：${0}	요리 가격: ${0}	KitchenController.cs:731
-Current price : ${0}	当前价格：${0}	現在の値段：${0}	현재 가격: ${0}	KitchenController.cs:775
-HYPERMART	超级卖场	ハイパーマート	하이퍼마트	KitchenController.cs:788
-Current Effect : {0}% ({1}% increase)	当前效果：{0}%（提高 {1}%）	現在の効果：{0}%（{1}%アップ）	현재 효과: {0}% ({1}% 증가)	KitchenController.cs:804
-Current Price : ${0}	当前价格：${0}	現在の値段：${0}	현재 가격: ${0}	KitchenController.cs:809
-Current Effect : {0}%	当前效果：{0}%	現在の効果：{0}%	현재 효과: {0}%	KitchenController.cs:810
-NOT AVAILABLE	暂不可用	利用できません	이용 불가	KitchenController.cs:827
-Croissant	可颂	クロワッサン	크루아상	KitchenItems.cs:90
-Vegetables	蔬菜	野菜	채소	KitchenItems.cs:91
-Beef	牛肉	牛肉	소고기	KitchenItems.cs:92
-Chicken	鸡肉	鶏肉	닭고기	KitchenItems.cs:93
-Rice	米饭	ご飯	밥	KitchenItems.cs:94
-Bacon	培根	ベーコン	베이컨	KitchenItems.cs:95
-Salmon	三文鱼	サーモン	연어	KitchenItems.cs:96
-Seafood	海鲜	シーフード	해산물	KitchenItems.cs:97
-Cheese	奶酪	チーズ	치즈	KitchenItems.cs:98
-Pita Bread	皮塔饼	ピタパン	피타 빵	KitchenItems.cs:99
-Lamb	羊肉	ラム肉	양고기	KitchenItems.cs:100
-Tomato	番茄	トマト	토마토	KitchenItems.cs:101
-Veggie Croissant	蔬菜可颂	野菜クロワッサン	채소 크루아상	KitchenItems.cs:103
-Deluxe Chicken Croissant	豪华鸡肉可颂	デラックスチキンクロワッサン	디럭스 치킨 크루아상	KitchenItems.cs:104
-French BBQ Combo	法式烧烤套餐	フレンチBBQコンボ	프렌치 바비큐 콤보	KitchenItems.cs:105
-Beef Steak	牛排	ビーフステーキ	소고기 스테이크	KitchenItems.cs:106
-Smokey Salmon	烟熏三文鱼	スモークサーモン	훈제 연어	KitchenItems.cs:107
-Premium Salmon Steak	特级三文鱼排	プレミアムサーモンステーキ	프리미엄 연어 스테이크	KitchenItems.cs:108
-Asian Fried Rice	亚洲炒饭	アジアンチャーハン	아시안 볶음밥	KitchenItems.cs:110
-Thai Fried Rice	泰式炒饭	タイ風チャーハン	태국식 볶음밥	KitchenItems.cs:111
-Kalasan Fried Chicken	卡拉桑炸鸡	カラサン風フライドチキン	칼라산 프라이드치킨	KitchenItems.cs:112
-Chinese Pork Special	中式猪肉特餐	中華風ポークスペシャル	중국식 돼지고기 스페셜	KitchenItems.cs:113
-Fine Imperial Cuisine	精选宫廷料理	宮廷料理	고급 궁중 요리	KitchenItems.cs:114
-Deluxe BBQ Combo	豪华烧烤套餐	デラックスBBQコンボ	디럭스 바비큐 콤보	KitchenItems.cs:115
-Doner Kebab	土耳其烤肉	ドネルケバブ	도너 케밥	KitchenItems.cs:117
-Gyro Style	希腊旋转烤肉	ギロ風	기로스 스타일	KitchenItems.cs:118
-Tomato Domas	番茄酿菜	トマトのドルマ	토마토 돌마	KitchenItems.cs:119
-Tuscan Humus	托斯卡纳鹰嘴豆泥	トスカーナ風フムス	토스카나식 후무스	KitchenItems.cs:120
-Baklava	果仁蜜饼	バクラヴァ	바클라바	KitchenItems.cs:121
-Crown Lamb Roast	皇冠烤羊排	ラムのクラウンロースト	크라운 양갈비 구이	KitchenItems.cs:122
-Juicer	榨汁机	ジューサー	주서기	KitchenItems.cs:124
-Fryer	油炸锅	フライヤー	튀김기	KitchenItems.cs:125
-Cookies	饼干	クッキー	쿠키	KitchenItems.cs:126
-Day\n{0}	第\n{0}天	{0}\n日目	{0}\n일차	LevelSelectController.cs:43
-{0} (Match 3)\nGoal: serve {1} customer(s)\nExpert: earn $ {2}\nYour Best Score: {3}	{0}（三消）\n目标：服务 {1} 位顾客\n专家：赚取 $ {2}\n你的最高分：{3}	{0}（マッチ3）\n目標：お客さん{1}人に料理を出す\nエキスパート：$ {2}を稼ぐ\nベストスコア：{3}	{0} (매치 3)\n목표: 손님 {1}명 대접하기\n전문가: $ {2} 벌기\n최고 점수: {3}	LevelSelectController.cs:44
-{0} (Match 3)\nGoal: serve {1} food critic\nExpert: earn $ {2}\nYour Best Score: {3}	{0}（三消）\n目标：服务 {1} 位美食评论家\n专家：赚取 $ {2}\n你的最高分：{3}	{0}（マッチ3）\n目標：料理評論家{1}人に料理を出す\nエキスパート：$ {2}を稼ぐ\nベストスコア：{3}	{0} (매치 3)\n목표: 음식 평론가 {1}명 대접하기\n전문가: $ {2} 벌기\n최고 점수: {3}	LevelSelectController.cs:45
-Cleaning up (Hidden Objects)\nGoal: find {0} items\nExpert: {1} items\nYour Best Score: {2}	大扫除（寻物）\n目标：找到 {0} 件物品\n专家：{1} 件物品\n你的最高分：{2}	おそうじ（探し物）\n目標：アイテムを{0}個見つける\nエキスパート：{1}個\nベストスコア：{2}	대청소 (숨은 그림 찾기)\n목표: 물건 {0}개 찾기\n전문가: 물건 {1}개\n최고 점수: {2}	LevelSelectController.cs:46
-Froyo Business (Minigame)\nGoal: earn ${0}\nExpert: earn ${1}\nYour Best Score: {2}	冻酸奶生意（小游戏）\n目标：赚取 ${0}\n专家：赚取 ${1}\n你的最高分：{2}	フローズンヨーグルト屋（ミニゲーム）\n目標：${0}を稼ぐ\nエキスパート：${1}を稼ぐ\nベストスコア：{2}	프로즌 요거트 가게 (미니게임)\n목표: ${0} 벌기\n전문가: ${1} 벌기\n최고 점수: {2}	LevelSelectController.cs:47
-Western Cuisine	西式料理	洋食	서양 요리	LevelSelectController.cs:176
-Asian Cuisine	亚洲料理	アジア料理	아시아 요리	LevelSelectController.cs:177
-Middle East Cuisine	中东料理	中東料理	중동 요리	LevelSelectController.cs:178
-Guest	游客	ゲスト	게스트	MainMenuController.cs:106
-Windowed	窗口模式	ウィンドウ	창 모드	MainMenuController.cs:112
-Empty	空	空き	비어 있음	PlayerSelectPopup.cs:77
-tile#{id}(type {type} at {col},{row}{(removed ? 	tile#{id}(type {type} at {col},{row}{(removed ? 	tile#{id}(type {type} at {col},{row}{(removed ? 	tile#{id}(type {type} at {col},{row}{(removed ? 	BoardTile.cs:46
-)}{(frozen ? 	)}{(frozen ? 	)}{(frozen ? 	)}{(frozen ? 	BoardTile.cs:46
-Tile{t.id}	Tile{t.id}	Tile{t.id}	Tile{t.id}	BoardView.cs:44
-FrozenTile{i}	FrozenTile{i}	FrozenTile{i}	FrozenTile{i}	BoardView.cs:51
-Fire{i}	Fire{i}	Fire{i}	Fire{i}	BoardView.cs:58
-Smoke{i}	Smoke{i}	Smoke{i}	Smoke{i}	BoardView.cs:59
-Star{i}	Star{i}	Star{i}	Star{i}	BoardView.cs:60
-FlyingTile{i}	FlyingTile{i}	FlyingTile{i}	FlyingTile{i}	FlyingTiles.cs:28
-0 / 1 food critic	0 / 1 位美食评论家	料理評論家 0 / 1	음식 평론가 0 / 1	Match3Controller.cs:205
-Expert:	专家：	エキスパート：	전문가:	Match3Controller.cs:228
-Goal   : {0}\nExpert : {1}	目标：{0}\n专家：{1}	目標：{0}\nエキスパート：{1}	목표: {0}\n전문가: {1}	Match3Controller.cs:255
-${0}\n+ ${1} Juice Bonus!	${0}\n+ ${1} 饮料奖励！	${0}\n+ ${1} ジュースボーナス！	${0}\n+ ${1} 주스 보너스!	Match3Controller.cs:568
-${0}\n+ ${1} Fries Bonus!	${0}\n+ ${1} 薯条奖励！	${0}\n+ ${1} ポテトボーナス！	${0}\n+ ${1} 감자튀김 보너스!	Match3Controller.cs:574
-${0}\n+ ${1} Juice + Fries Bonus!	${0}\n+ ${1} 饮料+薯条奖励！	${0}\n+ ${1} ジュース＋ポテトボーナス！	${0}\n+ ${1} 주스+감자튀김 보너스!	Match3Controller.cs:577
-Chain Bonus ${0}	连锁奖励 ${0}	チェーンボーナス ${0}	연쇄 보너스 ${0}	Match3Controller.cs:594
-Drag to Customer	拖给顾客	お客さんへドラッグ	손님에게 드래그	Match3Controller.cs:861
-Good!	不错！	いいね！	좋아요!	Match3Controller.cs:974
-Nice!	漂亮！	ナイス！	멋져요!	Match3Controller.cs:974
-Great!	太棒了！	すごい！	훌륭해요!	Match3Controller.cs:974
-Awesome!	超赞！	最高！	대단해요!	Match3Controller.cs:974
-WOW!	哇！	ワオ！	와우!	Match3Controller.cs:974
-One early morning, our sweet Rory is checking up on her mails..	一个清晨，可爱的罗莉正在查看她的信件……	ある朝早く、かわいいロリーは郵便物をチェックしていました…	어느 이른 아침, 사랑스러운 로리가 우편물을 확인하고 있어요...	OpeningController.cs:37
-She just received her Chef Certificate after graduating from Culinary School.	她刚从烹饪学校毕业，拿到了厨师证书。	料理学校を卒業して、シェフの資格証が届いたのです。	요리 학교를 졸업하고 막 셰프 자격증을 받았거든요.	OpeningController.cs:51
-But wait, what is that small note attached below?	等等，下面附着的那张小纸条是什么？	あれ、下についている小さなメモは何でしょう？	어라, 아래에 붙어 있는 작은 쪽지는 뭘까요?	OpeningController.cs:57
-Ow, Rory has a huge debt from her Student Loan!	哎呀，罗莉欠了一大笔学生贷款！	うわっ、ロリーには学生ローンの大きな借金が！	앗, 로리에게 학자금 대출 빚이 잔뜩 있어요!	OpeningController.cs:63
-And what’s this? A new restaurant just started out its business.. near Rory’s place!	这又是什么？一家新餐厅刚刚开张……就在罗莉家附近！	それにこれは？新しいレストランが開店したばかり…しかもロリーの家の近くに！	그리고 이건 뭐죠? 새 레스토랑이 막 문을 열었어요... 로리네 집 근처에!	OpeningController.cs:76
-Seems like Rory has got an idea to solve her financial problem.	看来罗莉想到了解决经济问题的好主意。	ロリーはお金の問題を解決するアイデアを思いついたようです。	로리가 돈 문제를 해결할 아이디어를 떠올린 것 같아요.	OpeningController.cs:86
-HMM...	嗯……	うーん…	흠...	OpeningController.cs:89
-I’ll open a mini restaurant to pay off my debts!	我要开一家小餐厅来还清债务！	小さなレストランを開いて借金を返すわ！	작은 레스토랑을 열어서 빚을 갚을 거야!	OpeningController.cs:103
-Genius idea! Rory now has a sound plan to pay back her debts!	好主意！罗莉现在有了还清债务的完美计划！	名案です！ロリーには借金を返すしっかりした計画ができました！	기막힌 생각이에요! 로리에게 빚을 갚을 확실한 계획이 생겼어요!	OpeningController.cs:104
-Strawberry	草莓	イチゴ	딸기	hidden object (HO1_A)
-Pineapple	菠萝	パイナップル	파인애플	hidden object (HO1_A)
-Apple	苹果	リンゴ	사과	hidden object (HO1_A)
-Shoes	鞋子	靴	신발	hidden object (HO1_A)
-Cauliflower	花椰菜	カリフラワー	콜리플라워	hidden object (HO1_A)
-Watermelon	西瓜	スイカ	수박	hidden object (HO1_A)
-Muffin	松饼	マフィン	머핀	hidden object (HO1_A)
-Lemon	柠檬	レモン	레몬	hidden object (HO1_A)
-Egg	鸡蛋	卵	달걀	hidden object (HO1_A)
-Fortune Cookie	幸运饼干	フォーチュンクッキー	포춘 쿠키	hidden object (HO1_A)
-Alarm Clock	闹钟	目覚まし時計	자명종	hidden object (HO1_A)
-Chocolate	巧克力	チョコレート	초콜릿	hidden object (HO1_A)
-Dragonfruit	火龙果	ドラゴンフルーツ	용과	hidden object (HO1_A)
-Pear	梨	洋ナシ	배	hidden object (HO1_A)
-Ink Bottle	墨水瓶	インク瓶	잉크병	hidden object (HO1_A)
-Teabag	茶包	ティーバッグ	티백	hidden object (HO1_A)
-Baguette	法棍面包	バゲット	바게트	hidden object (HO1_A)
-Mousetrap	捕鼠器	ネズミ捕り	쥐덫	hidden object (HO1_A)
-Beer	啤酒	ビール	맥주	hidden object (HO1_A)
-Bottle Cap	瓶盖	王冠	병뚜껑	hidden object (HO1_A)
-Plastic Bottle	塑料瓶	ペットボトル	플라스틱 병	hidden object (HO1_A)
-Chilli	辣椒	唐辛子	고추	hidden object (HO1_A)
-Ice Tea	冰茶	アイスティー	아이스티	hidden object (HO1_A)
-Sandwich	三明治	サンドイッチ	샌드위치	hidden object (HO1_A)
-Broccoli	西兰花	ブロッコリー	브로콜리	hidden object (HO1_A)
-Hamburger	汉堡	ハンバーガー	햄버거	hidden object (HO1_A)
-Meat	肉	肉	고기	hidden object (HO1_A)
-Thermometer	温度计	温度計	온도계	hidden object (HO1_A)
-Smoking Pipe	烟斗	パイプ	담배 파이프	hidden object (HO1_A)
-Stamp	邮票	切手	우표	hidden object (HO1_A)
-Thread	线团	糸	실	hidden object (HO1_A)
-Scroll	卷轴	巻物	두루마리	hidden object (HO1_A)
-Biscuit	饼干	ビスケット	비스킷	hidden object (HO1_A)
-Drumsticks	鸡腿	チキンレッグ	닭다리	hidden object (HO1_A)
-Coconut	椰子	ココナッツ	코코넛	hidden object (HO1_A)
-Ring	戒指	指輪	반지	hidden object (HO1_A)
-Sausage	香肠	ソーセージ	소시지	hidden object (HO1_A)
-Carrot	胡萝卜	ニンジン	당근	hidden object (HO1_A)
-Cake	蛋糕	ケーキ	케이크	hidden object (HO1_B)
-Pizza	披萨	ピザ	피자	hidden object (HO1_C)
-Milk	牛奶	牛乳	우유	hidden object (HO1_C)
-Honey	蜂蜜	ハチミツ	꿀	hidden object (HO1_C)
-Pasta	意面	パスタ	파스타	hidden object (HO1_C)
-Ice Cream	冰淇淋	アイスクリーム	아이스크림	hidden object (HO1_C)
-Papaya	木瓜	パパイヤ	파파야	hidden object (HO1_C)
-Books	书	本	책	hidden object (HO2_A)
-Teacup	茶杯	ティーカップ	찻잔	hidden object (HO2_A)
-Sushi	寿司	寿司	초밥	hidden object (HO2_A)
-Mallet	木槌	木づち	나무망치	hidden object (HO2_A)
-Basket	篮子	かご	바구니	hidden object (HO2_A)
-Towels	毛巾	タオル	수건	hidden object (HO2_A)
-Butterfly	蝴蝶	チョウ	나비	hidden object (HO2_A)
-Cone	甜筒	コーン	콘	hidden object (HO2_A)
-Rubik's Cube	魔方	ルービックキューブ	큐브 퍼즐	hidden object (HO2_A)
-Whisk	打蛋器	泡立て器	거품기	hidden object (HO2_A)
-Tuna	金枪鱼	マグロ	참치	hidden object (HO2_A)
-Telephone	电话	電話	전화기	hidden object (HO2_A)
-Globe	地球仪	地球儀	지구본	hidden object (HO2_A)
-Arrow	箭	矢	화살	hidden object (HO2_A)
-Salt and Pepper	盐和胡椒	塩とコショウ	소금과 후추	hidden object (HO2_A)
-Candy Cane	拐杖糖	キャンディケーン	지팡이 사탕	hidden object (HO2_A)
-Blackberry	黑莓	ブラックベリー	블랙베리	hidden object (HO2_A)
-Cinnamon	肉桂	シナモン	계피	hidden object (HO2_A)
-Garlic	大蒜	ニンニク	마늘	hidden object (HO2_A)
-Bell	铃铛	ベル	종	hidden object (HO2_A)
-Candelabra	烛台	燭台	촛대	hidden object (HO2_A)
-Cashew	腰果	カシューナッツ	캐슈너트	hidden object (HO2_A)
-Pocket Watch	怀表	懐中時計	회중시계	hidden object (HO2_A)
-Popcorn	爆米花	ポップコーン	팝콘	hidden object (HO2_A)
-Rose	玫瑰	バラ	장미	hidden object (HO2_A)
-Snail	蜗牛	カタツムリ	달팽이	hidden object (HO2_A)
-Wasp	黄蜂	ハチ	말벌	hidden object (HO2_A)
-Cupcake	纸杯蛋糕	カップケーキ	컵케이크	hidden object (HO2_A)
-Donut	甜甜圈	ドーナツ	도넛	hidden object (HO2_A)
-Brush	刷子	ブラシ	붓	hidden object (HO2_A)
-Letter B	字母 B	Bの文字	글자 B	hidden object (HO2_A)
-Pie	派	パイ	파이	hidden object (HO2_B)
-B	B	B	B	hidden object (HO2_B)
-Light Bulb	灯泡	電球	전구	hidden object (HO2_B)
-Crab	螃蟹	カニ	게	hidden object (HO2_B)
-Dice	骰子	サイコロ	주사위	hidden object (HO2_B)
-Ladybug	瓢虫	テントウムシ	무당벌레	hidden object (HO2_C)
-Padlock	挂锁	南京錠	자물쇠	hidden object (HO2_C)
-C	C	C	C	hidden object (HO2_C)
-Mortar and Pestle	研钵和杵	すり鉢とすりこぎ	절구와 공이	hidden object (HO2_C)
+en	zh-Hans	ja	context
+You've served 1000 perfectly happy customers\n(80% patience or above)!	你已服务了 1000 位非常满意的顾客\n（耐心值 80% 以上）！	大満足のお客さんを1000人もてなしました\n（忍耐度80%以上）！	achievement 0 info
+Big Business	大生意	ビッグビジネス	achievement 1 title
+You've earned $100.000!	你已赚到 $100.000！	$100.000を稼ぎました！	achievement 1 info
+You've earned $VALUE/$100.000	你已赚到 $VALUE/$100.000	$VALUE/$100.000 を稼ぎました	achievement 1 progress (VALUE = number)
+Western Recipes Book	西式食谱大全	洋食レシピ集	achievement 2 title
+You've bought all Western recipe!	你已买下所有西式食谱！	洋食レシピをすべて購入しました！	achievement 2 info
+You've bought VALUE/6 Western recipe!	你已买下 VALUE/6 份西式食谱！	洋食レシピを VALUE/6 個購入しました！	achievement 2 progress (VALUE = number)
+Asian Recipes Book	亚洲食谱大全	アジア料理レシピ集	achievement 3 title
+You've bought all Asian recipe!	你已买下所有亚洲食谱！	アジア料理レシピをすべて購入しました！	achievement 3 info
+You've bought VALUE/6 Asian recipe!	你已买下 VALUE/6 份亚洲食谱！	アジア料理レシピを VALUE/6 個購入しました！	achievement 3 progress (VALUE = number)
+Middle East Recipes Book	中东食谱大全	中東料理レシピ集	achievement 4 title
+You've bought all Middle Eastern recipe!	你已买下所有中东食谱！	中東料理レシピをすべて購入しました！	achievement 4 info
+You've bought VALUE/6 Middle Eastern recipe!	你已买下 VALUE/6 份中东食谱！	中東料理レシピを VALUE/6 個購入しました！	achievement 4 progress (VALUE = number)
+Secret Ingredient	秘密食材	秘密の食材	achievement 5 title
+You've upgraded 1 ingredient to MAX Level	你已将 1 种食材升到最高等级	食材を1つ最大レベルまで強化しました	achievement 5 info
+You've upgraded an ingredient to VALUE/10 level!	你已将一种食材升到 VALUE/10 级！	食材をレベル VALUE/10 まで強化しました！	achievement 5 progress (VALUE = number)
+Hawk Eye	鹰眼	鷹の目	achievement 6 title
+You've found 200 Hidden Objects!	你已找到 200 件隐藏物品！	隠されたアイテムを200個見つけました！	achievement 6 info
+You've found VALUE/200 Hidden Objects!	你已找到 VALUE/200 件隐藏物品！	隠されたアイテムを VALUE/200 個見つけました！	achievement 6 progress (VALUE = number)
+Froyo Master	冻酸奶大师	フローズンヨーグルト名人	achievement 7 title
+You've made 200 Frozen Yogurts!	你已制作了 200 份冻酸奶！	フローズンヨーグルトを200個作りました！	achievement 7 info
+You've made VALUE/200 Frozen Yogurts!	你已制作了 VALUE/200 份冻酸奶！	フローズンヨーグルトを VALUE/200 個作りました！	achievement 7 progress (VALUE = number)
+Qualified Chef	合格厨师	一人前のシェフ	achievement 8 title
+You've finished 91 levels in Story Mode!	你已完成故事模式的全部 91 关！	ストーリーモードの91レベルをクリアしました！	achievement 8 info
+You've completed VALUE/91 levels in Story Mode!	你已完成故事模式 VALUE/91 关！	ストーリーモードを VALUE/91 レベルクリアしました！	achievement 8 progress (VALUE = number)
+International Chef	国际名厨	世界的シェフ	achievement 9 title
+You've achieved Expert scores in 91 levels in Story Mode!	你已在故事模式全部 91 关中获得专家评分！	ストーリーモードの91レベルすべてでエキスパートを達成しました！	achievement 9 info
+You've achieved Expert scores in VALUE/91 levels in Story Mode!	你已在故事模式 VALUE/91 关中获得专家评分！	ストーリーモードの VALUE/91 レベルでエキスパートを達成しました！	achievement 9 progress (VALUE = number)
+VALUE	VALUE	VALUE	Achievements.cs:67
+General Tips	小提示	お役立ちヒント	GameWindows.cs:117
+Awesome! Couldn't have done it better myself!	太棒了！我自己都做不了更好了！	すばらしい！私でもこれ以上はできないわ！	GameWindows.cs:119
+If you reach the normal Daily Goal you will receive 3 coins, but when you reach the Expert Goal you'll earn 6 coins.	达成普通每日目标可获得 3 枚金币，达成专家目标则可获得 6 枚金币。	通常の目標を達成するとコイン3枚、エキスパート目標を達成するとコイン6枚がもらえます。	GameWindows.cs:121
+Main Menu?	回到主菜单？	メインメニューに戻りますか？	GameWindows.cs:160
+Are you sure want to exit to the Main Menu? Your progress in this level will not be saved.	确定要回到主菜单吗？本关的进度将不会保存。	メインメニューに戻りますか？このレベルの進行状況は保存されません。	GameWindows.cs:161
+Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\nVIP Rating Bonus\t\t :\n\nToday’s Earnings\t\t :\nTotal Coins\t\t\t :	服务顾客\t\t :\n饮品\t\t :\n薯条\t\t :\nVIP 评价奖励\t :\n\n今日收入\t\t :\n金币总数\t\t :	接客数\t\t :\n飲み物\t\t :\nフライドポテト\t :\nVIP評価ボーナス\t :\n\n今日の売上\t\t :\nコイン合計\t\t :	GameWindows.cs:229
+Level Failed!	关卡失败！	レベル失敗！	GameWindows.cs:249
+You've failed to meet today's goal!	你没有达成今天的目标！	今日の目標を達成できませんでした！	GameWindows.cs:249
+Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\n\nTotal Coins\t\t\t :	服务顾客\t\t :\n饮品\t\t :\n薯条\t\t :\n\n金币总数\t\t :	接客数\t\t :\n飲み物\t\t :\nフライドポテト\t :\n\nコイン合計\t\t :	GameWindows.cs:250
+You've reached today's goal and finished all levels!	你达成了今天的目标，并完成了所有关卡！	今日の目標を達成し、全レベルをクリアしました！	GameWindows.cs:259
+Huraay!!	好耶！！	やったー！！	GameWindows.cs:263
+Summary	总结	まとめ	GameWindows.cs:278
+You've completed this level.	你完成了这一关。	このレベルをクリアしました。	GameWindows.cs:278
+Objects Found\t\t:\nToday's Earning\t:\n\nTotal Coins\t\t:	找到物品\t\t:\n今日收入\t\t:\n\n金币总数\t\t:	見つけたアイテム\t:\n今日の売上\t\t:\n\nコイン合計\t\t:	GameWindows.cs:279
+Level Failed	关卡失败	レベル失敗	GameWindows.cs:291
+You've failed this level.	你没有完成这一关。	このレベルに失敗しました。	GameWindows.cs:291
+Objects Found\t:\nToday's Earning\t:\n\nTotal Coins\t:	找到物品\t:\n今日收入\t:\n\n金币总数\t:	見つけたアイテム\t:\n今日の売上\t:\n\nコイン合計\t:	GameWindows.cs:292
+Objects Found\t:\nScore\t\t:	找到物品\t:\n得分\t\t:	見つけたアイテム\t:\nスコア\t\t:	GameWindows.cs:304
+Next Level	下一关	次のレベル	GameWindows.cs:304
+Main Menu	主菜单	メインメニュー	GameWindows.cs:312
+You've completed all levels.	你完成了所有关卡。	すべてのレベルをクリアしました。	GameWindows.cs:317
+Level Complete!	关卡完成！	レベルクリア！	GameWindows.cs:327
+Froyo Served\t\t:\nToday's Earning\t:\n\nTotal Coins\t\t:	售出冻酸奶\t\t:\n今日收入\t\t:\n\n金币总数\t\t:	フローズンヨーグルト\t:\n今日の売上\t\t:\n\nコイン合計\t\t:	GameWindows.cs:328
+Froyo Served\t:\nToday's Earning\t:\n\nTotal Coins\t:	售出冻酸奶\t:\n今日收入\t:\n\n金币总数\t:	フローズンヨーグルト\t:\n今日の売上\t:\n\nコイン合計\t:	GameWindows.cs:340
+You've completed this game.	你完成了这局游戏。	このゲームをクリアしました。	GameWindows.cs:347
+Froyo Served\t\t:	售出冻酸奶\t\t:	フローズンヨーグルト\t:	GameWindows.cs:348
+You Failed!	你失败了！	失敗しました！	GameWindows.cs:355
+You've failed this game.	你没有完成这局游戏。	このゲームに失敗しました。	GameWindows.cs:355
+Froyo Served\t:	售出冻酸奶\t:	フローズンヨーグルト\t:	GameWindows.cs:356
+To unlock this recipe, you need to collect {0} expert badges.\nCurrent Expert Badges: {1}	要解锁这道食谱，你需要收集 {0} 枚专家徽章。\n当前专家徽章：{1}	このレシピを解放するには、エキスパートバッジが{0}個必要です。\n現在のエキスパートバッジ：{1}	GameWindows.cs:371
+Today's Preparation	今日准备	今日の準備	GameWindows.cs:418
+Goal : serve {0} food critic\nExpert : earn ${1}	目标：服务 {0} 位美食评论家\n专家：赚取 ${1}	目標：料理評論家{0}人に料理を出す\nエキスパート：${1}を稼ぐ	GameWindows.cs:420
+Goal : serve {0} customer(s)\nExpert : earn ${1}	目标：服务 {0} 位顾客\n专家：赚取 ${1}	目標：お客さん{0}人に料理を出す\nエキスパート：${1}を稼ぐ	GameWindows.cs:421
+OFF	关	オフ	PausePopup.cs:93
+(setChildIndex(obj, index of the black screen - 1))	(setChildIndex(obj, index of the black screen - 1))	(setChildIndex(obj, index of the black screen - 1))	DessertController.cs:92
+Goal:	目标：	目標：	DessertController.cs:240
+EXPERT:	专家：	エキスパート：	DessertController.cs:245
+LIVES x{0}	生命 x{0}	ライフ x{0}	DessertController.cs:252
+LEVEL: {0}	关卡：{0}	レベル：{0}	DessertController.cs:399
+And there she goes, Rory’s little restaurant gets more crowded day by day.	就这样，罗莉的小餐厅一天比一天热闹。	こうして、ロリーの小さなレストランは日に日ににぎわっていきました。	EndingController.cs:41
+One night, Rory is counting her profit.	一天晚上，罗莉正在数她赚到的钱。	ある夜、ロリーは売上を数えていました。	EndingController.cs:57
+50 thousand dollars and more! I have earned more than enough to pay off my Student Loan!	五万美元还多！我赚的钱已经足够还清我的学生贷款了！	5万ドル以上！学生ローンを返しても余るくらい稼いだわ！	EndingController.cs:77
+Thanks to you, now she has enough money to pay her debts!	多亏了你，她现在有足够的钱还清债务了！	あなたのおかげで、ロリーは借金を返せるだけのお金を手に入れました！	EndingController.cs:78
+But what goal will she pursue next? What does Rory dream of now?	可是她接下来会追求什么目标呢？罗莉现在的梦想是什么？	でも、次はどんな目標を目指すのでしょう？ロリーの今の夢は何でしょう？	EndingController.cs:83
+Own a Grand restaurant.	开一家豪华大餐厅。	大きなレストランを持つこと。	EndingController.cs:95
+Maybe start a living in French.	也许去法国开始新生活。	フランスで暮らしてみるのもいいかも。	EndingController.cs:103
+Or pursue higher culinary education.	或者继续深造厨艺。	それとも、料理をもっと深く学ぶこと。	EndingController.cs:112
+Anyway now she already owns a very successful restaurant, let's help her grow it even bigger!	总之，她现在已经拥有一家非常成功的餐厅了，让我们帮她把餐厅做得更大吧！	とにかく、ロリーはもう大成功のレストランのオーナー。もっと大きくするのを手伝いましょう！	EndingController.cs:123
+HO1_A	HO1_A	HO1_A	HiddenObjectController.cs:38
+HO1_B	HO1_B	HO1_B	HiddenObjectController.cs:38
+HO1_C	HO1_C	HO1_C	HiddenObjectController.cs:38
+HO2_A	HO2_A	HO2_A	HiddenObjectController.cs:38
+HO2_B	HO2_B	HO2_B	HiddenObjectController.cs:38
+HO2_C	HO2_C	HO2_C	HiddenObjectController.cs:38
+Label_	Label_	Label_	HiddenObjectController.cs:321
+ Of 	 Of 	 Of 	HiddenObjectController.cs:344
+ of 	 of 	 of 	HiddenObjectController.cs:344
+ And 	 And 	 And 	HiddenObjectController.cs:345
+ and 	 and 	 and 	HiddenObjectController.cs:345
+SFX_gameplay_click_0	SFX_gameplay_click_0	SFX_gameplay_click_0	HiddenObjectController.cs:559
+Exp.: {0}/{1}	专家：{0}/{1}	エキスパート：{0}/{1}	HiddenObjectController.cs:713
+Goal: {0}/{1}	目标：{0}/{1}	目標：{0}/{1}	HiddenObjectController.cs:713
+Buy	购买	購入	KitchenController.cs:520
+Upgrade	升级	強化	KitchenController.cs:521
+Can't Afford	钱不够	お金が足りない	KitchenController.cs:522
+Maxed	已满级	最大	KitchenController.cs:523
+Sold Out!	已售完！	売り切れ！	KitchenController.cs:524
+Info	详情	情報	KitchenController.cs:525
+Cost : {0}	价格：{0}	価格：{0}	KitchenController.cs:545
+MILLY'S INGREDIENT MARKET	米莉的食材市场	ミリーの食材マーケット	KitchenController.cs:578
+Upgrading this will increase {0} dishes by $1	升级后，{0} 道菜的价格各提高 $1	強化すると、{0}品の料理の値段が$1上がります	KitchenController.cs:614
+Upgrading this will increase {0} dish by $1	升级后，{0} 道菜的价格提高 $1	強化すると、{0}品の料理の値段が$1上がります	KitchenController.cs:615
+You've maxed this ingredient quality.	这种食材的品质已经升到最高了。	この食材の品質は最大です。	KitchenController.cs:636
+No recipe with this ingredient yet.	还没有用到这种食材的食谱。	この食材を使うレシピはまだありません。	KitchenController.cs:648
+EMMA'S RECIPES	艾玛的食谱	エマのレシピ	KitchenController.cs:658
+Current price : ${0} (${1} increase)	当前价格：${0}（提高 ${1}）	現在の値段：${0}（${1}アップ）	KitchenController.cs:723
+Dish price : ${0} (${1} ingredient bonus)	菜品价格：${0}（食材加成 ${1}）	料理の値段：${0}（食材ボーナス${1}）	KitchenController.cs:730
+Dish price : ${0}	菜品价格：${0}	料理の値段：${0}	KitchenController.cs:731
+Current price : ${0}	当前价格：${0}	現在の値段：${0}	KitchenController.cs:775
+HYPERMART	超级卖场	ハイパーマート	KitchenController.cs:788
+Current Effect : {0}% ({1}% increase)	当前效果：{0}%（提高 {1}%）	現在の効果：{0}%（{1}%アップ）	KitchenController.cs:804
+Current Price : ${0}	当前价格：${0}	現在の値段：${0}	KitchenController.cs:809
+Current Effect : {0}%	当前效果：{0}%	現在の効果：{0}%	KitchenController.cs:810
+NOT AVAILABLE	暂不可用	利用できません	KitchenController.cs:827
+Croissant	可颂	クロワッサン	KitchenItems.cs:90
+Vegetables	蔬菜	野菜	KitchenItems.cs:91
+Beef	牛肉	牛肉	KitchenItems.cs:92
+Chicken	鸡肉	鶏肉	KitchenItems.cs:93
+Rice	米饭	ご飯	KitchenItems.cs:94
+Bacon	培根	ベーコン	KitchenItems.cs:95
+Salmon	三文鱼	サーモン	KitchenItems.cs:96
+Seafood	海鲜	シーフード	KitchenItems.cs:97
+Cheese	奶酪	チーズ	KitchenItems.cs:98
+Pita Bread	皮塔饼	ピタパン	KitchenItems.cs:99
+Lamb	羊肉	ラム肉	KitchenItems.cs:100
+Tomato	番茄	トマト	KitchenItems.cs:101
+Veggie Croissant	蔬菜可颂	野菜クロワッサン	KitchenItems.cs:103
+Deluxe Chicken Croissant	豪华鸡肉可颂	デラックスチキンクロワッサン	KitchenItems.cs:104
+French BBQ Combo	法式烧烤套餐	フレンチBBQコンボ	KitchenItems.cs:105
+Beef Steak	牛排	ビーフステーキ	KitchenItems.cs:106
+Smokey Salmon	烟熏三文鱼	スモークサーモン	KitchenItems.cs:107
+Premium Salmon Steak	特级三文鱼排	プレミアムサーモンステーキ	KitchenItems.cs:108
+Asian Fried Rice	亚洲炒饭	アジアンチャーハン	KitchenItems.cs:110
+Thai Fried Rice	泰式炒饭	タイ風チャーハン	KitchenItems.cs:111
+Kalasan Fried Chicken	卡拉桑炸鸡	カラサン風フライドチキン	KitchenItems.cs:112
+Chinese Pork Special	中式猪肉特餐	中華風ポークスペシャル	KitchenItems.cs:113
+Fine Imperial Cuisine	精选宫廷料理	宮廷料理	KitchenItems.cs:114
+Deluxe BBQ Combo	豪华烧烤套餐	デラックスBBQコンボ	KitchenItems.cs:115
+Doner Kebab	土耳其烤肉	ドネルケバブ	KitchenItems.cs:117
+Gyro Style	希腊旋转烤肉	ギロ風	KitchenItems.cs:118
+Tomato Domas	番茄酿菜	トマトのドルマ	KitchenItems.cs:119
+Tuscan Humus	托斯卡纳鹰嘴豆泥	トスカーナ風フムス	KitchenItems.cs:120
+Baklava	果仁蜜饼	バクラヴァ	KitchenItems.cs:121
+Crown Lamb Roast	皇冠烤羊排	ラムのクラウンロースト	KitchenItems.cs:122
+Juicer	榨汁机	ジューサー	KitchenItems.cs:124
+Fryer	油炸锅	フライヤー	KitchenItems.cs:125
+Cookies	饼干	クッキー	KitchenItems.cs:126
+Day\n{0}	第\n{0}天	{0}\n日目	LevelSelectController.cs:43
+{0} (Match 3)\nGoal: serve {1} customer(s)\nExpert: earn $ {2}\nYour Best Score: {3}	{0}（三消）\n目标：服务 {1} 位顾客\n专家：赚取 $ {2}\n你的最高分：{3}	{0}（マッチ3）\n目標：お客さん{1}人に料理を出す\nエキスパート：$ {2}を稼ぐ\nベストスコア：{3}	LevelSelectController.cs:44
+{0} (Match 3)\nGoal: serve {1} food critic\nExpert: earn $ {2}\nYour Best Score: {3}	{0}（三消）\n目标：服务 {1} 位美食评论家\n专家：赚取 $ {2}\n你的最高分：{3}	{0}（マッチ3）\n目標：料理評論家{1}人に料理を出す\nエキスパート：$ {2}を稼ぐ\nベストスコア：{3}	LevelSelectController.cs:45
+Cleaning up (Hidden Objects)\nGoal: find {0} items\nExpert: {1} items\nYour Best Score: {2}	大扫除（寻物）\n目标：找到 {0} 件物品\n专家：{1} 件物品\n你的最高分：{2}	おそうじ（探し物）\n目標：アイテムを{0}個見つける\nエキスパート：{1}個\nベストスコア：{2}	LevelSelectController.cs:46
+Froyo Business (Minigame)\nGoal: earn ${0}\nExpert: earn ${1}\nYour Best Score: {2}	冻酸奶生意（小游戏）\n目标：赚取 ${0}\n专家：赚取 ${1}\n你的最高分：{2}	フローズンヨーグルト屋（ミニゲーム）\n目標：${0}を稼ぐ\nエキスパート：${1}を稼ぐ\nベストスコア：{2}	LevelSelectController.cs:47
+Western Cuisine	西式料理	洋食	LevelSelectController.cs:176
+Asian Cuisine	亚洲料理	アジア料理	LevelSelectController.cs:177
+Middle East Cuisine	中东料理	中東料理	LevelSelectController.cs:178
+Guest	游客	ゲスト	MainMenuController.cs:106
+Windowed	窗口模式	ウィンドウ	MainMenuController.cs:112
+Empty	空	空き	PlayerSelectPopup.cs:77
+tile#{id}(type {type} at {col},{row}{(removed ? 	tile#{id}(type {type} at {col},{row}{(removed ? 	tile#{id}(type {type} at {col},{row}{(removed ? 	BoardTile.cs:46
+)}{(frozen ? 	)}{(frozen ? 	)}{(frozen ? 	BoardTile.cs:46
+Tile{t.id}	Tile{t.id}	Tile{t.id}	BoardView.cs:44
+FrozenTile{i}	FrozenTile{i}	FrozenTile{i}	BoardView.cs:51
+Fire{i}	Fire{i}	Fire{i}	BoardView.cs:58
+Smoke{i}	Smoke{i}	Smoke{i}	BoardView.cs:59
+Star{i}	Star{i}	Star{i}	BoardView.cs:60
+FlyingTile{i}	FlyingTile{i}	FlyingTile{i}	FlyingTiles.cs:28
+0 / 1 food critic	0 / 1 位美食评论家	料理評論家 0 / 1	Match3Controller.cs:205
+Expert:	专家：	エキスパート：	Match3Controller.cs:228
+Goal   : {0}\nExpert : {1}	目标：{0}\n专家：{1}	目標：{0}\nエキスパート：{1}	Match3Controller.cs:255
+${0}\n+ ${1} Juice Bonus!	${0}\n+ ${1} 饮料奖励！	${0}\n+ ${1} ジュースボーナス！	Match3Controller.cs:568
+${0}\n+ ${1} Fries Bonus!	${0}\n+ ${1} 薯条奖励！	${0}\n+ ${1} ポテトボーナス！	Match3Controller.cs:574
+${0}\n+ ${1} Juice + Fries Bonus!	${0}\n+ ${1} 饮料+薯条奖励！	${0}\n+ ${1} ジュース＋ポテトボーナス！	Match3Controller.cs:577
+Chain Bonus ${0}	连锁奖励 ${0}	チェーンボーナス ${0}	Match3Controller.cs:594
+Drag to Customer	拖给顾客	お客さんへドラッグ	Match3Controller.cs:861
+Good!	不错！	いいね！	Match3Controller.cs:974
+Nice!	漂亮！	ナイス！	Match3Controller.cs:974
+Great!	太棒了！	すごい！	Match3Controller.cs:974
+Awesome!	超赞！	最高！	Match3Controller.cs:974
+WOW!	哇！	ワオ！	Match3Controller.cs:974
+One early morning, our sweet Rory is checking up on her mails..	一个清晨，可爱的罗莉正在查看她的信件……	ある朝早く、かわいいロリーは郵便物をチェックしていました…	OpeningController.cs:37
+She just received her Chef Certificate after graduating from Culinary School.	她刚从烹饪学校毕业，拿到了厨师证书。	料理学校を卒業して、シェフの資格証が届いたのです。	OpeningController.cs:51
+But wait, what is that small note attached below?	等等，下面附着的那张小纸条是什么？	あれ、下についている小さなメモは何でしょう？	OpeningController.cs:57
+Ow, Rory has a huge debt from her Student Loan!	哎呀，罗莉欠了一大笔学生贷款！	うわっ、ロリーには学生ローンの大きな借金が！	OpeningController.cs:63
+And what’s this? A new restaurant just started out its business.. near Rory’s place!	这又是什么？一家新餐厅刚刚开张……就在罗莉家附近！	それにこれは？新しいレストランが開店したばかり…しかもロリーの家の近くに！	OpeningController.cs:76
+Seems like Rory has got an idea to solve her financial problem.	看来罗莉想到了解决经济问题的好主意。	ロリーはお金の問題を解決するアイデアを思いついたようです。	OpeningController.cs:86
+HMM...	嗯……	うーん…	OpeningController.cs:89
+I’ll open a mini restaurant to pay off my debts!	我要开一家小餐厅来还清债务！	小さなレストランを開いて借金を返すわ！	OpeningController.cs:103
+Genius idea! Rory now has a sound plan to pay back her debts!	好主意！罗莉现在有了还清债务的完美计划！	名案です！ロリーには借金を返すしっかりした計画ができました！	OpeningController.cs:104
+Strawberry	草莓	イチゴ	hidden object (HO1_A)
+Pineapple	菠萝	パイナップル	hidden object (HO1_A)
+Apple	苹果	リンゴ	hidden object (HO1_A)
+Shoes	鞋子	靴	hidden object (HO1_A)
+Cauliflower	花椰菜	カリフラワー	hidden object (HO1_A)
+Watermelon	西瓜	スイカ	hidden object (HO1_A)
+Muffin	松饼	マフィン	hidden object (HO1_A)
+Lemon	柠檬	レモン	hidden object (HO1_A)
+Egg	鸡蛋	卵	hidden object (HO1_A)
+Fortune Cookie	幸运饼干	フォーチュンクッキー	hidden object (HO1_A)
+Alarm Clock	闹钟	目覚まし時計	hidden object (HO1_A)
+Chocolate	巧克力	チョコレート	hidden object (HO1_A)
+Dragonfruit	火龙果	ドラゴンフルーツ	hidden object (HO1_A)
+Pear	梨	洋ナシ	hidden object (HO1_A)
+Ink Bottle	墨水瓶	インク瓶	hidden object (HO1_A)
+Teabag	茶包	ティーバッグ	hidden object (HO1_A)
+Baguette	法棍面包	バゲット	hidden object (HO1_A)
+Mousetrap	捕鼠器	ネズミ捕り	hidden object (HO1_A)
+Beer	啤酒	ビール	hidden object (HO1_A)
+Bottle Cap	瓶盖	王冠	hidden object (HO1_A)
+Plastic Bottle	塑料瓶	ペットボトル	hidden object (HO1_A)
+Chilli	辣椒	唐辛子	hidden object (HO1_A)
+Ice Tea	冰茶	アイスティー	hidden object (HO1_A)
+Sandwich	三明治	サンドイッチ	hidden object (HO1_A)
+Broccoli	西兰花	ブロッコリー	hidden object (HO1_A)
+Hamburger	汉堡	ハンバーガー	hidden object (HO1_A)
+Meat	肉	肉	hidden object (HO1_A)
+Thermometer	温度计	温度計	hidden object (HO1_A)
+Smoking Pipe	烟斗	パイプ	hidden object (HO1_A)
+Stamp	邮票	切手	hidden object (HO1_A)
+Thread	线团	糸	hidden object (HO1_A)
+Scroll	卷轴	巻物	hidden object (HO1_A)
+Biscuit	饼干	ビスケット	hidden object (HO1_A)
+Drumsticks	鸡腿	チキンレッグ	hidden object (HO1_A)
+Coconut	椰子	ココナッツ	hidden object (HO1_A)
+Ring	戒指	指輪	hidden object (HO1_A)
+Sausage	香肠	ソーセージ	hidden object (HO1_A)
+Carrot	胡萝卜	ニンジン	hidden object (HO1_A)
+Cake	蛋糕	ケーキ	hidden object (HO1_B)
+Pizza	披萨	ピザ	hidden object (HO1_C)
+Milk	牛奶	牛乳	hidden object (HO1_C)
+Honey	蜂蜜	ハチミツ	hidden object (HO1_C)
+Pasta	意面	パスタ	hidden object (HO1_C)
+Ice Cream	冰淇淋	アイスクリーム	hidden object (HO1_C)
+Papaya	木瓜	パパイヤ	hidden object (HO1_C)
+Books	书	本	hidden object (HO2_A)
+Teacup	茶杯	ティーカップ	hidden object (HO2_A)
+Sushi	寿司	寿司	hidden object (HO2_A)
+Mallet	木槌	木づち	hidden object (HO2_A)
+Basket	篮子	かご	hidden object (HO2_A)
+Towels	毛巾	タオル	hidden object (HO2_A)
+Butterfly	蝴蝶	チョウ	hidden object (HO2_A)
+Cone	甜筒	コーン	hidden object (HO2_A)
+Rubik's Cube	魔方	ルービックキューブ	hidden object (HO2_A)
+Whisk	打蛋器	泡立て器	hidden object (HO2_A)
+Tuna	金枪鱼	マグロ	hidden object (HO2_A)
+Telephone	电话	電話	hidden object (HO2_A)
+Globe	地球仪	地球儀	hidden object (HO2_A)
+Arrow	箭	矢	hidden object (HO2_A)
+Salt and Pepper	盐和胡椒	塩とコショウ	hidden object (HO2_A)
+Candy Cane	拐杖糖	キャンディケーン	hidden object (HO2_A)
+Blackberry	黑莓	ブラックベリー	hidden object (HO2_A)
+Cinnamon	肉桂	シナモン	hidden object (HO2_A)
+Garlic	大蒜	ニンニク	hidden object (HO2_A)
+Bell	铃铛	ベル	hidden object (HO2_A)
+Candelabra	烛台	燭台	hidden object (HO2_A)
+Cashew	腰果	カシューナッツ	hidden object (HO2_A)
+Pocket Watch	怀表	懐中時計	hidden object (HO2_A)
+Popcorn	爆米花	ポップコーン	hidden object (HO2_A)
+Rose	玫瑰	バラ	hidden object (HO2_A)
+Snail	蜗牛	カタツムリ	hidden object (HO2_A)
+Wasp	黄蜂	ハチ	hidden object (HO2_A)
+Cupcake	纸杯蛋糕	カップケーキ	hidden object (HO2_A)
+Donut	甜甜圈	ドーナツ	hidden object (HO2_A)
+Brush	刷子	ブラシ	hidden object (HO2_A)
+Letter B	字母 B	Bの文字	hidden object (HO2_A)
+Pie	派	パイ	hidden object (HO2_B)
+B	B	B	hidden object (HO2_B)
+Light Bulb	灯泡	電球	hidden object (HO2_B)
+Crab	螃蟹	カニ	hidden object (HO2_B)
+Dice	骰子	サイコロ	hidden object (HO2_B)
+Ladybug	瓢虫	テントウムシ	hidden object (HO2_C)
+Padlock	挂锁	南京錠	hidden object (HO2_C)
+C	C	C	hidden object (HO2_C)
+Mortar and Pestle	研钵和杵	すり鉢とすりこぎ	hidden object (HO2_C)

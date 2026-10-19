@@ -241,7 +241,9 @@ namespace Rory.EditorTools
             for (int i = 0; i < langs.Length; i++)
             {
                 var (code, nativeName) = langs[i];
-                var b = UIBuild.Button(w.transform, "Language_" + code, UIBuild.Sprite("window", "small_btn_green"), 0, -120 + i * 75);
+                // 75 px apart, centred between the title and the Cancel button
+                float y = -10 + (i - (langs.Length - 1) / 2f) * 75;
+                var b = UIBuild.Button(w.transform, "Language_" + code, UIBuild.Sprite("window", "small_btn_green"), 0, y);
                 // Each language's name is written in that language, with its own font, and never translated.
                 var font = Rory.Localization.LanguageFonts.FontFor(code) ?? UIBuild.Fonts.Bromine;
                 var t = UIBuild.Text(b.transform, "Label", nativeName, font, 26, Color.black, 0, 0, 207, 58, autoSize: true, localize: false);

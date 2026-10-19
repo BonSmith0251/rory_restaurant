@@ -7,7 +7,7 @@ namespace Rory.Localization
 {
     /// <summary>
     /// Fallback fonts per language (Resources/LanguageFonts). The game's fonts only contain Latin glyphs, so
-    /// Chinese, Japanese and Korean characters come from the selected language's fallback font. Only the current
+    /// Chinese and Japanese characters come from the selected language's fallback font. Only the current
     /// language's font is used, so shared Han characters get the right regional shapes.
     /// </summary>
     [CreateAssetMenu(menuName = "Rory/Language Fonts")]

@@ -20,8 +20,8 @@ namespace Rory.Localization
 
         public const string English = "en";
 
-        /// <summary>PlayerPrefs key of the chosen language (the one PlayerPrefLocaleSelector reads at startup).</summary>
-        public const string PlayerPrefsKey = "selected-locale";
+        /// <summary>PlayerPrefs key of the chosen language (read at startup by <see cref="SavedLanguageSelector"/>).</summary>
+        public const string PlayerPrefsKey = "rory-language";
 
         /// <summary>Supported languages: locale code and the language's own name.</summary>
         public static readonly (string code, string name)[] Languages =
@@ -29,7 +29,6 @@ namespace Rory.Localization
             ("en", "English"),
             ("zh-Hans", "简体中文"),
             ("ja", "日本語"),
-            ("ko", "한국어"),
         };
 
         static readonly Dictionary<string, string> map = new Dictionary<string, string>(StringComparer.Ordinal);
@@ -39,7 +38,7 @@ namespace Rory.Localization
         /// <summary>Raised after the language changed and the tables are loaded.</summary>
         public static event Action Changed;
 
-        /// <summary>Locale code of the current language ("en", "zh-Hans", "ja", "ko").</summary>
+        /// <summary>Locale code of the current language ("en", "zh-Hans", "ja").</summary>
         public static string Current
         {
             get
@@ -131,8 +130,7 @@ namespace Rory.Localization
                 return;
             }
             LocalizationSettings.SelectedLocale = locale;
-            // Remember the choice now (the package's PlayerPrefLocaleSelector only records it when its async
-            // re-initialisation finishes, which a quick quit can miss).
+            // Remember the choice (read at startup by SavedLanguageSelector).
             PlayerPrefs.SetString(PlayerPrefsKey, code);
             PlayerPrefs.Save();
             // The package's SelectedLocaleChanged event comes later (after async loads); rebuild now so code

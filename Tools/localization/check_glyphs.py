@@ -29,7 +29,7 @@ def cmap(path):
                 a,b,g=struct.unpack('>III',d[s+16+12*k:s+28+12*k])
                 chars.update(range(a,b+1))
     return chars
-fonts={'zh-Hans':'ZCOOLKuaiLe-Regular.ttf','ja':'MPLUSRounded1c-Regular.ttf','ko':'Jua-Regular.ttf'}
+fonts={'zh-Hans':'ZCOOLKuaiLe-Regular.ttf','ja':'MPLUSRounded1c-Regular.ttf'}
 src='Assets/Rory/Localization/Source'
 for code,f in fonts.items():
     cs=cmap('Assets/Rory/Fonts/CJK/'+f)

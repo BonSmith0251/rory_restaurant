@@ -26,7 +26,6 @@ namespace Rory.EditorTools
         {
             ("zh-Hans", "ZCOOLKuaiLe-Regular"),
             ("ja", "MPLUSRounded1c-Regular"),
-            ("ko", "Jua-Regular"),
         };
 
         [MenuItem("Rory/Localization/Setup Locales, Tables and Fonts")]
@@ -53,10 +52,12 @@ namespace Rory.EditorTools
             var selectors = settings.GetStartupLocaleSelectors();
             selectors.Clear();
             selectors.Add(new CommandLineLocaleSelector());
-            selectors.Add(new PlayerPrefLocaleSelector());
+            selectors.Add(new SavedLanguageSelector());
             selectors.Add(new SystemLocaleSelector());
             selectors.Add(new SpecificLocaleSelector { LocaleId = new LocaleIdentifier(Loc.English) });
             EditorUtility.SetDirty(settings);
+
+            RemoveUnlistedLocales();
 
             foreach (var (code, _) in Loc.Languages)
             {
@@ -79,6 +80,29 @@ namespace Rory.EditorTools
             BuildFallbackFonts();
             AssetDatabase.SaveAssets();
             Debug.Log("[Rory] Localization setup complete");
+        }
+
+        /// <summary>Deletes locales (and their string tables) that are no longer in <see cref="Loc.Languages"/>.</summary>
+        static void RemoveUnlistedLocales()
+        {
+            foreach (var locale in LocalizationEditorSettings.GetLocales().ToList())
+            {
+                var code = locale.Identifier.Code;
+                if (Loc.Languages.Any(l => l.code == code)) continue;
+                foreach (var name in Loc.Tables)
+                {
+                    var collection = LocalizationEditorSettings.GetStringTableCollection(name);
+                    var table = collection != null ? collection.GetTable(code) : null;
+                    if (table == null) continue;
+                    var tablePath = AssetDatabase.GetAssetPath(table);
+                    collection.RemoveTable(table);
+                    AssetDatabase.DeleteAsset(tablePath);
+                }
+                var path = AssetDatabase.GetAssetPath(locale);
+                LocalizationEditorSettings.RemoveLocale(locale);
+                AssetDatabase.DeleteAsset(path);
+                Debug.Log($"[Rory] Removed locale {code}");
+            }
         }
 
         static void BuildFallbackFonts()

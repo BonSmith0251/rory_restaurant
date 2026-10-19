@@ -1,6 +1,6 @@
 # Localization
 
-Languages: English (source), Simplified Chinese (`zh-Hans`), Japanese (`ja`), Korean (`ko`).
+Languages: English (source), Simplified Chinese (`zh-Hans`), Japanese (`ja`).
 Built on the official **Unity Localization** package (1.5.4).
 
 ## How it works
@@ -14,15 +14,15 @@ Built on the official **Unity Localization** package (1.5.4).
   achievements), `Dialogue` (tutorial/story bubbles), `Events` (day event windows).
 * Fonts: the game's fonts are Latin-only. Each language has a fallback font (`Resources/LanguageFonts`), put first
   in TextMesh Pro's fallback list when the language is selected:
-  Chinese: ZCOOL KuaiLe, Japanese: M PLUS Rounded 1c, Korean: Jua (all SIL Open Font License, `Fonts/CJK`).
+  Chinese: ZCOOL KuaiLe, Japanese: M PLUS Rounded 1c (both SIL Open Font License, `Fonts/CJK`).
 * Startup language: `-language=<code>` on the command line, else the player's last choice (PlayerPrefs
-  `selected-locale`), else the OS language, else English. Players switch with the **Language** button on the
+  `rory-language`, written when they pick one), else the OS language, else English. Players switch with the **Language** button on the
   main menu.
 
 ## Editing translations
 
 The source of truth is `Assets/Rory/Localization/Source/<Table>.tsv` (UTF-8, tab separated; columns
-`en`, `zh-Hans`, `ja`, `ko`, `context`; `\n`, `\t`, `\\` are escaped). The `context` column says where the text is used.
+`en`, `zh-Hans`, `ja`, `context`; `\n`, `\t`, `\\` are escaped). The `context` column says where the text is used.
 
 1. Edit the TSV (any spreadsheet that keeps UTF-8 and tabs works), or edit the string tables in
    *Window > Asset Management > Localization Tables* and copy the changes back to the TSV.
@@ -32,7 +32,7 @@ The source of truth is `Assets/Rory/Localization/Source/<Table>.tsv` (UTF-8, tab
 Keep placeholders exactly: `{0}` `{1}` ..., `VALUE` (achievement counters), `(player)` and `(juice percentage)`
 (tutorial). In the result summaries keep the `\t` before each colon; the window lines the colons up.
 
-The current Chinese, Japanese and Korean texts are machine-drafted (by Claude) from the English, written
+The current Chinese and Japanese texts are machine-drafted (by Claude) from the English, written
 in Tools/localization/translations_*.py and applied with `Tools/localization/apply_translations.py`.
 **Have native speakers review them**; after a review, edit the TSV directly (the .py drafts are only the
 starting point; re-running `apply_translations.py` would overwrite TSV edits).

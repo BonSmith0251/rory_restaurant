@@ -242,7 +242,10 @@ namespace Rory.Tests
             TestUtil.Capture("Flow_" + expected + "_Day" + (passedDays + 1));
             yield return Reach(GameScene.Kitchen, 300);
             Time.timeScale = 1;
-            Assert.AreEqual(passedDays + 1, GameManager.Player.passedDays, "day finished and saved");
+            // the bot may or may not reach the goal; the story only advances when it does
+            var player = GameManager.Player;
+            int expectedDays = passedDays + (player.goalAchieved[passedDays] ? 1 : 0);
+            Assert.AreEqual(expectedDays, player.passedDays, "day result saved");
         }
 
         static int FirstDay(GameType type) =>

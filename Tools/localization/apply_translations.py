@@ -1,4 +1,4 @@
-"""Writes draft translations into Assets/Rory/Localization/Source/*.tsv.
+"""Writes draft (Simplified Chinese, Japanese) translations into Assets/Rory/Localization/Source/*.tsv.
 
 Usage: python Tools/localization/apply_translations.py [--initial]
 Default: fills only EMPTY cells, from the dictionaries keyed by exact English text (translations_kitchen.py, ...),
@@ -17,13 +17,13 @@ from translations_story import DIALOGUE, EVENTS  # noqa: E402
 from translations_kitchen import KITCHEN  # noqa: E402
 from translations_minigames import DESSERT, HIDDEN_OBJECT, MATCH3  # noqa: E402
 
-# Key-based drafts added after the first pass (exact English key -> (zh-Hans, ja, ko)).
+# Key-based drafts added after the first pass (exact English key -> (zh-Hans, ja)).
 DRAFTS = {}
 for d in (KITCHEN, DESSERT, HIDDEN_OBJECT, MATCH3):
     DRAFTS.update(d)
 
-# Characters a language's font lacks, replaced on write (Jua has no ellipsis glyph).
-FIXUPS = {"ko": {"…": "..."}}
+# Characters a language's font lacks, replaced on write ({code: {bad: good}}).
+FIXUPS = {}
 
 SOURCE = os.path.join(HERE, "..", "..", "Assets", "Rory", "Localization", "Source")
 
@@ -66,7 +66,7 @@ def fill(table):
             continue
         while len(row) < len(header):
             row.append("")
-        for code, text in zip(("zh-Hans", "ja", "ko"), DRAFTS[key]):
+        for code, text in zip(("zh-Hans", "ja"), DRAFTS[key]):
             if row[col[code]]:
                 continue
             for bad, good in FIXUPS.get(code, {}).items():
@@ -87,11 +87,11 @@ def apply(table, entries):
     if len(rows) != len(entries):
         raise SystemExit(f"{table}: {len(rows)} rows but {len(entries)} translations")
     col = {name: i for i, name in enumerate(header)}
-    for n, (row, (prefix, zh, ja, ko)) in enumerate(zip(rows, entries), 1):
+    for n, (row, (prefix, zh, ja)) in enumerate(zip(rows, entries), 1):
         key = unescape(row[0])
         if not key.startswith(prefix):
             raise SystemExit(f"{table} row {n}: expected '{prefix}...', found '{key[:40]}'")
-        for code, text in (("zh-Hans", zh), ("ja", ja), ("ko", ko)):
+        for code, text in (("zh-Hans", zh), ("ja", ja)):
             for bad, good in FIXUPS.get(code, {}).items():
                 text = text.replace(bad, good)
             for ph in ("{0}", "{1}", "{2}", "{3}", "VALUE", "(player)", "(juice percentage)"):

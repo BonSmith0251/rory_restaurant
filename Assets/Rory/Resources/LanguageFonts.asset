@@ -21,6 +21,3 @@ MonoBehaviour:
   - code: ja
     fallbacks:
     - {fileID: 11400000, guid: 55070c3d5ee647745ad30f82f131c63f, type: 2}
-  - code: ko
-    fallbacks:
-    - {fileID: 11400000, guid: ead264643b12f514d860b1111b4b1b5e, type: 2}

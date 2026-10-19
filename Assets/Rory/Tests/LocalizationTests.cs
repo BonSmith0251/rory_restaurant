@@ -35,7 +35,7 @@ namespace Rory.Tests
         }
 
         [UnityTest]
-        public IEnumerator MainMenuInEachLanguage([Values("zh-Hans", "ja", "ko")] string code)
+        public IEnumerator MainMenuInEachLanguage([Values("zh-Hans", "ja")] string code)
         {
             yield return MenuIn(code);
             Assert.AreEqual(code, Loc.Current);
@@ -72,7 +72,7 @@ namespace Rory.Tests
         [UnityTest]
         public IEnumerator TutorialBubbleIsTranslated()
         {
-            yield return MenuIn("ko");
+            yield return MenuIn("ja");
             GameManager.Instance.Saves.CreatePlayer(0, "Tester");
             var stage = Object.FindFirstObjectByType<UI.UIStage>();
             var prefab = UnityEditor.AssetDatabase.LoadAssetAtPath<TutorialManager>("Assets/Rory/Prefabs/Tutorial/Tutorial.prefab");
@@ -85,7 +85,7 @@ namespace Rory.Tests
             string shown = tut.DisplayText(2, 0, line);
             StringAssert.Contains("Tester", shown, "(player) substituted after translation");
             Assert.AreNotEqual(line.text.Replace("(player)", "Tester"), shown, "dialogue translated");
-            TestUtil.Capture("Loc_Tutorial_ko");
+            TestUtil.Capture("Loc_Tutorial_ja");
             Object.Destroy(tut.gameObject);
         }
     }
