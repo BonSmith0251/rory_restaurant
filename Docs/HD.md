@@ -33,6 +33,12 @@ is needed: the importer gives it a higher pixels-per-unit so it keeps its layout
   fits it into the original's content area and aspect ratio at 2x (`--portrait` for customer busts: fills the
   height, bottom aligned). Most ingredients and dishes (`kitchen/*`, their `_small` versions and `game/*`) were
   replaced this way.
+* Redrawn backgrounds whose framing differs from the original (e.g. the 1024x600 scene enlarged to 1672x941 and
+  cropped at the bottom): `python Tools/native/fit_hd_background.py <new.png> Assets/Rory/Art/Backgrounds/<name>`
+  measures how the new picture maps onto the old one and resamples it into the old frame, so the hidden objects,
+  dessert tiles and day buttons drawn on top still line up; whatever the new art lacks (the bottom 24 units of the
+  kitchens) is filled from the old art, colour matched. The hidden-object kitchens, the kitchen, the dessert counter
+  and the calendar were replaced this way.
 * Customers: `python Tools/native/customer_portraits.py <sheet>` cuts the 13 busts out of a portrait sheet and
   draws them at one scale into one frame per game (`game/char_N` 88x100, `make_dessert/char_N` 138x166, written to
   `LogicalSizes.json`), so every customer appears at the same place.
