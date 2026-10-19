@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be97ea6cef1a12c4ea6b6ba970d480ed, type: 3}
+  m_Name: GameWindows
+  m_EditorClassIdentifier: 
+  pause: {fileID: 1069306818820481457, guid: 3a27cb31e4d51ab47a4976840dd70b4c, type: 3}
+  confirm: {fileID: 2014159061210052107, guid: fa583d9d68b57214ea632ab2d02706aa, type: 3}
+  info: {fileID: 788523742742354895, guid: dcee981faa4913546be89b00bed8b41f, type: 3}
+  result: {fileID: 3321871467728348732, guid: 38b0dd65d7cd9f6429686230075103df, type: 3}
+  eventBig: {fileID: 2823341355210893082, guid: faa3e0b2a5d0873439f752e89b78959c, type: 3}
+  eventSmall: {fileID: 75208187603051588, guid: 10ba4af0f28e487459247e2f464efedb, type: 3}
+  goalIconSmall: {fileID: 7553876208652513672, guid: ce6a28148fb57774d9c9a405e4aea4f6, type: 3}
+  buttonOn: {fileID: 21300000, guid: bea74e504bd465048a69992d9485c7e4, type: 3}
+  buttonOff: {fileID: 21300000, guid: efc9da7992621aa44a9055e2f8b28957, type: 3}
+  goal: {fileID: 21300000, guid: 06ddb33595b892b4a955afd27988ae65, type: 3}
+  expert: {fileID: 21300000, guid: 56265300a9db6f64c8850a4b66894f2a, type: 3}
+  congrats: {fileID: 11400000, guid: 961d5ca24266d9a4b9d706875e903b07, type: 2}
