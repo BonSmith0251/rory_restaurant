@@ -45,6 +45,18 @@ namespace Rory
         /// (AchievementScreen.backToMainMenu: the main menu sets it to true before opening the screen, the kitchen to false).</summary>
         public bool achievementsBackToMainMenu;
 
+        // ---- Hidden object (fields of the original MiniGameHO object, which lived for the whole run)
+        /// <summary>_minigameHO.currentLevel: index into the HO level set (HO1_A..HO2_C, HO1_A). Story days compute
+        /// it from the day; "Next Level" of the extras summary adds 1 (the HO screen then resets it to 0 in extras
+        /// mode, as the original did).</summary>
+        public int hoCurrentLevel;
+        /// <summary>_minigameHO.bonusMoney: the HO score. Reset at the start of every story day and when extras HO
+        /// starts from the main menu; kept across extras "Next Level".</summary>
+        public int hoBonusMoney;
+        /// <summary>The HO screen is being reloaded by the extras "Next Level" button (keeps <see cref="hoBonusMoney"/>).
+        /// The original main menu's HO_BUTTON reset bonusMoney; this flag tells the two ways in apart.</summary>
+        public bool hoExtrasNextLevel;
+
         public DayData CurrentDay
         {
             get

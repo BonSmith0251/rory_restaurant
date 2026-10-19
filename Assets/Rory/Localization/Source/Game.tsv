@@ -76,6 +76,20 @@ Own a Grand restaurant.	开一家豪华大餐厅。	大きなレストランを�
 Maybe start a living in French.	也许去法国开始新生活。	フランスで暮らしてみるのもいいかも。	어쩌면 프랑스에서 새 삶을 시작할지도.	EndingController.cs:103
 Or pursue higher culinary education.	或者继续深造厨艺。	それとも、料理をもっと深く学ぶこと。	아니면 요리를 더 깊이 공부하는 것.	EndingController.cs:112
 Anyway now she already owns a very successful restaurant, let's help her grow it even bigger!	总之，她现在已经拥有一家非常成功的餐厅了，让我们帮她把餐厅做得更大吧！	とにかく、ロリーはもう大成功のレストランのオーナー。もっと大きくするのを手伝いましょう！	어쨌든 로리는 이제 아주 성공한 레스토랑의 주인이에요. 더 크게 키울 수 있게 도와줘요!	EndingController.cs:123
+HO1_A	HO1_A	HO1_A	HO1_A	HiddenObjectController.cs:38
+HO1_B	HO1_B	HO1_B	HO1_B	HiddenObjectController.cs:38
+HO1_C	HO1_C	HO1_C	HO1_C	HiddenObjectController.cs:38
+HO2_A	HO2_A	HO2_A	HO2_A	HiddenObjectController.cs:38
+HO2_B	HO2_B	HO2_B	HO2_B	HiddenObjectController.cs:38
+HO2_C	HO2_C	HO2_C	HO2_C	HiddenObjectController.cs:38
+Label_	Label_	Label_	Label_	HiddenObjectController.cs:321
+ Of 	 Of 	 Of 	 Of 	HiddenObjectController.cs:344
+ of 	 of 	 of 	 of 	HiddenObjectController.cs:344
+ And 	 And 	 And 	 And 	HiddenObjectController.cs:345
+ and 	 and 	 and 	 and 	HiddenObjectController.cs:345
+SFX_gameplay_click_0	SFX_gameplay_click_0	SFX_gameplay_click_0	SFX_gameplay_click_0	HiddenObjectController.cs:559
+Exp.: {0}/{1}	专家：{0}/{1}	エキスパート：{0}/{1}	전문가: {0}/{1}	HiddenObjectController.cs:713
+Goal: {0}/{1}	目标：{0}/{1}	目標：{0}/{1}	목표: {0}/{1}	HiddenObjectController.cs:713
 Buy	购买	購入	구매	KitchenController.cs:520
 Upgrade	升级	強化	업그레이드	KitchenController.cs:521
 Can't Afford	钱不够	お金が足りない	돈이 부족해요	KitchenController.cs:522
@@ -151,3 +165,88 @@ Seems like Rory has got an idea to solve her financial problem.	看来罗莉想�
 HMM...	嗯……	うーん…	흠...	OpeningController.cs:89
 I’ll open a mini restaurant to pay off my debts!	我要开一家小餐厅来还清债务！	小さなレストランを開いて借金を返すわ！	작은 레스토랑을 열어서 빚을 갚을 거야!	OpeningController.cs:103
 Genius idea! Rory now has a sound plan to pay back her debts!	好主意！罗莉现在有了还清债务的完美计划！	名案です！ロリーには借金を返すしっかりした計画ができました！	기막힌 생각이에요! 로리에게 빚을 갚을 확실한 계획이 생겼어요!	OpeningController.cs:104
+Strawberry	草莓	イチゴ	딸기	hidden object (HO1_A)
+Pineapple	菠萝	パイナップル	파인애플	hidden object (HO1_A)
+Apple	苹果	リンゴ	사과	hidden object (HO1_A)
+Shoes	鞋子	靴	신발	hidden object (HO1_A)
+Cauliflower	花椰菜	カリフラワー	콜리플라워	hidden object (HO1_A)
+Watermelon	西瓜	スイカ	수박	hidden object (HO1_A)
+Muffin	松饼	マフィン	머핀	hidden object (HO1_A)
+Lemon	柠檬	レモン	레몬	hidden object (HO1_A)
+Egg	鸡蛋	卵	달걀	hidden object (HO1_A)
+Fortune Cookie	幸运饼干	フォーチュンクッキー	포춘 쿠키	hidden object (HO1_A)
+Alarm Clock	闹钟	目覚まし時計	자명종	hidden object (HO1_A)
+Chocolate	巧克力	チョコレート	초콜릿	hidden object (HO1_A)
+Dragonfruit	火龙果	ドラゴンフルーツ	용과	hidden object (HO1_A)
+Pear	梨	洋ナシ	배	hidden object (HO1_A)
+Ink Bottle	墨水瓶	インク瓶	잉크병	hidden object (HO1_A)
+Teabag	茶包	ティーバッグ	티백	hidden object (HO1_A)
+Baguette	法棍面包	バゲット	바게트	hidden object (HO1_A)
+Mousetrap	捕鼠器	ネズミ捕り	쥐덫	hidden object (HO1_A)
+Beer	啤酒	ビール	맥주	hidden object (HO1_A)
+Bottle Cap	瓶盖	王冠	병뚜껑	hidden object (HO1_A)
+Plastic Bottle	塑料瓶	ペットボトル	플라스틱 병	hidden object (HO1_A)
+Chilli	辣椒	唐辛子	고추	hidden object (HO1_A)
+Ice Tea	冰茶	アイスティー	아이스티	hidden object (HO1_A)
+Sandwich	三明治	サンドイッチ	샌드위치	hidden object (HO1_A)
+Broccoli	西兰花	ブロッコリー	브로콜리	hidden object (HO1_A)
+Hamburger	汉堡	ハンバーガー	햄버거	hidden object (HO1_A)
+Meat	肉	肉	고기	hidden object (HO1_A)
+Thermometer	温度计	温度計	온도계	hidden object (HO1_A)
+Smoking Pipe	烟斗	パイプ	담배 파이프	hidden object (HO1_A)
+Stamp	邮票	切手	우표	hidden object (HO1_A)
+Thread	线团	糸	실	hidden object (HO1_A)
+Scroll	卷轴	巻物	두루마리	hidden object (HO1_A)
+Biscuit	饼干	ビスケット	비스킷	hidden object (HO1_A)
+Drumsticks	鸡腿	チキンレッグ	닭다리	hidden object (HO1_A)
+Coconut	椰子	ココナッツ	코코넛	hidden object (HO1_A)
+Ring	戒指	指輪	반지	hidden object (HO1_A)
+Sausage	香肠	ソーセージ	소시지	hidden object (HO1_A)
+Carrot	胡萝卜	ニンジン	당근	hidden object (HO1_A)
+Cake	蛋糕	ケーキ	케이크	hidden object (HO1_B)
+Pizza	披萨	ピザ	피자	hidden object (HO1_C)
+Milk	牛奶	牛乳	우유	hidden object (HO1_C)
+Honey	蜂蜜	ハチミツ	꿀	hidden object (HO1_C)
+Pasta	意面	パスタ	파스타	hidden object (HO1_C)
+Ice Cream	冰淇淋	アイスクリーム	아이스크림	hidden object (HO1_C)
+Papaya	木瓜	パパイヤ	파파야	hidden object (HO1_C)
+Books	书	本	책	hidden object (HO2_A)
+Teacup	茶杯	ティーカップ	찻잔	hidden object (HO2_A)
+Sushi	寿司	寿司	초밥	hidden object (HO2_A)
+Mallet	木槌	木づち	나무망치	hidden object (HO2_A)
+Basket	篮子	かご	바구니	hidden object (HO2_A)
+Towels	毛巾	タオル	수건	hidden object (HO2_A)
+Butterfly	蝴蝶	チョウ	나비	hidden object (HO2_A)
+Cone	甜筒	コーン	콘	hidden object (HO2_A)
+Rubik's Cube	魔方	ルービックキューブ	큐브 퍼즐	hidden object (HO2_A)
+Whisk	打蛋器	泡立て器	거품기	hidden object (HO2_A)
+Tuna	金枪鱼	マグロ	참치	hidden object (HO2_A)
+Telephone	电话	電話	전화기	hidden object (HO2_A)
+Globe	地球仪	地球儀	지구본	hidden object (HO2_A)
+Arrow	箭	矢	화살	hidden object (HO2_A)
+Salt and Pepper	盐和胡椒	塩とコショウ	소금과 후추	hidden object (HO2_A)
+Candy Cane	拐杖糖	キャンディケーン	지팡이 사탕	hidden object (HO2_A)
+Blackberry	黑莓	ブラックベリー	블랙베리	hidden object (HO2_A)
+Cinnamon	肉桂	シナモン	계피	hidden object (HO2_A)
+Garlic	大蒜	ニンニク	마늘	hidden object (HO2_A)
+Bell	铃铛	ベル	종	hidden object (HO2_A)
+Candelabra	烛台	燭台	촛대	hidden object (HO2_A)
+Cashew	腰果	カシューナッツ	캐슈너트	hidden object (HO2_A)
+Pocket Watch	怀表	懐中時計	회중시계	hidden object (HO2_A)
+Popcorn	爆米花	ポップコーン	팝콘	hidden object (HO2_A)
+Rose	玫瑰	バラ	장미	hidden object (HO2_A)
+Snail	蜗牛	カタツムリ	달팽이	hidden object (HO2_A)
+Wasp	黄蜂	ハチ	말벌	hidden object (HO2_A)
+Cupcake	纸杯蛋糕	カップケーキ	컵케이크	hidden object (HO2_A)
+Donut	甜甜圈	ドーナツ	도넛	hidden object (HO2_A)
+Brush	刷子	ブラシ	붓	hidden object (HO2_A)
+Letter B	字母 B	Bの文字	글자 B	hidden object (HO2_A)
+Pie	派	パイ	파이	hidden object (HO2_B)
+B	B	B	B	hidden object (HO2_B)
+Light Bulb	灯泡	電球	전구	hidden object (HO2_B)
+Crab	螃蟹	カニ	게	hidden object (HO2_B)
+Dice	骰子	サイコロ	주사위	hidden object (HO2_B)
+Ladybug	瓢虫	テントウムシ	무당벌레	hidden object (HO2_C)
+Padlock	挂锁	南京錠	자물쇠	hidden object (HO2_C)
+C	C	C	C	hidden object (HO2_C)
+Mortar and Pestle	研钵和杵	すり鉢とすりこぎ	절구와 공이	hidden object (HO2_C)

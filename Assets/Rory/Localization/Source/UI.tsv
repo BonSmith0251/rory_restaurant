@@ -4,6 +4,7 @@ You've served VALUE/1000 perfectly happy customers\n(80% patience or above)!	你
 Next	下一步	次へ	다음	Dessert: Tutorial/NextButton/Label
 MASTER	大师	マスター	마스터	Dessert: Overlay/AchievementNotifier/Banner/Title
 AAAAA	AAAAA	AAAAA	AAAAA	Ending: BubbleText
+HINT!	提示！	ヒント！	힌트!	HiddenObject: HintButton/Label
 Western	西式	洋食	서양	Kitchen: WesternButton/Label
 Asian	亚洲	アジア	아시아	Kitchen: ChineseButton/Label
 Middle East	中东	中東	중동	Kitchen: MidEastButton/Label

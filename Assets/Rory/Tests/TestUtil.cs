@@ -118,6 +118,8 @@ namespace Rory.Tests
                 canvases[i].renderMode = modes[i];
                 canvases[i].worldCamera = cams[i];
             }
+            // Lay the canvases out again now, so raycasts in the next frame hit the restored layout.
+            Canvas.ForceUpdateCanvases();
             var path = Path.Combine(CaptureFolder, name + ".png");
             File.WriteAllBytes(path, tex.EncodeToPNG());
             cam.targetTexture = null;
@@ -189,6 +191,46 @@ namespace Rory.Tests
             float until = Time.realtimeSinceStartup + timeout;
             while (gm.Flow.IsTransitioning && Time.realtimeSinceStartup < until) yield return null;
             NUnit.Framework.Assert.AreEqual(scene, gm.Flow.LastRequested);
+        }
+
+        // ------------------------------------------------------------------ raycast clicks (hidden object)
+
+        /// <summary>
+        /// The top-most UI object a real pointer at stage (x, y) would hit (EventSystem raycast: respects
+        /// raycastTarget, sorting and Image.alphaHitTestMinimumThreshold), or null.
+        /// </summary>
+        public static GameObject RaycastStage(float x, float y)
+        {
+            var es = UnityEngine.EventSystems.EventSystem.current;
+            NUnit.Framework.Assert.IsNotNull(es, "No EventSystem");
+            var results = new System.Collections.Generic.List<UnityEngine.EventSystems.RaycastResult>();
+            es.RaycastAll(PointerData(x, y), results);
+            return results.Count > 0 ? results[0].gameObject : null;
+        }
+
+        /// <summary>
+        /// Clicks at stage (x, y) like StandaloneInputModule: raycast, pointer-down up the hierarchy of the hit object,
+        /// potential drag on its drag handler, then pointer-up and click on the pressed object. Returns the object hit.
+        /// </summary>
+        public static GameObject ClickStage(float x, float y)
+        {
+            var hit = RaycastStage(x, y);
+            if (hit == null) return null;
+            var data = PointerData(x, y);
+            data.pointerCurrentRaycast = new UnityEngine.EventSystems.RaycastResult { gameObject = hit };
+            data.pressPosition = data.position;
+            var press = UnityEngine.EventSystems.ExecuteEvents.ExecuteHierarchy(hit, data, UnityEngine.EventSystems.ExecuteEvents.pointerDownHandler);
+            if (press == null) press = UnityEngine.EventSystems.ExecuteEvents.GetEventHandler<UnityEngine.EventSystems.IPointerClickHandler>(hit);
+            data.pointerPress = press;
+            var drag = UnityEngine.EventSystems.ExecuteEvents.GetEventHandler<UnityEngine.EventSystems.IDragHandler>(hit);
+            if (drag != null) UnityEngine.EventSystems.ExecuteEvents.Execute(drag, data, UnityEngine.EventSystems.ExecuteEvents.initializePotentialDrag);
+            if (press != null)
+            {
+                UnityEngine.EventSystems.ExecuteEvents.Execute(press, data, UnityEngine.EventSystems.ExecuteEvents.pointerUpHandler);
+                var click = UnityEngine.EventSystems.ExecuteEvents.GetEventHandler<UnityEngine.EventSystems.IPointerClickHandler>(hit);
+                if (click == press) UnityEngine.EventSystems.ExecuteEvents.Execute(press, data, UnityEngine.EventSystems.ExecuteEvents.pointerClickHandler);
+            }
+            return hit;
         }
     }
 }

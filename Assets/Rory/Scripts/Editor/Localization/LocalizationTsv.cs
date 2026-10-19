@@ -60,6 +60,14 @@ namespace Rory.EditorTools
             foreach (var (text, ctx) in CodeLiterals()) Add("Game", text, ctx);
 
             var db = AssetDatabase.LoadAssetAtPath<GameDatabase>(RoryPaths.Resources + "/GameDatabase.asset");
+            // Hidden-object list labels are built from the layout data ("alarm clock,nm" -> "Alarm Clock").
+            foreach (var layout in db.hiddenObjectLayouts)
+            foreach (var item in layout.items)
+            {
+                var parts = item.name.Split(',');
+                if (parts.Length > 1 && parts[1] == "nm")
+                    Add("Game", Rory.Screens.HiddenObject.HiddenObjectController.FormatLabel(parts[0]), $"hidden object ({layout.sceneId})");
+            }
             for (int d = 0; d < db.dialogues.dialogues.Count; d++)
             {
                 var lines = db.dialogues.dialogues[d].lines;
