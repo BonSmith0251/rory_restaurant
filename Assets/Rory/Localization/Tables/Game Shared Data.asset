@@ -653,6 +653,26 @@ MonoBehaviour:
     m_Key: Cookies
     m_Metadata:
       m_Items: []
+  - m_Id: 8403215704064
+    m_Key: (setChildIndex(obj, index of the black screen - 1))
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869888
+    m_Key: 'Goal:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869889
+    m_Key: 'EXPERT:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869890
+    m_Key: LIVES x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869891
+    m_Key: 'LEVEL: {0}'
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

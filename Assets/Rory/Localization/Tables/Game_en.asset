@@ -656,6 +656,26 @@ MonoBehaviour:
     m_Localized: Cookies
     m_Metadata:
       m_Items: []
+  - m_Id: 8403215704064
+    m_Localized: (setChildIndex(obj, index of the black screen - 1))
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869888
+    m_Localized: 'Goal:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869889
+    m_Localized: 'EXPERT:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869890
+    m_Localized: LIVES x{0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869891
+    m_Localized: 'LEVEL: {0}'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

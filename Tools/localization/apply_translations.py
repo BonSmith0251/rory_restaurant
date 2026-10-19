@@ -15,10 +15,11 @@ sys.path.insert(0, HERE)
 from translations_ui_game import UI, GAME  # noqa: E402
 from translations_story import DIALOGUE, EVENTS  # noqa: E402
 from translations_kitchen import KITCHEN  # noqa: E402
+from translations_minigames import DESSERT, HIDDEN_OBJECT, MATCH3  # noqa: E402
 
 # Key-based drafts added after the first pass (exact English key -> (zh-Hans, ja, ko)).
 DRAFTS = {}
-for d in (KITCHEN,):
+for d in (KITCHEN, DESSERT, HIDDEN_OBJECT, MATCH3):
     DRAFTS.update(d)
 
 # Characters a language's font lacks, replaced on write (Jua has no ellipsis glyph).

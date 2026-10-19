@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Rory/Scenes/Kitchen.unity
     guid: 181dc39e238c6b444802a4772dd5af0c
   - enabled: 1
+    path: Assets/Rory/Scenes/Dessert.unity
+    guid: 8fc7548d819b1534aa5bfeb58d46395f
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: d4dcbfcd61ce55a4fa0422c74137cc79
   m_configObjects:

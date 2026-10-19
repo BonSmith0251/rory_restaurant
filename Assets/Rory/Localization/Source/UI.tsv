@@ -1,13 +1,13 @@
 en	zh-Hans	ja	ko	context
 Service Excellence	卓越服务	至高のサービス	최고의 서비스	Achievements: Title
 You've served VALUE/1000 perfectly happy customers\n(80% patience or above)!	你已服务了 VALUE/1000 位非常满意的顾客\n（耐心值 80% 以上）！	大満足のお客さんを VALUE/1000 人もてなしました\n（忍耐度80%以上）！	아주 만족한 손님을 VALUE/1000명 대접했어요\n(인내심 80% 이상)!	Achievements: Info
+Next	下一步	次へ	다음	Dessert: Tutorial/NextButton/Label
+MASTER	大师	マスター	마스터	Dessert: Overlay/AchievementNotifier/Banner/Title
 AAAAA	AAAAA	AAAAA	AAAAA	Ending: BubbleText
 Western	西式	洋食	서양	Kitchen: WesternButton/Label
 Asian	亚洲	アジア	아시아	Kitchen: ChineseButton/Label
 Middle East	中东	中東	중동	Kitchen: MidEastButton/Label
 Back	返回	戻る	뒤로	Kitchen: BackButton/Label
-Next	下一步	次へ	다음	Kitchen: Tutorial/NextButton/Label
-MASTER	大师	マスター	마스터	Kitchen: Overlay/AchievementNotifier/Banner/Title
 Day\n1	第\n1天	1\n日目	1\n일차	LevelSelect: Day1Transform/Day1
 Day\n2	第\n2天	2\n日目	2\n일차	LevelSelect: Day2Transform/Day2
 Day\n3	第\n3天	3\n日目	3\n일차	LevelSelect: Day3Transform/Day3

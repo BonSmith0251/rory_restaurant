@@ -665,6 +665,26 @@ MonoBehaviour:
     m_Localized: "\uCFE0\uD0A4"
     m_Metadata:
       m_Items: []
+  - m_Id: 8403215704064
+    m_Localized: (setChildIndex(obj, index of the black screen - 1))
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869888
+    m_Localized: "\uBAA9\uD45C:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869889
+    m_Localized: "\uC804\uBB38\uAC00:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869890
+    m_Localized: "\uBAA9\uC228 x{0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8403240869891
+    m_Localized: "\uB808\uBCA8: {0}"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
