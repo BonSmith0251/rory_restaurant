@@ -10,6 +10,9 @@ public static class GameBootstrap
     static void Boot()
     {
         if (sStarted) return;
+        // The native rework's scenes (Assets/Rory/Scenes) run without the legacy Starling game; starting it there
+        // would draw the old game over them.
+        if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().path.StartsWith("Assets/Rory/")) return;
         sStarted = true;
         UnityEngine.Application.targetFrameRate = 60;
         if (UnityEngine.Camera.main == null)
