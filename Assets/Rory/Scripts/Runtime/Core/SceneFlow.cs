@@ -18,6 +18,8 @@ namespace Rory
         CanvasGroup fade;
         public bool IsTransitioning { get; private set; }
         public GameScene? Current { get; private set; }
+        /// <summary>Target of the latest <see cref="Go"/> call (also when that scene could not be loaded).</summary>
+        public GameScene? LastRequested { get; private set; }
 
         public event Action<GameScene> SceneStarted;
 
@@ -46,6 +48,7 @@ namespace Rory
         public void Go(GameScene scene)
         {
             if (IsTransitioning) return;
+            LastRequested = scene;
             StartCoroutine(Transition(scene));
         }
 
@@ -55,6 +58,15 @@ namespace Rory
             fade.blocksRaycasts = true;
             yield return Fade(0, 1);
 
+            if (!Application.CanStreamedLevelBeLoaded(scene.ToString()))
+            {
+                // Not converted / not in Build Settings yet: stay on the current screen.
+                Debug.LogError($"[Rory] Scene '{scene}' is not in the build");
+                yield return Fade(1, 0);
+                fade.blocksRaycasts = false;
+                IsTransitioning = false;
+                yield break;
+            }
             var op = SceneManager.LoadSceneAsync(scene.ToString());
             while (!op.isDone) yield return null;
             Current = scene;

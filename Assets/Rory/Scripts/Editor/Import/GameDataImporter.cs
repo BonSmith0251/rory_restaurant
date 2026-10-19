@@ -191,7 +191,7 @@ namespace Rory.EditorTools
                         posY = F(Attr(t, "posY")),
                         arrowX = Attr(t, "arrowX"),
                         arrowY = Attr(t, "arrowY"),
-                        arrowDirection = I(Attr(t, "arrowDirection"), -1),
+                        arrowDirection = I(Attr(t, "arrowDirection"), 0), // int("") = 0 in the original
                         blockNext = Attr(t, "blockNext") == "true",
                         text = t.Value.Trim(),
                     });

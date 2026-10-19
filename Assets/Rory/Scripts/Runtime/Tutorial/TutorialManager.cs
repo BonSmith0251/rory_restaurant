@@ -212,15 +212,15 @@ namespace Rory.Tutorials
         /// <summary>
         /// checkTut: shows tutorial <paramref name="id"/> if the player has passed exactly <paramref name="day"/> days,
         /// the screen is the kitchen or the played day is <paramref name="day"/>, and it wasn't shown yet (or
-        /// <paramref name="force"/>). Marks it in tutorialShowed. <paramref name="day"/> is the original 0-based day
-        /// (GameSession.currentPlayedLevel is 1-based, so the played day compared is currentPlayedLevel - 1).
+        /// <paramref name="force"/>). Marks it in tutorialShowed. <paramref name="day"/> is the 0-based day, like
+        /// GameSession.currentPlayedLevel.
         /// </summary>
         public bool CheckTut(int id, int day, bool force = false)
         {
             var p = GameManager.Player;
             if (p == null) return false;
             bool kitchen = Host != null && Host.IsKitchen;
-            int playedDay = GameManager.Instance != null ? GameManager.Instance.Session.currentPlayedLevel - 1 : -1;
+            int playedDay = GameManager.Instance != null ? GameManager.Instance.Session.currentPlayedLevel : -1;
             bool shown = id >= 0 && id < p.tutorialShowed.Count && p.tutorialShowed[id];
             if (p.passedDays == day && (kitchen || playedDay == day) && (!shown || force))
             {

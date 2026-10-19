@@ -23,6 +23,7 @@ namespace Rory.Tests
                 yield return null;
             }
             Assert.AreEqual(GameScene.MainMenu, GameManager.Instance.Flow.Current);
+            while (GameManager.Instance.Flow.IsTransitioning) yield return null; // let the fade-in finish
         }
 
         [UnityTest]

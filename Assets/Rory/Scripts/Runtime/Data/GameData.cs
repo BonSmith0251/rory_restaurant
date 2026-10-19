@@ -129,7 +129,7 @@ namespace Rory.Data
         public float posX, posY;
         [Tooltip("Arrow position: a number, or a token resolved by the screen (TILEX, HOITEMY, TORCHX, ...). Empty arrowY = no arrow.")]
         public string arrowX, arrowY;
-        [Tooltip("-1 = points left (default), 1 = points right")] public int arrowDirection = -1;
+        [Tooltip("Arrow scaleX: -1 points left, 1 right; 0 (empty in the XML) starts collapsed like the original")] public int arrowDirection;
 
         public bool HasArrow => !string.IsNullOrEmpty(arrowY);
         public bool blockNext;

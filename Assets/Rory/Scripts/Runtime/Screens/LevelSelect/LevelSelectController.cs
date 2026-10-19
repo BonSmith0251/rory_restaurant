@@ -9,7 +9,7 @@ namespace Rory.Screens.LevelSelect
     /// <summary>
     /// Story day selection (LevelSelectScreen): a week planner showing seven days per page (91 days, 13 pages), with
     /// goal / expert badges, the notes of the selected day, and Play / Back / page arrows.
-    /// Day indices in this class are 0-based like the original; <see cref="GameSession.currentPlayedLevel"/> is 1-based.
+    /// Day indices in this class are 0-based like the original and <see cref="GameSession.currentPlayedLevel"/>.
     /// </summary>
     public class LevelSelectController : ScreenController
     {
@@ -70,7 +70,7 @@ namespace Rory.Screens.LevelSelect
             leftButton.onClick.AddListener(() => ChangePage(-1));
 
             // TGlobalClass.currentPlayedLevel = passedDays (0-based there)
-            Session.currentPlayedLevel = profile.passedDays + 1;
+            Session.currentPlayedLevel = profile.passedDays;
             if (profile.passedDays != TotalDays && profile.goalAchieved[profile.passedDays])
                 profile.goalAchieved[profile.passedDays] = false;
             CurrentPage = Mathf.FloorToInt((float)profile.passedDays / DaysPerPage);
@@ -194,7 +194,7 @@ namespace Rory.Screens.LevelSelect
         void Play()
         {
             var day = Day(SelectedDay);
-            Session.SelectDay(SelectedDay + 1);
+            Session.SelectDay(SelectedDay);
             // The original copies the day's region even when it is empty (minigame days).
             Session.currentRegionDish = day.region ?? "";
             switch (day.gameType)

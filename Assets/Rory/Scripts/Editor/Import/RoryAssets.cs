@@ -35,6 +35,11 @@ namespace Rory.EditorTools
         /// <summary>Sprite in Art/Sprites/&lt;group&gt;/&lt;name&gt;.png.</summary>
         public static Sprite Sprite(string group, string name) => Load<Sprite>($"{RoryPaths.Sprites}/{group}/{name}.png");
 
-        public static Sprite Background(string name) => Load<Sprite>($"{RoryPaths.Backgrounds}/{name}.jpg");
+        /// <summary>Background sprite (Art/Backgrounds/&lt;name&gt;.jpg, or .png).</summary>
+        public static Sprite Background(string name)
+        {
+            var jpg = $"{RoryPaths.Backgrounds}/{name}.jpg";
+            return AssetDatabase.LoadAssetAtPath<Sprite>(jpg) ?? Load<Sprite>($"{RoryPaths.Backgrounds}/{name}.png");
+        }
     }
 }

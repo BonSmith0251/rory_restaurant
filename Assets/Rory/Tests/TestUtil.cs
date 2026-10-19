@@ -184,22 +184,11 @@ namespace Rory.Tests
                 NUnit.Framework.Assert.AreEqual(scene, gm.Flow.Current);
                 yield break;
             }
-            UnityEngine.TestTools.LogAssert.Expect(LogType.Error,
-                new System.Text.RegularExpressions.Regex("'" + scene + "' couldn't be loaded"));
-            UnityEngine.TestTools.LogAssert.Expect(LogType.Exception, new System.Text.RegularExpressions.Regex("NullReferenceException"));
-            bool failed = false;
-            Application.LogCallback onLog = (msg, stack, type) =>
-            {
-                if (type == LogType.Exception && msg.Contains("NullReferenceException")) failed = true;
-            };
-            Application.logMessageReceived += onLog;
+            // Scene not on this branch yet: SceneFlow logs it and stays on the current screen.
+            UnityEngine.TestTools.LogAssert.Expect(LogType.Error, "[Rory] Scene '" + scene + "' is not in the build");
             float until = Time.realtimeSinceStartup + timeout;
-            while (!failed && Time.realtimeSinceStartup < until) yield return null;
-            Application.logMessageReceived -= onLog;
-            Object.Destroy(gm.gameObject);
-            yield return null;
-            new GameObject("Managers").AddComponent<GameManager>();
-            yield return null;
+            while (gm.Flow.IsTransitioning && Time.realtimeSinceStartup < until) yield return null;
+            NUnit.Framework.Assert.AreEqual(scene, gm.Flow.LastRequested);
         }
     }
 }

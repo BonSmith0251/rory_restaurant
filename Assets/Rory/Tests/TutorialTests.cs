@@ -290,7 +290,7 @@ namespace Rory.Tests
             var p = GameManager.Player;
             var session = GameManager.Instance.Session;
             p.passedDays = 0;
-            session.SelectDay(1); // first day (1-based) = original day 0
+            session.SelectDay(0); // first day
 
             Assert.IsFalse(tut.CheckTut(TutorialIds.AFTER_LEVEL_1, 1), "wrong day");
             Assert.IsTrue(tut.CheckTut(TutorialIds.LEVEL_1, 0));
@@ -301,7 +301,7 @@ namespace Rory.Tests
 
             // replaying an older day: the played day must match outside the kitchen
             p.passedDays = 2;
-            session.SelectDay(2);
+            session.SelectDay(1);
             Assert.IsFalse(tut.CheckTut(TutorialIds.AFTER_LEVEL_2, 2));
             Assert.IsFalse(p.tutorialShowed[TutorialIds.AFTER_LEVEL_2]);
             host.kitchen = true;

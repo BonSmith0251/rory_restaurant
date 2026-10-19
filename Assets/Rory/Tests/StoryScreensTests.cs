@@ -247,7 +247,7 @@ namespace Rory.Tests
             Assert.IsNotNull(c);
             var p = GameManager.Player;
             Assert.IsFalse(p.goalAchieved[30], "Next day's goal flag is cleared");
-            Assert.AreEqual(31, Session.currentPlayedLevel);
+            Assert.AreEqual(30, Session.currentPlayedLevel);
             Assert.IsFalse(Session.isPlayingSpecialLevel);
 
             Assert.AreEqual(4, c.CurrentPage);
@@ -343,7 +343,7 @@ namespace Rory.Tests
             TestUtil.Click("Day" + (day % 7 + 1));
             Assert.AreEqual(day, c.SelectedDay);
             TestUtil.Click("PlayButton");
-            Assert.AreEqual(day + 1, Session.currentPlayedLevel, "Session day is 1-based");
+            Assert.AreEqual(day, Session.currentPlayedLevel, "Session day is 0-based");
             Assert.AreSame(Day(day), Session.CurrentDay);
             Assert.AreEqual(Day(day).region ?? "", Session.currentRegionDish);
             Assert.AreEqual(Day(day).gameType == GameType.Match3Special, Session.isPlayingSpecialLevel);

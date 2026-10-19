@@ -9,8 +9,11 @@ namespace Rory
     /// </summary>
     public class GameSession
     {
-        /// <summary>Day being played, 1-based (TGlobalClass.currentPlayedLevel).</summary>
-        public int currentPlayedLevel = 1;
+        /// <summary>
+        /// Day being played, 0-based like the original TGlobalClass.currentPlayedLevel (index into
+        /// LevelDatabase.days and the per-day lists of PlayerProfile; the next story day is Player.passedDays).
+        /// </summary>
+        public int currentPlayedLevel;
         /// <summary>Region of the day being played: "W", "C" or "ME".</summary>
         public string currentRegionDish = GameRules.Western;
         /// <summary>True when the day is replayed from the level select (extras / replay mode).</summary>
@@ -47,12 +50,12 @@ namespace Rory
             get
             {
                 var days = GameDatabase.Instance.levels.days;
-                int i = currentPlayedLevel - 1;
+                int i = currentPlayedLevel;
                 return i >= 0 && i < days.Count ? days[i] : null;
             }
         }
 
-        /// <summary>Selects a day to play and its region (as the level select / kitchen did before starting a day).</summary>
+        /// <summary>Selects a day (0-based) to play and its region (as the level select / kitchen did before starting a day).</summary>
         public void SelectDay(int day)
         {
             currentPlayedLevel = day;
