@@ -1,8 +1,11 @@
-"""Writes the draft translations into Assets/Rory/Localization/Source/*.tsv.
+"""Writes draft translations into Assets/Rory/Localization/Source/*.tsv.
 
-Usage: python Tools/localization/apply_translations.py
-Rows are matched by order; every entry's English prefix is checked, so a moved row fails loudly instead of
-getting the wrong translation. Then run Rory > Localization > Import TSV into String Tables (or Setup Project).
+Usage: python Tools/localization/apply_translations.py [--initial]
+Default: fills only EMPTY cells, from the dictionaries keyed by exact English text (translations_kitchen.py, ...),
+so reviewed TSV edits are never overwritten.
+--initial: the first full draft (translations_ui_game.py / translations_story.py), matched by row order with an
+English-prefix check; it overwrites, and only works on the tables as they were first extracted.
+Then run Rory > Localization > Import TSV into String Tables (or Setup Project).
 """
 import os
 import sys
@@ -11,6 +14,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from translations_ui_game import UI, GAME  # noqa: E402
 from translations_story import DIALOGUE, EVENTS  # noqa: E402
+from translations_kitchen import KITCHEN  # noqa: E402
+
+# Key-based drafts added after the first pass (exact English key -> (zh-Hans, ja, ko)).
+DRAFTS = {}
+for d in (KITCHEN,):
+    DRAFTS.update(d)
 
 # Characters a language's font lacks, replaced on write (Jua has no ellipsis glyph).
 FIXUPS = {"ko": {"…": "..."}}
@@ -34,6 +43,39 @@ def unescape(s):
 
 def escape(s):
     return s.replace("\\", "\\\\").replace("\t", "\\t").replace("\r", "").replace("\n", "\\n")
+
+
+def check(key, code, text, where):
+    for ph in ("{0}", "{1}", "{2}", "{3}", "VALUE", "(player)", "(juice percentage)"):
+        if (ph in key) != (ph in text):
+            raise SystemExit(f"{where} {code}: placeholder {ph} mismatch")
+
+
+def fill(table):
+    """Fills empty translation cells from DRAFTS."""
+    path = os.path.join(SOURCE, table + ".tsv")
+    lines = [l for l in open(path, encoding="utf-8").read().split("\n") if l]
+    header = lines[0].split("\t")
+    rows = [l.split("\t") for l in lines[1:]]
+    col = {name: i for i, name in enumerate(header)}
+    filled = 0
+    for row in rows:
+        key = unescape(row[0])
+        if key not in DRAFTS:
+            continue
+        while len(row) < len(header):
+            row.append("")
+        for code, text in zip(("zh-Hans", "ja", "ko"), DRAFTS[key]):
+            if row[col[code]]:
+                continue
+            for bad, good in FIXUPS.get(code, {}).items():
+                text = text.replace(bad, good)
+            check(key, code, text, f"{table} '{key[:30]}'")
+            row[col[code]] = escape(text)
+            filled += 1
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(["\t".join(header)] + ["\t".join(r) for r in rows]) + "\n")
+    print(f"{table}: {filled} cells filled")
 
 
 def apply(table, entries):
@@ -63,7 +105,10 @@ def apply(table, entries):
 
 
 if __name__ == "__main__":
-    apply("UI", UI)
-    apply("Game", GAME)
-    apply("Dialogue", DIALOGUE)
-    apply("Events", EVENTS)
+    if "--initial" in sys.argv:
+        apply("UI", UI)
+        apply("Game", GAME)
+        apply("Dialogue", DIALOGUE)
+        apply("Events", EVENTS)
+    for t in ("UI", "Game", "Dialogue", "Events"):
+        fill(t)

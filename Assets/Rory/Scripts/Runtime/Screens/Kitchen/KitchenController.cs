@@ -289,8 +289,9 @@ namespace Rory.Screens.Kitchen
 
         /// <summary>
         /// touchButton: the bubble sprites. Same as the quads except that the achievement bubble does not set
-        /// Session.achievementsBackToMainMenu (only the quad did) and the hardware bubble does not report
-        /// "clicked_hardware" to the tutorial, like the original.
+        /// Session.achievementsBackToMainMenu (only the quad did), like the original. Both report "clicked_hardware"
+        /// to the tutorial: in the original only the quad did, which soft-locked the AFTER_LEVEL_34 tutorial when
+        /// the hardware shop was opened through its bubble (fixed on purpose).
         /// </summary>
         void OnBubble(int id)
         {
@@ -314,7 +315,7 @@ namespace Rory.Screens.Kitchen
                     break;
                 case TutorialButtons.HARDWARE_ID:
                     ResetItem();
-                    if (quad) Trigger(TutorialActions.ClickedHardware);
+                    Trigger(TutorialActions.ClickedHardware); // original: quad only (tutorial soft-lock, fixed)
                     ShowShop(KitchenShop.Hardware);
                     break;
                 case TutorialButtons.ACHIEVEMENT_ID:

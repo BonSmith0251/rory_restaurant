@@ -346,6 +346,22 @@ MonoBehaviour:
     m_Localized: Next
     m_Metadata:
       m_Items: []
+  - m_Id: 7638719913984
+    m_Localized: Western
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638745079808
+    m_Localized: Asian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638745079809
+    m_Localized: Middle East
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638745079810
+    m_Localized: MASTER
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

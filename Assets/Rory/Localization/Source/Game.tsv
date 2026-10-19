@@ -71,6 +71,61 @@ Own a Grand restaurant.	开一家豪华大餐厅。	大きなレストランを�
 Maybe start a living in French.	也许去法国开始新生活。	フランスで暮らしてみるのもいいかも。	어쩌면 프랑스에서 새 삶을 시작할지도.	EndingController.cs:103
 Or pursue higher culinary education.	或者继续深造厨艺。	それとも、料理をもっと深く学ぶこと。	아니면 요리를 더 깊이 공부하는 것.	EndingController.cs:112
 Anyway now she already owns a very successful restaurant, let's help her grow it even bigger!	总之，她现在已经拥有一家非常成功的餐厅了，让我们帮她把餐厅做得更大吧！	とにかく、ロリーはもう大成功のレストランのオーナー。もっと大きくするのを手伝いましょう！	어쨌든 로리는 이제 아주 성공한 레스토랑의 주인이에요. 더 크게 키울 수 있게 도와줘요!	EndingController.cs:123
+Buy	购买	購入	구매	KitchenController.cs:520
+Upgrade	升级	強化	업그레이드	KitchenController.cs:521
+Can't Afford	钱不够	お金が足りない	돈이 부족해요	KitchenController.cs:522
+Maxed	已满级	最大	최대	KitchenController.cs:523
+Sold Out!	已售完！	売り切れ！	품절!	KitchenController.cs:524
+Info	详情	情報	정보	KitchenController.cs:525
+Cost : {0}	价格：{0}	価格：{0}	가격: {0}	KitchenController.cs:545
+MILLY'S INGREDIENT MARKET	米莉的食材市场	ミリーの食材マーケット	밀리의 식재료 마켓	KitchenController.cs:578
+Upgrading this will increase {0} dishes by $1	升级后，{0} 道菜的价格各提高 $1	強化すると、{0}品の料理の値段が$1上がります	업그레이드하면 요리 {0}개의 가격이 $1씩 올라요	KitchenController.cs:614
+Upgrading this will increase {0} dish by $1	升级后，{0} 道菜的价格提高 $1	強化すると、{0}品の料理の値段が$1上がります	업그레이드하면 요리 {0}개의 가격이 $1 올라요	KitchenController.cs:615
+You've maxed this ingredient quality.	这种食材的品质已经升到最高了。	この食材の品質は最大です。	이 재료의 품질은 이미 최대예요.	KitchenController.cs:636
+No recipe with this ingredient yet.	还没有用到这种食材的食谱。	この食材を使うレシピはまだありません。	이 재료를 쓰는 레시피가 아직 없어요.	KitchenController.cs:648
+EMMA'S RECIPES	艾玛的食谱	エマのレシピ	엠마의 레시피	KitchenController.cs:658
+Current price : ${0} (${1} increase)	当前价格：${0}（提高 ${1}）	現在の値段：${0}（${1}アップ）	현재 가격: ${0} (${1} 인상)	KitchenController.cs:723
+Dish price : ${0} (${1} ingredient bonus)	菜品价格：${0}（食材加成 ${1}）	料理の値段：${0}（食材ボーナス${1}）	요리 가격: ${0} (재료 보너스 ${1})	KitchenController.cs:730
+Dish price : ${0}	菜品价格：${0}	料理の値段：${0}	요리 가격: ${0}	KitchenController.cs:731
+Current price : ${0}	当前价格：${0}	現在の値段：${0}	현재 가격: ${0}	KitchenController.cs:775
+HYPERMART	超级卖场	ハイパーマート	하이퍼마트	KitchenController.cs:788
+Current Effect : {0}% ({1}% increase)	当前效果：{0}%（提高 {1}%）	現在の効果：{0}%（{1}%アップ）	현재 효과: {0}% ({1}% 증가)	KitchenController.cs:804
+Current Price : ${0}	当前价格：${0}	現在の値段：${0}	현재 가격: ${0}	KitchenController.cs:809
+Current Effect : {0}%	当前效果：{0}%	現在の効果：{0}%	현재 효과: {0}%	KitchenController.cs:810
+NOT AVAILABLE	暂不可用	利用できません	이용 불가	KitchenController.cs:827
+Croissant	可颂	クロワッサン	크루아상	KitchenItems.cs:90
+Vegetables	蔬菜	野菜	채소	KitchenItems.cs:91
+Beef	牛肉	牛肉	소고기	KitchenItems.cs:92
+Chicken	鸡肉	鶏肉	닭고기	KitchenItems.cs:93
+Rice	米饭	ご飯	밥	KitchenItems.cs:94
+Bacon	培根	ベーコン	베이컨	KitchenItems.cs:95
+Salmon	三文鱼	サーモン	연어	KitchenItems.cs:96
+Seafood	海鲜	シーフード	해산물	KitchenItems.cs:97
+Cheese	奶酪	チーズ	치즈	KitchenItems.cs:98
+Pita Bread	皮塔饼	ピタパン	피타 빵	KitchenItems.cs:99
+Lamb	羊肉	ラム肉	양고기	KitchenItems.cs:100
+Tomato	番茄	トマト	토마토	KitchenItems.cs:101
+Veggie Croissant	蔬菜可颂	野菜クロワッサン	채소 크루아상	KitchenItems.cs:103
+Deluxe Chicken Croissant	豪华鸡肉可颂	デラックスチキンクロワッサン	디럭스 치킨 크루아상	KitchenItems.cs:104
+French BBQ Combo	法式烧烤套餐	フレンチBBQコンボ	프렌치 바비큐 콤보	KitchenItems.cs:105
+Beef Steak	牛排	ビーフステーキ	소고기 스테이크	KitchenItems.cs:106
+Smokey Salmon	烟熏三文鱼	スモークサーモン	훈제 연어	KitchenItems.cs:107
+Premium Salmon Steak	特级三文鱼排	プレミアムサーモンステーキ	프리미엄 연어 스테이크	KitchenItems.cs:108
+Asian Fried Rice	亚洲炒饭	アジアンチャーハン	아시안 볶음밥	KitchenItems.cs:110
+Thai Fried Rice	泰式炒饭	タイ風チャーハン	태국식 볶음밥	KitchenItems.cs:111
+Kalasan Fried Chicken	卡拉桑炸鸡	カラサン風フライドチキン	칼라산 프라이드치킨	KitchenItems.cs:112
+Chinese Pork Special	中式猪肉特餐	中華風ポークスペシャル	중국식 돼지고기 스페셜	KitchenItems.cs:113
+Fine Imperial Cuisine	精选宫廷料理	宮廷料理	고급 궁중 요리	KitchenItems.cs:114
+Deluxe BBQ Combo	豪华烧烤套餐	デラックスBBQコンボ	디럭스 바비큐 콤보	KitchenItems.cs:115
+Doner Kebab	土耳其烤肉	ドネルケバブ	도너 케밥	KitchenItems.cs:117
+Gyro Style	希腊旋转烤肉	ギロ風	기로스 스타일	KitchenItems.cs:118
+Tomato Domas	番茄酿菜	トマトのドルマ	토마토 돌마	KitchenItems.cs:119
+Tuscan Humus	托斯卡纳鹰嘴豆泥	トスカーナ風フムス	토스카나식 후무스	KitchenItems.cs:120
+Baklava	果仁蜜饼	バクラヴァ	바클라바	KitchenItems.cs:121
+Crown Lamb Roast	皇冠烤羊排	ラムのクラウンロースト	크라운 양갈비 구이	KitchenItems.cs:122
+Juicer	榨汁机	ジューサー	주서기	KitchenItems.cs:124
+Fryer	油炸锅	フライヤー	튀김기	KitchenItems.cs:125
+Cookies	饼干	クッキー	쿠키	KitchenItems.cs:126
 Day\n{0}	第\n{0}天	{0}\n日目	{0}\n일차	LevelSelectController.cs:43
 {0} (Match 3)\nGoal: serve {1} customer(s)\nExpert: earn $ {2}\nYour Best Score: {3}	{0}（三消）\n目标：服务 {1} 位顾客\n专家：赚取 $ {2}\n你的最高分：{3}	{0}（マッチ3）\n目標：お客さん{1}人に料理を出す\nエキスパート：$ {2}を稼ぐ\nベストスコア：{3}	{0} (매치 3)\n목표: 손님 {1}명 대접하기\n전문가: $ {2} 벌기\n최고 점수: {3}	LevelSelectController.cs:44
 {0} (Match 3)\nGoal: serve {1} food critic\nExpert: earn $ {2}\nYour Best Score: {3}	{0}（三消）\n目标：服务 {1} 位美食评论家\n专家：赚取 $ {2}\n你的最高分：{3}	{0}（マッチ3）\n目標：料理評論家{1}人に料理を出す\nエキスパート：$ {2}を稼ぐ\nベストスコア：{3}	{0} (매치 3)\n목표: 음식 평론가 {1}명 대접하기\n전문가: $ {2} 벌기\n최고 점수: {3}	LevelSelectController.cs:45

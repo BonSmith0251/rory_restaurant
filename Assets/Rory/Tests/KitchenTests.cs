@@ -617,13 +617,10 @@ namespace Rory.Tests
             Assert.AreEqual(1, tut.DialogueCounter);
             TestUtil.Click("ShopQuad");
             Assert.AreEqual(Shop.None, kitchen.CurrentShop, "only the hardware store may be opened");
-            // the bubble sprite does not report clicked_hardware (only the quad did)
+            // the bubble advances the tutorial like the quad (the original only did it for the quad and soft-locked)
             TestUtil.Click("HardwareBubble");
             Assert.AreEqual(Shop.Hardware, kitchen.CurrentShop);
-            Assert.AreEqual(1, tut.DialogueCounter);
-            // ... so the tutorial still waits for the hardware quad and Back is blocked (original soft-lock, kept)
-            TestUtil.Click("BackButton");
-            Assert.IsTrue(Active("ShopBackground"));
+            Assert.AreEqual(2, tut.DialogueCounter);
             yield return null;
         }
 

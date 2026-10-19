@@ -2,6 +2,12 @@ en	zh-Hans	ja	ko	context
 Service Excellence	卓越服务	至高のサービス	최고의 서비스	Achievements: Title
 You've served VALUE/1000 perfectly happy customers\n(80% patience or above)!	你已服务了 VALUE/1000 位非常满意的顾客\n（耐心值 80% 以上）！	大満足のお客さんを VALUE/1000 人もてなしました\n（忍耐度80%以上）！	아주 만족한 손님을 VALUE/1000명 대접했어요\n(인내심 80% 이상)!	Achievements: Info
 AAAAA	AAAAA	AAAAA	AAAAA	Ending: BubbleText
+Western	西式	洋食	서양	Kitchen: WesternButton/Label
+Asian	亚洲	アジア	아시아	Kitchen: ChineseButton/Label
+Middle East	中东	中東	중동	Kitchen: MidEastButton/Label
+Back	返回	戻る	뒤로	Kitchen: BackButton/Label
+Next	下一步	次へ	다음	Kitchen: Tutorial/NextButton/Label
+MASTER	大师	マスター	마스터	Kitchen: Overlay/AchievementNotifier/Banner/Title
 Day\n1	第\n1天	1\n日目	1\n일차	LevelSelect: Day1Transform/Day1
 Day\n2	第\n2天	2\n日目	2\n일차	LevelSelect: Day2Transform/Day2
 Day\n3	第\n3天	3\n日目	3\n일차	LevelSelect: Day3Transform/Day3
@@ -10,7 +16,6 @@ Day\n5	第\n5天	5\n日目	5\n일차	LevelSelect: Day5Transform/Day5
 Day\n6	第\n6天	6\n日目	6\n일차	LevelSelect: Day6Transform/Day6
 Day\n7	第\n7天	7\n日目	7\n일차	LevelSelect: Day7Transform/Day7
 PLAY	开始	プレイ	플레이	LevelSelect: PlayButton/Label
-Back	返回	戻る	뒤로	LevelSelect: BackButton/Label
 Story	故事	ストーリー	스토리	MainMenu: StoryButton
 Extras	额外	おまけ	보너스	MainMenu: ExtrasButton
 Credits	制作人员	クレジット	제작진	MainMenu: CreditsButton
@@ -72,4 +77,3 @@ Congratulations!	恭喜！	おめでとう！	축하해요!	GameResult: GameResu
 You've reached today's goal!	你达成了今天的目标！	今日の目標を達成しました！	오늘의 목표를 달성했어요!	GameResult: GameResult/Info
 Customers Served\t\t :\nBeverage Served\t\t :\nFrench Fries Served\t :\n\nToday's Earnings\t\t :\nTotal Coins\t\t\t :	服务顾客\t\t :\n饮品\t\t :\n薯条\t\t :\n\n今日收入\t\t :\n金币总数\t\t :	接客数\t\t :\n飲み物\t\t :\nフライドポテト\t :\n\n今日の売上\t\t :\nコイン合計\t\t :	대접한 손님\t\t :\n음료\t\t :\n감자튀김\t\t :\n\n오늘의 수입\t\t :\n총 코인\t\t :	GameResult: GameResult/SummaryText
 Well done! Try to reach Expert target to earn even more coins!	干得好！试着达成专家目标来赚取更多金币吧！	よくできました！エキスパート目標を達成して、もっとコインを稼ぎましょう！	잘했어요! 전문가 목표를 달성해서 코인을 더 많이 모아 보세요!	GameResult: GameResult/SummaryTips
-Next	下一步	次へ	다음	Tutorial: Tutorial/NextButton/Label

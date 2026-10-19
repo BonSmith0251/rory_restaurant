@@ -433,6 +433,226 @@ MonoBehaviour:
     m_Key: Genius idea! Rory now has a sound plan to pay back her debts!
     m_Metadata:
       m_Items: []
+  - m_Id: 7638057213952
+    m_Key: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991168
+    m_Key: Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991169
+    m_Key: Can't Afford
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991170
+    m_Key: Maxed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991171
+    m_Key: Sold Out!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991172
+    m_Key: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991173
+    m_Key: 'Cost : {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991174
+    m_Key: MILLY'S INGREDIENT MARKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991175
+    m_Key: Upgrading this will increase {0} dishes by $1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991176
+    m_Key: Upgrading this will increase {0} dish by $1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991177
+    m_Key: You've maxed this ingredient quality.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991178
+    m_Key: No recipe with this ingredient yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991179
+    m_Key: EMMA'S RECIPES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991180
+    m_Key: 'Current price : ${0} (${1} increase)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991181
+    m_Key: 'Dish price : ${0} (${1} ingredient bonus)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991182
+    m_Key: 'Dish price : ${0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991183
+    m_Key: 'Current price : ${0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991184
+    m_Key: HYPERMART
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991185
+    m_Key: 'Current Effect : {0}% ({1}% increase)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991186
+    m_Key: 'Current Price : ${0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991187
+    m_Key: 'Current Effect : {0}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991188
+    m_Key: NOT AVAILABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991189
+    m_Key: Croissant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991190
+    m_Key: Vegetables
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991191
+    m_Key: Beef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991192
+    m_Key: Chicken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991193
+    m_Key: Rice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991194
+    m_Key: Bacon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991195
+    m_Key: Salmon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991196
+    m_Key: Seafood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991197
+    m_Key: Cheese
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991198
+    m_Key: Pita Bread
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991199
+    m_Key: Lamb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991200
+    m_Key: Tomato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991201
+    m_Key: Veggie Croissant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991202
+    m_Key: Deluxe Chicken Croissant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991203
+    m_Key: French BBQ Combo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991204
+    m_Key: Beef Steak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991205
+    m_Key: Smokey Salmon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991206
+    m_Key: Premium Salmon Steak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991207
+    m_Key: Asian Fried Rice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991208
+    m_Key: Thai Fried Rice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991209
+    m_Key: Kalasan Fried Chicken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991210
+    m_Key: Chinese Pork Special
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991211
+    m_Key: Fine Imperial Cuisine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991212
+    m_Key: Deluxe BBQ Combo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991213
+    m_Key: Doner Kebab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991214
+    m_Key: Gyro Style
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991215
+    m_Key: Tomato Domas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991216
+    m_Key: Tuscan Humus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991217
+    m_Key: Baklava
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991218
+    m_Key: Crown Lamb Roast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991219
+    m_Key: Juicer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991220
+    m_Key: Fryer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7638073991221
+    m_Key: Cookies
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
