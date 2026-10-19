@@ -18,6 +18,7 @@ namespace Rory.EditorTools
         public const string SmallPrefab = RoryPaths.Prefabs + "/Popups/SmallWindow.prefab";
 
         [MenuItem("Rory/Build/Window Prefabs")]
+        [RoryBuilder(10)]
         public static void BuildPrefabs()
         {
             var big = BuildWindow<WindowPopup>(null, false, "BigWindow");

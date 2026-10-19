@@ -18,9 +18,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Finally, the days of my culinary school are over!
@@ -28,9 +27,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Now I have all day to focus on my work as certified chef!
@@ -38,9 +36,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "I have been thinking of opening a shop since the first day at culinary
@@ -49,9 +46,8 @@ MonoBehaviour:
       buttonText: Of course!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: I will need someone to accompany me. Will you help me out?
@@ -59,7 +55,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 450
       arrowY: 470
       arrowDirection: 1
@@ -70,9 +65,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Welcome to my kitchen! Let me give you a tour!
@@ -80,7 +74,6 @@ MonoBehaviour:
       buttonText: Continue
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 350
       arrowY: 20
       arrowDirection: -1
@@ -91,7 +84,6 @@ MonoBehaviour:
       buttonText: Continue
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 270
       arrowY: 110
       arrowDirection: -1
@@ -102,9 +94,8 @@ MonoBehaviour:
       buttonText: 
       posX: 250
       posY: 480
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Swap and make a match of at least 3 ingredients.
@@ -112,9 +103,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 1
       text: Great! Now continue to match more ingredients to complete the dish.
@@ -122,7 +112,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 270
       arrowY: 110
       arrowDirection: -1
@@ -133,9 +122,8 @@ MonoBehaviour:
       buttonText: Ok
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 1
       text: "Please keep in mind to check out each customer\u2019s patient meter.
@@ -144,7 +132,6 @@ MonoBehaviour:
       buttonText: 
       posX: 650
       posY: 400
-      hasArrow: 1
       arrowX: 400
       arrowY: 240
       arrowDirection: -1
@@ -155,9 +142,8 @@ MonoBehaviour:
       buttonText: No problem!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "I think we\u2019re all set! Let\u2019s keep our customers coming and
@@ -167,9 +153,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Great job, (player)! I must say that we did really great yesterday!
@@ -177,7 +162,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 200
-      hasArrow: 1
       arrowX: 450
       arrowY: 470
       arrowDirection: 1
@@ -188,9 +172,8 @@ MonoBehaviour:
       buttonText: Cool!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Good news! Do you know Emma, that famous girl in the Home Makeover games?
@@ -199,7 +182,6 @@ MonoBehaviour:
       buttonText: 
       posX: 650
       posY: 300
-      hasArrow: 1
       arrowX: 250
       arrowY: 210
       arrowDirection: 1
@@ -210,7 +192,6 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 400
-      hasArrow: 1
       arrowX: 660
       arrowY: 510
       arrowDirection: -1
@@ -220,7 +201,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 450
-      hasArrow: 1
       arrowX: 750
       arrowY: 300
       arrowDirection: -1
@@ -230,7 +210,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 400
-      hasArrow: 1
       arrowX: 540
       arrowY: 568
       arrowDirection: 1
@@ -240,9 +219,8 @@ MonoBehaviour:
       buttonText: Great!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Awesome! We just bought a new recipe! Keep buying better ones to increase
@@ -251,9 +229,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Also, upgrading recipes will increase value of the dish. The more expensive
@@ -262,9 +239,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Remember to visit the Shops anytime you have enough money!
@@ -273,9 +249,8 @@ MonoBehaviour:
       buttonText: No one
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Look at this incredible mess! Who would have thought that we cooked our
@@ -284,9 +259,8 @@ MonoBehaviour:
       buttonText: Right
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "You know what they say about always try to have your kitchen clean and
@@ -296,9 +270,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "I know you like cooking as much as I do but we still need to clean this
@@ -307,9 +280,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: We need to remove most of these items from the kitchen. I have provided
@@ -318,9 +290,8 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 450
-      hasArrow: 1
-      arrowX: 0
-      arrowY: 0
+      arrowX: HOITEMX
+      arrowY: HOITEMY
       arrowDirection: 1
       blockNext: 0
       text: There it is, the first item on top of the list. Just click to grab it.
@@ -328,7 +299,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 870
       arrowY: 70
       arrowDirection: 1
@@ -339,9 +309,8 @@ MonoBehaviour:
       buttonText: Yes!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "Hints will refill slowly so you can use it over and over again. Very
@@ -350,9 +319,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: 'Last tip: you can zoom in and out by dragging your mouse while holding
@@ -361,9 +329,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Now try to find the rest of the items by yourself. Good luck!
@@ -372,9 +339,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Different customer has different personalities.
@@ -382,9 +348,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Some are more patient but will tip less, while others may get upset faster
@@ -393,9 +358,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Set your priorities to get maximum profit out of your day.
@@ -404,9 +368,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: (player), I have been told that a food critic will visit us today! Oh
@@ -415,9 +378,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "I heard food critics are the worst kind of customer! They usually order
@@ -426,9 +388,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 1
       text: "We must make sure everything goes very well today! Let\u2019s do our
@@ -437,9 +398,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 100
-      arrowY: 0
+      arrowY: SCUSTY
       arrowDirection: -1
       blockNext: 0
       text: There he is! The notorious, sour-looking food critic!
@@ -447,9 +407,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: He just ordered our most expensive dish with extra add-ons of everything!
@@ -457,9 +416,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "We really need a good review from him so let\u2019s work hard to serve
@@ -468,9 +426,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "And remember: Click the food critic\u2019s plate to make his order the
@@ -480,9 +437,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "Very nice job today! I\u2019m so delighted!"
@@ -490,9 +446,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Do you want to hear more good news? Guess what, I just found an old recipe
@@ -501,9 +456,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "I know you can\u2019t wait to try it out, so let\u2019s hit the kitchen
@@ -513,9 +467,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Congratulations, now you have access to a set of wonderful Chinese delicacies!
@@ -523,9 +476,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Remember that you can always buy new recipes and upgrade ingredients
@@ -535,9 +487,8 @@ MonoBehaviour:
       buttonText: Really?
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "Hey, guess who just opened an Organic Market! It\u2019s Emma again!"
@@ -545,9 +496,8 @@ MonoBehaviour:
       buttonText: Cool!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: This means we can now upgrade our ingredients, enhancing the taste of
@@ -556,7 +506,6 @@ MonoBehaviour:
       buttonText: 
       posX: 380
       posY: 350
-      hasArrow: 1
       arrowX: 800
       arrowY: 400
       arrowDirection: -1
@@ -566,9 +515,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 320
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Wow look at all these fresh vegetables! This is heaven for cooks!
@@ -576,9 +524,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 320
       posY: 440
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Let me give you a tour around here...
@@ -586,7 +533,6 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 340
       arrowY: 120
       arrowDirection: 1
@@ -596,7 +542,6 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 200
-      hasArrow: 1
       arrowX: 250
       arrowY: 470
       arrowDirection: 1
@@ -607,7 +552,6 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 200
-      hasArrow: 1
       arrowX: 170
       arrowY: 410
       arrowDirection: 1
@@ -618,7 +562,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 540
       arrowY: 568
       arrowDirection: 1
@@ -628,9 +571,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Awesome! Now you know how to get the better ingredients for your dishes!
@@ -638,9 +580,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: 'Last tip: Come back here to upgrade regularly to make sure we always
@@ -650,9 +591,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Did you know that I am also very good at making frozen yogurt? I just
@@ -661,9 +601,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "I\u2019d like to serve my specialty\u2019s frozen yogurt for today and
@@ -672,9 +611,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: So for today, our business is nothing else but froyo!
@@ -682,9 +620,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "Come, I\u2019ll walk you through this!"
@@ -692,9 +629,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 1
       text: "I have prepared everything from cups to yogurts so we\u2019re all set
@@ -703,9 +639,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: A customer just came in! Perfect timing!
@@ -713,7 +648,6 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 400
-      hasArrow: 1
       arrowX: 700
       arrowY: 220
       arrowDirection: 1
@@ -723,7 +657,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 80
-      hasArrow: 1
       arrowX: 195
       arrowY: 426
       arrowDirection: -1
@@ -733,7 +666,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 80
-      hasArrow: 1
       arrowX: 321
       arrowY: 426
       arrowDirection: -1
@@ -743,7 +675,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 80
-      hasArrow: 1
       arrowX: 573
       arrowY: 426
       arrowDirection: -1
@@ -753,7 +684,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 80
-      hasArrow: 1
       arrowX: 573
       arrowY: 426
       arrowDirection: 1
@@ -763,7 +693,6 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 80
-      hasArrow: 1
       arrowX: 825
       arrowY: 426
       arrowDirection: 1
@@ -773,9 +702,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "We did it! We just sold our first yogurt ever! That wasn\u2019t so hard,
@@ -784,9 +712,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Just remember that you need to work on it from top to bottom, and from
@@ -795,9 +722,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "And don\u2019t forget to keep an eye of his patience bar. He\u2019ll
@@ -807,9 +733,8 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: (start level)
@@ -817,7 +742,6 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 200
       arrowY: 490
       arrowDirection: -1
@@ -828,9 +752,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Currently the machine is (juice percentage) complete. It works as we
@@ -839,9 +762,8 @@ MonoBehaviour:
       buttonText: 
       posX: 250
       posY: 480
-      hasArrow: 1
-      arrowX: 0
-      arrowY: 0
+      arrowX: TILEX
+      arrowY: TILEY
       arrowDirection: -1
       blockNext: 0
       text: "Let\u2019s match this."
@@ -849,7 +771,6 @@ MonoBehaviour:
       buttonText: 
       posX: 712
       posY: 300
-      hasArrow: 1
       arrowX: 200
       arrowY: 490
       arrowDirection: -1
@@ -859,7 +780,6 @@ MonoBehaviour:
       buttonText: 
       posX: 712
       posY: 300
-      hasArrow: 1
       arrowX: 270
       arrowY: 110
       arrowDirection: -1
@@ -869,9 +789,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 712
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Offering a beverage will increase customer satisfaction which means more
@@ -881,9 +800,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: When possible, try to hold off from collecting money right away.
@@ -891,9 +809,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "You\u2019ll be rewarded with Chain Bonus if you collect money from all
@@ -902,9 +819,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Even a small amount will be very helpful to help you reach EXPERT SCORE.
@@ -913,9 +829,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "That food critic guy is back to check on us! Let\u2019s show him what
@@ -925,9 +840,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Matching more than 4 ingredients will give you instant bonus money.
@@ -935,9 +849,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: As a general rule of thumb, always try to find the longest match as fast
@@ -946,9 +859,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: The faster you match, the shorter time it will take to prepare a dish,
@@ -958,9 +870,8 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: (start level)
@@ -968,7 +879,6 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 1
       arrowX: 400
       arrowY: 490
       arrowDirection: -1
@@ -979,9 +889,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "It works exactly like the beverage machine, but just in case you forgot,
@@ -990,9 +899,8 @@ MonoBehaviour:
       buttonText: 
       posX: 250
       posY: 480
-      hasArrow: 1
-      arrowX: 0
-      arrowY: 0
+      arrowX: TILEX
+      arrowY: TILEY
       arrowDirection: -1
       blockNext: 0
       text: "Let\u2019s complete the fries by matching this."
@@ -1000,7 +908,6 @@ MonoBehaviour:
       buttonText: 
       posX: 712
       posY: 300
-      hasArrow: 1
       arrowX: 400
       arrowY: 490
       arrowDirection: -1
@@ -1010,7 +917,6 @@ MonoBehaviour:
       buttonText: 
       posX: 712
       posY: 300
-      hasArrow: 1
       arrowX: 270
       arrowY: 110
       arrowDirection: -1
@@ -1020,9 +926,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 712
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Offering a side dish or drink will increase customer satisfaction, leading
@@ -1032,9 +937,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "It\u2019s time to clean our kitchen again!"
@@ -1042,9 +946,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "It\u2019s still hard to believe we made all this mess just in a few
@@ -1054,9 +957,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: There are 10 challenging achievements for you to earn. You should always
@@ -1066,9 +968,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "Uhoh, the food critic is back. Let\u2019s show him what we got!"
@@ -1077,9 +978,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Congratulations, now you have access to a set of spicy and exotic Middle
@@ -1088,9 +988,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Remember that you can always buy new recipes and upgrade ingredients
@@ -1100,9 +999,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "It\u2019s time to serve our specialty\u2019s frozen yogurt again! Remember
@@ -1113,9 +1011,8 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: (start level)
@@ -1123,9 +1020,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Oh no, our fridge malfunctioned last night and froze some of our fresh
@@ -1134,9 +1030,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: No problem, we can manage this.
@@ -1144,9 +1039,8 @@ MonoBehaviour:
       buttonText: 
       posX: 250
       posY: 480
-      hasArrow: 1
-      arrowX: 0
-      arrowY: 0
+      arrowX: TILEX
+      arrowY: TILEY
       arrowDirection: -1
       blockNext: 0
       text: For each frozen tile, we need an extra step to defrost it. Very simple
@@ -1155,9 +1049,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Now that ingredient has returned back to normal. Problem solved!
@@ -1166,9 +1059,8 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: (start level)
@@ -1176,9 +1068,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: I just bought a very helpful tool to help us cook faster and also defrost
@@ -1187,9 +1078,8 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 1
-      arrowX: 0
-      arrowY: 0
+      arrowX: TORCHX
+      arrowY: TORCHY
       arrowDirection: -1
       blockNext: 0
       text: "There it is, a chef\u2019s torch! To use it, just swap it to any direction
@@ -1198,9 +1088,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "Very handy, isn\u2019t it?"
@@ -1208,9 +1097,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "The chef\u2019s torch will appear in our cooking board from time to
@@ -1220,9 +1108,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "I see a sour-looking face. Must be that food critic again. Let\u2019s
@@ -1232,9 +1119,8 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: (start level)
@@ -1242,9 +1128,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: 'I have good stuff that can keep customers happy for a while: free cookies!'
@@ -1252,9 +1137,8 @@ MonoBehaviour:
       buttonText: 
       posX: 512
       posY: 300
-      hasArrow: 1
-      arrowX: 0
-      arrowY: 0
+      arrowX: COOKIEX
+      arrowY: COOKIEY
       arrowDirection: -1
       blockNext: 0
       text: "Each time you match 5 or more ingredients, a Cookie will appear. Click
@@ -1263,9 +1147,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Customers with the least patience left will accept your generous present
@@ -1274,9 +1157,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: One last thing, you can upgrade its effects from the Shop. Good luck!
@@ -1285,9 +1167,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "It\u2019s time to clean up our kitchen again! Roll up your sleeves and
@@ -1297,9 +1178,8 @@ MonoBehaviour:
       buttonText: Agree
       posX: 512
       posY: 300
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: Player, I figure that our tools need a little upgrade.
@@ -1307,7 +1187,6 @@ MonoBehaviour:
       buttonText: 
       posX: 380
       posY: 180
-      hasArrow: 1
       arrowX: 240
       arrowY: 385
       arrowDirection: -1
@@ -1317,9 +1196,8 @@ MonoBehaviour:
       buttonText: Next
       posX: 320
       posY: 440
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "Ah, player, look at that shiny French Fries Machine! Don\u2019t you
@@ -1329,9 +1207,8 @@ MonoBehaviour:
       buttonText: OK!
       posX: 320
       posY: 440
-      hasArrow: 0
-      arrowX: 0
-      arrowY: 0
+      arrowX: 
+      arrowY: 
       arrowDirection: -1
       blockNext: 0
       text: "But I\u2019ll leave it up for you to decide. If you want to upgrade

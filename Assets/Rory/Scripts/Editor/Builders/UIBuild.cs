@@ -62,7 +62,7 @@ namespace Rory.EditorTools
         /// <summary>
         /// New empty scene with a black camera, an EventSystem, a Canvas scaled to 1024x600 and the
         /// <see cref="UIStage"/> (clipped). Returns the stage; content goes under it, popups under
-        /// <paramref name="popups"/> (always kept last).
+        /// <paramref name="popups"/>, and the "Overlay" layer (see <see cref="Overlay"/>) stays on top of both.
         /// </summary>
         public static UIStage NewScene(out PopupManager popups)
         {
@@ -99,31 +99,35 @@ namespace Rory.EditorTools
             backdrop.gameObject.SetActive(false);
             SetField(popups, "backdrop", backdrop);
 
+            // Above the popups: tutorial bubble, achievement banner (drawn over windows in the original).
+            Layer(stage, OverlayName);
+
             SceneManager.SetActiveScene(scene);
             return stageGo.GetComponent<UIStage>();
         }
 
-        /// <summary>Saves the active scene to Scenes/&lt;name&gt;.unity and adds it to Build Settings.</summary>
-        public static void SaveScene(string name, bool first = false)
+        /// <summary>Saves the active scene to Scenes/&lt;name&gt;.unity (Build Settings are set by BuildAll).</summary>
+        public static void SaveScene(string name)
         {
             RoryAssets.EnsureFolder(RoryPaths.Scenes);
             var path = $"{RoryPaths.Scenes}/{name}.unity";
             var scene = SceneManager.GetActiveScene();
-            // Keep the popup layer on top of everything the builder added to the stage.
+            // Keep the popup layer, then the overlay, on top of everything the builder added to the stage.
             var popups = Object.FindFirstObjectByType<PopupManager>();
-            if (popups != null) popups.transform.SetAsLastSibling();
+            if (popups != null)
+            {
+                popups.transform.SetAsLastSibling();
+                var overlay = popups.transform.parent.Find(OverlayName);
+                if (overlay != null) overlay.SetAsLastSibling();
+            }
             EditorSceneManager.SaveScene(scene, path);
-            AddToBuild(path, first);
+            BuildAll.UpdateBuildSettings();
         }
 
-        public static void AddToBuild(string path, bool first = false)
-        {
-            var list = EditorBuildSettings.scenes.Where(s => s.path != path).ToList();
-            var entry = new EditorBuildSettingsScene(path, true);
-            if (first) list.Insert(0, entry);
-            else list.Add(entry);
-            EditorBuildSettings.scenes = list.ToArray();
-        }
+        public const string OverlayName = "Overlay";
+
+        /// <summary>The scene's top layer (above popups) for the tutorial bubble and the achievement banner.</summary>
+        public static RectTransform Overlay(UIStage stage) => (RectTransform)stage.transform.Find(OverlayName);
 
         // ------------------------------------------------------------------ elements
 

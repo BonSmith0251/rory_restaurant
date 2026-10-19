@@ -15,6 +15,7 @@ namespace Rory.EditorTools
         static readonly Color Red = UIBuild.Hex(0xFF0000);
 
         [MenuItem("Rory/Build/Scenes/Main Menu")]
+        [RoryBuilder(100)]
         public static void Build()
         {
             var stage = UIBuild.NewScene(out var popups);

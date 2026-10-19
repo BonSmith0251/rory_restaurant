@@ -183,16 +183,14 @@ namespace Rory.EditorTools
                 var dialogue = new DialogueData();
                 foreach (var t in d.Elements("text"))
                 {
-                    var ax = Attr(t, "arrowX");
                     dialogue.lines.Add(new DialogueLine
                     {
                         proceedType = Attr(t, "proceedType", "button"),
                         buttonText = Attr(t, "buttonText"),
                         posX = F(Attr(t, "posX")),
                         posY = F(Attr(t, "posY")),
-                        hasArrow = ax.Length > 0,
-                        arrowX = F(ax),
-                        arrowY = F(Attr(t, "arrowY")),
+                        arrowX = Attr(t, "arrowX"),
+                        arrowY = Attr(t, "arrowY"),
                         arrowDirection = I(Attr(t, "arrowDirection"), -1),
                         blockNext = Attr(t, "blockNext") == "true",
                         text = t.Value.Trim(),

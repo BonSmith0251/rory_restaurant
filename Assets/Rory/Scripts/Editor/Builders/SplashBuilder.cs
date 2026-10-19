@@ -12,6 +12,7 @@ namespace Rory.EditorTools
         static readonly string[] Splashes = { "splash1", "splash2" };
 
         [MenuItem("Rory/Build/Scenes/Splash")]
+        [RoryBuilder(100)]
         public static void Build()
         {
             var stage = UIBuild.NewScene(out _);
@@ -28,7 +29,7 @@ namespace Rory.EditorTools
             var catcher = UIBuild.Quad(stage.transform, "ClickToSkip", 0, 0, 1024, 600, new Color(0, 0, 0, 0), true);
             var controller = catcher.gameObject.AddComponent<SplashController>();
             UIBuild.SetArray(controller, "splashes", images);
-            UIBuild.SaveScene("Splash", first: true);
+            UIBuild.SaveScene("Splash");
         }
     }
 }

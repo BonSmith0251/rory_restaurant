@@ -127,9 +127,11 @@ namespace Rory.Data
         [Tooltip("button = wait for the button; action = wait for a game action")] public string proceedType;
         public string buttonText;
         public float posX, posY;
-        public bool hasArrow;
-        public float arrowX, arrowY;
+        [Tooltip("Arrow position: a number, or a token resolved by the screen (TILEX, HOITEMY, TORCHX, ...). Empty arrowY = no arrow.")]
+        public string arrowX, arrowY;
         [Tooltip("-1 = points left (default), 1 = points right")] public int arrowDirection = -1;
+
+        public bool HasArrow => !string.IsNullOrEmpty(arrowY);
         public bool blockNext;
         [TextArea] public string text;
     }
