@@ -122,10 +122,11 @@ namespace Rory.EditorTools
             return b;
         }
 
-        /// <summary>White 70% Quad (1024x50) at the bottom with the black Pfennig narration text (left / top).</summary>
+        /// <summary>White 70% Quad (full view width x 50) at the bottom with the black Pfennig narration text (left / top).</summary>
         public static TextMeshProUGUI TextBox(Transform parent, float fontSize, float textX, float textY, float textWidth)
         {
-            UIBuild.Quad(parent, "TextBox", 0, 550, 1024, 50, new Color(1, 1, 1, 0.7f));
+            // the bar spans the whole 16:9 view; the text stays where the original put it
+            UIBuild.Quad(parent, "TextBox", -UIStage.SideMargin, 550, UIStage.ViewWidth, 50, new Color(1, 1, 1, 0.7f));
             return UIBuild.Text(parent, "Narration", "", UIBuild.Fonts.Pfennig, fontSize, Color.black,
                 textX, 550 + textY, textWidth, 50, align: TextAlignmentOptions.TopLeft);
         }
