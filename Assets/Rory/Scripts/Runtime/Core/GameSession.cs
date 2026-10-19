@@ -37,6 +37,11 @@ namespace Rory
         /// <summary>Customer indices already used this day (TGlobalClass.tempCustUse).</summary>
         public List<int> tempCustUse = new List<int>();
 
+        // ---- Achievements screen
+        /// <summary>Back on the achievements screen goes to the main menu (true) or the kitchen (false)
+        /// (AchievementScreen.backToMainMenu: the main menu sets it to true before opening the screen, the kitchen to false).</summary>
+        public bool achievementsBackToMainMenu;
+
         public DayData CurrentDay
         {
             get

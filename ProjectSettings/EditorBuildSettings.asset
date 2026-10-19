@@ -12,6 +12,18 @@ EditorBuildSettings:
     path: Assets/Rory/Scenes/MainMenu.unity
     guid: 1d553f568e7b5b74998af6fa75f82f43
   - enabled: 1
+    path: Assets/Rory/Scenes/Opening.unity
+    guid: 9dce389b0f0375a4c9042d110a7c1e90
+  - enabled: 1
+    path: Assets/Rory/Scenes/Ending.unity
+    guid: 9b59b9ba9ce1f414eb5d2ef9a54762bc
+  - enabled: 1
+    path: Assets/Rory/Scenes/Achievements.unity
+    guid: 7026050c852e64e46a058304e6c26344
+  - enabled: 1
+    path: Assets/Rory/Scenes/LevelSelect.unity
+    guid: 7e3fda616cbdf3b4c9c3032682901d9e
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: d4dcbfcd61ce55a4fa0422c74137cc79
   m_configObjects: {}

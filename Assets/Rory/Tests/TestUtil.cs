@@ -126,5 +126,80 @@ namespace Rory.Tests
             Object.Destroy(tex);
             return path;
         }
+
+        // ------------------------------------------------------------------ pointer events and scene requests (story screens)
+
+        /// <summary>Screen position of a point in original stage coordinates (x right, y down).</summary>
+        public static Vector2 StageToScreen(float x, float y)
+        {
+            var stage = UI.UIStage.Current;
+            NUnit.Framework.Assert.IsNotNull(stage, "No UIStage");
+            var r = stage.Rect.rect;
+            var world = stage.Rect.TransformPoint(new Vector3(r.xMin + x, r.yMax - y, 0));
+            var canvas = stage.GetComponentInParent<Canvas>();
+            var cam = canvas.renderMode != RenderMode.ScreenSpaceOverlay ? canvas.worldCamera : null;
+            return RectTransformUtility.WorldToScreenPoint(cam, world);
+        }
+
+        static UnityEngine.EventSystems.PointerEventData PointerData(float x, float y) =>
+            new UnityEngine.EventSystems.PointerEventData(UnityEngine.EventSystems.EventSystem.current)
+            {
+                position = StageToScreen(x, y),
+                button = UnityEngine.EventSystems.PointerEventData.InputButton.Left,
+            };
+
+        /// <summary>
+        /// Press on <paramref name="target"/> at stage (x, y), optionally move to each of <paramref name="moves"/>
+        /// (stage points), then release: the pointer-down / drag / up handlers get the events like a real touch.
+        /// </summary>
+        public static void Press(GameObject target, Vector2 at, params Vector2[] moves)
+        {
+            NUnit.Framework.Assert.IsNotNull(target);
+            var down = PointerData(at.x, at.y);
+            UnityEngine.EventSystems.ExecuteEvents.Execute(target, down, UnityEngine.EventSystems.ExecuteEvents.pointerDownHandler);
+            UnityEngine.EventSystems.ExecuteEvents.Execute(target, down, UnityEngine.EventSystems.ExecuteEvents.initializePotentialDrag);
+            var last = down;
+            foreach (var m in moves)
+            {
+                last = PointerData(m.x, m.y);
+                UnityEngine.EventSystems.ExecuteEvents.Execute(target, last, UnityEngine.EventSystems.ExecuteEvents.dragHandler);
+            }
+            UnityEngine.EventSystems.ExecuteEvents.Execute(target, last, UnityEngine.EventSystems.ExecuteEvents.pointerUpHandler);
+        }
+
+        /// <summary>
+        /// Asserts that a scene transition to <paramref name="scene"/> is running. When the scene exists it waits for
+        /// it to load. When it is not built yet (screens converted on other branches) SceneFlow fails to load it:
+        /// the "couldn't be loaded" error for exactly that scene is expected, and the managers are recreated so later
+        /// tests get a working SceneFlow.
+        /// </summary>
+        public static IEnumerator ExpectSceneRequest(GameScene scene, float timeout = 5)
+        {
+            var gm = GameManager.Instance;
+            NUnit.Framework.Assert.IsTrue(gm.Flow.IsTransitioning, $"No transition to {scene} started");
+            if (Application.CanStreamedLevelBeLoaded(scene.ToString()))
+            {
+                float end = Time.realtimeSinceStartup + timeout;
+                while (gm.Flow.Current != scene && Time.realtimeSinceStartup < end) yield return null;
+                NUnit.Framework.Assert.AreEqual(scene, gm.Flow.Current);
+                yield break;
+            }
+            UnityEngine.TestTools.LogAssert.Expect(LogType.Error,
+                new System.Text.RegularExpressions.Regex("'" + scene + "' couldn't be loaded"));
+            UnityEngine.TestTools.LogAssert.Expect(LogType.Exception, new System.Text.RegularExpressions.Regex("NullReferenceException"));
+            bool failed = false;
+            Application.LogCallback onLog = (msg, stack, type) =>
+            {
+                if (type == LogType.Exception && msg.Contains("NullReferenceException")) failed = true;
+            };
+            Application.logMessageReceived += onLog;
+            float until = Time.realtimeSinceStartup + timeout;
+            while (!failed && Time.realtimeSinceStartup < until) yield return null;
+            Application.logMessageReceived -= onLog;
+            Object.Destroy(gm.gameObject);
+            yield return null;
+            new GameObject("Managers").AddComponent<GameManager>();
+            yield return null;
+        }
     }
 }
