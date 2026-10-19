@@ -38,10 +38,7 @@ namespace Rory.Popups
         {
             var go = new GameObject("Backdrop", typeof(RectTransform), typeof(Image));
             go.transform.SetParent(transform, false);
-            var rt = (RectTransform)go.transform;
-            rt.anchorMin = Vector2.zero;
-            rt.anchorMax = Vector2.one;
-            rt.offsetMin = rt.offsetMax = Vector2.zero;
+            UI.UIStage.FillView((RectTransform)go.transform);
             backdrop = go.GetComponent<Image>();
             backdrop.color = backdropColor;
         }

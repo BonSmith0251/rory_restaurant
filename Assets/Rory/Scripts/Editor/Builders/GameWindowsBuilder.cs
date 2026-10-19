@@ -161,7 +161,7 @@ namespace Rory.EditorTools
             for (int i = 0; i < w.dishPreviews.Length; i++)
             {
                 var sprite = UIBuild.Sprite("game", "veggie_croissant");
-                w.dishPreviews[i] = UIBuild.Image(t, "Dish" + i, sprite, 0, 0, 0, sprite.rect.height);
+                w.dishPreviews[i] = UIBuild.Image(t, "Dish" + i, sprite, 0, 0, 0, sprite.LogicalSize().y);
                 w.dishPreviews[i].gameObject.SetActive(false);
             }
             return w;
@@ -172,7 +172,7 @@ namespace Rory.EditorTools
         static GoalIconSmall BuildGoalIconSmall()
         {
             var sprite = W("goal");
-            var img = UIBuild.Image(null, "GoalIconSmall", sprite, 0, 0, sprite.rect.width / 2, sprite.rect.height / 2);
+            var img = UIBuild.Image(null, "GoalIconSmall", sprite, 0, 0, sprite.LogicalSize().x / 2, sprite.LogicalSize().y / 2);
             var icon = img.gameObject.AddComponent<GoalIconSmall>();
             icon.icon = img;
             return icon;

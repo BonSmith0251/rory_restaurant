@@ -1,0 +1,3169 @@
+{
+ "items": [
+  {
+   "path": "HO1_A/alarm clock,nm.png",
+   "w": 45,
+   "h": 61
+  },
+  {
+   "path": "HO1_A/apple,bg.png",
+   "w": 12,
+   "h": 34
+  },
+  {
+   "path": "HO1_A/apple,nm.png",
+   "w": 38,
+   "h": 40
+  },
+  {
+   "path": "HO1_A/baguette,nm.png",
+   "w": 85,
+   "h": 21
+  },
+  {
+   "path": "HO1_A/beer,nm.png",
+   "w": 38,
+   "h": 51
+  },
+  {
+   "path": "HO1_A/biscuit,bg.png",
+   "w": 36,
+   "h": 12
+  },
+  {
+   "path": "HO1_A/biscuit,nm.png",
+   "w": 33,
+   "h": 57
+  },
+  {
+   "path": "HO1_A/bottle cap,nm.png",
+   "w": 39,
+   "h": 24
+  },
+  {
+   "path": "HO1_A/broccoli,bg.png",
+   "w": 15,
+   "h": 13
+  },
+  {
+   "path": "HO1_A/broccoli,nm.png",
+   "w": 33,
+   "h": 34
+  },
+  {
+   "path": "HO1_A/carrot,nm.png",
+   "w": 22,
+   "h": 63
+  },
+  {
+   "path": "HO1_A/cauliflower,bg.png",
+   "w": 60,
+   "h": 48
+  },
+  {
+   "path": "HO1_A/cauliflower,nm.png",
+   "w": 58,
+   "h": 56
+  },
+  {
+   "path": "HO1_A/chilli,bg.png",
+   "w": 13,
+   "h": 13
+  },
+  {
+   "path": "HO1_A/chilli,nm.png",
+   "w": 59,
+   "h": 32
+  },
+  {
+   "path": "HO1_A/chocolate,nm.png",
+   "w": 53,
+   "h": 32
+  },
+  {
+   "path": "HO1_A/coconut,nm.png",
+   "w": 68,
+   "h": 71
+  },
+  {
+   "path": "HO1_A/cookies,nm.png",
+   "w": 60,
+   "h": 31
+  },
+  {
+   "path": "HO1_A/croissant,nm.png",
+   "w": 71,
+   "h": 35
+  },
+  {
+   "path": "HO1_A/dragonfruit,bg.png",
+   "w": 17,
+   "h": 28
+  },
+  {
+   "path": "HO1_A/dragonfruit,nm.png",
+   "w": 59,
+   "h": 34
+  },
+  {
+   "path": "HO1_A/drumsticks,nm.png",
+   "w": 22,
+   "h": 99
+  },
+  {
+   "path": "HO1_A/egg,nm.png",
+   "w": 41,
+   "h": 38
+  },
+  {
+   "path": "HO1_A/fortune cookie,nm.png",
+   "w": 41,
+   "h": 32
+  },
+  {
+   "path": "HO1_A/hamburger,bg.png",
+   "w": 48,
+   "h": 11
+  },
+  {
+   "path": "HO1_A/hamburger,nm.png",
+   "w": 48,
+   "h": 47
+  },
+  {
+   "path": "HO1_A/ice tea,nm.png",
+   "w": 34,
+   "h": 55
+  },
+  {
+   "path": "HO1_A/ink bottle,bg.png",
+   "w": 18,
+   "h": 47
+  },
+  {
+   "path": "HO1_A/ink bottle,nm.png",
+   "w": 45,
+   "h": 46
+  },
+  {
+   "path": "HO1_A/lemon,nm.png",
+   "w": 41,
+   "h": 35
+  },
+  {
+   "path": "HO1_A/meat,nm.png",
+   "w": 46,
+   "h": 30
+  },
+  {
+   "path": "HO1_A/mousetrap,nm.png",
+   "w": 79,
+   "h": 29
+  },
+  {
+   "path": "HO1_A/muffin,nm.png",
+   "w": 41,
+   "h": 39
+  },
+  {
+   "path": "HO1_A/pear,bg.png",
+   "w": 34,
+   "h": 17
+  },
+  {
+   "path": "HO1_A/pear,nm.png",
+   "w": 37,
+   "h": 48
+  },
+  {
+   "path": "HO1_A/pineapple,bg.png",
+   "w": 17,
+   "h": 23
+  },
+  {
+   "path": "HO1_A/pineapple,nm.png",
+   "w": 38,
+   "h": 87
+  },
+  {
+   "path": "HO1_A/plastic bottle,nm.png",
+   "w": 22,
+   "h": 73
+  },
+  {
+   "path": "HO1_A/ring,bg2.png",
+   "w": 39,
+   "h": 12
+  },
+  {
+   "path": "HO1_A/ring,nm.png",
+   "w": 37,
+   "h": 32
+  },
+  {
+   "path": "HO1_A/sandwich,nm.png",
+   "w": 64,
+   "h": 44
+  },
+  {
+   "path": "HO1_A/sausage,nm.png",
+   "w": 58,
+   "h": 31
+  },
+  {
+   "path": "HO1_A/scroll,nm.png",
+   "w": 30,
+   "h": 90
+  },
+  {
+   "path": "HO1_A/shoes,nm.png",
+   "w": 75,
+   "h": 63
+  },
+  {
+   "path": "HO1_A/smoking pipe,nm.png",
+   "w": 72,
+   "h": 42
+  },
+  {
+   "path": "HO1_A/stamp,nm.png",
+   "w": 51,
+   "h": 45
+  },
+  {
+   "path": "HO1_A/strawberry,nm.png",
+   "w": 49,
+   "h": 36
+  },
+  {
+   "path": "HO1_A/teabag,nm.png",
+   "w": 39,
+   "h": 48
+  },
+  {
+   "path": "HO1_A/thermometer,nm.png",
+   "w": 27,
+   "h": 96
+  },
+  {
+   "path": "HO1_A/thread,nm.png",
+   "w": 32,
+   "h": 62
+  },
+  {
+   "path": "HO1_A/watermelon,nm.png",
+   "w": 58,
+   "h": 26
+  },
+  {
+   "path": "HO1_B/alarm clock,nm.png",
+   "w": 37,
+   "h": 51
+  },
+  {
+   "path": "HO1_B/apple,nm.png",
+   "w": 34,
+   "h": 34
+  },
+  {
+   "path": "HO1_B/baguette,bg2.png",
+   "w": 55,
+   "h": 28
+  },
+  {
+   "path": "HO1_B/baguette,nm.png",
+   "w": 97,
+   "h": 37
+  },
+  {
+   "path": "HO1_B/beer,nm.png",
+   "w": 35,
+   "h": 47
+  },
+  {
+   "path": "HO1_B/biscuit,nm.png",
+   "w": 43,
+   "h": 40
+  },
+  {
+   "path": "HO1_B/bottle cap,nm.png",
+   "w": 30,
+   "h": 18
+  },
+  {
+   "path": "HO1_B/broccoli,bg.png",
+   "w": 41,
+   "h": 24
+  },
+  {
+   "path": "HO1_B/broccoli,nm.png",
+   "w": 41,
+   "h": 42
+  },
+  {
+   "path": "HO1_B/cake,nm.png",
+   "w": 64,
+   "h": 42
+  },
+  {
+   "path": "HO1_B/carrot,bg.png",
+   "w": 21,
+   "h": 6
+  },
+  {
+   "path": "HO1_B/carrot,nm.png",
+   "w": 89,
+   "h": 34
+  },
+  {
+   "path": "HO1_B/cauliflower,bg.png",
+   "w": 60,
+   "h": 29
+  },
+  {
+   "path": "HO1_B/cauliflower,nm.png",
+   "w": 59,
+   "h": 55
+  },
+  {
+   "path": "HO1_B/chilli,nm.png",
+   "w": 41,
+   "h": 28
+  },
+  {
+   "path": "HO1_B/chocolate,nm.png",
+   "w": 44,
+   "h": 26
+  },
+  {
+   "path": "HO1_B/coconut,bg.png",
+   "w": 43,
+   "h": 17
+  },
+  {
+   "path": "HO1_B/coconut,nm.png",
+   "w": 54,
+   "h": 46
+  },
+  {
+   "path": "HO1_B/cookies,nm.png",
+   "w": 43,
+   "h": 23
+  },
+  {
+   "path": "HO1_B/croissant,nm.png",
+   "w": 52,
+   "h": 26
+  },
+  {
+   "path": "HO1_B/dragonfruit,nm.png",
+   "w": 64,
+   "h": 33
+  },
+  {
+   "path": "HO1_B/drumsticks,nm.png",
+   "w": 26,
+   "h": 120
+  },
+  {
+   "path": "HO1_B/egg,nm.png",
+   "w": 28,
+   "h": 26
+  },
+  {
+   "path": "HO1_B/fortune cookie,nm.png",
+   "w": 37,
+   "h": 33
+  },
+  {
+   "path": "HO1_B/hamburger,nm.png",
+   "w": 52,
+   "h": 51
+  },
+  {
+   "path": "HO1_B/ice tea,nm.png",
+   "w": 29,
+   "h": 47
+  },
+  {
+   "path": "HO1_B/ink bottle,nm.png",
+   "w": 45,
+   "h": 46
+  },
+  {
+   "path": "HO1_B/lemon,nm.png",
+   "w": 32,
+   "h": 27
+  },
+  {
+   "path": "HO1_B/meat,nm.png",
+   "w": 51,
+   "h": 33
+  },
+  {
+   "path": "HO1_B/mousetrap,nm.png",
+   "w": 70,
+   "h": 26
+  },
+  {
+   "path": "HO1_B/muffin,nm.png",
+   "w": 38,
+   "h": 35
+  },
+  {
+   "path": "HO1_B/pear,bg.png",
+   "w": 8,
+   "h": 27
+  },
+  {
+   "path": "HO1_B/pear,nm.png",
+   "w": 37,
+   "h": 48
+  },
+  {
+   "path": "HO1_B/pineapple,nm.png",
+   "w": 42,
+   "h": 95
+  },
+  {
+   "path": "HO1_B/plastic bottle,nm.png",
+   "w": 19,
+   "h": 63
+  },
+  {
+   "path": "HO1_B/ring,nm.png",
+   "w": 36,
+   "h": 32
+  },
+  {
+   "path": "HO1_B/sandwich,nm.png",
+   "w": 52,
+   "h": 30
+  },
+  {
+   "path": "HO1_B/sausage,nm.png",
+   "w": 59,
+   "h": 25
+  },
+  {
+   "path": "HO1_B/scroll,nm.png",
+   "w": 30,
+   "h": 90
+  },
+  {
+   "path": "HO1_B/shoes,nm.png",
+   "w": 74,
+   "h": 60
+  },
+  {
+   "path": "HO1_B/smoking pipe,nm.png",
+   "w": 37,
+   "h": 82
+  },
+  {
+   "path": "HO1_B/stamp,nm.png",
+   "w": 27,
+   "h": 35
+  },
+  {
+   "path": "HO1_B/strawberry,nm.png",
+   "w": 40,
+   "h": 31
+  },
+  {
+   "path": "HO1_B/teabag,nm.png",
+   "w": 39,
+   "h": 48
+  },
+  {
+   "path": "HO1_B/thermometer,nm.png",
+   "w": 9,
+   "h": 91
+  },
+  {
+   "path": "HO1_B/thread,nm.png",
+   "w": 44,
+   "h": 21
+  },
+  {
+   "path": "HO1_B/watermelon,nm.png",
+   "w": 64,
+   "h": 29
+  },
+  {
+   "path": "HO1_C/alarm clock,nm.png",
+   "w": 40,
+   "h": 54
+  },
+  {
+   "path": "HO1_C/baguette,nm.png",
+   "w": 86,
+   "h": 24
+  },
+  {
+   "path": "HO1_C/beer,nm.png",
+   "w": 40,
+   "h": 51
+  },
+  {
+   "path": "HO1_C/biscuit,nm.png",
+   "w": 44,
+   "h": 32
+  },
+  {
+   "path": "HO1_C/bottle cap,nm.png",
+   "w": 27,
+   "h": 17
+  },
+  {
+   "path": "HO1_C/broccoli,nm.png",
+   "w": 38,
+   "h": 39
+  },
+  {
+   "path": "HO1_C/cake,nm.png",
+   "w": 71,
+   "h": 46
+  },
+  {
+   "path": "HO1_C/carrot,bg2.png",
+   "w": 39,
+   "h": 10
+  },
+  {
+   "path": "HO1_C/carrot,nm.png",
+   "w": 68,
+   "h": 36
+  },
+  {
+   "path": "HO1_C/cauliflower,nm.png",
+   "w": 59,
+   "h": 55
+  },
+  {
+   "path": "HO1_C/cheese,nm.png",
+   "w": 35,
+   "h": 26
+  },
+  {
+   "path": "HO1_C/chilli,nm.png",
+   "w": 61,
+   "h": 28
+  },
+  {
+   "path": "HO1_C/chocolate,nm.png",
+   "w": 46,
+   "h": 28
+  },
+  {
+   "path": "HO1_C/coconut,bg.png",
+   "w": 38,
+   "h": 19
+  },
+  {
+   "path": "HO1_C/coconut,nm.png",
+   "w": 54,
+   "h": 46
+  },
+  {
+   "path": "HO1_C/cookies,nm.png",
+   "w": 41,
+   "h": 21
+  },
+  {
+   "path": "HO1_C/croissant,nm.png",
+   "w": 59,
+   "h": 29
+  },
+  {
+   "path": "HO1_C/dragonfruit,nm.png",
+   "w": 56,
+   "h": 31
+  },
+  {
+   "path": "HO1_C/drumsticks,nm.png",
+   "w": 22,
+   "h": 98
+  },
+  {
+   "path": "HO1_C/egg,bg.png",
+   "w": 39,
+   "h": 16
+  },
+  {
+   "path": "HO1_C/egg,nm.png",
+   "w": 34,
+   "h": 32
+  },
+  {
+   "path": "HO1_C/fortune cookie,bg.png",
+   "w": 15,
+   "h": 15
+  },
+  {
+   "path": "HO1_C/fortune cookie,nm.png",
+   "w": 40,
+   "h": 32
+  },
+  {
+   "path": "HO1_C/hamburger,nm.png",
+   "w": 47,
+   "h": 46
+  },
+  {
+   "path": "HO1_C/honey,nm.png",
+   "w": 50,
+   "h": 73
+  },
+  {
+   "path": "HO1_C/ice cream,nm.png",
+   "w": 24,
+   "h": 51
+  },
+  {
+   "path": "HO1_C/ice tea,nm.png",
+   "w": 29,
+   "h": 46
+  },
+  {
+   "path": "HO1_C/ink bottle,nm.png",
+   "w": 35,
+   "h": 36
+  },
+  {
+   "path": "HO1_C/lemon,nm.png",
+   "w": 41,
+   "h": 34
+  },
+  {
+   "path": "HO1_C/meat,nm.png",
+   "w": 51,
+   "h": 34
+  },
+  {
+   "path": "HO1_C/milk,nm.png",
+   "w": 34,
+   "h": 49
+  },
+  {
+   "path": "HO1_C/mousetrap,nm.png",
+   "w": 70,
+   "h": 26
+  },
+  {
+   "path": "HO1_C/muffin,nm.png",
+   "w": 41,
+   "h": 39
+  },
+  {
+   "path": "HO1_C/papaya,nm.png",
+   "w": 43,
+   "h": 43
+  },
+  {
+   "path": "HO1_C/pasta,nm.png",
+   "w": 55,
+   "h": 35
+  },
+  {
+   "path": "HO1_C/pear,bg2.png",
+   "w": 24,
+   "h": 30
+  },
+  {
+   "path": "HO1_C/pear,nm.png",
+   "w": 37,
+   "h": 48
+  },
+  {
+   "path": "HO1_C/pineapple,nm.png",
+   "w": 42,
+   "h": 96
+  },
+  {
+   "path": "HO1_C/pizza,nm.png",
+   "w": 76,
+   "h": 46
+  },
+  {
+   "path": "HO1_C/plastic bottle,bg2.png",
+   "w": 23,
+   "h": 38
+  },
+  {
+   "path": "HO1_C/plastic bottle,nm.png",
+   "w": 20,
+   "h": 63
+  },
+  {
+   "path": "HO1_C/ring,nm.png",
+   "w": 37,
+   "h": 32
+  },
+  {
+   "path": "HO1_C/sandwich,nm.png",
+   "w": 65,
+   "h": 35
+  },
+  {
+   "path": "HO1_C/sausage,bg.png",
+   "w": 8,
+   "h": 23
+  },
+  {
+   "path": "HO1_C/sausage,nm.png",
+   "w": 61,
+   "h": 29
+  },
+  {
+   "path": "HO1_C/scroll,nm.png",
+   "w": 34,
+   "h": 77
+  },
+  {
+   "path": "HO1_C/shoes,nm.png",
+   "w": 74,
+   "h": 60
+  },
+  {
+   "path": "HO1_C/smoking pipe,nm.png",
+   "w": 34,
+   "h": 76
+  },
+  {
+   "path": "HO1_C/stamp,nm.png",
+   "w": 31,
+   "h": 26
+  },
+  {
+   "path": "HO1_C/strawberry,nm.png",
+   "w": 41,
+   "h": 31
+  },
+  {
+   "path": "HO1_C/teabag,nm.png",
+   "w": 39,
+   "h": 48
+  },
+  {
+   "path": "HO1_C/thermometer,bg.png",
+   "w": 22,
+   "h": 12
+  },
+  {
+   "path": "HO1_C/thermometer,nm.png",
+   "w": 74,
+   "h": 21
+  },
+  {
+   "path": "HO1_C/thread,nm.png",
+   "w": 19,
+   "h": 37
+  },
+  {
+   "path": "HO1_C/watermelon,bg2.png",
+   "w": 63,
+   "h": 30
+  },
+  {
+   "path": "HO1_C/watermelon,nm.png",
+   "w": 59,
+   "h": 28
+  },
+  {
+   "path": "HO2_A/alarm clock,nm.png",
+   "w": 36,
+   "h": 49
+  },
+  {
+   "path": "HO2_A/apple,bg.png",
+   "w": 51,
+   "h": 15
+  },
+  {
+   "path": "HO2_A/apple,nm.png",
+   "w": 27,
+   "h": 28
+  },
+  {
+   "path": "HO2_A/arrow,nm.png",
+   "w": 25,
+   "h": 26
+  },
+  {
+   "path": "HO2_A/basket,nm.png",
+   "w": 80,
+   "h": 44
+  },
+  {
+   "path": "HO2_A/bell,nm.png",
+   "w": 35,
+   "h": 67
+  },
+  {
+   "path": "HO2_A/blackberry,nm.png",
+   "w": 43,
+   "h": 31
+  },
+  {
+   "path": "HO2_A/books,nm.png",
+   "w": 113,
+   "h": 70
+  },
+  {
+   "path": "HO2_A/brush,nm.png",
+   "w": 59,
+   "h": 25
+  },
+  {
+   "path": "HO2_A/butterfly,nm.png",
+   "w": 41,
+   "h": 42
+  },
+  {
+   "path": "HO2_A/candelabra,nm.png",
+   "w": 74,
+   "h": 85
+  },
+  {
+   "path": "HO2_A/candy cane,nm.png",
+   "w": 25,
+   "h": 94
+  },
+  {
+   "path": "HO2_A/cashew,bg2.png",
+   "w": 64,
+   "h": 23
+  },
+  {
+   "path": "HO2_A/cashew,nm.png",
+   "w": 60,
+   "h": 32
+  },
+  {
+   "path": "HO2_A/cinnamon,nm.png",
+   "w": 69,
+   "h": 36
+  },
+  {
+   "path": "HO2_A/cone,nm.png",
+   "w": 54,
+   "h": 122
+  },
+  {
+   "path": "HO2_A/cupcake,nm.png",
+   "w": 38,
+   "h": 49
+  },
+  {
+   "path": "HO2_A/donut,nm.png",
+   "w": 41,
+   "h": 32
+  },
+  {
+   "path": "HO2_A/garlic,nm.png",
+   "w": 30,
+   "h": 45
+  },
+  {
+   "path": "HO2_A/globe,nm.png",
+   "w": 73,
+   "h": 102
+  },
+  {
+   "path": "HO2_A/hamburger,nm.png",
+   "w": 49,
+   "h": 36
+  },
+  {
+   "path": "HO2_A/ice cream,nm.png",
+   "w": 37,
+   "h": 74
+  },
+  {
+   "path": "HO2_A/lemon,nm.png",
+   "w": 32,
+   "h": 33
+  },
+  {
+   "path": "HO2_A/letter B,nm.png",
+   "w": 36,
+   "h": 37
+  },
+  {
+   "path": "HO2_A/mallet,nm.png",
+   "w": 26,
+   "h": 107
+  },
+  {
+   "path": "HO2_A/muffin,nm.png",
+   "w": 41,
+   "h": 38
+  },
+  {
+   "path": "HO2_A/pineapple,nm.png",
+   "w": 39,
+   "h": 88
+  },
+  {
+   "path": "HO2_A/pocket watch,nm.png",
+   "w": 41,
+   "h": 56
+  },
+  {
+   "path": "HO2_A/popcorn,nm.png",
+   "w": 56,
+   "h": 55
+  },
+  {
+   "path": "HO2_A/rose,nm.png",
+   "w": 64,
+   "h": 39
+  },
+  {
+   "path": "HO2_A/rubik_QUOTE_s cube,nm.png",
+   "w": 33,
+   "h": 37
+  },
+  {
+   "path": "HO2_A/salt and pepper,nm.png",
+   "w": 37,
+   "h": 38
+  },
+  {
+   "path": "HO2_A/snail,nm.png",
+   "w": 40,
+   "h": 29
+  },
+  {
+   "path": "HO2_A/strawberry,nm.png",
+   "w": 34,
+   "h": 26
+  },
+  {
+   "path": "HO2_A/sushi,bg.png",
+   "w": 35,
+   "h": 8
+  },
+  {
+   "path": "HO2_A/sushi,nm.png",
+   "w": 44,
+   "h": 26
+  },
+  {
+   "path": "HO2_A/teacup,nm.png",
+   "w": 57,
+   "h": 39
+  },
+  {
+   "path": "HO2_A/telephone,nm.png",
+   "w": 78,
+   "h": 89
+  },
+  {
+   "path": "HO2_A/thermometer,nm.png",
+   "w": 16,
+   "h": 94
+  },
+  {
+   "path": "HO2_A/towel,bg.png",
+   "w": 32,
+   "h": 57
+  },
+  {
+   "path": "HO2_A/towels,nm.png",
+   "w": 73,
+   "h": 58
+  },
+  {
+   "path": "HO2_A/tuna,nm.png",
+   "w": 86,
+   "h": 28
+  },
+  {
+   "path": "HO2_A/wasp,nm.png",
+   "w": 37,
+   "h": 31
+  },
+  {
+   "path": "HO2_A/watermelon,nm.png",
+   "w": 71,
+   "h": 33
+  },
+  {
+   "path": "HO2_A/whisk,nm.png",
+   "w": 26,
+   "h": 97
+  },
+  {
+   "path": "HO2_B/B,nm.png",
+   "w": 33,
+   "h": 40
+  },
+  {
+   "path": "HO2_B/alarm clock,bg2.png",
+   "w": 22,
+   "h": 52
+  },
+  {
+   "path": "HO2_B/alarm clock,nm.png",
+   "w": 39,
+   "h": 51
+  },
+  {
+   "path": "HO2_B/arrow,nm.png",
+   "w": 34,
+   "h": 37
+  },
+  {
+   "path": "HO2_B/basket,nm.png",
+   "w": 75,
+   "h": 43
+  },
+  {
+   "path": "HO2_B/bell,nm.png",
+   "w": 35,
+   "h": 61
+  },
+  {
+   "path": "HO2_B/blackberry,nm.png",
+   "w": 58,
+   "h": 42
+  },
+  {
+   "path": "HO2_B/books,nm.png",
+   "w": 87,
+   "h": 54
+  },
+  {
+   "path": "HO2_B/brush,nm.png",
+   "w": 25,
+   "h": 59
+  },
+  {
+   "path": "HO2_B/butterfly,nm.png",
+   "w": 41,
+   "h": 42
+  },
+  {
+   "path": "HO2_B/candy cane,nm.png",
+   "w": 107,
+   "h": 29
+  },
+  {
+   "path": "HO2_B/cashew,bg2.png",
+   "w": 24,
+   "h": 21
+  },
+  {
+   "path": "HO2_B/cashew,nm.png",
+   "w": 47,
+   "h": 26
+  },
+  {
+   "path": "HO2_B/cinnamon,bg2.png",
+   "w": 25,
+   "h": 33
+  },
+  {
+   "path": "HO2_B/cinnamon,nm.png",
+   "w": 56,
+   "h": 26
+  },
+  {
+   "path": "HO2_B/cone,nm.png",
+   "w": 55,
+   "h": 114
+  },
+  {
+   "path": "HO2_B/crab,nm.png",
+   "w": 80,
+   "h": 35
+  },
+  {
+   "path": "HO2_B/cupcake,nm.png",
+   "w": 38,
+   "h": 49
+  },
+  {
+   "path": "HO2_B/dice,bg2.png",
+   "w": 28,
+   "h": 11
+  },
+  {
+   "path": "HO2_B/dice,nm.png",
+   "w": 24,
+   "h": 26
+  },
+  {
+   "path": "HO2_B/donut,nm.png",
+   "w": 53,
+   "h": 32
+  },
+  {
+   "path": "HO2_B/fortune cookie,bg.png",
+   "w": 79,
+   "h": 17
+  },
+  {
+   "path": "HO2_B/fortune cookie,nm.png",
+   "w": 35,
+   "h": 28
+  },
+  {
+   "path": "HO2_B/garlic,nm.png",
+   "w": 24,
+   "h": 35
+  },
+  {
+   "path": "HO2_B/globe,nm.png",
+   "w": 57,
+   "h": 79
+  },
+  {
+   "path": "HO2_B/hamburger,nm.png",
+   "w": 54,
+   "h": 41
+  },
+  {
+   "path": "HO2_B/ice cream,nm.png",
+   "w": 37,
+   "h": 76
+  },
+  {
+   "path": "HO2_B/lemon,nm.png",
+   "w": 31,
+   "h": 31
+  },
+  {
+   "path": "HO2_B/light bulb,bg2.png",
+   "w": 31,
+   "h": 56
+  },
+  {
+   "path": "HO2_B/light bulb,nm.png",
+   "w": 32,
+   "h": 51
+  },
+  {
+   "path": "HO2_B/pie,bg.png",
+   "w": 19,
+   "h": 41
+  },
+  {
+   "path": "HO2_B/pie,nm.png",
+   "w": 61,
+   "h": 39
+  },
+  {
+   "path": "HO2_B/pineapple,nm.png",
+   "w": 89,
+   "h": 40
+  },
+  {
+   "path": "HO2_B/pocket watch,nm.png",
+   "w": 43,
+   "h": 60
+  },
+  {
+   "path": "HO2_B/popcorn,bg.png",
+   "w": 22,
+   "h": 56
+  },
+  {
+   "path": "HO2_B/popcorn,nm.png",
+   "w": 55,
+   "h": 54
+  },
+  {
+   "path": "HO2_B/rose,nm.png",
+   "w": 64,
+   "h": 39
+  },
+  {
+   "path": "HO2_B/rubik_QUOTE_s cube,bg.png",
+   "w": 21,
+   "h": 23
+  },
+  {
+   "path": "HO2_B/rubik_QUOTE_s cube,nm.png",
+   "w": 30,
+   "h": 29
+  },
+  {
+   "path": "HO2_B/salt and pepper,nm.png",
+   "w": 38,
+   "h": 39
+  },
+  {
+   "path": "HO2_B/snail,nm.png",
+   "w": 37,
+   "h": 25
+  },
+  {
+   "path": "HO2_B/strawberry,bg.png",
+   "w": 26,
+   "h": 12
+  },
+  {
+   "path": "HO2_B/strawberry,nm.png",
+   "w": 24,
+   "h": 31
+  },
+  {
+   "path": "HO2_B/sushi,nm.png",
+   "w": 44,
+   "h": 26
+  },
+  {
+   "path": "HO2_B/teabag,nm.png",
+   "w": 40,
+   "h": 48
+  },
+  {
+   "path": "HO2_B/teacup,nm.png",
+   "w": 57,
+   "h": 39
+  },
+  {
+   "path": "HO2_B/telephone,nm.png",
+   "w": 64,
+   "h": 73
+  },
+  {
+   "path": "HO2_B/thermometer,nm.png",
+   "w": 102,
+   "h": 42
+  },
+  {
+   "path": "HO2_B/towel,bg.png",
+   "w": 22,
+   "h": 51
+  },
+  {
+   "path": "HO2_B/towels,nm.png",
+   "w": 70,
+   "h": 49
+  },
+  {
+   "path": "HO2_B/tuna,nm.png",
+   "w": 84,
+   "h": 24
+  },
+  {
+   "path": "HO2_B/wasp,nm.png",
+   "w": 44,
+   "h": 37
+  },
+  {
+   "path": "HO2_B/watermelon,nm.png",
+   "w": 64,
+   "h": 30
+  },
+  {
+   "path": "HO2_B/whisk,nm.png",
+   "w": 24,
+   "h": 90
+  },
+  {
+   "path": "HO2_C/C,nm.png",
+   "w": 32,
+   "h": 39
+  },
+  {
+   "path": "HO2_C/alarm clock,nm.png",
+   "w": 40,
+   "h": 54
+  },
+  {
+   "path": "HO2_C/arrow,nm.png",
+   "w": 30,
+   "h": 31
+  },
+  {
+   "path": "HO2_C/basket,nm.png",
+   "w": 65,
+   "h": 38
+  },
+  {
+   "path": "HO2_C/bell,nm.png",
+   "w": 31,
+   "h": 56
+  },
+  {
+   "path": "HO2_C/blackberry,nm.png",
+   "w": 36,
+   "h": 27
+  },
+  {
+   "path": "HO2_C/books,bg.png",
+   "w": 21,
+   "h": 34
+  },
+  {
+   "path": "HO2_C/books,nm.png",
+   "w": 62,
+   "h": 34
+  },
+  {
+   "path": "HO2_C/brush,nm.png",
+   "w": 24,
+   "h": 59
+  },
+  {
+   "path": "HO2_C/butterfly,nm.png",
+   "w": 41,
+   "h": 42
+  },
+  {
+   "path": "HO2_C/candelabra,nm.png",
+   "w": 75,
+   "h": 86
+  },
+  {
+   "path": "HO2_C/candy cane,nm.png",
+   "w": 83,
+   "h": 35
+  },
+  {
+   "path": "HO2_C/cashew,nm.png",
+   "w": 60,
+   "h": 33
+  },
+  {
+   "path": "HO2_C/cinnamon,nm.png",
+   "w": 70,
+   "h": 32
+  },
+  {
+   "path": "HO2_C/cone,nm.png",
+   "w": 57,
+   "h": 104
+  },
+  {
+   "path": "HO2_C/crab,nm.png",
+   "w": 74,
+   "h": 32
+  },
+  {
+   "path": "HO2_C/cupcake,nm.png",
+   "w": 32,
+   "h": 41
+  },
+  {
+   "path": "HO2_C/dice,nm.png",
+   "w": 25,
+   "h": 29
+  },
+  {
+   "path": "HO2_C/donut,nm.png",
+   "w": 56,
+   "h": 37
+  },
+  {
+   "path": "HO2_C/garlic,nm.png",
+   "w": 31,
+   "h": 48
+  },
+  {
+   "path": "HO2_C/globe,nm.png",
+   "w": 63,
+   "h": 87
+  },
+  {
+   "path": "HO2_C/hamburger,nm.png",
+   "w": 57,
+   "h": 42
+  },
+  {
+   "path": "HO2_C/ice tea,nm.png",
+   "w": 29,
+   "h": 46
+  },
+  {
+   "path": "HO2_C/ladybug,nm.png",
+   "w": 30,
+   "h": 34
+  },
+  {
+   "path": "HO2_C/lemon,nm.png",
+   "w": 31,
+   "h": 31
+  },
+  {
+   "path": "HO2_C/light bulb,bg2.png",
+   "w": 44,
+   "h": 28
+  },
+  {
+   "path": "HO2_C/mallet,nm.png",
+   "w": 33,
+   "h": 133
+  },
+  {
+   "path": "HO2_C/meat,nm.png",
+   "w": 51,
+   "h": 34
+  },
+  {
+   "path": "HO2_C/mortar and pestle,bg2.png",
+   "w": 26,
+   "h": 70
+  },
+  {
+   "path": "HO2_C/mortar and pestle,nm.png",
+   "w": 52,
+   "h": 94
+  },
+  {
+   "path": "HO2_C/padlock,bg.png",
+   "w": 59,
+   "h": 12
+  },
+  {
+   "path": "HO2_C/padlock,nm.png",
+   "w": 28,
+   "h": 42
+  },
+  {
+   "path": "HO2_C/pie,nm.png",
+   "w": 72,
+   "h": 37
+  },
+  {
+   "path": "HO2_C/plastic bottle,bg2.png",
+   "w": 82,
+   "h": 27
+  },
+  {
+   "path": "HO2_C/plastic bottle,nm.png",
+   "w": 64,
+   "h": 21
+  },
+  {
+   "path": "HO2_C/pocket watch,bg2.png",
+   "w": 16,
+   "h": 47
+  },
+  {
+   "path": "HO2_C/pocket watch,nm.png",
+   "w": 30,
+   "h": 41
+  },
+  {
+   "path": "HO2_C/popcorn,nm.png",
+   "w": 50,
+   "h": 51
+  },
+  {
+   "path": "HO2_C/rose,nm.png",
+   "w": 59,
+   "h": 36
+  },
+  {
+   "path": "HO2_C/rubik_QUOTE_s cube,nm.png",
+   "w": 44,
+   "h": 48
+  },
+  {
+   "path": "HO2_C/salt and pepper,nm.png",
+   "w": 31,
+   "h": 32
+  },
+  {
+   "path": "HO2_C/snail,nm.png",
+   "w": 43,
+   "h": 30
+  },
+  {
+   "path": "HO2_C/sushi,nm.png",
+   "w": 44,
+   "h": 26
+  },
+  {
+   "path": "HO2_C/telephone,nm.png",
+   "w": 69,
+   "h": 80
+  },
+  {
+   "path": "HO2_C/thermometer,bg.png",
+   "w": 35,
+   "h": 22
+  },
+  {
+   "path": "HO2_C/thermometer,nm.png",
+   "w": 19,
+   "h": 82
+  },
+  {
+   "path": "HO2_C/towels,nm.png",
+   "w": 71,
+   "h": 49
+  },
+  {
+   "path": "HO2_C/tuna,nm.png",
+   "w": 73,
+   "h": 19
+  },
+  {
+   "path": "HO2_C/wasp,nm.png",
+   "w": 43,
+   "h": 37
+  },
+  {
+   "path": "HO2_C/watermelon,nm.png",
+   "w": 81,
+   "h": 38
+  },
+  {
+   "path": "HO2_C/whisk,nm.png",
+   "w": 108,
+   "h": 29
+  },
+  {
+   "path": "Hidden_Object/UI_bg.png",
+   "w": 1024,
+   "h": 137
+  },
+  {
+   "path": "Hidden_Object/hint_bg.png",
+   "w": 142,
+   "h": 118
+  },
+  {
+   "path": "Hidden_Object/hint_fill.png",
+   "w": 112,
+   "h": 88
+  },
+  {
+   "path": "Hidden_Object/mute.png",
+   "w": 24,
+   "h": 29
+  },
+  {
+   "path": "Hidden_Object/pause_btn.png",
+   "w": 59,
+   "h": 59
+  },
+  {
+   "path": "Hidden_Object/sound_btn.png",
+   "w": 59,
+   "h": 59
+  },
+  {
+   "path": "Hidden_Object/timer_BG.png",
+   "w": 448,
+   "h": 28
+  },
+  {
+   "path": "Hidden_Object/timer_fill.png",
+   "w": 369,
+   "h": 18
+  },
+  {
+   "path": "Hidden_Object/timer_glass.png",
+   "w": 399,
+   "h": 29
+  },
+  {
+   "path": "achievement/arrow.png",
+   "w": 71,
+   "h": 55
+  },
+  {
+   "path": "achievement/big_business.png",
+   "w": 263,
+   "h": 246
+  },
+  {
+   "path": "achievement/big_business_locked.png",
+   "w": 242,
+   "h": 230
+  },
+  {
+   "path": "achievement/chinese_recipe.png",
+   "w": 256,
+   "h": 243
+  },
+  {
+   "path": "achievement/froyo_master.png",
+   "w": 307,
+   "h": 272
+  },
+  {
+   "path": "achievement/froyo_master_locked.png",
+   "w": 282,
+   "h": 270
+  },
+  {
+   "path": "achievement/hawkeye.png",
+   "w": 249,
+   "h": 238
+  },
+  {
+   "path": "achievement/hawkeye_locked.png",
+   "w": 244,
+   "h": 234
+  },
+  {
+   "path": "achievement/international_chef.png",
+   "w": 195,
+   "h": 272
+  },
+  {
+   "path": "achievement/international_chef_locked.png",
+   "w": 195,
+   "h": 272
+  },
+  {
+   "path": "achievement/middle_east_recipe.png",
+   "w": 256,
+   "h": 243
+  },
+  {
+   "path": "achievement/middle_east_recipe_locked.png",
+   "w": 221,
+   "h": 237
+  },
+  {
+   "path": "achievement/qualified_chef.png",
+   "w": 209,
+   "h": 278
+  },
+  {
+   "path": "achievement/qualified_chef_locked.png",
+   "w": 209,
+   "h": 241
+  },
+  {
+   "path": "achievement/scroll_bar.png",
+   "w": 16,
+   "h": 429
+  },
+  {
+   "path": "achievement/scroller.png",
+   "w": 31,
+   "h": 40
+  },
+  {
+   "path": "achievement/secret_ingredient.png",
+   "w": 286,
+   "h": 271
+  },
+  {
+   "path": "achievement/secret_ingredient_locked.png",
+   "w": 281,
+   "h": 271
+  },
+  {
+   "path": "achievement/service_exellence.png",
+   "w": 252,
+   "h": 245
+  },
+  {
+   "path": "achievement/service_exellence_locked.png",
+   "w": 221,
+   "h": 241
+  },
+  {
+   "path": "achievement/western_recipe.png",
+   "w": 256,
+   "h": 243
+  },
+  {
+   "path": "ending/big_restaurant.png",
+   "w": 124,
+   "h": 183
+  },
+  {
+   "path": "ending/bubble.png",
+   "w": 267,
+   "h": 277
+  },
+  {
+   "path": "ending/bubble_text.png",
+   "w": 390,
+   "h": 148
+  },
+  {
+   "path": "ending/final.png",
+   "w": 398,
+   "h": 698
+  },
+  {
+   "path": "ending/happy.png",
+   "w": 298,
+   "h": 298
+  },
+  {
+   "path": "ending/higher_edu.png",
+   "w": 186,
+   "h": 162
+  },
+  {
+   "path": "ending/textbox.png",
+   "w": 393,
+   "h": 128
+  },
+  {
+   "path": "ending/to_french.png",
+   "w": 108,
+   "h": 187
+  },
+  {
+   "path": "ending/wonder.png",
+   "w": 326,
+   "h": 326
+  },
+  {
+   "path": "game/api_1.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_10.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_11.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_12.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_2.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_3.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_4.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_5.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_6.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_7.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_8.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/api_9.png",
+   "w": 74,
+   "h": 87
+  },
+  {
+   "path": "game/asap_1.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_10.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_11.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_12.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_13.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_2.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_3.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_4.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_5.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_6.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_7.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_8.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asap_9.png",
+   "w": 95,
+   "h": 89
+  },
+  {
+   "path": "game/asian_fried_rice.png",
+   "w": 92,
+   "h": 79
+  },
+  {
+   "path": "game/ayam.png",
+   "w": 61,
+   "h": 58
+  },
+  {
+   "path": "game/bacon.png",
+   "w": 62,
+   "h": 50
+  },
+  {
+   "path": "game/baklava.png",
+   "w": 92,
+   "h": 75
+  },
+  {
+   "path": "game/beef.png",
+   "w": 61,
+   "h": 63
+  },
+  {
+   "path": "game/beef_steak.png",
+   "w": 92,
+   "h": 72
+  },
+  {
+   "path": "game/bread.png",
+   "w": 68,
+   "h": 59
+  },
+  {
+   "path": "game/char_1.png",
+   "w": 78,
+   "h": 95
+  },
+  {
+   "path": "game/char_10.png",
+   "w": 87,
+   "h": 102
+  },
+  {
+   "path": "game/char_11.png",
+   "w": 75,
+   "h": 107
+  },
+  {
+   "path": "game/char_12.png",
+   "w": 88,
+   "h": 104
+  },
+  {
+   "path": "game/char_13.png",
+   "w": 87,
+   "h": 98
+  },
+  {
+   "path": "game/char_2.png",
+   "w": 82,
+   "h": 101
+  },
+  {
+   "path": "game/char_3.png",
+   "w": 87,
+   "h": 98
+  },
+  {
+   "path": "game/char_4.png",
+   "w": 74,
+   "h": 97
+  },
+  {
+   "path": "game/char_5.png",
+   "w": 87,
+   "h": 102
+  },
+  {
+   "path": "game/char_6.png",
+   "w": 82,
+   "h": 105
+  },
+  {
+   "path": "game/char_7.png",
+   "w": 70,
+   "h": 85
+  },
+  {
+   "path": "game/char_8.png",
+   "w": 95,
+   "h": 97
+  },
+  {
+   "path": "game/char_9.png",
+   "w": 103,
+   "h": 110
+  },
+  {
+   "path": "game/check.png",
+   "w": 38,
+   "h": 31
+  },
+  {
+   "path": "game/chef_torch.png",
+   "w": 58,
+   "h": 59
+  },
+  {
+   "path": "game/chinese_pork_special.png",
+   "w": 92,
+   "h": 73
+  },
+  {
+   "path": "game/coin.png",
+   "w": 65,
+   "h": 66
+  },
+  {
+   "path": "game/coins.png",
+   "w": 64,
+   "h": 40
+  },
+  {
+   "path": "game/cookies.png",
+   "w": 56,
+   "h": 55
+  },
+  {
+   "path": "game/crown_lamb_roast.png",
+   "w": 92,
+   "h": 88
+  },
+  {
+   "path": "game/cust_bar_BG.png",
+   "w": 131,
+   "h": 35
+  },
+  {
+   "path": "game/cust_fill.png",
+   "w": 89,
+   "h": 14
+  },
+  {
+   "path": "game/cust_glass.png",
+   "w": 91,
+   "h": 16
+  },
+  {
+   "path": "game/deluxe_BBQ_combo.png",
+   "w": 92,
+   "h": 69
+  },
+  {
+   "path": "game/deluxe_chicken_croissant.png",
+   "w": 92,
+   "h": 69
+  },
+  {
+   "path": "game/doner_kebab.png",
+   "w": 92,
+   "h": 69
+  },
+  {
+   "path": "game/expert_target.png",
+   "w": 99,
+   "h": 29
+  },
+  {
+   "path": "game/fine_imperial_cuisine.png",
+   "w": 104,
+   "h": 87
+  },
+  {
+   "path": "game/french_BBQ_combo.png",
+   "w": 103,
+   "h": 69
+  },
+  {
+   "path": "game/fries.png",
+   "w": 47,
+   "h": 64
+  },
+  {
+   "path": "game/fryer.png",
+   "w": 183,
+   "h": 127
+  },
+  {
+   "path": "game/fryer_layer.png",
+   "w": 183,
+   "h": 127
+  },
+  {
+   "path": "game/goal_target.png",
+   "w": 69,
+   "h": 29
+  },
+  {
+   "path": "game/gyro_style.png",
+   "w": 92,
+   "h": 69
+  },
+  {
+   "path": "game/heart_cust.png",
+   "w": 31,
+   "h": 26
+  },
+  {
+   "path": "game/ice.png",
+   "w": 70,
+   "h": 67
+  },
+  {
+   "path": "game/ikan.png",
+   "w": 68,
+   "h": 57
+  },
+  {
+   "path": "game/juice.png",
+   "w": 57,
+   "h": 55
+  },
+  {
+   "path": "game/juicer.png",
+   "w": 155,
+   "h": 168
+  },
+  {
+   "path": "game/juicer_layer.png",
+   "w": 155,
+   "h": 172
+  },
+  {
+   "path": "game/kalasan_fried_chicken.png",
+   "w": 92,
+   "h": 69
+  },
+  {
+   "path": "game/keju.png",
+   "w": 68,
+   "h": 66
+  },
+  {
+   "path": "game/kertas_order.png",
+   "w": 43,
+   "h": 37
+  },
+  {
+   "path": "game/lamb.png",
+   "w": 55,
+   "h": 56
+  },
+  {
+   "path": "game/mute_icon.png",
+   "w": 24,
+   "h": 29
+  },
+  {
+   "path": "game/nasi.png",
+   "w": 69,
+   "h": 59
+  },
+  {
+   "path": "game/pause_button.png",
+   "w": 59,
+   "h": 59
+  },
+  {
+   "path": "game/pita_bread.png",
+   "w": 66,
+   "h": 57
+  },
+  {
+   "path": "game/premium_salmon_steak.png",
+   "w": 92,
+   "h": 76
+  },
+  {
+   "path": "game/priority.png",
+   "w": 45,
+   "h": 39
+  },
+  {
+   "path": "game/salmon.png",
+   "w": 68,
+   "h": 61
+  },
+  {
+   "path": "game/score_board.png",
+   "w": 289,
+   "h": 48
+  },
+  {
+   "path": "game/selada.png",
+   "w": 69,
+   "h": 63
+  },
+  {
+   "path": "game/smokey_salmon.png",
+   "w": 92,
+   "h": 69
+  },
+  {
+   "path": "game/sound_button.png",
+   "w": 59,
+   "h": 59
+  },
+  {
+   "path": "game/star_1.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_10.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_11.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_12.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_13.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_2.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_3.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_4.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_5.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_6.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_7.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_8.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/star_9.png",
+   "w": 67,
+   "h": 66
+  },
+  {
+   "path": "game/thai_fried_rice.png",
+   "w": 95,
+   "h": 80
+  },
+  {
+   "path": "game/timer_BG.png",
+   "w": 448,
+   "h": 28
+  },
+  {
+   "path": "game/timer_fill.png",
+   "w": 369,
+   "h": 18
+  },
+  {
+   "path": "game/timer_glass.png",
+   "w": 399,
+   "h": 29
+  },
+  {
+   "path": "game/tomato.png",
+   "w": 63,
+   "h": 38
+  },
+  {
+   "path": "game/tomato_domas.png",
+   "w": 92,
+   "h": 73
+  },
+  {
+   "path": "game/tuscan_humus.png",
+   "w": 92,
+   "h": 69
+  },
+  {
+   "path": "game/veggie_croissant.png",
+   "w": 92,
+   "h": 81
+  },
+  {
+   "path": "kitchen/achievementGlow.png",
+   "w": 75,
+   "h": 71
+  },
+  {
+   "path": "kitchen/achievement_bubble.png",
+   "w": 242,
+   "h": 67
+  },
+  {
+   "path": "kitchen/arrow.png",
+   "w": 64,
+   "h": 100
+  },
+  {
+   "path": "kitchen/asian_fried_rice.png",
+   "w": 172,
+   "h": 167
+  },
+  {
+   "path": "kitchen/bacon.png",
+   "w": 175,
+   "h": 145
+  },
+  {
+   "path": "kitchen/bacon_small.png",
+   "w": 62,
+   "h": 50
+  },
+  {
+   "path": "kitchen/baklava.png",
+   "w": 187,
+   "h": 147
+  },
+  {
+   "path": "kitchen/beef.png",
+   "w": 196,
+   "h": 211
+  },
+  {
+   "path": "kitchen/beef_small.png",
+   "w": 61,
+   "h": 63
+  },
+  {
+   "path": "kitchen/beef_steak.png",
+   "w": 191,
+   "h": 159
+  },
+  {
+   "path": "kitchen/bookGlow.png",
+   "w": 175,
+   "h": 63
+  },
+  {
+   "path": "kitchen/cheese.png",
+   "w": 192,
+   "h": 180
+  },
+  {
+   "path": "kitchen/cheese_small.png",
+   "w": 68,
+   "h": 66
+  },
+  {
+   "path": "kitchen/chicken.png",
+   "w": 182,
+   "h": 194
+  },
+  {
+   "path": "kitchen/chicken_small.png",
+   "w": 61,
+   "h": 58
+  },
+  {
+   "path": "kitchen/chinese_pork_special.png",
+   "w": 206,
+   "h": 151
+  },
+  {
+   "path": "kitchen/coin_BG.png",
+   "w": 220,
+   "h": 67
+  },
+  {
+   "path": "kitchen/convenience_bubble.png",
+   "w": 400,
+   "h": 67
+  },
+  {
+   "path": "kitchen/cookies.png",
+   "w": 171,
+   "h": 168
+  },
+  {
+   "path": "kitchen/croissant.png",
+   "w": 206,
+   "h": 181
+  },
+  {
+   "path": "kitchen/croissant_small.png",
+   "w": 68,
+   "h": 59
+  },
+  {
+   "path": "kitchen/crown_lamb_roast.png",
+   "w": 174,
+   "h": 189
+  },
+  {
+   "path": "kitchen/deluxe_BBQ_combo.png",
+   "w": 215,
+   "h": 135
+  },
+  {
+   "path": "kitchen/deluxe_chicken_croissant.png",
+   "w": 215,
+   "h": 177
+  },
+  {
+   "path": "kitchen/doner_kebab.png",
+   "w": 226,
+   "h": 164
+  },
+  {
+   "path": "kitchen/emma.png",
+   "w": 136,
+   "h": 174
+  },
+  {
+   "path": "kitchen/fine_imperial_cuisine.png",
+   "w": 244,
+   "h": 179
+  },
+  {
+   "path": "kitchen/french_BBQ_combo.png",
+   "w": 268,
+   "h": 155
+  },
+  {
+   "path": "kitchen/fryer.png",
+   "w": 264,
+   "h": 205
+  },
+  {
+   "path": "kitchen/gyro_style.png",
+   "w": 181,
+   "h": 157
+  },
+  {
+   "path": "kitchen/hardwareGlow.png",
+   "w": 92,
+   "h": 103
+  },
+  {
+   "path": "kitchen/juicer.png",
+   "w": 215,
+   "h": 240
+  },
+  {
+   "path": "kitchen/kalasan_fried_chicken.png",
+   "w": 202,
+   "h": 157
+  },
+  {
+   "path": "kitchen/lamb.png",
+   "w": 154,
+   "h": 157
+  },
+  {
+   "path": "kitchen/lamb_small.png",
+   "w": 55,
+   "h": 56
+  },
+  {
+   "path": "kitchen/marble_rock.png",
+   "w": 417,
+   "h": 92
+  },
+  {
+   "path": "kitchen/pita_bread.png",
+   "w": 157,
+   "h": 136
+  },
+  {
+   "path": "kitchen/pita_bread_small.png",
+   "w": 66,
+   "h": 57
+  },
+  {
+   "path": "kitchen/plate.png",
+   "w": 262,
+   "h": 197
+  },
+  {
+   "path": "kitchen/play_bubble.png",
+   "w": 143,
+   "h": 65
+  },
+  {
+   "path": "kitchen/premium_salmon_steak.png",
+   "w": 188,
+   "h": 150
+  },
+  {
+   "path": "kitchen/recipeGlow.png",
+   "w": 69,
+   "h": 61
+  },
+  {
+   "path": "kitchen/recipe_bubble.png",
+   "w": 144,
+   "h": 65
+  },
+  {
+   "path": "kitchen/rice.png",
+   "w": 205,
+   "h": 167
+  },
+  {
+   "path": "kitchen/rice_small.png",
+   "w": 69,
+   "h": 59
+  },
+  {
+   "path": "kitchen/salmon.png",
+   "w": 183,
+   "h": 167
+  },
+  {
+   "path": "kitchen/salmon_small.png",
+   "w": 68,
+   "h": 61
+  },
+  {
+   "path": "kitchen/seafood.png",
+   "w": 209,
+   "h": 174
+  },
+  {
+   "path": "kitchen/seafood_small.png",
+   "w": 68,
+   "h": 57
+  },
+  {
+   "path": "kitchen/selada.png",
+   "w": 228,
+   "h": 209
+  },
+  {
+   "path": "kitchen/selada_small.png",
+   "w": 69,
+   "h": 63
+  },
+  {
+   "path": "kitchen/shopGlow.png",
+   "w": 91,
+   "h": 68
+  },
+  {
+   "path": "kitchen/shop_bubble.png",
+   "w": 143,
+   "h": 65
+  },
+  {
+   "path": "kitchen/small_btn_blue.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "kitchen/small_btn_blue_dark.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "kitchen/small_btn_green.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "kitchen/small_btn_green_dark.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "kitchen/small_btn_red.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "kitchen/small_btn_red_dark.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "kitchen/smokey_salmon.png",
+   "w": 187,
+   "h": 126
+  },
+  {
+   "path": "kitchen/star.png",
+   "w": 64,
+   "h": 63
+  },
+  {
+   "path": "kitchen/star_empty.png",
+   "w": 57,
+   "h": 56
+  },
+  {
+   "path": "kitchen/thai_fried_rice.png",
+   "w": 244,
+   "h": 195
+  },
+  {
+   "path": "kitchen/tomato.png",
+   "w": 205,
+   "h": 124
+  },
+  {
+   "path": "kitchen/tomato_domas.png",
+   "w": 190,
+   "h": 157
+  },
+  {
+   "path": "kitchen/tomato_small.png",
+   "w": 63,
+   "h": 38
+  },
+  {
+   "path": "kitchen/tuscan_humus.png",
+   "w": 208,
+   "h": 137
+  },
+  {
+   "path": "kitchen/veggie_croissant.png",
+   "w": 197,
+   "h": 169
+  },
+  {
+   "path": "level_select/arrow_button.png",
+   "w": 82,
+   "h": 96
+  },
+  {
+   "path": "level_select/big_blue.png",
+   "w": 291,
+   "h": 75
+  },
+  {
+   "path": "level_select/big_green.png",
+   "w": 291,
+   "h": 75
+  },
+  {
+   "path": "level_select/big_red.png",
+   "w": 291,
+   "h": 75
+  },
+  {
+   "path": "level_select/small_blue.png",
+   "w": 161,
+   "h": 75
+  },
+  {
+   "path": "level_select/small_green.png",
+   "w": 162,
+   "h": 75
+  },
+  {
+   "path": "level_select/small_red.png",
+   "w": 162,
+   "h": 75
+  },
+  {
+   "path": "make_dessert/black_tile.png",
+   "w": 106,
+   "h": 99
+  },
+  {
+   "path": "make_dessert/blue_tile.png",
+   "w": 106,
+   "h": 99
+  },
+  {
+   "path": "make_dessert/char_1.png",
+   "w": 138,
+   "h": 166
+  },
+  {
+   "path": "make_dessert/char_10.png",
+   "w": 169,
+   "h": 186
+  },
+  {
+   "path": "make_dessert/char_11.png",
+   "w": 120,
+   "h": 172
+  },
+  {
+   "path": "make_dessert/char_12.png",
+   "w": 158,
+   "h": 190
+  },
+  {
+   "path": "make_dessert/char_2.png",
+   "w": 159,
+   "h": 197
+  },
+  {
+   "path": "make_dessert/char_3.png",
+   "w": 144,
+   "h": 163
+  },
+  {
+   "path": "make_dessert/char_4.png",
+   "w": 132,
+   "h": 178
+  },
+  {
+   "path": "make_dessert/char_5.png",
+   "w": 157,
+   "h": 186
+  },
+  {
+   "path": "make_dessert/char_6.png",
+   "w": 136,
+   "h": 174
+  },
+  {
+   "path": "make_dessert/char_7.png",
+   "w": 131,
+   "h": 157
+  },
+  {
+   "path": "make_dessert/char_8.png",
+   "w": 171,
+   "h": 173
+  },
+  {
+   "path": "make_dessert/char_9.png",
+   "w": 195,
+   "h": 211
+  },
+  {
+   "path": "make_dessert/cup_paper.png",
+   "w": 226,
+   "h": 225
+  },
+  {
+   "path": "make_dessert/cup_paper_preview.png",
+   "w": 93,
+   "h": 93
+  },
+  {
+   "path": "make_dessert/cup_pineapple.png",
+   "w": 174,
+   "h": 289
+  },
+  {
+   "path": "make_dessert/cup_pineapple_preview.png",
+   "w": 60,
+   "h": 99
+  },
+  {
+   "path": "make_dessert/cust_bar_BG.png",
+   "w": 173,
+   "h": 46
+  },
+  {
+   "path": "make_dessert/cust_fill.png",
+   "w": 118,
+   "h": 18
+  },
+  {
+   "path": "make_dessert/cust_glass.png",
+   "w": 121,
+   "h": 20
+  },
+  {
+   "path": "make_dessert/heart_cust.png",
+   "w": 41,
+   "h": 35
+  },
+  {
+   "path": "make_dessert/mute_icon.png",
+   "w": 24,
+   "h": 29
+  },
+  {
+   "path": "make_dessert/pan.png",
+   "w": 532,
+   "h": 110
+  },
+  {
+   "path": "make_dessert/pause_button.png",
+   "w": 59,
+   "h": 59
+  },
+  {
+   "path": "make_dessert/preview_list.png",
+   "w": 297,
+   "h": 305
+  },
+  {
+   "path": "make_dessert/score_board.png",
+   "w": 289,
+   "h": 48
+  },
+  {
+   "path": "make_dessert/smoothie_1.png",
+   "w": 144,
+   "h": 277
+  },
+  {
+   "path": "make_dessert/smoothie_1_preview.png",
+   "w": 55,
+   "h": 105
+  },
+  {
+   "path": "make_dessert/smoothie_2.png",
+   "w": 152,
+   "h": 235
+  },
+  {
+   "path": "make_dessert/smoothie_2_preview.png",
+   "w": 59,
+   "h": 90
+  },
+  {
+   "path": "make_dessert/sound_button.png",
+   "w": 59,
+   "h": 59
+  },
+  {
+   "path": "make_dessert/syrup_maple.png",
+   "w": 148,
+   "h": 91
+  },
+  {
+   "path": "make_dessert/syrup_maple_preview.png",
+   "w": 56,
+   "h": 53
+  },
+  {
+   "path": "make_dessert/syrup_orange.png",
+   "w": 148,
+   "h": 91
+  },
+  {
+   "path": "make_dessert/syrup_orange_preview.png",
+   "w": 50,
+   "h": 49
+  },
+  {
+   "path": "make_dessert/syrup_pomegranate.png",
+   "w": 148,
+   "h": 91
+  },
+  {
+   "path": "make_dessert/syrup_pomegranate_preview.png",
+   "w": 56,
+   "h": 52
+  },
+  {
+   "path": "make_dessert/timer_BG.png",
+   "w": 448,
+   "h": 28
+  },
+  {
+   "path": "make_dessert/timer_fill.png",
+   "w": 369,
+   "h": 18
+  },
+  {
+   "path": "make_dessert/timer_glass.png",
+   "w": 399,
+   "h": 29
+  },
+  {
+   "path": "make_dessert/topping_banana.png",
+   "w": 86,
+   "h": 50
+  },
+  {
+   "path": "make_dessert/topping_banana_preview.png",
+   "w": 25,
+   "h": 24
+  },
+  {
+   "path": "make_dessert/topping_blackberry.png",
+   "w": 122,
+   "h": 33
+  },
+  {
+   "path": "make_dessert/topping_blackberry_preview.png",
+   "w": 22,
+   "h": 21
+  },
+  {
+   "path": "make_dessert/topping_kiwi.png",
+   "w": 131,
+   "h": 71
+  },
+  {
+   "path": "make_dessert/topping_kiwi_preview.png",
+   "w": 28,
+   "h": 27
+  },
+  {
+   "path": "make_dessert/topping_strawberry.png",
+   "w": 102,
+   "h": 58
+  },
+  {
+   "path": "make_dessert/topping_strawberry_preview.png",
+   "w": 26,
+   "h": 26
+  },
+  {
+   "path": "make_dessert/yogurt_blueberry.png",
+   "w": 142,
+   "h": 113
+  },
+  {
+   "path": "make_dessert/yogurt_blueberry_preview.png",
+   "w": 64,
+   "h": 50
+  },
+  {
+   "path": "make_dessert/yogurt_mango.png",
+   "w": 142,
+   "h": 113
+  },
+  {
+   "path": "make_dessert/yogurt_mango_preview.png",
+   "w": 59,
+   "h": 47
+  },
+  {
+   "path": "make_dessert/yogurt_plain.png",
+   "w": 142,
+   "h": 113
+  },
+  {
+   "path": "make_dessert/yogurt_plain_preview.png",
+   "w": 59,
+   "h": 47
+  },
+  {
+   "path": "opening/brosur.png",
+   "w": 486,
+   "h": 486
+  },
+  {
+   "path": "opening/bubble_text.png",
+   "w": 390,
+   "h": 148
+  },
+  {
+   "path": "opening/cry-1.png",
+   "w": 1258,
+   "h": 1250
+  },
+  {
+   "path": "opening/cry.png",
+   "w": 298,
+   "h": 296
+  },
+  {
+   "path": "opening/lightbulb.png",
+   "w": 128,
+   "h": 140
+  },
+  {
+   "path": "opening/smile-1.png",
+   "w": 1260,
+   "h": 1248
+  },
+  {
+   "path": "opening/smile.png",
+   "w": 298,
+   "h": 295
+  },
+  {
+   "path": "opening/student_loan.png",
+   "w": 486,
+   "h": 486
+  },
+  {
+   "path": "opening/textbox.png",
+   "w": 393,
+   "h": 128
+  },
+  {
+   "path": "opening/think-1.png",
+   "w": 1258,
+   "h": 1250
+  },
+  {
+   "path": "opening/think.png",
+   "w": 298,
+   "h": 296
+  },
+  {
+   "path": "title/asap_0001.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0002.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0003.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0004.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0005.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0006.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0007.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0008.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0009.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0010.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0011.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/asap_0012.png",
+   "w": 163,
+   "h": 306
+  },
+  {
+   "path": "title/board.png",
+   "w": 501,
+   "h": 235
+  },
+  {
+   "path": "title/change_player.png",
+   "w": 159,
+   "h": 34
+  },
+  {
+   "path": "title/deluxe.png",
+   "w": 226,
+   "h": 53
+  },
+  {
+   "path": "title/mute_icon.png",
+   "w": 24,
+   "h": 29
+  },
+  {
+   "path": "title/origaminglogo.png",
+   "w": 212,
+   "h": 72
+  },
+  {
+   "path": "title/player_name.png",
+   "w": 315,
+   "h": 99
+  },
+  {
+   "path": "title/restaurant.png",
+   "w": 620,
+   "h": 132
+  },
+  {
+   "path": "title/rory.png",
+   "w": 215,
+   "h": 59
+  },
+  {
+   "path": "title/sound_button.png",
+   "w": 59,
+   "h": 59
+  },
+  {
+   "path": "title/title_board.png",
+   "w": 477,
+   "h": 493
+  },
+  {
+   "path": "window/arrow.png",
+   "w": 71,
+   "h": 55
+  },
+  {
+   "path": "window/check_mark.png",
+   "w": 73,
+   "h": 56
+  },
+  {
+   "path": "window/coin.png",
+   "w": 65,
+   "h": 66
+  },
+  {
+   "path": "window/expert.png",
+   "w": 175,
+   "h": 196
+  },
+  {
+   "path": "window/expert_blink.png",
+   "w": 178,
+   "h": 94
+  },
+  {
+   "path": "window/goal.png",
+   "w": 173,
+   "h": 196
+  },
+  {
+   "path": "window/music_icon.png",
+   "w": 59,
+   "h": 59
+  },
+  {
+   "path": "window/rory.png",
+   "w": 116,
+   "h": 148
+  },
+  {
+   "path": "window/small_btn_blue.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "window/small_btn_blue_dark.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "window/small_btn_green.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "window/small_btn_green_dark.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "window/small_btn_red.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "window/small_btn_red_dark.png",
+   "w": 207,
+   "h": 58
+  },
+  {
+   "path": "window/small_widget_BG.png",
+   "w": 469,
+   "h": 429
+  },
+  {
+   "path": "window/star.png",
+   "w": 64,
+   "h": 63
+  },
+  {
+   "path": "window/star_empty.png",
+   "w": 57,
+   "h": 56
+  },
+  {
+   "path": "window/textbox.png",
+   "w": 407,
+   "h": 146
+  },
+  {
+   "path": "window/widget_BG.png",
+   "w": 647,
+   "h": 558
+  }
+ ]
+}

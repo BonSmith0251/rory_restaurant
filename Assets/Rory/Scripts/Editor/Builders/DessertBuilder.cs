@@ -51,10 +51,10 @@ namespace Rory.EditorTools
             UIBuild.Image(s, "TimerGlass", D("timer_glass"), 200 + 49, -7);
 
             var paperSprite = D("preview_list");
-            var paper = UIBuild.Image(s, "PreviewPaper", paperSprite, 1024 - paperSprite.rect.width, 50);
+            var paper = UIBuild.Image(s, "PreviewPaper", paperSprite, 1024 - paperSprite.LogicalSize().x, 50);
 
             var char1 = D("char_1");
-            float customerPivotY = char1.rect.height;
+            float customerPivotY = char1.LogicalSize().y;
             var customer = UIBuild.Image(s, "Customer", char1, -250, 255, 0, customerPivotY);
             const float barY = 240;
             var barBG = UIBuild.Image(s, "CustomerBarBG", D("cust_bar_BG"), -250, barY);
@@ -150,7 +150,7 @@ namespace Rory.EditorTools
         /// <summary>TNonStateButton(texture) with scale 0.7 positioned at (x, y) without alignPivot.</summary>
         static Button HudButton(Transform parent, string name, Sprite sprite, float x, float y)
         {
-            var size = sprite.rect.size;
+            var size = sprite.LogicalSize();
             var b = UIBuild.Button(parent, name, sprite, x + size.x / 2, y + size.y / 2);
             b.transform.localScale = new Vector3(HudScale, HudScale, 1);
             return b;
@@ -163,8 +163,8 @@ namespace Rory.EditorTools
             var pos = rt.GetStagePosition();
             var scaled = rt.rect.size * HudScale;
             // mute.x = btn.x + btn.width / 2 - mute.pivotX, and mute's pivot is its centre
-            var img = UIBuild.ImageCentered(parent, name, sprite, pos.x + scaled.x / 2 - sprite.rect.width / 2,
-                pos.y + scaled.y / 2 - sprite.rect.height / 2);
+            var img = UIBuild.ImageCentered(parent, name, sprite, pos.x + scaled.x / 2 - sprite.LogicalSize().x / 2,
+                pos.y + scaled.y / 2 - sprite.LogicalSize().y / 2);
             img.gameObject.SetActive(false);
             return img;
         }

@@ -48,6 +48,7 @@ namespace Rory
 
             Saves = new SaveSystem();
             Saves.LoadAll();
+            DisplayMode.SetFullScreen(Saves.Settings.fullScreen);
             Session = new GameSession();
 
             // The one AudioListener lives here, so scene cameras don't need one.

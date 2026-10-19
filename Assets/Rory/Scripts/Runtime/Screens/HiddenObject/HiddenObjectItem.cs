@@ -63,7 +63,7 @@ namespace Rory.Screens.HiddenObject
             name = index.ToString();
             if (image == null) image = GetComponent<Image>();
             image.sprite = sprite;
-            var size = sprite != null ? sprite.rect.size : Vector2.zero;
+            var size = sprite != null ? sprite.LogicalSize() : Vector2.zero;
             StageLayout.Place(Rect, locX + size.x / 2, locY + size.y / 2, size.x, size.y, size.x / 2, size.y / 2);
             // AS_HO_ITEM: hitArea = null; AS_BG2: not touchable; the others keep the pixel hit area
             image.raycastTarget = type != TypeBackground2;

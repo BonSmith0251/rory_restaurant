@@ -48,7 +48,7 @@ namespace Rory.EditorTools
                     i * AchievementsController.SlotHeight + AchievementsController.SlotHeight / 2);
 
             var barSprite = A("scroll_bar");
-            var bar = UIBuild.Image(s, "ScrollBar", barSprite, 770, 120, barSprite.rect.width / 2, 0, true);
+            var bar = UIBuild.Image(s, "ScrollBar", barSprite, 770, 120, barSprite.LogicalSize().x / 2, 0, true);
             var scroller = UIBuild.ImageCentered(s, "Scroller", A("scroller"), 770, 120, true);
 
             var title = UIBuild.Text(s, "Title", AchievementList.Title[0], UIBuild.Fonts.JennaSue, 40, Color.black,

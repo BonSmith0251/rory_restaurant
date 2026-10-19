@@ -3,6 +3,7 @@ using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
+using Rory.UI;
 
 namespace Rory.EditorTools
 {
@@ -21,7 +22,7 @@ namespace Rory.EditorTools
             UIBuild.Image(s, "FirstSlide", UIBuild.Background("first_slide_opening"));
             var mask = Hidden(UIBuild.Image(s, "Mask", RoryAssets.Load<Sprite>($"{RoryPaths.Backgrounds}/mask.png")));
             var smileSprite = O("smile");
-            float smileX = 1024 - smileSprite.rect.width;
+            float smileX = 1024 - smileSprite.LogicalSize().x;
             var smile = Hidden(UIBuild.Image(s, "Smile", smileSprite, smileX, 0));
             var cry = Hidden(UIBuild.Image(s, "Cry", O("cry"), smileX, 0));
             var think = Hidden(UIBuild.Image(s, "Think", O("think"), smileX, 0));
@@ -32,7 +33,7 @@ namespace Rory.EditorTools
             var text = StoryBuild.TextBox(s, 30, 10, 0, 1004);
 
             // bubble at (cry.x + 100, cry.y + cry.height - 50)
-            float cryH = cry.sprite.rect.height;
+            float cryH = cry.sprite.LogicalSize().y;
             var bubble = StoryBuild.Bubble(s, O("bubble_text"), smileX + 100, cryH - 50, 25);
 
             var c = new GameObject("OpeningController").AddComponent<OpeningController>();
@@ -85,7 +86,7 @@ namespace Rory.EditorTools
             var img = UIBuild.Image(parent, "Bubble", sprite, x, y, 269, 0);
             img.rectTransform.localScale = new Vector3(0, 0, 1);
             img.gameObject.SetActive(false);
-            var size = sprite.rect.size;
+            var size = sprite.LogicalSize();
             var text = UIBuild.Text(parent, "BubbleText", "AAAAA", UIBuild.Fonts.Bromine, fontSize, Color.black,
                 x + StoryBubble.TextOffsetX, y + StoryBubble.TextOffsetY, size.x - 30, size.y - 28, 269, 0);
             text.gameObject.SetActive(false);

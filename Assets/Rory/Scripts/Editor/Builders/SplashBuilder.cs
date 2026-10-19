@@ -20,8 +20,7 @@ namespace Rory.EditorTools
             foreach (var name in Splashes)
             {
                 var sprite = RoryAssets.Load<Sprite>($"{RoryPaths.Branding}/{name}.jpg");
-                var img = UIBuild.Image(stage.transform, name, sprite);
-                UIBuild.Stretch(img.rectTransform);
+                var img = UIBuild.Image(stage.transform, name, sprite); // full view (see UIBuild.Image)
                 img.color = new Color(1, 1, 1, 0);
                 images.Add(img);
             }

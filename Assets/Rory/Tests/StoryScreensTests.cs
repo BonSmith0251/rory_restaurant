@@ -11,6 +11,7 @@ using UnityEngine;
 using UnityEngine.TestTools;
 using UnityEngine.UI;
 using AchievementList = global::Rory.Achievements.Achievements;
+using Rory.UI;
 
 namespace Rory.Tests
 {
@@ -66,7 +67,7 @@ namespace Rory.Tests
                 switch (story)
                 {
                     case 1:
-                        Assert.AreEqual(1024 - 300, TestUtil.Find<RectTransform>("Smile").anchoredPosition.x, 0.01f);
+                        Assert.AreEqual(1024 - TestUtil.Find<UnityEngine.UI.Image>("Smile").sprite.LogicalSize().x, TestUtil.Find<RectTransform>("Smile").anchoredPosition.x, 0.01f);
                         break;
                     case 3:
                         Assert.IsFalse(Active("Smile"));

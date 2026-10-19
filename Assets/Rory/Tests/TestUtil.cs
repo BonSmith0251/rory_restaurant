@@ -11,7 +11,7 @@ namespace Rory.Tests
     /// <summary>Helpers for the PlayMode tests: scene loading, finding UI by name, clicking and screen captures.</summary>
     public static class TestUtil
     {
-        /// <summary>Captures go to &lt;project&gt;/Logs/Captures/&lt;name&gt;.png (1024x600).</summary>
+        /// <summary>Captures go to &lt;project&gt;/Logs/Captures/&lt;name&gt;.png (1920x1080).</summary>
         public static string CaptureFolder => Path.GetFullPath(Path.Combine(Application.dataPath, "..", "Logs", "Captures"));
 
         public static string TempSaveFolder()
@@ -80,11 +80,11 @@ namespace Rory.Tests
             b.onClick.Invoke();
         }
 
-        /// <summary>Renders every canvas into a 1024x600 PNG.</summary>
+        /// <summary>Renders every canvas into a 1920x1080 PNG (the game's resolution).</summary>
         public static string Capture(string name)
         {
             Directory.CreateDirectory(CaptureFolder);
-            const int w = 1024, h = 600;
+            const int w = 1920, h = 1080; // the game's resolution
             var rt = new RenderTexture(w, h, 24);
             var camGo = new GameObject("CaptureCamera");
             var cam = camGo.AddComponent<Camera>();

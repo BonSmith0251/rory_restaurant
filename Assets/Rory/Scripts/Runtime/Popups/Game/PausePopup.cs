@@ -74,7 +74,7 @@ namespace Rory.Popups.Game
         {
             bool full = !Saves.Settings.fullScreen;
             Saves.Settings.fullScreen = full;
-            Screen.fullScreen = full;
+            DisplayMode.SetFullScreen(full);
             Saves.SaveSettings();
             Refresh();
         }

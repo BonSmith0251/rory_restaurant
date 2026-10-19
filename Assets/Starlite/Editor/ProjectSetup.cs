@@ -61,10 +61,7 @@ namespace Starlite.EditorTools
             }
             PlayerSettings.companyName = "Origaming Media (Unity port)";
             PlayerSettings.productName = "Rory's Restaurant Deluxe";
-            PlayerSettings.defaultScreenWidth = 1024;
-            PlayerSettings.defaultScreenHeight = 600;
-            PlayerSettings.fullScreenMode = FullScreenMode.Windowed;
-            PlayerSettings.resizableWindow = true;
+            // Screen size and mode are set by the native project (Rory > Configure Player: 1920x1080).
             PlayerSettings.runInBackground = false;
             File.WriteAllText(Marker, "done");
             AssetDatabase.Refresh();

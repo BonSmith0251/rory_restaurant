@@ -75,7 +75,7 @@ namespace Rory.EditorTools
             var root = UIBuild.Container(null, "Customer");
             var c = root.gameObject.AddComponent<Match3Customer>();
             var ava = G("char_1");
-            var avatar = UIBuild.Image(root, "Avatar", ava, Match3Customer.AvatarX, Match3Customer.AvatarY, ava.rect.width, ava.rect.height);
+            var avatar = UIBuild.Image(root, "Avatar", ava, Match3Customer.AvatarX, Match3Customer.AvatarY, ava.LogicalSize().x, ava.LogicalSize().y);
             var heartBG = UIBuild.Image(root, "HeartBG", G("cust_bar_BG"), 95, 68);
             var heart = UIBuild.ImageCentered(root, "Heart", G("heart_cust"), 95 + 19, 68 + 17);
             var patience = UIBuild.Container(root, "Patience", 95 + 36, 68 + 11);
@@ -152,15 +152,15 @@ namespace Rory.EditorTools
             pause.transform.localScale = new Vector3(0.7f, 0.7f, 1);
             var sound = UIBuild.Button(s, "SoundButton", G("sound_button"), 45, 0, topLeft: true);
             sound.transform.localScale = new Vector3(0.7f, 0.7f, 1);
-            float soundPivot = G("sound_button").rect.width / 2;
+            float soundPivot = G("sound_button").LogicalSize().x / 2;
             // mute_icon.x = soundButton.x + 18 - soundButton.pivotX (x reads back the centre)
             var mute = UIBuild.Image(s, "MuteIcon", G("mute_icon"), 45 + 18, 0 + 14);
             var musicSprite = UIBuild.Sprite("window", "music_icon");
             var music = UIBuild.Button(s, "MusicButton", musicSprite, 90, 0, topLeft: true);
             music.transform.localScale = new Vector3(0.7f, 0.7f, 1);
             // mute_icon_music.x = musicButton.x - pivotX(0) - 10, y = musicButton.y - 14 (centre of the button)
-            var muteMusic = UIBuild.Image(s, "MuteIconMusic", G("mute_icon"), 90 + musicSprite.rect.width / 2 - 10,
-                0 + musicSprite.rect.height / 2 - 14);
+            var muteMusic = UIBuild.Image(s, "MuteIconMusic", G("mute_icon"), 90 + musicSprite.LogicalSize().x / 2 - 10,
+                0 + musicSprite.LogicalSize().y / 2 - 14);
             _ = soundPivot;
 
             UIBuild.Image(s, "TimerBG", G("timer_BG"), 550, 7);
@@ -181,17 +181,17 @@ namespace Rory.EditorTools
             for (int i = 0; i < 3; i++)
             {
                 var dishSprite = G("veggie_croissant");
-                var dish = UIBuild.Image(s, $"Dish{i}", dishSprite, 375, i * 117 + 140, dishSprite.rect.width / 2, dishSprite.rect.height);
+                var dish = UIBuild.Image(s, $"Dish{i}", dishSprite, 375, i * 117 + 140, dishSprite.LogicalSize().x / 2, dishSprite.LogicalSize().y);
                 dish.gameObject.SetActive(false);
                 dishes[i] = dish;
 
                 var cust = (Match3Customer)PrefabUtility.InstantiatePrefab(customerPrefab, s);
                 cust.name = $"Customer{i}";
-                float custWidth = Match3Customer.ClickWidth + Mathf.Max(0, G("char_1").rect.width - Match3Customer.AvatarX);
+                float custWidth = Match3Customer.ClickWidth + Mathf.Max(0, G("char_1").LogicalSize().x - Match3Customer.AvatarX);
                 ((RectTransform)cust.transform).SetStagePosition(-custWidth, i * 118 + 63);
                 customers[i] = cust;
 
-                float cx = 120 + coinSprite.rect.width / 2, cy = i * 117 + 90 + coinSprite.rect.height / 2;
+                float cx = 120 + coinSprite.LogicalSize().x / 2, cy = i * 117 + 90 + coinSprite.LogicalSize().y / 2;
                 var coin = UIBuild.ImageCentered(s, $"Coins{i}", coinSprite, cx, cy);
                 var coinGlow = coin.gameObject.AddComponent<Outline>();
                 coinGlow.effectColor = CoinGlow;
@@ -199,7 +199,7 @@ namespace Rory.EditorTools
                 coinGlow.enabled = false;
                 // paddingX = 80, paddingY = 20: the touch area is the image grown on every side
                 var hit = UIBuild.Quad(coin.transform, "HitArea", -CoinButton.PaddingX, -CoinButton.PaddingY,
-                    coinSprite.rect.width + 2 * CoinButton.PaddingX, coinSprite.rect.height + 2 * CoinButton.PaddingY, new Color(1, 1, 1, 0), true);
+                    coinSprite.LogicalSize().x + 2 * CoinButton.PaddingX, coinSprite.LogicalSize().y + 2 * CoinButton.PaddingY, new Color(1, 1, 1, 0), true);
                 _ = hit;
                 var coinButton = coin.gameObject.AddComponent<CoinButton>();
                 UIBuild.SetField(coinButton, "glow", coinGlow);
@@ -301,7 +301,7 @@ namespace Rory.EditorTools
             var station = UIBuild.Container(s, name).gameObject.AddComponent<HardwareStation>();
             var machine = UIBuild.Button(s, name + "Machine", machineSprite, mx, my, topLeft: true);
             var layer = UIBuild.Image(s, name + "Layer", layerSprite, lx, ly);
-            float hx = px + productSprite.rect.width / 2, hy = py + productSprite.rect.height / 2;
+            float hx = px + productSprite.LogicalSize().x / 2, hy = py + productSprite.LogicalSize().y / 2;
             var product = UIBuild.ImageCentered(s, name + "Product", productSprite, hx, hy);
             product.gameObject.SetActive(false);
             var copy = UIBuild.ImageCentered(s, name + "Drag", productSprite, hx, hy, raycast: true);

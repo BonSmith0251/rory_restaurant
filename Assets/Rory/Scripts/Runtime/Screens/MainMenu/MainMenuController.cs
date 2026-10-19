@@ -109,13 +109,13 @@ namespace Rory.Screens.MainMenu
         {
             soundMuteIcon.SetActive(Sound.MuteSound);
             musicMuteIcon.SetActive(Sound.MuteMusic);
-            fullScreenLabel.text = Loc.T(Screen.fullScreen ? "Windowed" : "Full Screen");
+            fullScreenLabel.text = Loc.T(Game.Saves.Settings.fullScreen ? "Windowed" : "Full Screen");
         }
 
         void ToggleFullScreen()
         {
-            bool full = !Screen.fullScreen;
-            Screen.fullScreen = full;
+            bool full = !Game.Saves.Settings.fullScreen;
+            DisplayMode.SetFullScreen(full);
             Game.Saves.Settings.fullScreen = full;
             Game.Saves.SaveSettings();
             fullScreenLabel.text = Loc.T(full ? "Windowed" : "Full Screen");

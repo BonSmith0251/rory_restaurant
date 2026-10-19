@@ -1,6 +1,7 @@
 using Rory.Data;
 using UnityEngine;
 using UnityEngine.UI;
+using Rory.UI;
 
 namespace Rory.Screens.Match3
 {
@@ -50,7 +51,7 @@ namespace Rory.Screens.Match3
         {
             if (rt == null) rt = (RectTransform)transform;
             image.sprite = sprite;
-            if (sprite != null) rt.sizeDelta = sprite.rect.size;
+            if (sprite != null) rt.sizeDelta = sprite.LogicalSize();
             rt.pivot = new Vector2(0.5f, 0.5f);
         }
     }

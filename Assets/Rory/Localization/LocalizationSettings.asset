@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: LocalizationSettings
   m_EditorClassIdentifier: 
   m_StartupSelectors:
-  - rid: 8080988689567842304
-  - rid: 8080988689567842305
-  - rid: 8080988689567842306
-  - rid: 8080988689567842307
+  - rid: 8080988691383713792
+  - rid: 8080988691383713793
+  - rid: 8080988691383713794
+  - rid: 8080988691383713795
   m_AvailableLocales:
     rid: 8080988688230907907
   m_AssetDatabase:
@@ -194,17 +194,17 @@ MonoBehaviour:
         - default
         - d
         - 
-    - rid: 8080988689567842304
+    - rid: 8080988691383713792
       type: {class: CommandLineLocaleSelector, ns: UnityEngine.Localization.Settings, asm: Unity.Localization}
       data:
         m_CommandLineArgument: -language=
-    - rid: 8080988689567842305
+    - rid: 8080988691383713793
       type: {class: SavedLanguageSelector, ns: Rory.Localization, asm: Rory.Runtime}
       data: 
-    - rid: 8080988689567842306
+    - rid: 8080988691383713794
       type: {class: SystemLocaleSelector, ns: UnityEngine.Localization.Settings, asm: Unity.Localization}
       data: 
-    - rid: 8080988689567842307
+    - rid: 8080988691383713795
       type: {class: SpecificLocaleSelector, ns: UnityEngine.Localization.Settings, asm: Unity.Localization}
       data:
         m_LocaleId:

@@ -855,7 +855,7 @@ namespace Rory.Screens.Dessert
         static void SetSprite(Image img, Sprite s)
         {
             img.sprite = s;
-            if (s != null) img.rectTransform.sizeDelta = s.rect.size;
+            if (s != null) img.rectTransform.sizeDelta = s.LogicalSize();
         }
 
         void SetCustomerSprite(Sprite s)

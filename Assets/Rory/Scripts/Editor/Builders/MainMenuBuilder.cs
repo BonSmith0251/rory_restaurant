@@ -25,7 +25,7 @@ namespace Rory.EditorTools
             UIBuild.Image(s, "Background", UIBuild.Background("title_BG"));
 
             var board = T("board");
-            float boardX = 50 + board.rect.width / 2, boardY = board.rect.height / 2;
+            float boardX = 50 + board.LogicalSize().x / 2, boardY = board.LogicalSize().y / 2;
             UIBuild.ImageCentered(s, "Board", board, boardX, boardY);
             var rory = UIBuild.ImageCentered(s, "Rory", T("rory"), boardX, boardY - 70, true);
             UIBuild.ImageCentered(s, "Restaurant", T("restaurant"), boardX, boardY);
@@ -261,10 +261,14 @@ namespace Rory.EditorTools
             var root = UIBuild.Layer(layer, "Credits");
             var popup = root.gameObject.AddComponent<Popup>();
             popup.modal = false;
-            var bg = root.gameObject.AddComponent<Image>();
+            // the dimming covers the whole 16:9 view and takes the click that closes the credits
+            var dim = UIBuild.Rect(root, "Dim", typeof(CanvasRenderer), typeof(Image));
+            UIStage.FillView(dim);
+            var bg = dim.GetComponent<Image>();
             bg.color = new Color(0, 0, 0, 0.85f);
             var close = root.gameObject.AddComponent<Button>();
             close.transition = Selectable.Transition.None;
+            close.targetGraphic = bg;
 
             var c = UIBuild.Container(root, "Content");
             TextMeshProUGUI Txt(string name, string text, float size, Color color, float x, float y, float w, float h, float px = 0, float py = 0,

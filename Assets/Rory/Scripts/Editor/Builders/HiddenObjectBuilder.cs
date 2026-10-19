@@ -70,7 +70,7 @@ namespace Rory.EditorTools
             hintFill.fillMethod = Image.FillMethod.Vertical;
             hintFill.fillOrigin = (int)Image.OriginVertical.Bottom;
             var hintBg = UIBuild.Image(s, "HintBackground", H("hint_bg"), 862, 0, raycast: true); // touchable: blocks clicks
-            var hint = HintButton(s, hintBg.sprite.rect.size, 862 + 5, 0 + 20);
+            var hint = HintButton(s, hintBg.sprite.LogicalSize(), 862 + 5, 0 + 20);
 
             UIBuild.Image(s, "TimerBackground", H("timer_BG"), 299, 103);
             var timeFill = UIBuild.Image(s, "TimerFill", H("timer_fill"), 371, 108);

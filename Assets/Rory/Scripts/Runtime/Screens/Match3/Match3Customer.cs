@@ -8,6 +8,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Rory.UI;
 
 namespace Rory.Screens.Match3
 {
@@ -77,7 +78,7 @@ namespace Rory.Screens.Match3
         public float Y => -Rect.anchoredPosition.y;
         /// <summary>Starling width of the row: click quad plus the avatar sticking out on the left.</summary>
         public float Width => ClickWidth + Mathf.Max(0, AvatarWidth - AvatarX);
-        float AvatarWidth => avatar.sprite != null ? avatar.sprite.rect.width : 0;
+        float AvatarWidth => avatar.sprite != null ? avatar.sprite.LogicalSize().x : 0;
 
         public Image Juice => juice;
         public Image Fries => fries;

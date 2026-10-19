@@ -35,11 +35,11 @@ namespace Rory.EditorTools
             // ---------------------------------------------------------------- room
             var playSprite = K("play_bubble");
             var playBubble = Bubble(s, "PlayBubble", playSprite, 468, 388, TutorialButtons.PLAY_ID);
-            var playQuad = HotQuad(s, "PlayQuad", 468 - 20, 388 + 50, playSprite.rect.width + 20, playSprite.rect.height + 10, TutorialButtons.PLAY_ID);
+            var playQuad = HotQuad(s, "PlayQuad", 468 - 20, 388 + 50, playSprite.LogicalSize().x + 20, playSprite.LogicalSize().y + 10, TutorialButtons.PLAY_ID);
 
             var shopSprite = K("shop_bubble");
             var shopBubble = Bubble(s, "ShopBubble", shopSprite, 616, 340, TutorialButtons.SHOP_ID, false);
-            var shopQuad = HotQuad(s, "ShopQuad", 616 + 20, 340 + 50, shopSprite.rect.width - 20, shopSprite.rect.height + 10,
+            var shopQuad = HotQuad(s, "ShopQuad", 616 + 20, 340 + 50, shopSprite.LogicalSize().x - 20, shopSprite.LogicalSize().y + 10,
                 TutorialButtons.SHOP_ID, false);
 
             var hardwareBubble = Bubble(s, "HardwareBubble", K("convenience_bubble"), 20, 270, TutorialButtons.HARDWARE_ID, false);
@@ -77,7 +77,7 @@ namespace Rory.EditorTools
             var midEast = RegionButton(s, "MidEastButton", blue, 860, 120, "Middle East");
 
             var coinBg = K("coin_BG");
-            float bgW = coinBg.rect.width, bgH = coinBg.rect.height;
+            float bgW = coinBg.LogicalSize().x, bgH = coinBg.LogicalSize().y;
             var moneyBg = UIBuild.Image(s, "MoneyPlaceBG", coinBg, 30, 70);
             Hide(moneyBg);
             var money = UIBuild.Text(s, "MoneyPreview", "0", UIBuild.Fonts.Bromine, 25, Black, 30 + 5, 70, bgW - 20, bgH,
@@ -91,7 +91,7 @@ namespace Rory.EditorTools
             Hide(moneyMinus);
 
             var plate = K("plate");
-            float pw = plate.rect.width, ph = plate.rect.height;
+            float pw = plate.LogicalSize().x, ph = plate.LogicalSize().y;
             var slots = new Object[5];
             var previews = new Object[5];
             var counts = new Object[5];
@@ -141,8 +141,8 @@ namespace Rory.EditorTools
                 label: "Buy", font: UIBuild.Fonts.Bromine, fontSize: 25, labelColor: Black);
             var buyLabel = buy.GetComponentInChildren<TextMeshProUGUI>();
             Object.DestroyImmediate(buyLabel.GetComponent<Localize>());
-            float bw = green.rect.width;
-            buyLabel.rectTransform.sizeDelta = new Vector2(bw - 15, green.rect.height);
+            float bw = green.LogicalSize().x;
+            buyLabel.rectTransform.sizeDelta = new Vector2(bw - 15, green.LogicalSize().y);
             buyLabel.rectTransform.anchoredPosition = new Vector2(7 + (bw - 15) / 2 - bw / 2, 0);
             Hide(buy);
 

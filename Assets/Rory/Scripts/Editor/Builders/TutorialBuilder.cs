@@ -35,13 +35,13 @@ namespace Rory.EditorTools
             var boxSprite = W("textbox");
             var box = UIBuild.ImageCentered(root, "TextBox", boxSprite, x, y);
             box.rectTransform.localScale = new Vector3(TutorialManager.TextBoxScaleX, 1, 1);
-            float boxW = boxSprite.rect.width, boxH = boxSprite.rect.height;
+            float boxW = boxSprite.LogicalSize().x, boxH = boxSprite.LogicalSize().y;
             float scaledW = boxW * TutorialManager.TextBoxScaleX;
 
             // ava: pivotY = height, at the box's left edge + 5, bottom - 5
             var avaSprite = W("rory");
             var ava = UIBuild.Image(root, "Avatar", avaSprite, x - boxW / 2 * TutorialManager.TextBoxScaleX + 5, y + boxH / 2 - 5,
-                0, avaSprite.rect.height);
+                0, avaSprite.LogicalSize().y);
 
             // arrow: centre pivot (texture points right; scaleX = arrowDirection)
             var arrow = UIBuild.ImageCentered(root, "Arrow", W("arrow"), x, y);

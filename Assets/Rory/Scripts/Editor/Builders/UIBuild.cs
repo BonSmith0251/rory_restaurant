@@ -81,9 +81,15 @@ namespace Rory.EditorTools
             var canvas = canvasGo.GetComponent<Canvas>();
             UIStage.SetupCanvas(canvas);
 
-            var stageGo = new GameObject("Stage", typeof(RectTransform), typeof(RectMask2D), typeof(UIStage));
+            // 16:9 visible area (clipped), with the 1024x600 design stage centred in it.
+            var viewport = (RectTransform)new GameObject("Viewport", typeof(RectTransform), typeof(RectMask2D)).transform;
+            viewport.SetParent(canvasGo.transform, false);
+            viewport.anchorMin = viewport.anchorMax = viewport.pivot = new Vector2(0.5f, 0.5f);
+            viewport.sizeDelta = new Vector2(UIStage.ViewWidth, UIStage.Height);
+
+            var stageGo = new GameObject("Stage", typeof(RectTransform), typeof(UIStage));
             var stage = (RectTransform)stageGo.transform;
-            stage.SetParent(canvasGo.transform, false);
+            stage.SetParent(viewport, false);
             stage.anchorMin = stage.anchorMax = stage.pivot = new Vector2(0.5f, 0.5f);
             stage.sizeDelta = new Vector2(UIStage.Width, UIStage.Height);
 
@@ -94,7 +100,7 @@ namespace Rory.EditorTools
             popups = popupGo.GetComponent<PopupManager>();
             var backdrop = new GameObject("Backdrop", typeof(RectTransform), typeof(Image)).GetComponent<Image>();
             backdrop.transform.SetParent(prt, false);
-            Stretch(backdrop.rectTransform);
+            UIStage.FillView(backdrop.rectTransform);
             backdrop.color = new Color(0, 0, 0, 0.7f);
             backdrop.gameObject.SetActive(false);
             SetField(popups, "backdrop", backdrop);
@@ -175,15 +181,62 @@ namespace Rory.EditorTools
             var img = rt.GetComponent<Image>();
             img.sprite = sprite;
             img.raycastTarget = raycast;
-            var size = sprite != null ? sprite.rect.size : Vector2.zero;
+            var size = sprite != null ? sprite.LogicalSize() : Vector2.zero;
             StageLayout.Place(rt, x, y, size.x, size.y, pivotX, pivotY);
+            if (x == 0 && y == 0 && pivotX == 0 && pivotY == 0 && IsBackground(sprite) && Mathf.Abs(size.y - UIStage.Height) < 1)
+                FitBackgroundToView(img, size);
             return img;
+        }
+
+        /// <summary>Full-screen backgrounds and branding images (Art/Backgrounds, Art/Branding).</summary>
+        public static bool IsBackground(Sprite sprite)
+        {
+            if (sprite == null) return false;
+            var path = AssetDatabase.GetAssetPath(sprite);
+            return path.StartsWith(RoryPaths.Backgrounds) || path.StartsWith(RoryPaths.Branding);
+        }
+
+        /// <summary>
+        /// A full-screen background placed at (0, 0): a 16:9 (or wider) image is centred so it fills the whole view;
+        /// a 1024-wide original gets mirrored edge strips that fill the side margins.
+        /// </summary>
+        static void FitBackgroundToView(Image img, Vector2 size)
+        {
+            var rt = img.rectTransform;
+            if (size.x >= UIStage.ViewWidth - 1)
+            {
+                rt.anchoredPosition = new Vector2((UIStage.Width - size.x) / 2, 0);
+                return;
+            }
+            var sprite = img.sprite;
+            var tex = sprite.texture;
+            var r = sprite.textureRect;
+            var uv = new Rect(r.x / tex.width, r.y / tex.height, r.width / tex.width, r.height / tex.height);
+            float margin = (UIStage.ViewWidth - size.x) / 2;
+            float f = uv.width * margin / size.x; // the strip's width in UV
+            void Strip(string name, float anchorX, float pivotX, Rect uvRect)
+            {
+                var s = Rect(rt, name, typeof(CanvasRenderer), typeof(RawImage), typeof(ViewEdgeFill));
+                s.anchorMin = new Vector2(anchorX, 0);
+                s.anchorMax = new Vector2(anchorX, 1);
+                s.pivot = new Vector2(pivotX, 0.5f);
+                s.sizeDelta = new Vector2(margin, 0);
+                s.anchoredPosition = Vector2.zero;
+                var raw = s.GetComponent<RawImage>();
+                raw.texture = tex;
+                raw.uvRect = uvRect;
+                raw.raycastTarget = false;
+                s.GetComponent<ViewEdgeFill>().Init(img);
+            }
+            // mirrored: the strip's pixel next to the background repeats the background's edge pixel
+            Strip("EdgeLeft", 0, 1, new Rect(uv.x + f, uv.y, -f, uv.height));
+            Strip("EdgeRight", 1, 0, new Rect(uv.xMax, uv.y, -f, uv.height));
         }
 
         /// <summary>Sprite with its pivot at its centre placed at (x, y) (alignPivot() in the original).</summary>
         public static Image ImageCentered(Transform parent, string name, Sprite sprite, float x, float y, bool raycast = false)
         {
-            var size = sprite != null ? sprite.rect.size : Vector2.zero;
+            var size = sprite != null ? sprite.LogicalSize() : Vector2.zero;
             return Image(parent, name, sprite, x, y, size.x / 2, size.y / 2, raycast);
         }
 
@@ -194,7 +247,10 @@ namespace Rory.EditorTools
             var img = rt.GetComponent<Image>();
             img.color = color;
             img.raycastTarget = raycast;
-            StageLayout.Place(rt, x, y, width, height);
+            // a full-stage quad (dimming, touch catcher) covers the whole 16:9 view
+            if (x == 0 && y == 0 && width == UIStage.Width && height == UIStage.Height)
+                StageLayout.Place(rt, -UIStage.SideMargin, 0, UIStage.ViewWidth, UIStage.Height);
+            else StageLayout.Place(rt, x, y, width, height);
             return img;
         }
 
@@ -245,7 +301,7 @@ namespace Rory.EditorTools
         public static Button Button(Transform parent, string name, Sprite sprite, float x, float y, bool topLeft = false,
             string label = null, TMP_FontAsset font = null, float fontSize = 20, Color? labelColor = null, float hoverScale = 1.05f)
         {
-            var size = sprite.rect.size;
+            var size = sprite.LogicalSize();
             var img = topLeft
                 ? Image(parent, name, sprite, x + size.x / 2, y + size.y / 2, size.x / 2, size.y / 2, true)
                 : ImageCentered(parent, name, sprite, x, y, true);

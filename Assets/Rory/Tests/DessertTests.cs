@@ -226,7 +226,7 @@ namespace Rory.Tests
             var order = c.OrderList.ToList();
             Press(order[0]);
             Assert.AreEqual(1, c.CurrentLayer);
-            int wrong = Enumerable.Range(0, DessertController.TileCount).First(id => order.Count < 2 || id != order[1]);
+            int wrong = Enumerable.Range(0, DessertController.TileCount).First(id => !order.Contains(id)); // not in this order at all
             Press(wrong);
             // back to the first layer, the pan is emptied, the customer keeps waiting
             Assert.AreEqual(0, c.CurrentLayer);
