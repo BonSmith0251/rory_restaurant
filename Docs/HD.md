@@ -31,8 +31,11 @@ is needed: the importer gives it a higher pixels-per-unit so it keeps its layout
 * New art with a different shape or padding (e.g. a square 1254x1254 picture of a dish):
   `python Tools/native/fit_hd_art.py <new.png> kitchen/cheese.png kitchen/cheese_small.png game/keju.png`
   fits it into the original's content area and aspect ratio at 2x (`--portrait` for customer busts: fills the
-  height, bottom aligned). The customers (`game/char_N`, `make_dessert/char_N`) and most ingredients and dishes
-  (`kitchen/*`, their `_small` versions and `game/*`) were replaced this way.
+  height, bottom aligned). Most ingredients and dishes (`kitchen/*`, their `_small` versions and `game/*`) were
+  replaced this way.
+* Customers: `python Tools/native/customer_portraits.py <sheet>` cuts the 13 busts out of a portrait sheet and
+  draws them at one scale into one frame per game (`game/char_N` 88x100, `make_dessert/char_N` 138x166, written to
+  `LogicalSizes.json`), so every customer appears at the same place.
 * Recommended sizes: 2x for sprites (sharp at 1080p: 1 unit = 1.8 px), 1920x1080 (or larger) for backgrounds.
 * Texture size limit is 4096; sprite atlases pack HD sprites like the others.
 * After replacing art: `Rory > Build > All Prefabs and Scenes` (layouts that depend on image sizes are regenerated).

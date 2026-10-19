@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Linq;
 using NUnit.Framework;
+using Rory.Data;
 using Rory.UI;
 using UnityEngine;
 using UnityEngine.TestTools;
@@ -40,6 +41,18 @@ namespace Rory.Tests
             Assert.AreEqual((1024 - size.x) / 2, bg.rectTransform.anchoredPosition.x, 0.5f);
             Assert.Greater(bg.sprite.pixelsPerUnit, 100, "an HD image has more pixels per unit");
             TestUtil.Capture("HD_MainMenu");
+        }
+
+        [UnityTest]
+        public IEnumerator CustomersShareOneFrame()
+        {
+            yield return TestUtil.LoadScene(GameScene.MainMenu);
+            // the games pin a customer by a corner of its sprite: one size per game puts every customer at the same place
+            var sprites = GameDatabase.Instance.sprites;
+            for (int n = 1; n <= 13; n++)
+                Assert.AreEqual(new Vector2(88, 100), sprites.Get("game", "char_" + n).LogicalSize(), "game/char_" + n);
+            for (int n = 1; n <= 12; n++)
+                Assert.AreEqual(new Vector2(138, 166), sprites.Get("make_dessert", "char_" + n).LogicalSize(), "make_dessert/char_" + n);
         }
 
         [UnityTest]
