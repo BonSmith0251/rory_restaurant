@@ -8,3 +8,13 @@
 *.otf binary
 *.ico binary
 *.bmp binary
+
+# Unity serialises YAML with LF; keep it that way on Windows checkouts
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.mat text eol=lf
+*.spriteatlas text eol=lf
+*.asmdef text eol=lf
+*.json text eol=lf
